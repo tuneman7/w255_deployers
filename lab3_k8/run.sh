@@ -246,6 +246,7 @@ kubectl create clusterrolebinding k8sadmin --clusterrole=cluster-admin --service
 #echo $my_token>token.txt
 
 kubectl proxy --address='0.0.0.0' --disable-filter=true>/dev/null &
+proxy_pid=$!
 minikube dashboard --url >/dev/null&
 echo "Open this creature:"
 echo "http://localhost:8001:/api/v1/namespaces/kubernetes-dashboard/services/http:kubernetes-dashboard:/proxy/"
@@ -489,32 +490,6 @@ echo "*                               *"
 echo "*********************************"
 
 
-#this shell expots a do_exit value
-. do_exit.sh
-if [[ "$do_exit" -eq 1 ]]
-then
-return
-fi
-
-
-echo "*********************************"
-echo "*  KILLING                      *"
-echo "* Docker stopping and remove    *"
-echo "*                               *"
-echo "* Stopping Kubernetes           *"
-echo "*                               *"
-echo "*********************************"
-
-
-echo "docker stop ${APP_NAME}"
-docker stop ${APP_NAME}
-echo "docker rm ${APP_NAME}"
-docker rm ${APP_NAME}
-cd ./infra
-. delete_deployments.sh
-cd ./../
-minikube stop
-
 echo "*********************************"
 echo "*   End of Event Pitching      *"
 echo "*********************************"
@@ -555,4 +530,33 @@ echo "bad_return_codes=${bad_return_codes}"
     fi
 
 
+
+#this shell expots a do_exit value
+. do_exit.sh
+if [[ "$do_exit" -eq 1 ]]
+then
+return
+fi
+
+
+echo "*********************************"
+echo "*  KILLING                      *"
+echo "* Docker stopping and remove    *"
+echo "*                               *"
+echo "* Stopping Kubernetes           *"
+echo "*                               *"
+echo "*********************************"
+
+
+echo "docker stop ${APP_NAME}"
+docker stop ${APP_NAME}
+echo "docker rm ${APP_NAME}"
+docker rm ${APP_NAME}
+cd ./infra
+. delete_deployments.sh
+cd ./../
+minikube stop
+
+
 kill $port_forwarding_pid
+kill $proxy_pid

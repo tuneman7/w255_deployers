@@ -612,26 +612,3 @@ return
 fi
 
 
-echo "*********************************"
-echo "*  KILLING                      *"
-echo "* Docker stopping and remove    *"
-echo "*                               *"
-echo "* Stopping Kubernetes           *"
-echo "*                               *"
-echo "*********************************"
-
-
-echo "docker stop ${APP_NAME}"
-docker stop ${APP_NAME}
-echo "docker rm ${APP_NAME}"
-docker rm ${APP_NAME}
-cd ./infra
-. delete_deployments.sh
-cd ./../
-minikube stop
-
-
-
-kill $proxy_pid
-kill $port_forwarding_pid
-

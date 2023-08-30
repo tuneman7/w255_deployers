@@ -252,13 +252,22 @@ echo "Open this creature:"
 echo "http://localhost:8001:/api/v1/namespaces/kubernetes-dashboard/services/http:kubernetes-dashboard:/proxy/"
 
 
-my_ticks=echo $(( $(date '+%s%N') / 1000000))
+my_ticks=echo$(( $(date '+%s%N') / 1000000))
 
 sleep 2
+
+echo "*********************************"
+echo "*  BEGIN                        *"
+echo "* port forwarding               *"
+echo "*                               *"
+echo "*********************************"
+
 echo "kubectl port-forward -n w255 service/frontend 8000:8000 > output_$my_ticks.txt &"
 kubectl port-forward -n w255 service/frontend 8000:8000 > output_$my_ticks.txt & 
 port_forwarding_pid=$!
+
 sleep 1
+
 echo "*********************************"
 echo "*  ENDING                       *"
 echo "* port forwarding               *"

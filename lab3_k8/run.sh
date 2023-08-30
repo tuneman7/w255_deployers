@@ -310,8 +310,9 @@ echo "* port forwarding               *"
 echo "*                               *"
 echo "*********************************"
 
-echo "kubectl port-forward -n w255 service/frontend 8000:8000 > output_$my_ticks.txt &"
-kubectl port-forward -n w255 service/frontend 8000:8000 > output_$my_ticks.txt & 
+echo "kubectl port-forward -n w255 service/frontend 8000:8000 --address='0.0.0.0' > output_$my_ticks.txt &"
+kubectl port-forward -n w255 service/frontend 8000:8000 --address='0.0.0.0' > output.txt & 
+
 port_forwarding_pid=$!
 
 sleep 1

@@ -620,3 +620,4 @@ minikube stop
 
 
 kill $proxy_pid
+kill $port_forwarding_pid

@@ -12,6 +12,39 @@ echo "**********************************"
 
 export REDIS_SERVER=localhost
 
+echo "*********************************"
+echo "*                               *"
+echo "* CHECK DEPENDENCIES            *"
+echo "*                               *"
+echo "*********************************"
+
+kubectl --helpn>/dev/null
+
+if [ $? -eq 0 ]; then
+    echo "Kubectl is installed"
+else
+
+    echo "*********************************"
+    echo "Trying to install kubectl"
+    echo "*********************************"
+    curl -LO https://dl.k8s.io/release/v1.28.1/bin/linux/amd64/kubectl
+    chmod +x kubectl
+    mkdir -p ~/.local/bin
+    mv ./kubectl ~/.local/bin/kubectl
+    echo "PATH=$PATH:~/.local/bin">>~/.bashrc
+    source ~/.bashrc
+
+fi
+
+
+echo "*********************************"
+echo "*                               *"
+echo "* FINISHED                      *"
+echo "* CHECK DEPENDENCIES            *"
+echo "*                               *"
+echo "*********************************"
+
+
 #  if [ "$EUID" -ne 0 ]; then
 #    echo "Please run as root"
 #    return

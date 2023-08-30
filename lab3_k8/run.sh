@@ -594,6 +594,7 @@ echo "bad_return_codes=${bad_return_codes}"
 . do_exit.sh
 if [[ "$do_exit" -eq 1 ]]
 then
+kill $port_forwarding_pid
 return
 fi
 
@@ -617,5 +618,5 @@ cd ./../
 minikube stop
 
 
-kill $port_forwarding_pid
+
 kill $proxy_pid

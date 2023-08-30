@@ -4,6 +4,8 @@ while ${prompt_for_exit}; do
         echo "*                               *"
         echo "*    Do you wish to exit        *"
         echo "*                               *"        
+        echo "*(this will leave the system up)*"
+        echo "*                               *"
         echo "*********************************"
         while true; do
             read -p "Do wish to kill exit? [y/n]:" yn

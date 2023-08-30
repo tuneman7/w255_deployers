@@ -11,12 +11,14 @@ echo "* Lab 3 Submission               *"
 echo "**********************************"
 
 
-if [ $W255_UP -eq 1 ]; then
-    echo "**********************************"
-    echo "The System is up -- exiting"
-    echo "**********************************"
+if [[ $W255_UP && ${W255_UP-_} ]] then
+    if [ $W255_UP -eq 1 ]; then    
+        echo "**********************************"
+        echo "The System is up -- exiting"
+        echo "**********************************"
     return    
-else
+    fi
+fi
 
 
 export REDIS_SERVER=localhost
@@ -632,3 +634,4 @@ minikube stop
 
 kill $proxy_pid
 kill $port_forwarding_pid
+

@@ -34,6 +34,21 @@ else
     echo "PATH=$PATH:~/.local/bin">>~/.bashrc
     source ~/.bashrc
 
+    kubectl --helpn>/dev/null
+
+    echo "*********************************"
+    echo "Trying to install kubectl"
+    echo "*********************************"
+    if [ $? -eq 0 ]; then
+        echo "Kubectl is installed"
+    else
+        echo "*********************************"
+        echo "Unable to install kubectl"
+        echo "*********************************"
+    fi
+
+
+
 fi
 
 

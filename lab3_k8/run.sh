@@ -18,7 +18,7 @@ echo "* CHECK DEPENDENCIES            *"
 echo "*                               *"
 echo "*********************************"
 
-kubectl --helpn>/dev/null
+kubectl --help>/dev/null
 
 if [ $? -eq 0 ]; then
     echo "Kubectl is installed"

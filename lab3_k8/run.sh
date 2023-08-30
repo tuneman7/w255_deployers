@@ -163,7 +163,7 @@ docker stop ${APP_NAME}
 echo "docker rm ${APP_NAME}"
 docker rm ${APP_NAME}
 
-minikube start --kubernetes-version=v1.22.6 --memory 8192 --cpus 4 >/dev/null
+minikube start --kubernetes-version=v1.22.6 --memory 8192 --cpus 4 
 
 #Output images to the LOCAL minicube dealio -- rather than the default.
 echo "Point shell output to minikube docker"

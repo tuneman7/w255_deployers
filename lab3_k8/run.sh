@@ -220,7 +220,7 @@ eval $(minikube -p minikube docker-env)
 
 #build docker from the docker file
 echo "docker build -t ${IMAGE_NAME} -f ${DOCKER_FILE}"
-docker build -t ${IMAGE_NAME} -f ${DOCKER_FILE} .
+time docker build -t ${IMAGE_NAME} -f ${DOCKER_FILE} .
 
 #echo "docker run -d --net ${NET_NAME} --name ${APP_NAME} -p 8000:8000 ${IMAGE_NAME} "
 #docker run -d --net ${NET_NAME} --name ${APP_NAME} -p 8000:8000 ${IMAGE_NAME} 

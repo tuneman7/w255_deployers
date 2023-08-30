@@ -311,7 +311,7 @@ echo "*                               *"
 echo "*********************************"
 
 echo "kubectl port-forward -n w255 service/frontend 8000:8000 --address='0.0.0.0' > output_$my_ticks.txt &"
-kubectl port-forward -n w255 service/frontend 8000:8000 --address='0.0.0.0' > output.txt & 
+kubectl port-forward -n w255 service/frontend 8000:8000 --address='0.0.0.0' > output_$my_ticks.txt & 
 
 port_forwarding_pid=$!
 
@@ -595,7 +595,6 @@ echo "bad_return_codes=${bad_return_codes}"
 . do_exit.sh
 if [[ "$do_exit" -eq 1 ]]
 then
-kill $port_forwarding_pid
 return
 fi
 

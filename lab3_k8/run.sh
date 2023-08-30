@@ -10,6 +10,15 @@ echo "* Student: Don Irwin             *"
 echo "* Lab 3 Submission               *"
 echo "**********************************"
 
+
+if [ $W255_UP -eq 1 ]; then
+    echo "**********************************"
+    echo "The System is up -- exiting"
+    echo "**********************************"
+    return    
+else
+
+
 export REDIS_SERVER=localhost
 
 echo "*********************************"
@@ -590,7 +599,9 @@ echo "bad_return_codes=${bad_return_codes}"
     fi
 
 
+export W255_UP=1
 
+return
 #this shell expots a do_exit value
 . do_exit.sh
 if [[ "$do_exit" -eq 1 ]]

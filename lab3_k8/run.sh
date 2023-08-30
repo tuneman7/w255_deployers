@@ -40,7 +40,7 @@ else
     echo "Trying to install kubectl"
     echo "*********************************"
     if [ $? -eq 0 ]; then
-        echo "Kubectl is installed"
+        echo "Kubectl is installed!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
     else
         echo "*********************************"
         echo "Unable to install kubectl"

@@ -63,12 +63,21 @@ else
 fi
 
 
+
 echo "*********************************"
 echo "*                               *"
 echo "* FINISHED                      *"
 echo "* CHECK DEPENDENCIES            *"
 echo "*                               *"
 echo "*********************************"
+
+echo "*********************************" >log.txt
+echo "*                               *" >>log.txt
+echo "* FINISHED                      *">>log.txt
+echo "* CHECK DEPENDENCIES            *">>log.txt
+echo "*                               *">>log.txt
+echo "*********************************">>log.txt
+
 
 
 #  if [ "$EUID" -ne 0 ]; then
@@ -80,19 +89,21 @@ IMAGE_NAME=w255_lab3_don_irwin
 APP_NAME=w255_lab3_don_irwin
 DOCKER_FILE=Dockerfile.255lab3
 
-echo "*********************************"
-echo "*                               *"
-echo "* Recycle kubernetes            *"
-echo "*                               *"
-echo "*********************************"
+echo "*********************************">>log.txt
+echo "*                               *">>log.txt
+echo "* Recycle kubernetes            *">>log.txt
+echo "*                               *">>log.txt
+echo "*********************************">>log.txt
 
-minikube stop
+minikube stop >>log.txt
 
 #VERY IMPORTANT BACK OUT YOUR MINIKUBE
 #DOCKER RE-DIRECT -- OTHERWISE ALL SUBSEQUENT
 #BUILDS WILL GO TO MINIKUBE -- NOT DOCKER
 #wasted hours on this
 eval $(minikube docker-env -u)
+
+echo "eval $(minikube docker-env -u)">>log.txt
 
 sleep 1
 
@@ -101,6 +112,13 @@ echo "*                               *"
 echo "* finished recycle k8           *"
 echo "*                               *"
 echo "*********************************"
+
+echo "*********************************">>log.txt
+echo "*                               *">>log.txt
+echo "* finished recycle k8           *">>log.txt
+echo "*                               *">>log.txt
+echo "*********************************">>log.txt
+
 
 
 echo "*********************************"
@@ -111,6 +129,16 @@ echo "*   redis outside of minicube   *"
 echo "*   is needed for testing       *"
 echo "*                               *"
 echo "*********************************"
+
+echo "*********************************">>log.txt
+echo "*                               *">>log.txt
+echo "* recycle redis and create      *">>log.txt
+echo "*   docker network              *">>log.txt
+echo "*   redis outside of minicube   *">>log.txt
+echo "*   is needed for testing       *">>log.txt
+echo "*                               *">>log.txt
+echo "*********************************">>log.txt
+
 
 NET_NAME=w255
 echo "docker stop redis"

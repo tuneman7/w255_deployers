@@ -147,7 +147,7 @@ echo "docker rm redis"
 docker rm redis
 
 echo "docker network rm ${NET_NAME}"
-docker network rm ${NET_NAME}
+docker network rm ${NET_NAME}>>log.txt
 
 #echo "docker network create rm ${NET_NAME} "
 #docker network create ${NET_NAME} 
@@ -250,16 +250,16 @@ docker stop ${APP_NAME}
 echo "docker rm ${APP_NAME}"
 docker rm ${APP_NAME}
 
-time minikube start --kubernetes-version=v1.22.6 --memory 8192 --cpus 4  --force
+time minikube start --kubernetes-version=v1.22.6 --memory 8192 --cpus 4  --force >>log.txt
 
 #Output images to the LOCAL minicube dealio -- rather than the default.
 echo "Point shell output to minikube docker"
-echo "eval $(minikube -p minikube docker-env)"
-eval $(minikube -p minikube docker-env)
+echo "eval $(minikube -p minikube docker-env)">>log.txt
+eval $(minikube -p minikube docker-env)>>log.txt
 
 #build docker from the docker file
-echo "docker build -t ${IMAGE_NAME} -f ${DOCKER_FILE}"
-time docker build -t ${IMAGE_NAME} -f ${DOCKER_FILE} .
+echo "docker build -t ${IMAGE_NAME} -f ${DOCKER_FILE}">>log.txt
+time docker build -t ${IMAGE_NAME} -f ${DOCKER_FILE} . >>log.txt
 
 #echo "docker run -d --net ${NET_NAME} --name ${APP_NAME} -p 8000:8000 ${IMAGE_NAME} "
 #docker run -d --net ${NET_NAME} --name ${APP_NAME} -p 8000:8000 ${IMAGE_NAME} 
@@ -267,15 +267,15 @@ time docker build -t ${IMAGE_NAME} -f ${DOCKER_FILE} .
 
 
 cd ./infra
-. delete_deployments.sh
+. delete_deployments.sh >>log.txt
 sleep 2
 my_all_pods=$(minikube kubectl -- get pods --all-namespaces| wc -l)
-. apply_deployments.sh
+. apply_deployments.sh >>log.txt
 cd ./../
 sleep 2
-my_all_pods_after_deploy=$(minikube kubectl -- get pods --all-namespaces| wc -l)
+my_all_pods_after_deploy=$(minikube kubectl -- get pods --all-namespaces| wc -l) 
 
-echo my_all_pods=$my_all_pods
+echo my_all_pods=$my_all_pods >>log.txt
 
 
 while [ $my_all_pods_after_deploy -le $my_all_pods ]; do
@@ -283,16 +283,16 @@ while [ $my_all_pods_after_deploy -le $my_all_pods ]; do
     #echo my_all_pods=$my_all_pods
     #echo my_all_pods_after_deploy=$my_all_pods_after_deploy
 done
-echo my_all_pods=$my_all_pods
-echo my_all_pods_after_deploy=$my_all_pods_after_deploy
+echo my_all_pods=$my_all_pods >>log.txt
+echo my_all_pods_after_deploy=$my_all_pods_after_deploy>>log.txt
 
 #make sure we have more pods AFTER the scripts than before.
 
-echo "*********************************"
-echo "*  ENDING                       *"
-echo "* Docker stopping and rebuild   *"
-echo "*                               *"
-echo "*********************************"
+echo "*********************************">>log.txt
+echo "*  ENDING                       *">>log.txt
+echo "* Docker stopping and rebuild   *">>log.txt
+echo "*                               *">>log.txt
+echo "*********************************">>log.txt
 
 
 

@@ -296,14 +296,14 @@ echo "*********************************">>log.txt
 
 
 
-echo "**********************************"
-echo "*  STARTING                      *"
-echo "* port forwarding                *"
-echo "*                                *"
-echo "* Make sure all pods are running *"
-echo "* Before issuing port forwarding *"
-echo "*                                *".
-echo "**********************************"
+echo "**********************************">>log.txt
+echo "*  STARTING                      *">>log.txt
+echo "* port forwarding                *">>log.txt
+echo "*                                *">>log.txt
+echo "* Make sure all pods are running *">>log.txt
+echo "* Before issuing port forwarding *">>log.txt
+echo "*                                *">>log.txt
+echo "**********************************">>log.txt
 
 echo $PWD
 

@@ -241,17 +241,17 @@ time docker build -t ${IMAGE_NAME} -f ${DOCKER_FILE} .
 cd ./infra
 . delete_deployments.sh
 sleep 2
-my_all_pods=$(kubectl get pods --all-namespaces| wc -l)
+my_all_pods=$(minikube kubectl -- get pods --all-namespaces| wc -l)
 . apply_deployments.sh
 cd ./../
 sleep 2
-my_all_pods_after_deploy=$(kubectl get pods --all-namespaces| wc -l)
+my_all_pods_after_deploy=$(minikube kubectl -- get pods --all-namespaces| wc -l)
 
 echo my_all_pods=$my_all_pods
 
 
 while [ $my_all_pods_after_deploy -le $my_all_pods ]; do
-    my_all_pods_after_deploy=$(kubectl get pods --all-namespaces| wc -l)
+    my_all_pods_after_deploy=$(minikube kubectl -- get pods --all-namespaces| wc -l)
     #echo my_all_pods=$my_all_pods
     #echo my_all_pods_after_deploy=$my_all_pods_after_deploy
 done
@@ -279,15 +279,15 @@ echo "**********************************"
 
 echo $PWD
 
-echo my_all_pods=$(kubectl get pods --namespace=w255| wc -l)
+echo my_all_pods=$(minikube kubectl -- get pods --namespace=w255| wc -l)
 echo $my_all_pods
-running_pods=$(kubectl get pods --namespace=w255 --field-selector=status.phase=Running| wc -l)
+running_pods=$(minikube kubectl -- get pods --namespace=w255 --field-selector=status.phase=Running| wc -l)
 echo $running_pods
 while [ $running_pods -le $my_all_pods ]; do
-    #echo my_all_pods=$(kubectl get pods --namespace=w255| wc -l)
-    my_all_pods=$(kubectl get pods --namespace=w255| wc -l)
-    #echo running_pods=$(kubectl get pods --namespace=w255 --field-selector=status.phase=Running| wc -l)
-    running_pods=$(kubectl get pods --namespace=w255 --field-selector=status.phase=Running| wc -l)
+    #echo my_all_pods=$(minikube kubectl -- get pods --namespace=w255| wc -l)
+    my_all_pods=$(minikube kubectl -- get pods --namespace=w255| wc -l)
+    #echo running_pods=$(minikube kubectl -- get pods --namespace=w255 --field-selector=status.phase=Running| wc -l)
+    running_pods=$(minikube kubectl -- get pods --namespace=w255 --field-selector=status.phase=Running| wc -l)
     let "running_pods = running_pods+1"
     #echo running_pods=$running_pods
 

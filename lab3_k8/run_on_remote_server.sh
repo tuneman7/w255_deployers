@@ -3,6 +3,26 @@
 ##NOTE: IN ORDER TO NOT WASTE BILLIONS OF HOURS BEWARE OF STARTING MINIKUBE BEFORE THE LOCAL DOCKER WORK WITH REDIS
 
 echo "**********************************"
+echo "* Architect: Don Irwin           "
+echo "* Primary difference between     "
+echo "* This and run.sh is  "
+echo "* The kubectl files are wrapped for running in non-interactive shell"
+echo "* I.E.:"
+echo "*\$(minikube kubectl -- get pods --all-namespaces| wc -l)"
+echo "* RATHER THAN: "
+echo "*\$(kubectl get pods --all-namespaces| wc -l)"
+echo "* "
+echo "**********************************"
+
+
+echo "**********************************"
+echo "* Loosely based on the project   *"
+echo "* Below                          *"
+echo "**********************************"
+
+
+
+echo "**********************************"
 echo "* U.C. Berkeley MIDS W255        *"
 echo "* Summer 2022                    *"
 echo "* Instructor: James York Winegar *"
@@ -72,11 +92,11 @@ echo "*                               *"
 echo "*********************************"
 
 echo "*********************************" 
-echo "*                               *" >>log.txt
-echo "* FINISHED                      *">>log.txt
-echo "* CHECK DEPENDENCIES            *">>log.txt
-echo "*                               *">>log.txt
-echo "*********************************">>log.txt
+echo "*                               *" 
+echo "* FINISHED                      *"
+echo "* CHECK DEPENDENCIES            *"
+echo "*                               *"
+echo "*********************************"
 
 
 
@@ -89,13 +109,13 @@ IMAGE_NAME=w255_lab3_don_irwin
 APP_NAME=w255_lab3_don_irwin
 DOCKER_FILE=Dockerfile.255lab3
 
-echo "*********************************">>log.txt
-echo "*                               *">>log.txt
-echo "* Recycle kubernetes            *">>log.txt
-echo "*                               *">>log.txt
-echo "*********************************">>log.txt
+echo "*********************************"
+echo "*                               *"
+echo "* Recycle kubernetes            *"
+echo "*                               *"
+echo "*********************************"
 
-minikube stop >>log.txt
+minikube stop 
 
 #VERY IMPORTANT BACK OUT YOUR MINIKUBE
 #DOCKER RE-DIRECT -- OTHERWISE ALL SUBSEQUENT
@@ -103,7 +123,7 @@ minikube stop >>log.txt
 #wasted hours on this
 eval $(minikube docker-env -u)
 
-echo "eval $(minikube docker-env -u)">>log.txt
+echo "eval $(minikube docker-env -u)"
 
 sleep 1
 
@@ -113,11 +133,11 @@ echo "* finished recycle k8           *"
 echo "*                               *"
 echo "*********************************"
 
-echo "*********************************">>log.txt
-echo "*                               *">>log.txt
-echo "* finished recycle k8           *">>log.txt
-echo "*                               *">>log.txt
-echo "*********************************">>log.txt
+echo "*********************************"
+echo "*                               *"
+echo "* finished recycle k8           *"
+echo "*                               *"
+echo "*********************************"
 
 
 
@@ -130,14 +150,14 @@ echo "*   is needed for testing       *"
 echo "*                               *"
 echo "*********************************"
 
-echo "*********************************">>log.txt
-echo "*                               *">>log.txt
-echo "* recycle redis and create      *">>log.txt
-echo "*   docker network              *">>log.txt
-echo "*   redis outside of minicube   *">>log.txt
-echo "*   is needed for testing       *">>log.txt
-echo "*                               *">>log.txt
-echo "*********************************">>log.txt
+echo "*********************************"
+echo "*                               *"
+echo "* recycle redis and create      *"
+echo "*   docker network              *"
+echo "*   redis outside of minicube   *"
+echo "*   is needed for testing       *"
+echo "*                               *"
+echo "*********************************"
 
 
 NET_NAME=w255
@@ -147,7 +167,7 @@ echo "docker rm redis"
 docker rm redis
 
 echo "docker network rm ${NET_NAME}"
-docker network rm ${NET_NAME}>>log.txt
+docker network rm ${NET_NAME}
 
 #echo "docker network create rm ${NET_NAME} "
 #docker network create ${NET_NAME} 
@@ -250,16 +270,16 @@ docker stop ${APP_NAME}
 echo "docker rm ${APP_NAME}"
 docker rm ${APP_NAME}
 
-time minikube start --kubernetes-version=v1.22.6 --memory 8192 --cpus 4  --force >>log.txt
+time minikube start --kubernetes-version=v1.22.6 --memory 8192 --cpus 4  --force 
 
 #Output images to the LOCAL minicube dealio -- rather than the default.
 echo "Point shell output to minikube docker"
-echo "eval $(minikube -p minikube docker-env)">>log.txt
-eval $(minikube -p minikube docker-env)>>log.txt
+echo "eval $(minikube -p minikube docker-env)"
+eval $(minikube -p minikube docker-env)
 
 #build docker from the docker file
-echo "docker build -t ${IMAGE_NAME} -f ${DOCKER_FILE}">>log.txt
-time docker build -t ${IMAGE_NAME} -f ${DOCKER_FILE} . >>log.txt
+echo "docker build -t ${IMAGE_NAME} -f ${DOCKER_FILE}"
+time docker build -t ${IMAGE_NAME} -f ${DOCKER_FILE} . 
 
 #echo "docker run -d --net ${NET_NAME} --name ${APP_NAME} -p 8000:8000 ${IMAGE_NAME} "
 #docker run -d --net ${NET_NAME} --name ${APP_NAME} -p 8000:8000 ${IMAGE_NAME} 
@@ -267,15 +287,15 @@ time docker build -t ${IMAGE_NAME} -f ${DOCKER_FILE} . >>log.txt
 
 
 cd ./infra
-. delete_deployments.sh >>log.txt
+. delete_deployments.sh 
 sleep 2
 my_all_pods=$(minikube kubectl -- get pods --all-namespaces| wc -l)
-. apply_deployments.sh >>log.txt
+. apply_deployments.sh 
 cd ./../
 sleep 2
 my_all_pods_after_deploy=$(minikube kubectl -- get pods --all-namespaces| wc -l) 
 
-echo my_all_pods=$my_all_pods >>log.txt
+echo my_all_pods=$my_all_pods 
 
 
 while [ $my_all_pods_after_deploy -le $my_all_pods ]; do
@@ -283,27 +303,27 @@ while [ $my_all_pods_after_deploy -le $my_all_pods ]; do
     #echo my_all_pods=$my_all_pods
     #echo my_all_pods_after_deploy=$my_all_pods_after_deploy
 done
-echo my_all_pods=$my_all_pods >>log.txt
-echo my_all_pods_after_deploy=$my_all_pods_after_deploy>>log.txt
+echo my_all_pods=$my_all_pods 
+echo my_all_pods_after_deploy=$my_all_pods_after_deploy
 
 #make sure we have more pods AFTER the scripts than before.
 
-echo "*********************************">>log.txt
-echo "*  ENDING                       *">>log.txt
-echo "* Docker stopping and rebuild   *">>log.txt
-echo "*                               *">>log.txt
-echo "*********************************">>log.txt
+echo "*********************************"
+echo "*  ENDING                       *"
+echo "* Docker stopping and rebuild   *"
+echo "*                               *"
+echo "*********************************"
 
 
 
-echo "**********************************">>log.txt
-echo "*  STARTING                      *">>log.txt
-echo "* port forwarding                *">>log.txt
-echo "*                                *">>log.txt
-echo "* Make sure all pods are running *">>log.txt
-echo "* Before issuing port forwarding *">>log.txt
-echo "*                                *">>log.txt
-echo "**********************************">>log.txt
+echo "**********************************"
+echo "*  STARTING                      *"
+echo "* port forwarding                *"
+echo "*                                *"
+echo "* Make sure all pods are running *"
+echo "* Before issuing port forwarding *"
+echo "*                                *"
+echo "**********************************"
 
 echo $PWD
 
@@ -322,11 +342,11 @@ while [ $running_pods -le $my_all_pods ]; do
     sleep 1
 done
 
-echo my_all_pods=$my_all_pods>>log.txt
-echo running_pods=$running_pods>>log.txt
+echo my_all_pods=$my_all_pods
+echo running_pods=$running_pods
 
-echo "set up the dashboard">>log.txt
-echo "note this can be done in yaml">>log.txt
+echo "set up the dashboard"
+echo "note this can be done in yaml"
 kubectl create serviceaccount k8sadmin -n kube-system
 kubectl create clusterrolebinding k8sadmin --clusterrole=cluster-admin --serviceaccount=kube-system:k8sadmin
 #my_token=kubectl -n kube-system describe secret $(sudo kubectl -n kube-system get secret | (grep k8sadmin || echo "$_") | awk '{print $1}') | grep token: | awk '{print $2}'
@@ -335,19 +355,19 @@ kubectl create clusterrolebinding k8sadmin --clusterrole=cluster-admin --service
 kubectl proxy --address='0.0.0.0' --disable-filter=true>/dev/null &
 proxy_pid=$!
 minikube dashboard --url >/dev/null&
-echo "Open this creature:">>log.txt
-echo "http://localhost:8001:/api/v1/namespaces/kubernetes-dashboard/services/http:kubernetes-dashboard:/proxy/">>log.txt
+echo "Open this creature:"
+echo "http://localhost:8001:/api/v1/namespaces/kubernetes-dashboard/services/http:kubernetes-dashboard:/proxy/"
 
 
 my_ticks=$(( $(date '+%s%N') / 1000000))
 
 sleep 2
 
-echo "*********************************">>log.txt
-echo "*  BEGIN                        *">>log.txt
-echo "* port forwarding               *">>log.txt
-echo "*                               *">>log.txt
-echo "*********************************">>log.txt
+echo "*********************************"
+echo "*  BEGIN                        *"
+echo "* port forwarding               *"
+echo "*                               *"
+echo "*********************************"
 
 echo "kubectl port-forward -n w255 service/frontend 8000:8000 --address='0.0.0.0' > output_$my_ticks.txt &"
 kubectl port-forward -n w255 service/frontend 8000:8000 --address='0.0.0.0' > output_$my_ticks.txt & 
@@ -356,20 +376,20 @@ port_forwarding_pid=$!
 
 sleep 1
 
-echo "*********************************">>log.txt
-echo "*  ENDING                       *">>log.txt
-echo "* port forwarding               *">>log.txt
-echo "*                               *">>log.txt
-echo "*********************************">>log.txt
+echo "*********************************"
+echo "*  ENDING                       *"
+echo "* port forwarding               *"
+echo "*                               *"
+echo "*********************************"
 
 sleep 1
 
-echo "*********************************">>log.txt
-echo "*                               *">>log.txt
-echo "*        WAITING. ....          *">>log.txt
-echo "*        API not ready          *">>log.txt
-echo "*                               *">>log.txt
-echo "*********************************">>log.txt
+echo "*********************************"
+echo "*                               *"
+echo "*        WAITING. ....          *"
+echo "*        API not ready          *"
+echo "*                               *"
+echo "*********************************"
 
 
 finished=false

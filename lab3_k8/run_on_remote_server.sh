@@ -653,11 +653,5 @@ export W255_UP=1
 
 
 return
-#this shell expots a do_exit value
-. do_exit.sh
-if [[ "$do_exit" -eq 1 ]]
-then
-return
-fi
 
 

@@ -71,7 +71,7 @@ echo "* CHECK DEPENDENCIES            *"
 echo "*                               *"
 echo "*********************************"
 
-echo "*********************************" >log.txt
+echo "*********************************" 
 echo "*                               *" >>log.txt
 echo "* FINISHED                      *">>log.txt
 echo "* CHECK DEPENDENCIES            *">>log.txt

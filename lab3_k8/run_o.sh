@@ -356,20 +356,20 @@ port_forwarding_pid=$!
 
 sleep 1
 
-echo "*********************************"
-echo "*  ENDING                       *"
-echo "* port forwarding               *"
-echo "*                               *"
-echo "*********************************"
+echo "*********************************">>log.txt
+echo "*  ENDING                       *">>log.txt
+echo "* port forwarding               *">>log.txt
+echo "*                               *">>log.txt
+echo "*********************************">>log.txt
 
 sleep 1
 
-echo "*********************************"
-echo "*                               *"
-echo "*        WAITING. ....          *"
-echo "*        API not ready          *"
-echo "*                               *"
-echo "*********************************"
+echo "*********************************">>log.txt
+echo "*                               *">>log.txt
+echo "*        WAITING. ....          *">>log.txt
+echo "*        API not ready          *">>log.txt
+echo "*                               *">>log.txt
+echo "*********************************">>log.txt
 
 
 finished=false

@@ -1,6 +1,11 @@
 #!/bin/bash
 
 ##NOTE: IN ORDER TO NOT WASTE BILLIONS OF HOURS BEWARE OF STARTING MINIKUBE BEFORE THE LOCAL DOCKER WORK WITH REDIS
+##Very good article
+##https://www.digitalocean.com/community/tutorials/how-to-install-and-use-istio-with-kubernetes
+#
+#https://istio.io/latest/docs/setup/platform-setup/minikube/
+#
 
 echo "**********************************"
 echo "* Architect: Don Irwin           "
@@ -303,6 +308,9 @@ docker rm ${APP_NAME}
 time minikube start --kubernetes-version=v1.22.6 --memory 16384 --cpus 4  --force
 #now set up the standard istio setup
 istioctl install -y
+
+#inject grafana
+kubectl apply -f https://raw.githubusercontent.com/istio/istio/release-1.19/samples/addons/grafana.yaml
 
 #Output images to the LOCAL minicube dealio -- rather than the default.
 echo "Point shell output to minikube docker"

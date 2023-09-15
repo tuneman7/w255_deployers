@@ -1,6 +1,9 @@
 #!/bin/bash
 
 ##NOTE: IN ORDER TO NOT WASTE BILLIONS OF HOURS BEWARE OF STARTING MINIKUBE BEFORE THE LOCAL DOCKER WORK WITH REDIS
+#consult:
+#https://istio.io/latest/docs/setup/platform-setup/minikube/
+#
 
 echo "**********************************"
 echo "* U.C. Berkeley MIDS W255        *"
@@ -15,6 +18,8 @@ if [[ $W255_UP && ${W255_UP-_} ]]; then
     if [ $W255_UP -eq 1 ]; then    
         echo "**********************************"
         echo "The System is up -- exiting"
+        echo "To bypass:"
+        echo "export W255_UP=0"
         echo "**********************************"
     return    
     fi
@@ -256,6 +261,10 @@ time minikube start --kubernetes-version=v1.22.6 --memory 16384 --cpus 4  --forc
 #now set up the standard istio setup
 istioctl install -y
 
+#inject grafana;
+#https://istio.io/latest/docs/ops/integrations/grafana/
+kubectl apply -f https://raw.githubusercontent.com/istio/istio/release-1.19/samples/addons/grafana.yaml
+
 #Output images to the LOCAL minicube dealio -- rather than the default.
 echo "Point shell output to minikube docker"
 echo "eval $(minikube -p minikube docker-env)"
@@ -355,8 +364,8 @@ echo "*                               *"
 echo "*********************************"
 
 rm output_*.txt
-echo "kubectl port-forward -n w255 Gateway/pythonapi-gateway 8000:8000 --address='0.0.0.0' > output_$my_ticks.txt &"
-kubectl port-forward -n w255 Gateway/pythonapi-gateway 8000:8000 --address='0.0.0.0' > output_$my_ticks.txt & 
+echo "port-forward -n w255 Service/frontend 8000:8000 --address='0.0.0.0' > output_$my_ticks.txt & "
+kubectl port-forward -n w255 Service/frontend 8000:8000 --address='0.0.0.0' > output_$my_ticks.txt & 
 
 port_forwarding_pid=$!
 
@@ -650,8 +659,10 @@ echo "*********************************"
 . do_exit.sh
 if [[ "$do_exit" -eq 1 ]]
 then
+cd ./infra
+. delete_deployments.sh
+cd ./../
 minikube stop
 return
 fi
-
 

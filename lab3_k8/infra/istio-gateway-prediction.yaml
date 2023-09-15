@@ -1,8 +1,7 @@
 apiVersion: networking.istio.io/v1alpha3
 kind: Gateway
 metadata:
-  name: pythonapi-gateway
-  namespace: w255
+  name: istio-gateway
 spec:
   # The selector matches the ingress gateway pod labels.
   # If you installed Istio using Helm following the standard documentation, this would be "istio=ingress"
@@ -19,7 +18,7 @@ spec:
 apiVersion: networking.istio.io/v1alpha3
 kind: VirtualService
 metadata:
-  name: frontend
+  name: istio-virtual-service
   namespace: w255
 spec:
   hosts:
@@ -29,4 +28,4 @@ spec:
   http:
   - route:
     - destination:
-        host: pythonapi
+        host: frontend

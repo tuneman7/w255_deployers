@@ -258,14 +258,18 @@ docker rm ${APP_NAME}
 
 time minikube start --kubernetes-version=v1.25.13 --memory 16384 --cpus 4  --force
 
-#now set up the standard istio setup
-istioctl install -y
+#now set up the demo setup
+#istioctl install demo -y
+istioctl install --set profile=demo -y
 
-#inject grafana;
+
+
 
 #inject prometheus
+#https://istio.io/latest/docs/ops/integrations/prometheus/
 kubectl apply -f https://raw.githubusercontent.com/istio/istio/release-1.19/samples/addons/prometheus.yaml
 
+#inject grafana;
 #https://istio.io/latest/docs/ops/integrations/grafana/
 kubectl apply -f https://raw.githubusercontent.com/istio/istio/release-1.19/samples/addons/grafana.yaml
 
@@ -371,7 +375,9 @@ echo "*********************************"
 
 rm output_*.txt
 echo "port-forward -n w255 Service/frontend 8000:8000 --address='0.0.0.0' > output_$my_ticks.txt & "
-kubectl port-forward -n w255 Service/frontend 8000:8000 --address='0.0.0.0' > output_$my_ticks.txt & 
+#kubectl port-forward -n w255 Service/frontend 8000:8000 --address='0.0.0.0' > output_$my_ticks.txt & 
+
+kubectl port-forward -n istio-system VirtualService/istio-virtual-service 8000:8000 --address='0.0.0.0' > output_$my_ticks.txt & 
 
 echo "port-forward -n istio-system Service/grafana 3000:3000 --address='0.0.0.0' > output_$my_ticks.txt & "
 kubectl port-forward -n istio-system Service/grafana 3000:3000 --address='0.0.0.0' > output_$my_ticks.txt & 
@@ -656,14 +662,7 @@ echo "bad_return_codes=${bad_return_codes}"
 
 export W255_UP=1
 
-
-
-echo "*********************************"
-echo "Dashboard:"
-echo "http://localhost:8001:/api/v1/namespaces/kubernetes-dashboard/services/http:kubernetes-dashboard:/proxy/"
-echo "Swagger UI:"
-echo "http://localhost:8000/docs"
-echo "*********************************"
+. run_k6.sh
 
 #this shell expots a do_exit value
 . do_exit.sh

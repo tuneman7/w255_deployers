@@ -73,7 +73,7 @@ async def not_implemented():
 
 @app.get("/health")
 async def not_implemented():
-    return "stuff be dope"
+    return "healthy"
 
 
 @app.get("/hello/")

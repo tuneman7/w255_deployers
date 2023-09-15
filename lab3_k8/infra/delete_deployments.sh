@@ -13,4 +13,6 @@ echo "kubectl delete -f namespace.yaml"
 kubectl delete -f namespace.yaml
 echo "kubectl delete -f prediction-grafana.yaml"
 kubectl delete -f prediction-grafana.yaml
+echo "kubectl delete -f telemetry.yaml"
+kubectl delete -f telemetry.yaml
 

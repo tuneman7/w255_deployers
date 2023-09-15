@@ -1,9 +1,14 @@
 #!/bin/bash
 
 ##NOTE: IN ORDER TO NOT WASTE BILLIONS OF HOURS BEWARE OF STARTING MINIKUBE BEFORE THE LOCAL DOCKER WORK WITH REDIS
+##Very good article
+##https://www.digitalocean.com/community/tutorials/how-to-install-and-use-istio-with-kubernetes
 #consult:
 #https://istio.io/latest/docs/setup/platform-setup/minikube/
 #
+#https://minikube.sigs.k8s.io/docs/handbook/accessing/
+#
+
 
 echo "**********************************"
 echo "* U.C. Berkeley MIDS W255        *"
@@ -374,26 +379,53 @@ echo "*                               *"
 echo "*********************************"
 
 rm output_*.txt
-echo "port-forward -n w255 Service/frontend 8000:8000 --address='0.0.0.0' > output_$my_ticks.txt & "
-#kubectl port-forward -n w255 Service/frontend 8000:8000 --address='0.0.0.0' > output_$my_ticks.txt & 
 
-kubectl port-forward -n istio-system VirtualService/istio-virtual-service 8000:8000 --address='0.0.0.0' > output_$my_ticks.txt & 
+#consult:
+#https://istio.io/latest/docs/setup/platform-setup/minikube/
+#
+#https://minikube.sigs.k8s.io/docs/handbook/accessing/
 
-echo "port-forward -n istio-system Service/grafana 3000:3000 --address='0.0.0.0' > output_$my_ticks.txt & "
-kubectl port-forward -n istio-system Service/grafana 3000:3000 --address='0.0.0.0' > output_$my_ticks.txt & 
+#return
 
+# echo "port-forward -n w255 Service/frontend 8000:8000 --address='0.0.0.0' > output_$my_ticks.txt & "
+# kubectl port-forward -n w255 Service/frontend 8000:8000 --address='0.0.0.0' > output_$my_ticks.txt & 
+
+# echo "port-forward -n istio-system Service/grafana 3000:3000 --address='0.0.0.0' > output_$my_ticks.txt & "
+# kubectl port-forward -n istio-system Service/grafana 3000:3000 --address='0.0.0.0' > output_grafana_$my_ticks.txt & 
+
+echo "Starting the port forwarding -- this will end the process"
+nohup minikube tunnel &
 
 port_forwarding_pid=$!
+echo "* port_forwarding_pid=$port_forwarding_pid*"
 
-sleep 1
+
+
+sleep 10
 
 echo "*********************************"
 echo "*  ENDING                       *"
 echo "* port forwarding               *"
-echo "*                               *"
+echo "* port_forwarding_pid=$port_forwarding_pid*"
 echo "*********************************"
 
 sleep 1
+
+#this shell expots a do_exit value
+. do_exit.sh
+if [[ "$do_exit" -eq 1 ]]
+then
+cd ./infra
+. delete_deployments.sh
+cd ./../
+minikube stop
+export W255_UP=0
+return
+fi
+
+
+
+return
 
 echo "*********************************"
 echo "*                               *"

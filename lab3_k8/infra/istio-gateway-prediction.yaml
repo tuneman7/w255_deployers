@@ -8,7 +8,7 @@ spec:
     istio: istio-gateway
   servers:
   - port:
-      number: 8000
+      number: 80
       name: http
       protocol: HTTP
     hosts:
@@ -26,7 +26,7 @@ spec:
   - frontend-gateway
   http:
   - match:
-    - port: 8000
+    - port: 80
     route:
     - destination:
         host: frontend

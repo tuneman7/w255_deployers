@@ -46,7 +46,7 @@ const generator = (cacheRate) => {
 }
 
 const NAMESPACE = 'donirwin'
-const BASE_URL = `http://127.0.0.1:8000`;
+const BASE_URL = `http://10.100.79.225:8000`;
 const CACHE_RATE = .33
 
 export default () => {

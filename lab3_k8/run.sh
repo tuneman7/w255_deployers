@@ -256,14 +256,20 @@ docker stop ${APP_NAME}
 echo "docker rm ${APP_NAME}"
 docker rm ${APP_NAME}
 
-time minikube start --kubernetes-version=v1.22.6 --memory 16384 --cpus 4  --force
+time minikube start --kubernetes-version=v1.25.13 --memory 16384 --cpus 4  --force
 
 #now set up the standard istio setup
 istioctl install -y
 
 #inject grafana;
+
+#inject prometheus
+kubectl apply -f https://raw.githubusercontent.com/istio/istio/release-1.19/samples/addons/prometheus.yaml
+
 #https://istio.io/latest/docs/ops/integrations/grafana/
 kubectl apply -f https://raw.githubusercontent.com/istio/istio/release-1.19/samples/addons/grafana.yaml
+
+
 
 #Output images to the LOCAL minicube dealio -- rather than the default.
 echo "Point shell output to minikube docker"
@@ -366,6 +372,10 @@ echo "*********************************"
 rm output_*.txt
 echo "port-forward -n w255 Service/frontend 8000:8000 --address='0.0.0.0' > output_$my_ticks.txt & "
 kubectl port-forward -n w255 Service/frontend 8000:8000 --address='0.0.0.0' > output_$my_ticks.txt & 
+
+echo "port-forward -n istio-system Service/grafana 3000:3000 --address='0.0.0.0' > output_$my_ticks.txt & "
+kubectl port-forward -n istio-system Service/grafana 3000:3000 --address='0.0.0.0' > output_$my_ticks.txt & 
+
 
 port_forwarding_pid=$!
 
@@ -663,6 +673,7 @@ cd ./infra
 . delete_deployments.sh
 cd ./../
 minikube stop
+export W255_UP=0
 return
 fi
 

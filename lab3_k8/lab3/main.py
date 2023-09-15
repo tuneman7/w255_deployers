@@ -73,7 +73,7 @@ async def not_implemented():
 
 @app.get("/health")
 async def not_implemented():
-    return "health is good"
+    return "stuff be dope"
 
 
 @app.get("/hello/")
@@ -191,10 +191,13 @@ async def predictitem(hr: HomeRecord):
         print("***got from cache****")
         print("predicted_value=",str(predicted_value))
         cache_hit += 1
+        r.setex("predict_calls",timedelta(minutes=3),value=predict_calls)
+        r.setex("cache_hit",timedelta(minutes=3),value=cache_hit)        
         return PredictionResult(prediction_result=predicted_value)
     else:
         predicted_value = loaded_model.predict(predict_data)[0]
         r.setex(my_key,timedelta(minutes=5),value=predicted_value)
+        r.setex("predict_calls",timedelta(minutes=3),value=predict_calls)
         print("predicted_value=",predicted_value)
         return PredictionResult(prediction_result=predicted_value)
 

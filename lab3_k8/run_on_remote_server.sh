@@ -309,6 +309,9 @@ time minikube start --kubernetes-version=v1.22.6 --memory 16384 --cpus 4  --forc
 #now set up the standard istio setup
 istioctl install -y
 
+#inject prometheus
+kubectl apply -f https://raw.githubusercontent.com/istio/istio/release-1.19/samples/addons/prometheus.yaml
+
 #inject grafana
 kubectl apply -f https://raw.githubusercontent.com/istio/istio/release-1.19/samples/addons/grafana.yaml
 
@@ -411,6 +414,9 @@ echo "*********************************"
 
 echo "kubectl port-forward -n w255 service/frontend 8000:8000 --address='0.0.0.0' > output_$my_ticks.txt &"
 kubectl port-forward -n w255 service/frontend 8000:8000 --address='0.0.0.0' > output_$my_ticks.txt & 
+
+echo "kubectl port-forward -n w255 service/frontend 8000:8000 --address='0.0.0.0' > output_grafana_$my_ticks.txt &"
+kubectl port-forward -n w255 service/frontend 8000:8000 --address='0.0.0.0' > output_grafana_$my_ticks.txt & 
 
 port_forwarding_pid=$!
 

@@ -314,7 +314,7 @@ kubectl port-forward -n w255 service/frontend 8000:8000 > output.txt &
 *                               *
 *********************************
 About to call the following URI: http://localhost:8000/health
-"health is good"
+"healthy"
 the return code is : 200
 About to call the following URI: http://localhost:8000/hello/?name=Don
 "hello Don"

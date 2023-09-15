@@ -1,25 +1,12 @@
 import http from 'k6/http';
 import { check, group, sleep } from 'k6';
 
-/*
-export const options = {
-  stages: [
-       //{ duration: '10s', target: 10 }, // simulate ramp-up of traffic from 1 to 100 users over 3 minutes.
-    { duration: '30s', target: 25 }, // simulate ramp-up of traffic from 1 to 100 users over 3 minutes.
-    { duration: '30s', target: 25 }, // stay at 100 users for 7 minutes
-    { duration: '5s', target: 0 }, // ramp-down to 0 users
-  ],
-  thresholds: {
-    'http_req_duration': ['p(99)<500'] // 99% of requests must complete below 1.5s
-  },
-};
-*/
 
 export const options = {
     stages: [
       { duration: '1m', target: 100 }, // simulate ramp-up of traffic from 1 to 100 users over 1 minutes.
-      { duration: '5m', target: 100 }, // stay at 100 users for 5 minutes
-      { duration: '5s', target: 0 }, // ramp-down to 0 users
+      { duration: '1m', target: 100 }, // stay at 100 users for 1 minutes
+      { duration: '30s', target: 0 }, // ramp-down to 0 users
     ],
     thresholds: {
       'http_req_duration': ['p(99)<500'] // 99% of requests must complete below 1.5s
@@ -52,27 +39,31 @@ const generator = (cacheRate) => {
         return acc
       }, {})
 
-  return {
-    houses: [ input ]
-  }
+  return  input 
 
 }
 
-const NAMESPACE = 'localhost'
-const BASE_URL = `http://${NAMESPACE}:8000`;
-const CACHE_RATE = 1
+const NAMESPACE = 'donirwin'
+const BASE_URL = `http://127.0.0.1:8000`;
+const CACHE_RATE = .33
 
 export default () => {
   const healthRes = http.get(`${BASE_URL}/health`)
+  //console.log(healthRes);
+  console.log(healthRes.body)
+  console.log(healthRes.json())
   check(healthRes, {
     'is 200': (r) => r.status === 200,
-    'status healthy': (r) => r.json('status') === 'healthy',
+    'status healthy': (r) => r.json() === 'healthy',
   })
 
   const payload = JSON.stringify(generator(CACHE_RATE))
-  const predictionRes = http.request('POST', `${BASE_URL}/predict`, payload)
+  const predictionRes = http.request('POST', `${BASE_URL}/predictitem`, payload)
+  console.log(payload)
+  console.log(predictionRes)
+  console.log(predictionRes.json("prediction_result"))
   check(predictionRes, {
     'is 200': (r) => r.status === 200,
-    'is number': (r) => parseFloat(r.json('predictions.0')),
+    'is number': (r) => parseFloat(r.json('prediction_result')),
   })
 };

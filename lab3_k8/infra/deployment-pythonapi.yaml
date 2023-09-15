@@ -45,4 +45,3 @@ spec:
               image: goodsmileduck/redis-cli
               imagePullPolicy: IfNotPresent
               command: [ 'sh', '-c', 'until redis-cli  -h redis -p 6379  get hello; do echo "Sleeping a bit"; sleep .1; done; echo "ready!"; ' ]
-

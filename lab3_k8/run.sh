@@ -45,11 +45,11 @@ else
     echo "PATH=$PATH:~/.local/bin">>~/.bashrc
     source ~/.bashrc
 
-    kubectl --helpn>/dev/null
 
     echo "*********************************"
     echo "Trying to install kubectl"
     echo "*********************************"
+    kubectl --help>/dev/null
     if [ $? -eq 0 ]; then
         echo "Kubectl is installed!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
     else
@@ -58,7 +58,36 @@ else
         echo "*********************************"
     fi
 
+fi
 
+istioctl --help >/dev/null
+
+if [ $? -eq 0 ]; then
+    echo "Istio is installed"
+else
+
+    echo "*********************************"
+    echo "Trying to install Istio"
+    echo "*********************************"
+    curl -L https://istio.io/downloadIstio | ISTIO_VERSION=1.19.0 TARGET_ARCH=x86_64 sh -
+    chmod +x  istio-1.19.0
+    mkdir -p ~/.local/bin
+    mv ./istio-1.19.0 ~/.local/bin/istio-1.19.0
+    echo "PATH=$PATH:~/.local/bin/istio-1.19.0/bin">>~/.bashrc
+    source ~/.bashrc
+
+
+    echo "*********************************"
+    echo "Trying to install Istio"
+    echo "*********************************"
+    istioctl --help >/dev/null
+    if [ $? -eq 0 ]; then
+        echo "Istio is installed!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    else
+        echo "*********************************"
+        echo "Unable to install Istio"
+        echo "*********************************"
+    fi
 
 fi
 
@@ -222,7 +251,10 @@ docker stop ${APP_NAME}
 echo "docker rm ${APP_NAME}"
 docker rm ${APP_NAME}
 
-time minikube start --kubernetes-version=v1.22.6 --memory 8192 --cpus 4  --force
+time minikube start --kubernetes-version=v1.22.6 --memory 16384 --cpus 4  --force
+
+#now set up the standard istio setup
+istioctl install -y
 
 #Output images to the LOCAL minicube dealio -- rather than the default.
 echo "Point shell output to minikube docker"
@@ -297,18 +329,19 @@ done
 echo my_all_pods=$my_all_pods
 echo running_pods=$running_pods
 
+#20230914 don irwin -- disabling below in favor of istio
 echo "set up the dashboard"
 echo "note this can be done in yaml"
-kubectl create serviceaccount k8sadmin -n kube-system
-kubectl create clusterrolebinding k8sadmin --clusterrole=cluster-admin --serviceaccount=kube-system:k8sadmin
+#kubectl create serviceaccount k8sadmin -n kube-system
+#kubectl create clusterrolebinding k8sadmin --clusterrole=cluster-admin --serviceaccount=kube-system:k8sadmin
 #my_token=kubectl -n kube-system describe secret $(sudo kubectl -n kube-system get secret | (grep k8sadmin || echo "$_") | awk '{print $1}') | grep token: | awk '{print $2}'
 #echo $my_token>token.txt
 
-kubectl proxy --address='0.0.0.0' --disable-filter=true>/dev/null &
-proxy_pid=$!
-minikube dashboard --url >/dev/null&
-echo "Open this creature:"
-echo "http://localhost:8001:/api/v1/namespaces/kubernetes-dashboard/services/http:kubernetes-dashboard:/proxy/"
+#kubectl proxy --address='0.0.0.0' --disable-filter=true>/dev/null &
+#proxy_pid=$!
+#minikube dashboard --url >/dev/null&
+#echo "Open this creature:"
+#echo "http://localhost:8001:/api/v1/namespaces/kubernetes-dashboard/services/http:kubernetes-dashboard:/proxy/"
 
 
 my_ticks=$(( $(date '+%s%N') / 1000000))
@@ -321,8 +354,9 @@ echo "* port forwarding               *"
 echo "*                               *"
 echo "*********************************"
 
-echo "kubectl port-forward -n w255 service/frontend 8000:8000 --address='0.0.0.0' > output_$my_ticks.txt &"
-kubectl port-forward -n w255 service/frontend 8000:8000 --address='0.0.0.0' > output_$my_ticks.txt & 
+rm output_*.txt
+echo "kubectl port-forward -n w255 Gateway/pythonapi-gateway 8000:8000 --address='0.0.0.0' > output_$my_ticks.txt &"
+kubectl port-forward -n w255 Gateway/pythonapi-gateway 8000:8000 --address='0.0.0.0' > output_$my_ticks.txt & 
 
 port_forwarding_pid=$!
 
@@ -369,7 +403,7 @@ echo "*                               *"
 echo "*  Note that FASTAPI uses 307   *"
 echo "*  internal redirects for its   *"
 echo "*  query string parsing unless  *"
-echo "*  the request is formed line   *"
+echo "*  the request is formed like   *"
 echo "*     /hello/?name=Don          *"
 echo "*                               *"
 echo "*********************************"
@@ -604,11 +638,19 @@ echo "bad_return_codes=${bad_return_codes}"
 export W255_UP=1
 
 
-return
+
+echo "*********************************"
+echo "Dashboard:"
+echo "http://localhost:8001:/api/v1/namespaces/kubernetes-dashboard/services/http:kubernetes-dashboard:/proxy/"
+echo "Swagger UI:"
+echo "http://localhost:8000/docs"
+echo "*********************************"
+
 #this shell expots a do_exit value
 . do_exit.sh
 if [[ "$do_exit" -eq 1 ]]
 then
+minikube stop
 return
 fi
 

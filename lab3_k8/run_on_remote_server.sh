@@ -65,11 +65,11 @@ else
     echo "PATH=$PATH:~/.local/bin">>~/.bashrc
     source ~/.bashrc
 
-    kubectl --helpn>/dev/null
 
     echo "*********************************"
     echo "Trying to install kubectl"
     echo "*********************************"
+    kubectl --help>/dev/null
     if [ $? -eq 0 ]; then
         echo "Kubectl is installed!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
     else
@@ -78,10 +78,38 @@ else
         echo "*********************************"
     fi
 
-
-
 fi
 
+istioctl --help >/dev/null
+
+if [ $? -eq 0 ]; then
+    echo "Istio is installed"
+else
+
+    echo "*********************************"
+    echo "Trying to install Istio"
+    echo "*********************************"
+    curl -L https://istio.io/downloadIstio | ISTIO_VERSION=1.19.0 TARGET_ARCH=x86_64 sh -
+    chmod +x  istio-1.19.0
+    mkdir -p ~/.local/bin
+    mv ./istio-1.19.0 ~/.local/bin/istio-1.19.0
+    echo "PATH=$PATH:~/.local/bin/istio-1.19.0/bin">>~/.bashrc
+    source ~/.bashrc
+
+
+    echo "*********************************"
+    echo "Trying to install Istio"
+    echo "*********************************"
+    istioctl --help >/dev/null
+    if [ $? -eq 0 ]; then
+        echo "Istio is installed!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    else
+        echo "*********************************"
+        echo "Unable to install Istio"
+        echo "*********************************"
+    fi
+
+fi
 
 
 echo "*********************************"
@@ -270,7 +298,11 @@ docker stop ${APP_NAME}
 echo "docker rm ${APP_NAME}"
 docker rm ${APP_NAME}
 
-time minikube start --kubernetes-version=v1.22.6 --memory 8192 --cpus 4  --force 
+#time minikube start --kubernetes-version=v1.22.6 --memory 8192 --cpus 4  --force 
+#boost for istio
+time minikube start --kubernetes-version=v1.22.6 --memory 16384 --cpus 4  --force
+#now set up the standard istio setup
+istioctl install -y
 
 #Output images to the LOCAL minicube dealio -- rather than the default.
 echo "Point shell output to minikube docker"
@@ -417,7 +449,7 @@ echo "*                               *"
 echo "*  Note that FASTAPI uses 307   *"
 echo "*  internal redirects for its   *"
 echo "*  query string parsing unless  *"
-echo "*  the request is formed line   *"
+echo "*  the request is formed like   *"
 echo "*     /hello/?name=Don          *"
 echo "*                               *"
 echo "*********************************"

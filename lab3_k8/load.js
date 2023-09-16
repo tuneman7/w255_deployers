@@ -45,9 +45,9 @@ const generator = (cacheRate) => {
 
 }
 
-const NAMESPACE = '<ipaddress/>'
+const NAMESPACE = '10.97.64.152'
 const BASE_URL = `http://${NAMESPACE}:8000`;
-const CACHE_RATE = .33
+const CACHE_RATE = .43
 
 export default () => {
   const healthRes = http.get(`${BASE_URL}/health`)

@@ -39,6 +39,35 @@ echo "* CHECK DEPENDENCIES            *"
 echo "*                               *"
 echo "*********************************"
 
+minikube --help>/dev/null
+if [ $? -eq 0 ]; then
+    echo "minikube installed"
+else
+
+    echo "*********************************"
+    echo "Trying to install minikube"
+    echo "*********************************"
+    curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+    sudo install minikube-linux-amd64 ter123!$
+
+
+
+    echo "*********************************"
+    echo "Trying to install minikube"
+    echo "*********************************"
+    minikube --help >/dev/null
+    if [ $? -eq 0 ]; then
+        echo "minikube is installed!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    else
+        echo "*********************************"
+        echo "Unable to install minikube"
+        echo "*********************************"
+        return
+    fi
+
+fi
+
+
 kubectl --help>/dev/null
 
 if [ $? -eq 0 ]; then
@@ -66,6 +95,7 @@ else
         echo "*********************************"
         echo "Unable to install kubectl"
         echo "*********************************"
+        return
     fi
 
 fi
@@ -97,6 +127,7 @@ else
         echo "*********************************"
         echo "Unable to install Istio"
         echo "*********************************"
+        return
     fi
 
 fi
@@ -440,6 +471,7 @@ echo "*nohup minikube tunnel &        *"
 echo "*                               *"
 echo "*********************************"
 echo "Starting the port forwarding"
+rm nohup.out
 nohup minikube tunnel &
 
 port_forwarding_pid=$!
@@ -461,7 +493,7 @@ echo "*  ENDING                       *"
 echo "* port forwarding               *"
 echo "* port_forwarding_pid=$port_forwarding_pid*"
 echo "*********************************"
-cat nohup.txt
+cat nohup.out
 sleep 1
 
 echo "*********************************"
@@ -470,6 +502,11 @@ echo "*  EXTRACTING ip address of     *"
 echo "*        load balancer          *"
 echo "*                               *"
 echo "*********************************"
+
+#kubectl -n kube-system get svc cluster-nginx-ingress-controller -o json | jq 
+
+python_api_address=$(kubectl -n w255 get svc frontend -o json | jq -r ".status.loadBalancer.ingress[0].ip")
+export python_api_address=$python_api_address
 
 
 
@@ -482,6 +519,7 @@ cd ./infra
 cd ./../
 minikube stop
 export W255_UP=0
+sudo kill $port_forwarding_pid
 return
 fi
 

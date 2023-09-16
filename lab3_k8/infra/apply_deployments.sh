@@ -19,6 +19,8 @@ echo "kubectl apply -f deployment-pythonapi.yaml"
 kubectl apply -f deployment-pythonapi.yaml
 echo "kubectl apply -f service-prediction.yaml"
 kubectl apply -f service-prediction.yaml
+# echo "kubectl apply -f service-prediction_a.yaml"
+# kubectl apply -f service-prediction_a.yaml
 echo "kubectl apply -f istio-gateway-prediction.yaml"
 kubectl apply -f istio-gateway-prediction.yaml
 echo "kubectl apply -f prediction-grafana.yaml"

@@ -7,6 +7,8 @@ echo "kubectl delete -f service-redis.yaml"
 kubectl delete -f service-redis.yaml
 echo "kubectl delete -f service-prediction.yaml"
 kubectl delete -f service-prediction.yaml
+echo "kubectl delete -f service-prediction_a.yaml"
+kubectl delete -f service-prediction_a.yaml
 echo "kubectl delete -f istio-gateway-prediction.yaml"
 kubectl delete -f istio-gateway-prediction.yaml
 echo "kubectl delete -f namespace.yaml"

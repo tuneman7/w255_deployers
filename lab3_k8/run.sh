@@ -390,16 +390,69 @@ rm output_*.txt
 # echo "port-forward -n w255 Service/frontend 8000:8000 --address='0.0.0.0' > output_$my_ticks.txt & "
 # kubectl port-forward -n w255 Service/frontend 8000:8000 --address='0.0.0.0' > output_$my_ticks.txt & 
 
-# echo "port-forward -n istio-system Service/grafana 3000:3000 --address='0.0.0.0' > output_$my_ticks.txt & "
-# kubectl port-forward -n istio-system Service/grafana 3000:3000 --address='0.0.0.0' > output_grafana_$my_ticks.txt & 
 
-echo "Starting the port forwarding -- this will end the process"
+while ${prompt_for_minikube}; do
+        echo "*********************************"
+        echo "                               "
+        echo " We are about to run the command "
+        echo "                               "  
+        echo "Starting the port forwarding -- this will end the process"
+        echo "nohup minikube tunnel &        "      
+        echo "                               "
+        echo "Special settings need to be in place"
+        echo "                               "
+        echo "If they are not in place       "
+        echo "This needs to be run in a new  "
+        echo "Window under sudo             "
+        echo "See the following URLs:        "
+        echo "https://minikube.sigs.k8s.io/docs/handbook/accessing/"
+        echo "https://superuser.com/questions/1328452/sudoers-nopasswd-for-single-executable-but-allowing-others"
+        echo "                               "
+        echo "                               "
+        echo " DO YOU HAVE NOPASSWD SET UP   "
+        echo " FOR commands \"ip\" and \"route\"          "
+        echo "                               "
+        echo " If run this in a separate terminal:"
+        echo "\"minikube tunnel "        "      
+        echo "  Then Answer \"n"         "
+
+        echo "                               "
+
+        echo "*********************************"
+        while true; do
+            read -p "Do you have permissions set up? [y/n]:" yn
+            case $yn in
+                [Yy]* ) do_minikube_tunnel=1;break;;
+                [Nn]* ) do_minikube_tunnel=0;break;;
+                * ) echo "Please answer \"y\" or \"n\".";;
+            esac
+        done        
+break
+ 
+done
+
+
+if [[ "$do_minikube_tunnel" -eq 1 ]]
+then
+echo "*********************************"
+echo "* running:                      *"
+echo "*nohup minikube tunnel &        *"
+echo "*                               *"
+echo "*********************************"
+echo "Starting the port forwarding"
 nohup minikube tunnel &
 
 port_forwarding_pid=$!
+
+fi
+
+
+
 echo "* port_forwarding_pid=$port_forwarding_pid*"
 
 
+echo "port-forward -n istio-system Service/grafana 3000:3000 --address='0.0.0.0' > output_$my_ticks.txt & "
+kubectl port-forward -n istio-system Service/grafana 3000:3000 --address='0.0.0.0' > output_grafana_$my_ticks.txt & 
 
 sleep 10
 
@@ -408,8 +461,17 @@ echo "*  ENDING                       *"
 echo "* port forwarding               *"
 echo "* port_forwarding_pid=$port_forwarding_pid*"
 echo "*********************************"
-
+cat nohup.txt
 sleep 1
+
+echo "*********************************"
+echo "*                               *"
+echo "*  EXTRACTING ip address of     *"
+echo "*        load balancer          *"
+echo "*                               *"
+echo "*********************************"
+
+
 
 #this shell expots a do_exit value
 . do_exit.sh
@@ -466,7 +528,7 @@ echo "*                               *"
 echo "*********************************"
 
 
-
+IP_ADDRESS="localhost"
 
 CURL_URI="http://localhost:8000/health"
 

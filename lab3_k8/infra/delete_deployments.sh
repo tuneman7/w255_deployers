@@ -16,3 +16,10 @@ kubectl delete -f prediction-grafana.yaml
 echo "kubectl delete -f telemetry.yaml"
 kubectl delete -f telemetry.yaml
 
+#inject prometheus
+#https://istio.io/latest/docs/ops/integrations/prometheus/
+kubectl delete -f https://raw.githubusercontent.com/istio/istio/release-1.19/samples/addons/prometheus.yaml
+
+#inject grafana;
+#https://istio.io/latest/docs/ops/integrations/grafana/
+kubectl delete -f https://raw.githubusercontent.com/istio/istio/release-1.19/samples/addons/grafana.yaml

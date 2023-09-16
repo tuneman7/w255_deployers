@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo "*********************************"
 echo "*                               *"
 echo "*     Running CURL Calls        *"

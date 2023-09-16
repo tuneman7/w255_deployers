@@ -1,5 +1,14 @@
 #!/bin/bash
 
+#inject prometheus
+#https://istio.io/latest/docs/ops/integrations/prometheus/
+kubectl apply -f https://raw.githubusercontent.com/istio/istio/release-1.19/samples/addons/prometheus.yaml
+
+#inject grafana;
+#https://istio.io/latest/docs/ops/integrations/grafana/
+kubectl apply -f https://raw.githubusercontent.com/istio/istio/release-1.19/samples/addons/grafana.yaml
+
+
 echo "kubectl create -f namespace.yaml"
 kubectl create -f namespace.yaml
 echo "kubectl apply -f deployment-redis.yaml"

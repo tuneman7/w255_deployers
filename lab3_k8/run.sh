@@ -46,9 +46,11 @@ else
 
     echo "*********************************"
     echo "Trying to install minikube"
+    echo "https://minikube.sigs.k8s.io/docs/start/"
     echo "*********************************"
     curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
-    sudo install minikube-linux-amd64 ter123!$
+    sudo install minikube-linux-amd64 /usr/local/bin/minikube
+    rm -rf ./minikube-linux-amd64
 
 
 
@@ -508,7 +510,15 @@ echo "*********************************"
 python_api_address=$(kubectl -n w255 get svc frontend -o json | jq -r ".status.loadBalancer.ingress[0].ip")
 export python_api_address=$python_api_address
 
+python setup_values.py
 
+echo "*********************************"
+echo "*                               *"
+echo "*  RUNNING Load testing         *"
+echo "*                               *"
+echo "*********************************"
+
+. run_k6.sh
 
 #this shell expots a do_exit value
 . do_exit.sh

@@ -1,3 +1,3 @@
 #!/bin/bash
 minikube delete --purge
-rm -rf /usr/local/bin/minikube
+sudo rm -rf /usr/local/bin/minikube

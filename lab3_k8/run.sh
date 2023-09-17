@@ -571,13 +571,23 @@ echo "*  to run  Load testing         *"
 echo "*  . run_k6.sh                  *"
 echo "*********************************"
 
+#because there are background port forwarding commands running continually
+#this will never exit.
+wait
+
+echo "*********************************"
+echo "*                               *"
+echo "*  RUNNING Load testing         *"
+echo "*                               *"
+echo "*********************************"
 
 #this shell expots a do_exit value
 #prompt for $do_exit
-. do_exit.sh
+#. do_exit.sh
 
 #set it manually
-#do_exit=0
+do_exit=0
+
 
 
 #check if the user wants to exit

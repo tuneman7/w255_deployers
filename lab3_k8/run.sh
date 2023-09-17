@@ -113,9 +113,10 @@ else
     echo "*********************************"
     curl -L https://istio.io/downloadIstio | ISTIO_VERSION=1.19.0 TARGET_ARCH=x86_64 sh -
     chmod +x  istio-1.19.0
+    echo 
     mkdir -p ~/.local/bin
     mv ./istio-1.19.0 ~/.local/bin/istio-1.19.0
-    PATH=$PATH:~/.local/bin/istio-1.19.0/bin
+    export PATH=$PATH:~/.local/bin/istio-1.19.0/bin
     echo "PATH=$PATH:~/.local/bin/istio-1.19.0/bin">>~/.bashrc
     source ~/.bashrc
 
@@ -598,6 +599,11 @@ echo "*                               *"
 echo "*  RUNNING Load testing         *"
 echo "*                               *"
 echo "*********************************"
+
+
+. run_k6.sh
+
+
 
 #this shell expots a do_exit value
 #prompt for $do_exit

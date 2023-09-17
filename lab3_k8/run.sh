@@ -296,7 +296,10 @@ docker stop ${APP_NAME}
 echo "docker rm ${APP_NAME}"
 docker rm ${APP_NAME}
 
-time minikube start --kubernetes-version=v1.25.13 --memory 16384 --cpus 4  --force
+#8 gb
+time minikube start --kubernetes-version=v1.22.6 --memory 8192 --cpus 4  --force
+#16 gb
+#time minikube start --kubernetes-version=v1.25.13 --memory 16384 --cpus 4  --force
 
 #now set up the demo setup
 #istioctl install demo -y

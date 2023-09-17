@@ -573,11 +573,14 @@ echo "http://localhost:3000"
 echo "*                               *"
 echo "*********************************"
 
-
+this_ip=$(wget -q -O - ipinfo.io/ip)
+this_grafana="http://${this_ip}:3000
 
 echo "*********************************"
 echo "*                               *"
 echo "*  RUNNING Load testing         *"
+echo "*  Look at. ...                 *"
+echo "*  $this_grafana"
 echo "*                               *"
 echo "*********************************"
 

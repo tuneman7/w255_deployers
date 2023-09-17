@@ -607,10 +607,10 @@ wait
 
 #this shell expots a do_exit value
 #prompt for $do_exit
-#. do_exit.sh
+. do_exit.sh
 
 #set it manually
-do_exit=0
+#do_exit=0
 
 
 

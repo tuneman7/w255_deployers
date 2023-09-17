@@ -115,6 +115,7 @@ else
     chmod +x  istio-1.19.0
     mkdir -p ~/.local/bin
     mv ./istio-1.19.0 ~/.local/bin/istio-1.19.0
+    PATH=$PATH:~/.local/bin/istio-1.19.0/bin
     echo "PATH=$PATH:~/.local/bin/istio-1.19.0/bin">>~/.bashrc
     source ~/.bashrc
 

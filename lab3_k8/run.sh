@@ -355,7 +355,12 @@ echo "* Docker stopping and rebuild   *"
 echo "*                               *"
 echo "*********************************"
 
+echo "**********************************"
+echo "*  LOOK AT ALL K8 PODS / SVCS    *"
+echo "**********************************"
 
+minikube kubectl -- get pods --all-namespaces
+minikube kubectl -- get services --all-namespaces
 
 echo "**********************************"
 echo "*  STARTING                      *"
@@ -387,8 +392,8 @@ echo my_all_pods=$my_all_pods
 echo running_pods=$running_pods
 
 #20230914 don irwin -- disabling below in favor of istio
-echo "set up the dashboard"
-echo "note this can be done in yaml"
+#echo "set up the dashboard"
+#echo "note this can be done in yaml"
 #kubectl create serviceaccount k8sadmin -n kube-system
 #kubectl create clusterrolebinding k8sadmin --clusterrole=cluster-admin --serviceaccount=kube-system:k8sadmin
 #my_token=kubectl -n kube-system describe secret $(sudo kubectl -n kube-system get secret | (grep k8sadmin || echo "$_") | awk '{print $1}') | grep token: | awk '{print $2}'
@@ -404,6 +409,14 @@ echo "note this can be done in yaml"
 my_ticks=$(( $(date '+%s%N') / 1000000))
 
 sleep 2
+
+echo "**********************************"
+echo "*  LOOK AT ALL K8 PODS / SVCS    *"
+echo "**********************************"
+
+minikube kubectl -- get pods --all-namespaces
+minikube kubectl -- get services --all-namespaces
+
 
 echo "*********************************"
 echo "*  BEGIN                        *"
@@ -491,12 +504,9 @@ kubectl port-forward -n istio-system Service/grafana 3000:3000 --address='0.0.0.
 echo "port-forward -n w255 Service/frontend-ext 8000:8000 --address='0.0.0.0' > output_$my_ticks.txt & "
 kubectl port-forward -n w255 Service/frontend-ext 8000:8000 --address='0.0.0.0' > output_$my_ticks.txt & 
 
-sleep 10
-
 echo "*********************************"
 echo "*  ENDING                       *"
-echo "* port forwarding               *"
-echo "* port_forwarding_pid=$port_forwarding_pid*"
+echo "* port forwarding initiation    *"
 echo "*********************************"
 cat nohup.out
 sleep 1
@@ -570,6 +580,13 @@ echo "*                               *"
 echo "*  to run  Load testing         *"
 echo "*  . run_k6.sh                  *"
 echo "*********************************"
+
+echo "*********************************"
+echo "*                               *"
+echo "*  COMPLETED SETUP              *"
+echo "*                               *"
+echo "*********************************"
+
 
 #because there are background port forwarding commands running continually
 #this will never exit.

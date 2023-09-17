@@ -557,20 +557,30 @@ echo "*********************************"
 
 
 
+# echo "*********************************"
+# echo "*                               *"
+# echo "*  RUNNING Load testing         *"
+# echo "*                               *"
+# echo "*********************************"
+
+#. run_k6.sh
+
 echo "*********************************"
 echo "*                               *"
-echo "*  RUNNING Load testing         *"
-echo "*                               *"
+echo "*  to run  Load testing         *"
+echo "*  . run_k6.sh                  *"
 echo "*********************************"
 
-. run_k6.sh
 
 #this shell expots a do_exit value
 #prompt for $do_exit
-#. do_exit.sh
+. do_exit.sh
 
 #set it manually
-do_exit=0
+#do_exit=0
+
+
+#check if the user wants to exit
 if [[ "$do_exit" -eq 1 ]]
 then
 cd ./infra

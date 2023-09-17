@@ -574,7 +574,7 @@ echo "*                               *"
 echo "*********************************"
 
 this_ip=$(wget -q -O - ipinfo.io/ip)
-this_grafana="http://${this_ip}:3000
+this_grafana="http://${this_ip}:3000"
 
 echo "*********************************"
 echo "*                               *"

@@ -297,7 +297,10 @@ echo "docker rm ${APP_NAME}"
 docker rm ${APP_NAME}
 
 #8 gb
-time minikube start --kubernetes-version=v1.22.6 --memory 8192 --cpus 4  --force
+#time minikube start --kubernetes-version=v1.22.6 --memory 8192 --cpus 4  --force
+#10 gb
+
+time minikube start --kubernetes-version=v1.22.6 --memory 10240 --cpus 4  --force
 #16 gb
 #time minikube start --kubernetes-version=v1.25.13 --memory 16384 --cpus 4  --force
 

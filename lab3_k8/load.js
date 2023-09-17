@@ -45,8 +45,8 @@ const generator = (cacheRate) => {
 
 }
 
-const NAMESPACE = 'null'
-const BASE_URL = `http://${NAMESPACE}:8000`;
+const NAMESPACE = 'http://192.168.49.2:32683'
+const BASE_URL = `${NAMESPACE}`;
 const CACHE_RATE = .43
 
 export default () => {

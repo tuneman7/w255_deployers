@@ -506,7 +506,7 @@ rm output_*.txt
 # echo "* port_forwarding_pid=$port_forwarding_pid*"
 
 
-echo "port-forward -n istio-system Service/grafana 3000:3000 --address='0.0.0.0' > output_$my_ticks.txt & "
+echo "port-forward -n istio-system Service/grafana 3000:3000 --address='0.0.0.0' > output_grafana_$my_ticks.txt & "
 kubectl port-forward -n istio-system Service/grafana 3000:3000 --address='0.0.0.0' > output_grafana_$my_ticks.txt & 
 
 echo "port-forward -n w255 Service/frontend-ext 8000:8000 --address='0.0.0.0' > output_$my_ticks.txt & "
@@ -516,7 +516,7 @@ echo "*********************************"
 echo "*  ENDING                       *"
 echo "* port forwarding initiation    *"
 echo "*********************************"
-cat nohup.out
+#cat nohup.out
 sleep 1
 
 echo "*********************************"

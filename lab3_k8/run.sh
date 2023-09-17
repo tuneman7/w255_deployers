@@ -569,13 +569,13 @@ echo "*********************************"
 
 
 
-# echo "*********************************"
-# echo "*                               *"
-# echo "*  RUNNING Load testing         *"
-# echo "*                               *"
-# echo "*********************************"
+echo "*********************************"
+echo "*                               *"
+echo "*  RUNNING Load testing         *"
+echo "*                               *"
+echo "*********************************"
 
-#. run_k6.sh
+. run_k6.sh
 
 echo "*********************************"
 echo "*                               *"
@@ -593,15 +593,6 @@ echo "*********************************"
 #because there are background port forwarding commands running continually
 #this will never exit.
 wait
-
-echo "*********************************"
-echo "*                               *"
-echo "*  RUNNING Load testing         *"
-echo "*                               *"
-echo "*********************************"
-
-
-. run_k6.sh
 
 
 

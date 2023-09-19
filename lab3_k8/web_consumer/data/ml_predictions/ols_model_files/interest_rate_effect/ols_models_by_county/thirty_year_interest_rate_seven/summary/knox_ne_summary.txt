@@ -1,0 +1,31 @@
+************************************************************
+KNOX NE
+************************************************************
+const	 115961.33
+thirty_year_interest_rate_seven	 15034.23
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.043
+Model:                              OLS   Adj. R-squared:                  0.030
+Method:                   Least Squares   F-statistic:                     3.359
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):             0.0709
+Time:                          21:21:31   Log-Likelihood:                -915.01
+No. Observations:                    76   AIC:                             1834.
+Df Residuals:                        74   BIC:                             1839.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                             1.16e+05   3.14e+04      3.698      0.000    5.35e+04    1.78e+05
+thirty_year_interest_rate_seven  1.503e+04   8203.366      1.833      0.071   -1311.331    3.14e+04
+==============================================================================
+Omnibus:                       48.461   Durbin-Watson:                   1.027
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              190.999
+Skew:                           1.950   Prob(JB):                     3.35e-42
+Kurtosis:                       9.716   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

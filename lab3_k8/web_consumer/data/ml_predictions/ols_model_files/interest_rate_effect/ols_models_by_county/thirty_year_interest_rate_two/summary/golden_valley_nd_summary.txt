@@ -1,0 +1,31 @@
+************************************************************
+GOLDEN VALLEY ND
+************************************************************
+const	 10371.89
+thirty_year_interest_rate_two	 20095.43
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.663
+Model:                              OLS   Adj. R-squared:                  0.659
+Method:                   Least Squares   F-statistic:                     163.2
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           2.70e-21
+Time:                          14:07:33   Log-Likelihood:                -941.87
+No. Observations:                    85   AIC:                             1888.
+Df Residuals:                        83   BIC:                             1893.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          1.037e+04   6799.774      1.525      0.131   -3152.589    2.39e+04
+thirty_year_interest_rate_two   2.01e+04   1573.095     12.774      0.000     1.7e+04    2.32e+04
+==============================================================================
+Omnibus:                        8.281   Durbin-Watson:                   0.971
+Prob(Omnibus):                  0.016   Jarque-Bera (JB):                8.065
+Skew:                           0.740   Prob(JB):                       0.0177
+Kurtosis:                       3.292   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

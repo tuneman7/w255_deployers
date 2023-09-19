@@ -1,0 +1,31 @@
+************************************************************
+LEVY FL
+************************************************************
+const	 223275.61
+thirty_year_interest_rate_five	 10554.71
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.029
+Model:                              OLS   Adj. R-squared:                  0.017
+Method:                   Least Squares   F-statistic:                     2.485
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.119
+Time:                          14:08:06   Log-Likelihood:                -1057.0
+No. Observations:                    85   AIC:                             2118.
+Df Residuals:                        83   BIC:                             2123.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           2.233e+05   2.81e+04      7.940      0.000    1.67e+05    2.79e+05
+thirty_year_interest_rate_five  1.055e+04   6695.205      1.576      0.119   -2761.781    2.39e+04
+==============================================================================
+Omnibus:                       18.901   Durbin-Watson:                   0.039
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                7.634
+Skew:                           0.502   Prob(JB):                       0.0220
+Kurtosis:                       1.928   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

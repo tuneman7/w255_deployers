@@ -1,0 +1,31 @@
+************************************************************
+CARLTON MN
+************************************************************
+const	 168922.15
+thirty_year_interest_rate_four	 14646.74
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.080
+Model:                              OLS   Adj. R-squared:                  0.069
+Method:                   Least Squares   F-statistic:                     7.196
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00882
+Time:                          14:07:24   Log-Likelihood:                -1043.0
+No. Observations:                    85   AIC:                             2090.
+Df Residuals:                        83   BIC:                             2095.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           1.689e+05   2.32e+04      7.290      0.000    1.23e+05    2.15e+05
+thirty_year_interest_rate_four  1.465e+04   5460.014      2.683      0.009    3786.996    2.55e+04
+==============================================================================
+Omnibus:                       17.160   Durbin-Watson:                   0.284
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                5.514
+Skew:                           0.313   Prob(JB):                       0.0635
+Kurtosis:                       1.921   Cond. No.                         18.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

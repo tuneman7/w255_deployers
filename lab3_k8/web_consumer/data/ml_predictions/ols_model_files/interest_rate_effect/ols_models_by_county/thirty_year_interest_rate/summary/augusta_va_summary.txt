@@ -1,0 +1,31 @@
+************************************************************
+AUGUSTA VA
+************************************************************
+const	 245711.98
+thirty_year_interest_rate	 17538.66
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.162
+Model:                              OLS   Adj. R-squared:                  0.152
+Method:                   Least Squares   F-statistic:                     16.10
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           0.000131
+Time:                          14:07:09   Log-Likelihood:                -1034.0
+No. Observations:                    85   AIC:                             2072.
+Df Residuals:                        83   BIC:                             2077.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      2.457e+05   1.93e+04     12.736      0.000    2.07e+05    2.84e+05
+thirty_year_interest_rate  1.754e+04   4370.853      4.013      0.000    8845.204    2.62e+04
+==============================================================================
+Omnibus:                       63.504   Durbin-Watson:                   0.071
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                7.304
+Skew:                          -0.202   Prob(JB):                       0.0259
+Kurtosis:                       1.622   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

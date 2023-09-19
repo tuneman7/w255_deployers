@@ -1,0 +1,31 @@
+************************************************************
+WINCHESTER CITY VA
+************************************************************
+const	 210269.90
+thirty_year_interest_rate_five	 23589.50
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.290
+Model:                              OLS   Adj. R-squared:                  0.281
+Method:                   Least Squares   F-statistic:                     33.90
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           1.06e-07
+Time:                          14:08:05   Log-Likelihood:                -1014.3
+No. Observations:                    85   AIC:                             2033.
+Df Residuals:                        83   BIC:                             2038.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           2.103e+05    1.7e+04     12.357      0.000    1.76e+05    2.44e+05
+thirty_year_interest_rate_five  2.359e+04   4051.457      5.822      0.000    1.55e+04    3.16e+04
+==============================================================================
+Omnibus:                        1.178   Durbin-Watson:                   0.340
+Prob(Omnibus):                  0.555   Jarque-Bera (JB):                1.113
+Skew:                          -0.126   Prob(JB):                        0.573
+Kurtosis:                       2.500   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

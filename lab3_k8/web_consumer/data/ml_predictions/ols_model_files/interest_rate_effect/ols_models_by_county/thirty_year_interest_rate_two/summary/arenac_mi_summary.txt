@@ -1,0 +1,31 @@
+************************************************************
+ARENAC MI
+************************************************************
+const	 120706.42
+thirty_year_interest_rate_two	 5038.82
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.024
+Model:                              OLS   Adj. R-squared:                  0.012
+Method:                   Least Squares   F-statistic:                     2.035
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.157
+Time:                          14:07:37   Log-Likelihood:                -1010.6
+No. Observations:                    85   AIC:                             2025.
+Df Residuals:                        83   BIC:                             2030.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          1.207e+05   1.53e+04      7.906      0.000    9.03e+04    1.51e+05
+thirty_year_interest_rate_two  5038.8159   3532.131      1.427      0.157   -1986.450    1.21e+04
+==============================================================================
+Omnibus:                        9.514   Durbin-Watson:                   0.175
+Prob(Omnibus):                  0.009   Jarque-Bera (JB):               10.338
+Skew:                           0.852   Prob(JB):                      0.00569
+Kurtosis:                       2.888   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

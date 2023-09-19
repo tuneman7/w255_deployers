@@ -1,0 +1,31 @@
+************************************************************
+LANDER NV
+************************************************************
+const	 627658.51
+thirty_year_interest_rate_six	 -106356.08
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.353
+Model:                              OLS   Adj. R-squared:                  0.345
+Method:                   Least Squares   F-statistic:                     40.45
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           1.50e-08
+Time:                          21:22:25   Log-Likelihood:                -971.59
+No. Observations:                    76   AIC:                             1947.
+Df Residuals:                        74   BIC:                             1952.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          6.277e+05   6.42e+04      9.775      0.000       5e+05    7.56e+05
+thirty_year_interest_rate_six -1.064e+05   1.67e+04     -6.360      0.000    -1.4e+05    -7.3e+04
+==============================================================================
+Omnibus:                       14.209   Durbin-Watson:                   0.148
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):               15.665
+Skew:                           1.067   Prob(JB):                     0.000397
+Kurtosis:                       3.630   Cond. No.                         26.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

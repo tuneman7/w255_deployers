@@ -1,0 +1,31 @@
+************************************************************
+DIMMIT TX
+************************************************************
+const	 229951.46
+thirty_year_interest_rate_seven	 -12706.79
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.022
+Model:                              OLS   Adj. R-squared:                  0.008
+Method:                   Least Squares   F-statistic:                     1.633
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):              0.205
+Time:                          21:22:18   Log-Likelihood:                -929.63
+No. Observations:                    76   AIC:                             1863.
+Df Residuals:                        74   BIC:                             1868.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                              2.3e+05    3.8e+04      6.050      0.000    1.54e+05    3.06e+05
+thirty_year_interest_rate_seven -1.271e+04   9943.744     -1.278      0.205   -3.25e+04    7106.555
+==============================================================================
+Omnibus:                       35.860   Durbin-Watson:                   0.314
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               76.324
+Skew:                           1.686   Prob(JB):                     2.67e-17
+Kurtosis:                       6.568   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

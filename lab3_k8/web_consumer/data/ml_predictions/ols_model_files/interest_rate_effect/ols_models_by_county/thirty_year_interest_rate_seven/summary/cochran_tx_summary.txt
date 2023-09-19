@@ -1,0 +1,31 @@
+************************************************************
+COCHRAN TX
+************************************************************
+const	 210321.66
+thirty_year_interest_rate_seven	 -33234.53
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.193
+Model:                              OLS   Adj. R-squared:                  0.181
+Method:                   Least Squares   F-statistic:                     16.74
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           0.000113
+Time:                          21:21:07   Log-Likelihood:                -863.65
+No. Observations:                    72   AIC:                             1731.
+Df Residuals:                        70   BIC:                             1736.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            2.103e+05   3.11e+04      6.774      0.000    1.48e+05    2.72e+05
+thirty_year_interest_rate_seven -3.323e+04   8122.059     -4.092      0.000   -4.94e+04    -1.7e+04
+==============================================================================
+Omnibus:                       39.781   Durbin-Watson:                   0.904
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               92.260
+Skew:                           1.916   Prob(JB):                     9.25e-21
+Kurtosis:                       7.009   Cond. No.                         27.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

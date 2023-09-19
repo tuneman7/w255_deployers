@@ -1,0 +1,31 @@
+************************************************************
+ITASCA MN
+************************************************************
+const	 120364.53
+thirty_year_interest_rate_two	 19200.62
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.317
+Model:                              OLS   Adj. R-squared:                  0.309
+Method:                   Least Squares   F-statistic:                     38.51
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           2.04e-08
+Time:                          14:08:17   Log-Likelihood:                -999.36
+No. Observations:                    85   AIC:                             2003.
+Df Residuals:                        83   BIC:                             2008.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          1.204e+05   1.34e+04      9.000      0.000    9.38e+04    1.47e+05
+thirty_year_interest_rate_two   1.92e+04   3093.971      6.206      0.000     1.3e+04    2.54e+04
+==============================================================================
+Omnibus:                       11.613   Durbin-Watson:                   0.232
+Prob(Omnibus):                  0.003   Jarque-Bera (JB):               13.195
+Skew:                           0.964   Prob(JB):                      0.00136
+Kurtosis:                       2.910   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

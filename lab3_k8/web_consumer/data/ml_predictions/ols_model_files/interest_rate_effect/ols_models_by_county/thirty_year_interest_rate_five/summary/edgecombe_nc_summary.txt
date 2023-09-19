@@ -1,0 +1,31 @@
+************************************************************
+EDGECOMBE NC
+************************************************************
+const	 68003.52
+thirty_year_interest_rate_five	 10864.52
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.062
+Model:                              OLS   Adj. R-squared:                  0.051
+Method:                   Least Squares   F-statistic:                     5.494
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0215
+Time:                          14:08:13   Log-Likelihood:                -1025.8
+No. Observations:                    85   AIC:                             2056.
+Df Residuals:                        83   BIC:                             2060.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                             6.8e+04   1.95e+04      3.493      0.001    2.93e+04    1.07e+05
+thirty_year_interest_rate_five  1.086e+04   4635.372      2.344      0.021    1644.950    2.01e+04
+==============================================================================
+Omnibus:                       11.523   Durbin-Watson:                   0.045
+Prob(Omnibus):                  0.003   Jarque-Bera (JB):               11.306
+Skew:                           0.829   Prob(JB):                      0.00351
+Kurtosis:                       2.335   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

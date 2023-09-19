@@ -1,0 +1,31 @@
+************************************************************
+WALKER TX
+************************************************************
+const	 186466.41
+thirty_year_interest_rate_five	 11190.02
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.207
+Model:                              OLS   Adj. R-squared:                  0.197
+Method:                   Least Squares   F-statistic:                     21.62
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           1.24e-05
+Time:                          14:07:43   Log-Likelihood:                -970.05
+No. Observations:                    85   AIC:                             1944.
+Df Residuals:                        83   BIC:                             1949.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           1.865e+05   1.01e+04     18.445      0.000    1.66e+05    2.07e+05
+thirty_year_interest_rate_five  1.119e+04   2406.834      4.649      0.000    6402.926     1.6e+04
+==============================================================================
+Omnibus:                        9.865   Durbin-Watson:                   0.163
+Prob(Omnibus):                  0.007   Jarque-Bera (JB):                7.830
+Skew:                           0.636   Prob(JB):                       0.0199
+Kurtosis:                       2.230   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

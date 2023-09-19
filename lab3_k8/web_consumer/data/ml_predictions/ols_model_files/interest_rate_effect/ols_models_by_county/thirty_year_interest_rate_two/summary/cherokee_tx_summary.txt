@@ -1,0 +1,31 @@
+************************************************************
+CHEROKEE TX
+************************************************************
+const	 203677.60
+thirty_year_interest_rate_two	 8495.84
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.131
+Model:                              OLS   Adj. R-squared:                  0.121
+Method:                   Least Squares   F-statistic:                     12.52
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           0.000662
+Time:                          14:07:19   Log-Likelihood:                -977.81
+No. Observations:                    85   AIC:                             1960.
+Df Residuals:                        83   BIC:                             1965.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          2.037e+05   1.04e+04     19.625      0.000    1.83e+05    2.24e+05
+thirty_year_interest_rate_two  8495.8408   2400.983      3.538      0.001    3720.382    1.33e+04
+==============================================================================
+Omnibus:                        2.521   Durbin-Watson:                   0.424
+Prob(Omnibus):                  0.283   Jarque-Bera (JB):                1.662
+Skew:                          -0.091   Prob(JB):                        0.436
+Kurtosis:                       2.339   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

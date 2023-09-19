@@ -1,0 +1,31 @@
+************************************************************
+AVERY NC
+************************************************************
+const	 305839.41
+thirty_year_interest_rate_two	 17223.80
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.016
+Model:                              OLS   Adj. R-squared:                  0.004
+Method:                   Least Squares   F-statistic:                     1.347
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.249
+Time:                          14:06:55   Log-Likelihood:                -1132.6
+No. Observations:                    85   AIC:                             2269.
+Df Residuals:                        83   BIC:                             2274.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          3.058e+05   6.41e+04      4.768      0.000    1.78e+05    4.33e+05
+thirty_year_interest_rate_two  1.722e+04   1.48e+04      1.161      0.249   -1.23e+04    4.67e+04
+==============================================================================
+Omnibus:                       35.164   Durbin-Watson:                   0.053
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                5.710
+Skew:                           0.065   Prob(JB):                       0.0575
+Kurtosis:                       1.737   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

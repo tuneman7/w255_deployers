@@ -1,0 +1,31 @@
+************************************************************
+HOOD RIVER OR
+************************************************************
+const	 616014.53
+thirty_year_interest_rate_five	 11278.62
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.007
+Model:                              OLS   Adj. R-squared:                 -0.005
+Method:                   Least Squares   F-statistic:                    0.6012
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.440
+Time:                          14:07:07   Log-Likelihood:                -1123.0
+No. Observations:                    85   AIC:                             2250.
+Df Residuals:                        83   BIC:                             2255.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                            6.16e+05   6.11e+04     10.083      0.000    4.95e+05    7.38e+05
+thirty_year_interest_rate_five  1.128e+04   1.45e+04      0.775      0.440   -1.77e+04    4.02e+04
+==============================================================================
+Omnibus:                       41.500   Durbin-Watson:                   0.128
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                6.526
+Skew:                           0.204   Prob(JB):                       0.0383
+Kurtosis:                       1.705   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

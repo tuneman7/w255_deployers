@@ -1,0 +1,31 @@
+************************************************************
+PIERCE ND
+************************************************************
+const	 185242.96
+thirty_year_interest_rate_seven	 -19227.82
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.084
+Model:                              OLS   Adj. R-squared:                  0.071
+Method:                   Least Squares   F-statistic:                     6.761
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):             0.0112
+Time:                          21:21:00   Log-Likelihood:                -907.12
+No. Observations:                    76   AIC:                             1818.
+Df Residuals:                        74   BIC:                             1823.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.852e+05   2.83e+04      6.554      0.000    1.29e+05    2.42e+05
+thirty_year_interest_rate_seven -1.923e+04   7394.608     -2.600      0.011    -3.4e+04   -4493.739
+==============================================================================
+Omnibus:                        5.673   Durbin-Watson:                   0.479
+Prob(Omnibus):                  0.059   Jarque-Bera (JB):                5.590
+Skew:                           0.663   Prob(JB):                       0.0611
+Kurtosis:                       2.912   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

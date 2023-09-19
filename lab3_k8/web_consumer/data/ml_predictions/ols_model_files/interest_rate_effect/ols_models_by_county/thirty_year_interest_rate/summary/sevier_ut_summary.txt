@@ -1,0 +1,31 @@
+************************************************************
+SEVIER UT
+************************************************************
+const	 126406.68
+thirty_year_interest_rate	 30944.66
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.137
+Model:                              OLS   Adj. R-squared:                  0.127
+Method:                   Least Squares   F-statistic:                     13.18
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           0.000488
+Time:                          14:07:23   Log-Likelihood:                -1090.8
+No. Observations:                    85   AIC:                             2186.
+Df Residuals:                        83   BIC:                             2190.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      1.264e+05   3.76e+04      3.360      0.001    5.16e+04    2.01e+05
+thirty_year_interest_rate  3.094e+04   8522.712      3.631      0.000     1.4e+04    4.79e+04
+==============================================================================
+Omnibus:                        7.006   Durbin-Watson:                   0.129
+Prob(Omnibus):                  0.030   Jarque-Bera (JB):                6.022
+Skew:                           0.563   Prob(JB):                       0.0492
+Kurtosis:                       2.341   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

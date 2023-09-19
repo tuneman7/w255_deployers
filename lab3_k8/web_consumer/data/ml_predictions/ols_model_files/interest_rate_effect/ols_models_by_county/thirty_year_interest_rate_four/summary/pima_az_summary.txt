@@ -1,0 +1,31 @@
+************************************************************
+PIMA AZ
+************************************************************
+const	 249635.01
+thirty_year_interest_rate_four	 15704.65
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.098
+Model:                              OLS   Adj. R-squared:                  0.088
+Method:                   Least Squares   F-statistic:                     9.061
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00346
+Time:                          14:07:54   Log-Likelihood:                -1039.1
+No. Observations:                    85   AIC:                             2082.
+Df Residuals:                        83   BIC:                             2087.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           2.496e+05   2.21e+04     11.274      0.000    2.06e+05    2.94e+05
+thirty_year_interest_rate_four   1.57e+04   5217.272      3.010      0.003    5327.706    2.61e+04
+==============================================================================
+Omnibus:                       29.817   Durbin-Watson:                   0.020
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                7.261
+Skew:                           0.383   Prob(JB):                       0.0265
+Kurtosis:                       1.790   Cond. No.                         18.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

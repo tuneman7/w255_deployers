@@ -1,0 +1,31 @@
+************************************************************
+BOX ELDER UT
+************************************************************
+const	 283360.60
+thirty_year_interest_rate_five	 22992.26
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.042
+Model:                              OLS   Adj. R-squared:                  0.031
+Method:                   Least Squares   F-statistic:                     3.648
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0596
+Time:                          14:07:04   Log-Likelihood:                -1106.9
+No. Observations:                    85   AIC:                             2218.
+Df Residuals:                        83   BIC:                             2223.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           2.834e+05   5.06e+04      5.604      0.000    1.83e+05    3.84e+05
+thirty_year_interest_rate_five  2.299e+04    1.2e+04      1.910      0.060    -951.198    4.69e+04
+==============================================================================
+Omnibus:                       11.665   Durbin-Watson:                   0.056
+Prob(Omnibus):                  0.003   Jarque-Bera (JB):                9.397
+Skew:                           0.710   Prob(JB):                      0.00911
+Kurtosis:                       2.201   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+SOCORRO NM
+************************************************************
+const	 289375.12
+thirty_year_interest_rate_seven	 -34397.66
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.471
+Model:                              OLS   Adj. R-squared:                  0.464
+Method:                   Least Squares   F-statistic:                     65.99
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           7.58e-12
+Time:                          21:21:43   Log-Likelihood:                -864.75
+No. Observations:                    76   AIC:                             1734.
+Df Residuals:                        74   BIC:                             1738.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            2.894e+05   1.62e+04     17.878      0.000    2.57e+05    3.22e+05
+thirty_year_interest_rate_seven  -3.44e+04   4234.538     -8.123      0.000   -4.28e+04    -2.6e+04
+==============================================================================
+Omnibus:                       41.722   Durbin-Watson:                   0.342
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              122.392
+Skew:                           1.778   Prob(JB):                     2.65e-27
+Kurtosis:                       8.099   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

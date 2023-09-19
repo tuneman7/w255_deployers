@@ -1,0 +1,31 @@
+************************************************************
+ISANTI MN
+************************************************************
+const	 200823.75
+thirty_year_interest_rate_three	 18088.14
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.150
+Model:                              OLS   Adj. R-squared:                  0.140
+Method:                   Least Squares   F-statistic:                     14.62
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           0.000253
+Time:                          14:07:20   Log-Likelihood:                -1033.1
+No. Observations:                    85   AIC:                             2070.
+Df Residuals:                        83   BIC:                             2075.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            2.008e+05   2.03e+04      9.915      0.000    1.61e+05    2.41e+05
+thirty_year_interest_rate_three  1.809e+04   4730.098      3.824      0.000    8680.167    2.75e+04
+==============================================================================
+Omnibus:                       36.773   Durbin-Watson:                   0.025
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                7.547
+Skew:                           0.368   Prob(JB):                       0.0230
+Kurtosis:                       1.740   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

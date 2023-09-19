@@ -1,0 +1,31 @@
+************************************************************
+HILLSBOROUGH FL
+************************************************************
+const	 245341.46
+thirty_year_interest_rate_five	 21439.25
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.101
+Model:                              OLS   Adj. R-squared:                  0.090
+Method:                   Least Squares   F-statistic:                     9.311
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00306
+Time:                          14:07:52   Log-Likelihood:                -1061.1
+No. Observations:                    85   AIC:                             2126.
+Df Residuals:                        83   BIC:                             2131.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           2.453e+05   2.95e+04      8.313      0.000    1.87e+05    3.04e+05
+thirty_year_interest_rate_five  2.144e+04   7026.219      3.051      0.003    7464.389    3.54e+04
+==============================================================================
+Omnibus:                       18.815   Durbin-Watson:                   0.019
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               10.217
+Skew:                           0.678   Prob(JB):                      0.00605
+Kurtosis:                       1.976   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

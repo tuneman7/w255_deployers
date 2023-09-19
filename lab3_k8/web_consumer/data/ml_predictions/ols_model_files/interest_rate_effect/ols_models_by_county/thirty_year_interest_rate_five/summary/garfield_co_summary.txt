@@ -1,0 +1,31 @@
+************************************************************
+GARFIELD CO
+************************************************************
+const	 331727.57
+thirty_year_interest_rate_five	 65682.86
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.299
+Model:                              OLS   Adj. R-squared:                  0.290
+Method:                   Least Squares   F-statistic:                     35.38
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           6.20e-08
+Time:                          14:07:26   Log-Likelihood:                -1099.5
+No. Observations:                    85   AIC:                             2203.
+Df Residuals:                        83   BIC:                             2208.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           3.317e+05   4.64e+04      7.152      0.000    2.39e+05    4.24e+05
+thirty_year_interest_rate_five  6.568e+04    1.1e+04      5.948      0.000    4.37e+04    8.76e+04
+==============================================================================
+Omnibus:                        9.551   Durbin-Watson:                   0.073
+Prob(Omnibus):                  0.008   Jarque-Bera (JB):               10.438
+Skew:                           0.838   Prob(JB):                      0.00541
+Kurtosis:                       2.632   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

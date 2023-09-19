@@ -1,0 +1,31 @@
+************************************************************
+ERATH TX
+************************************************************
+const	 334439.33
+thirty_year_interest_rate_six	 -19487.89
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.027
+Model:                              OLS   Adj. R-squared:                  0.013
+Method:                   Least Squares   F-statistic:                     2.018
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):              0.160
+Time:                          21:21:41   Log-Likelihood:                -956.53
+No. Observations:                    76   AIC:                             1917.
+Df Residuals:                        74   BIC:                             1922.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          3.344e+05   5.27e+04      6.350      0.000    2.29e+05    4.39e+05
+thirty_year_interest_rate_six -1.949e+04   1.37e+04     -1.421      0.160   -4.68e+04    7845.363
+==============================================================================
+Omnibus:                       45.669   Durbin-Watson:                   0.082
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              114.533
+Skew:                           2.126   Prob(JB):                     1.35e-25
+Kurtosis:                       7.253   Cond. No.                         26.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

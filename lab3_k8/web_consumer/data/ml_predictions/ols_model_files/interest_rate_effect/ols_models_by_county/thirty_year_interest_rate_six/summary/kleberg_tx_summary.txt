@@ -1,0 +1,31 @@
+************************************************************
+KLEBERG TX
+************************************************************
+const	 238602.16
+thirty_year_interest_rate_six	 -20383.92
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.264
+Model:                              OLS   Adj. R-squared:                  0.254
+Method:                   Least Squares   F-statistic:                     26.57
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           2.04e-06
+Time:                          21:23:02   Log-Likelihood:                -862.00
+No. Observations:                    76   AIC:                             1728.
+Df Residuals:                        74   BIC:                             1733.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          2.386e+05   1.52e+04     15.714      0.000    2.08e+05    2.69e+05
+thirty_year_interest_rate_six -2.038e+04   3954.549     -5.155      0.000   -2.83e+04   -1.25e+04
+==============================================================================
+Omnibus:                       16.496   Durbin-Watson:                   0.335
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               20.104
+Skew:                           1.012   Prob(JB):                     4.31e-05
+Kurtosis:                       4.501   Cond. No.                         26.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

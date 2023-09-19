@@ -1,0 +1,31 @@
+************************************************************
+FAYETTE TX
+************************************************************
+const	 189775.40
+thirty_year_interest_rate_five	 22881.84
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.103
+Model:                              OLS   Adj. R-squared:                  0.092
+Method:                   Least Squares   F-statistic:                     9.494
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00280
+Time:                          14:07:41   Log-Likelihood:                -1065.8
+No. Observations:                    85   AIC:                             2136.
+Df Residuals:                        83   BIC:                             2141.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           1.898e+05   3.12e+04      6.084      0.000    1.28e+05    2.52e+05
+thirty_year_interest_rate_five  2.288e+04   7426.186      3.081      0.003    8111.454    3.77e+04
+==============================================================================
+Omnibus:                       20.073   Durbin-Watson:                   0.115
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               24.851
+Skew:                           1.229   Prob(JB):                     4.02e-06
+Kurtosis:                       3.986   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

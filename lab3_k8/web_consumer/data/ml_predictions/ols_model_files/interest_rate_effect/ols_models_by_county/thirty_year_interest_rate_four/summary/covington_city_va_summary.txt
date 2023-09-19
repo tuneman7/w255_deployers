@@ -1,0 +1,31 @@
+************************************************************
+COVINGTON CITY VA
+************************************************************
+const	 42237.23
+thirty_year_interest_rate_four	 9342.31
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.265
+Model:                              OLS   Adj. R-squared:                  0.257
+Method:                   Least Squares   F-statistic:                     29.99
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           4.54e-07
+Time:                          14:07:31   Log-Likelihood:                -944.08
+No. Observations:                    85   AIC:                             1892.
+Df Residuals:                        83   BIC:                             1897.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           4.224e+04   7240.261      5.834      0.000    2.78e+04    5.66e+04
+thirty_year_interest_rate_four  9342.3145   1706.003      5.476      0.000    5949.143    1.27e+04
+==============================================================================
+Omnibus:                        3.246   Durbin-Watson:                   0.363
+Prob(Omnibus):                  0.197   Jarque-Bera (JB):                3.224
+Skew:                           0.443   Prob(JB):                        0.200
+Kurtosis:                       2.648   Cond. No.                         18.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

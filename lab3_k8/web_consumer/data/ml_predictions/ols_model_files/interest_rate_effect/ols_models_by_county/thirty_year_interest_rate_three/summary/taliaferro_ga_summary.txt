@@ -1,0 +1,31 @@
+************************************************************
+TALIAFERRO GA
+************************************************************
+const	 110311.24
+thirty_year_interest_rate_three	 13661.15
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.020
+Model:                              OLS   Adj. R-squared:                  0.008
+Method:                   Least Squares   F-statistic:                     1.641
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.204
+Time:                          14:07:54   Log-Likelihood:                -1074.5
+No. Observations:                    83   AIC:                             2153.
+Df Residuals:                        81   BIC:                             2158.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.103e+05    4.6e+04      2.399      0.019    1.88e+04    2.02e+05
+thirty_year_interest_rate_three  1.366e+04   1.07e+04      1.281      0.204   -7557.072    3.49e+04
+==============================================================================
+Omnibus:                       23.202   Durbin-Watson:                   0.789
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               30.713
+Skew:                           1.395   Prob(JB):                     2.14e-07
+Kurtosis:                       4.048   Cond. No.                         18.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

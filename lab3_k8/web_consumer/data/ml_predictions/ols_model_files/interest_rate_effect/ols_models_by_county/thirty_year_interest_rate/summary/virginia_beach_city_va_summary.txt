@@ -1,0 +1,31 @@
+************************************************************
+VIRGINIA BEACH CITY VA
+************************************************************
+const	 259090.37
+thirty_year_interest_rate	 18713.11
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.351
+Model:                              OLS   Adj. R-squared:                  0.343
+Method:                   Least Squares   F-statistic:                     44.94
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           2.29e-09
+Time:                          14:08:22   Log-Likelihood:                -995.88
+No. Observations:                    85   AIC:                             1996.
+Df Residuals:                        83   BIC:                             2001.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      2.591e+05   1.23e+04     21.028      0.000    2.35e+05    2.84e+05
+thirty_year_interest_rate  1.871e+04   2791.372      6.704      0.000    1.32e+04    2.43e+04
+==============================================================================
+Omnibus:                       38.824   Durbin-Watson:                   0.077
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                6.276
+Skew:                          -0.180   Prob(JB):                       0.0434
+Kurtosis:                       1.719   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

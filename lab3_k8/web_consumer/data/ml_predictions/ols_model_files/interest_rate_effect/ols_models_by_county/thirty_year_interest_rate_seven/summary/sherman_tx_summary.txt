@@ -1,0 +1,31 @@
+************************************************************
+SHERMAN TX
+************************************************************
+const	 248739.61
+thirty_year_interest_rate_seven	 -28223.08
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.299
+Model:                              OLS   Adj. R-squared:                  0.289
+Method:                   Least Squares   F-statistic:                     31.14
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           3.86e-07
+Time:                          21:22:45   Log-Likelihood:                -866.66
+No. Observations:                    75   AIC:                             1737.
+Df Residuals:                        73   BIC:                             1742.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            2.487e+05   1.93e+04     12.859      0.000     2.1e+05    2.87e+05
+thirty_year_interest_rate_seven -2.822e+04   5057.665     -5.580      0.000   -3.83e+04   -1.81e+04
+==============================================================================
+Omnibus:                       47.311   Durbin-Watson:                   0.982
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              180.151
+Skew:                           1.930   Prob(JB):                     7.60e-40
+Kurtosis:                       9.538   Cond. No.                         26.7
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+MERIWETHER GA
+************************************************************
+const	 107013.46
+thirty_year_interest_rate_four	 19631.39
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.095
+Model:                              OLS   Adj. R-squared:                  0.084
+Method:                   Least Squares   F-statistic:                     8.703
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00413
+Time:                          14:07:14   Log-Likelihood:                -1059.8
+No. Observations:                    85   AIC:                             2124.
+Df Residuals:                        83   BIC:                             2128.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                            1.07e+05   2.82e+04      3.789      0.000    5.08e+04    1.63e+05
+thirty_year_interest_rate_four  1.963e+04   6654.522      2.950      0.004    6395.815    3.29e+04
+==============================================================================
+Omnibus:                       16.570   Durbin-Watson:                   0.073
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                9.306
+Skew:                           0.642   Prob(JB):                      0.00953
+Kurtosis:                       2.011   Cond. No.                         18.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

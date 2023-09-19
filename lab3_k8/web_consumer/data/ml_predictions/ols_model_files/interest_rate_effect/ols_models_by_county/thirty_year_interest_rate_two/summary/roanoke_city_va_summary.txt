@@ -1,0 +1,31 @@
+************************************************************
+ROANOKE CITY VA
+************************************************************
+const	 112238.63
+thirty_year_interest_rate_two	 12913.13
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.156
+Model:                              OLS   Adj. R-squared:                  0.146
+Method:                   Least Squares   F-statistic:                     15.32
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           0.000185
+Time:                          14:08:01   Log-Likelihood:                -1004.8
+No. Observations:                    85   AIC:                             2014.
+Df Residuals:                        83   BIC:                             2019.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          1.122e+05   1.43e+04      7.870      0.000    8.39e+04    1.41e+05
+thirty_year_interest_rate_two  1.291e+04   3299.401      3.914      0.000    6350.755    1.95e+04
+==============================================================================
+Omnibus:                     2682.301   Durbin-Watson:                   0.075
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               10.255
+Skew:                           0.122   Prob(JB):                      0.00593
+Kurtosis:                       1.316   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

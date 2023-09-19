@@ -1,0 +1,31 @@
+************************************************************
+SUMTER GA
+************************************************************
+const	 111513.27
+thirty_year_interest_rate_five	 8874.92
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.118
+Model:                              OLS   Adj. R-squared:                  0.108
+Method:                   Least Squares   F-statistic:                     11.14
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00127
+Time:                          14:07:11   Log-Likelihood:                -978.53
+No. Observations:                    85   AIC:                             1961.
+Df Residuals:                        83   BIC:                             1966.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           1.115e+05   1.12e+04      9.984      0.000    8.93e+04    1.34e+05
+thirty_year_interest_rate_five  8874.9152   2659.289      3.337      0.001    3585.696    1.42e+04
+==============================================================================
+Omnibus:                       33.651   Durbin-Watson:                   0.552
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               77.734
+Skew:                           1.396   Prob(JB):                     1.32e-17
+Kurtosis:                       6.762   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

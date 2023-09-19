@@ -1,0 +1,31 @@
+************************************************************
+LAMPASAS TX
+************************************************************
+const	 138318.86
+thirty_year_interest_rate_three	 31074.04
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.191
+Model:                              OLS   Adj. R-squared:                  0.181
+Method:                   Least Squares   F-statistic:                     19.61
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           2.88e-05
+Time:                          14:08:29   Log-Likelihood:                -1066.6
+No. Observations:                    85   AIC:                             2137.
+Df Residuals:                        83   BIC:                             2142.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.383e+05      3e+04      4.603      0.000    7.86e+04    1.98e+05
+thirty_year_interest_rate_three  3.107e+04   7017.850      4.428      0.000    1.71e+04     4.5e+04
+==============================================================================
+Omnibus:                        5.882   Durbin-Watson:                   0.151
+Prob(Omnibus):                  0.053   Jarque-Bera (JB):                5.917
+Skew:                           0.610   Prob(JB):                       0.0519
+Kurtosis:                       2.573   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+HARRISONBURG CITY VA
+************************************************************
+const	 194328.37
+thirty_year_interest_rate_three	 14566.00
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.094
+Model:                              OLS   Adj. R-squared:                  0.083
+Method:                   Least Squares   F-statistic:                     8.636
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00427
+Time:                          14:07:45   Log-Likelihood:                -1037.1
+No. Observations:                    85   AIC:                             2078.
+Df Residuals:                        83   BIC:                             2083.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.943e+05   2.12e+04      9.156      0.000    1.52e+05    2.37e+05
+thirty_year_interest_rate_three  1.457e+04   4956.630      2.939      0.004    4707.466    2.44e+04
+==============================================================================
+Omnibus:                       10.510   Durbin-Watson:                   0.244
+Prob(Omnibus):                  0.005   Jarque-Bera (JB):               10.517
+Skew:                           0.796   Prob(JB):                      0.00520
+Kurtosis:                       3.658   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

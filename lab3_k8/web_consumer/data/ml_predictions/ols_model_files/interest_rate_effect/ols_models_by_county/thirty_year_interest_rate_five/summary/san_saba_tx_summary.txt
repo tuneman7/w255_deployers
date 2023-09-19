@@ -1,0 +1,31 @@
+************************************************************
+SAN SABA TX
+************************************************************
+const	 206122.37
+thirty_year_interest_rate_five	 7738.47
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.007
+Model:                              OLS   Adj. R-squared:                 -0.004
+Method:                   Least Squares   F-statistic:                    0.6251
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.431
+Time:                          14:07:13   Log-Likelihood:                -1089.3
+No. Observations:                    85   AIC:                             2183.
+Df Residuals:                        83   BIC:                             2187.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           2.061e+05   4.11e+04      5.014      0.000    1.24e+05    2.88e+05
+thirty_year_interest_rate_five  7738.4716   9787.464      0.791      0.431   -1.17e+04    2.72e+04
+==============================================================================
+Omnibus:                       21.078   Durbin-Watson:                   0.333
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               27.872
+Skew:                           1.158   Prob(JB):                     8.86e-07
+Kurtosis:                       4.584   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

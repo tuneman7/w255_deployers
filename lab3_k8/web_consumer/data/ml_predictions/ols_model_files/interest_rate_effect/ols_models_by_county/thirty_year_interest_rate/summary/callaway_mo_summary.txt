@@ -1,0 +1,31 @@
+************************************************************
+CALLAWAY MO
+************************************************************
+const	 139016.16
+thirty_year_interest_rate	 11080.00
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.124
+Model:                              OLS   Adj. R-squared:                  0.113
+Method:                   Least Squares   F-statistic:                     11.74
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           0.000955
+Time:                          14:07:36   Log-Likelihood:                -1008.4
+No. Observations:                    85   AIC:                             2021.
+Df Residuals:                        83   BIC:                             2026.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                       1.39e+05   1.43e+04      9.738      0.000    1.11e+05    1.67e+05
+thirty_year_interest_rate  1.108e+04   3234.194      3.426      0.001    4647.320    1.75e+04
+==============================================================================
+Omnibus:                        4.714   Durbin-Watson:                   0.402
+Prob(Omnibus):                  0.095   Jarque-Bera (JB):                4.168
+Skew:                           0.458   Prob(JB):                        0.124
+Kurtosis:                       2.419   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+TREGO KS
+************************************************************
+const	 159432.48
+thirty_year_interest_rate_seven	 -19522.62
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.106
+Model:                              OLS   Adj. R-squared:                  0.093
+Method:                   Least Squares   F-statistic:                     8.731
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):            0.00419
+Time:                          21:22:30   Log-Likelihood:                -898.56
+No. Observations:                    76   AIC:                             1801.
+Df Residuals:                        74   BIC:                             1806.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.594e+05   2.53e+04      6.313      0.000    1.09e+05     2.1e+05
+thirty_year_interest_rate_seven -1.952e+04   6606.903     -2.955      0.004   -3.27e+04   -6358.084
+==============================================================================
+Omnibus:                       31.570   Durbin-Watson:                   0.686
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               65.454
+Skew:                           1.467   Prob(JB):                     6.12e-15
+Kurtosis:                       6.472   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

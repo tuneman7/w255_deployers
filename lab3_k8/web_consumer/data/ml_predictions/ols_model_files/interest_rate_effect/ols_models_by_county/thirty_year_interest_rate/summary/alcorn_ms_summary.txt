@@ -1,0 +1,31 @@
+************************************************************
+ALCORN MS
+************************************************************
+const	 189110.37
+thirty_year_interest_rate	 -3456.72
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.029
+Model:                              OLS   Adj. R-squared:                  0.017
+Method:                   Least Squares   F-statistic:                     2.464
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.120
+Time:                          14:08:08   Log-Likelihood:                -975.72
+No. Observations:                    85   AIC:                             1955.
+Df Residuals:                        83   BIC:                             1960.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      1.891e+05   9719.245     19.457      0.000     1.7e+05    2.08e+05
+thirty_year_interest_rate -3456.7223   2201.922     -1.570      0.120   -7836.257     922.812
+==============================================================================
+Omnibus:                        9.302   Durbin-Watson:                   0.543
+Prob(Omnibus):                  0.010   Jarque-Bera (JB):                9.258
+Skew:                           0.790   Prob(JB):                      0.00977
+Kurtosis:                       3.338   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

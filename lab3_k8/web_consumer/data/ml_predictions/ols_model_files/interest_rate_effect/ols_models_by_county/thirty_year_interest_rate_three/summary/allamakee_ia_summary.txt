@@ -1,0 +1,31 @@
+************************************************************
+ALLAMAKEE IA
+************************************************************
+const	 104577.65
+thirty_year_interest_rate_three	 19510.38
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.141
+Model:                              OLS   Adj. R-squared:                  0.130
+Method:                   Least Squares   F-statistic:                     13.60
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           0.000402
+Time:                          14:07:39   Log-Likelihood:                -1042.6
+No. Observations:                    85   AIC:                             2089.
+Df Residuals:                        83   BIC:                             2094.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.046e+05   2.26e+04      4.617      0.000    5.95e+04     1.5e+05
+thirty_year_interest_rate_three  1.951e+04   5289.674      3.688      0.000    8989.437       3e+04
+==============================================================================
+Omnibus:                        9.663   Durbin-Watson:                   0.158
+Prob(Omnibus):                  0.008   Jarque-Bera (JB):               10.510
+Skew:                           0.837   Prob(JB):                      0.00522
+Kurtosis:                       2.593   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

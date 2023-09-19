@@ -1,0 +1,31 @@
+************************************************************
+DEWITT TX
+************************************************************
+const	 151697.72
+thirty_year_interest_rate_two	 8348.68
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.068
+Model:                              OLS   Adj. R-squared:                  0.057
+Method:                   Least Squares   F-statistic:                     6.090
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0157
+Time:                          14:08:04   Log-Likelihood:                -1007.0
+No. Observations:                    85   AIC:                             2018.
+Df Residuals:                        83   BIC:                             2023.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          1.517e+05   1.46e+04     10.373      0.000    1.23e+05    1.81e+05
+thirty_year_interest_rate_two  8348.6824   3383.168      2.468      0.016    1619.698    1.51e+04
+==============================================================================
+Omnibus:                        3.193   Durbin-Watson:                   0.369
+Prob(Omnibus):                  0.203   Jarque-Bera (JB):                3.174
+Skew:                           0.449   Prob(JB):                        0.205
+Kurtosis:                       2.701   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

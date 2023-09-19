@@ -1,0 +1,31 @@
+************************************************************
+POTTAWATTAMIE IA
+************************************************************
+const	 62320.43
+thirty_year_interest_rate_two	 26325.13
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.420
+Model:                              OLS   Adj. R-squared:                  0.413
+Method:                   Least Squares   F-statistic:                     60.10
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           2.02e-11
+Time:                          14:07:44   Log-Likelihood:                -1007.3
+No. Observations:                    85   AIC:                             2019.
+Df Residuals:                        83   BIC:                             2023.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          6.232e+04   1.47e+04      4.246      0.000    3.31e+04    9.15e+04
+thirty_year_interest_rate_two  2.633e+04   3395.858      7.752      0.000    1.96e+04    3.31e+04
+==============================================================================
+Omnibus:                        0.350   Durbin-Watson:                   0.321
+Prob(Omnibus):                  0.839   Jarque-Bera (JB):                0.491
+Skew:                           0.131   Prob(JB):                        0.782
+Kurtosis:                       2.735   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+NODAWAY MO
+************************************************************
+const	 116166.92
+thirty_year_interest_rate_five	 8724.21
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.086
+Model:                              OLS   Adj. R-squared:                  0.075
+Method:                   Least Squares   F-statistic:                     7.856
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00630
+Time:                          14:08:02   Log-Likelihood:                -991.91
+No. Observations:                    85   AIC:                             1988.
+Df Residuals:                        83   BIC:                             1993.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           1.162e+05   1.31e+04      8.886      0.000    9.02e+04    1.42e+05
+thirty_year_interest_rate_five  8724.2120   3112.619      2.803      0.006    2533.338    1.49e+04
+==============================================================================
+Omnibus:                       11.759   Durbin-Watson:                   0.236
+Prob(Omnibus):                  0.003   Jarque-Bera (JB):               12.816
+Skew:                           0.946   Prob(JB):                      0.00165
+Kurtosis:                       3.193   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+ITAWAMBA MS
+************************************************************
+const	 102967.89
+thirty_year_interest_rate_five	 15645.71
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.199
+Model:                              OLS   Adj. R-squared:                  0.189
+Method:                   Least Squares   F-statistic:                     20.63
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           1.87e-05
+Time:                          14:07:44   Log-Likelihood:                -1000.5
+No. Observations:                    85   AIC:                             2005.
+Df Residuals:                        83   BIC:                             2010.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                            1.03e+05   1.45e+04      7.117      0.000    7.42e+04    1.32e+05
+thirty_year_interest_rate_five  1.565e+04   3444.364      4.542      0.000    8795.006    2.25e+04
+==============================================================================
+Omnibus:                       10.078   Durbin-Watson:                   0.170
+Prob(Omnibus):                  0.006   Jarque-Bera (JB):               11.203
+Skew:                           0.882   Prob(JB):                      0.00369
+Kurtosis:                       2.773   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

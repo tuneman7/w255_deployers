@@ -1,0 +1,31 @@
+************************************************************
+DEL NORTE CA
+************************************************************
+const	 305445.13
+thirty_year_interest_rate_five	 13857.97
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.057
+Model:                              OLS   Adj. R-squared:                  0.045
+Method:                   Least Squares   F-statistic:                     5.000
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0280
+Time:                          14:08:07   Log-Likelihood:                -1050.4
+No. Observations:                    85   AIC:                             2105.
+Df Residuals:                        83   BIC:                             2110.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           3.054e+05    2.6e+04     11.735      0.000    2.54e+05    3.57e+05
+thirty_year_interest_rate_five  1.386e+04   6197.268      2.236      0.028    1531.850    2.62e+04
+==============================================================================
+Omnibus:                       48.139   Durbin-Watson:                   0.075
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                6.571
+Skew:                          -0.155   Prob(JB):                       0.0374
+Kurtosis:                       1.674   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

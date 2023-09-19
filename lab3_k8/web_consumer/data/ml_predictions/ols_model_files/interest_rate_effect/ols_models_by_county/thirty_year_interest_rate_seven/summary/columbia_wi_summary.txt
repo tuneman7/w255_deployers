@@ -1,0 +1,31 @@
+************************************************************
+COLUMBIA WI
+************************************************************
+const	 366753.39
+thirty_year_interest_rate_seven	 -25376.43
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.148
+Model:                              OLS   Adj. R-squared:                  0.137
+Method:                   Least Squares   F-statistic:                     12.91
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           0.000587
+Time:                          21:20:51   Log-Likelihood:                -903.64
+No. Observations:                    76   AIC:                             1811.
+Df Residuals:                        74   BIC:                             1816.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            3.668e+05    2.7e+04     13.583      0.000    3.13e+05    4.21e+05
+thirty_year_interest_rate_seven -2.538e+04   7063.953     -3.592      0.001   -3.95e+04   -1.13e+04
+==============================================================================
+Omnibus:                        1.720   Durbin-Watson:                   0.142
+Prob(Omnibus):                  0.423   Jarque-Bera (JB):                1.745
+Skew:                          -0.326   Prob(JB):                        0.418
+Kurtosis:                       2.646   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

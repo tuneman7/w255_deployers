@@ -1,0 +1,31 @@
+************************************************************
+ATASCOSA TX
+************************************************************
+const	 281910.82
+thirty_year_interest_rate_six	 -11506.85
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.054
+Model:                              OLS   Adj. R-squared:                  0.041
+Method:                   Least Squares   F-statistic:                     4.201
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):             0.0440
+Time:                          21:20:57   Log-Likelihood:                -888.64
+No. Observations:                    76   AIC:                             1781.
+Df Residuals:                        74   BIC:                             1786.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          2.819e+05   2.16e+04     13.077      0.000    2.39e+05    3.25e+05
+thirty_year_interest_rate_six -1.151e+04   5614.381     -2.050      0.044   -2.27e+04    -319.955
+==============================================================================
+Omnibus:                       13.038   Durbin-Watson:                   0.193
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):               14.019
+Skew:                           0.912   Prob(JB):                     0.000903
+Kurtosis:                       4.048   Cond. No.                         26.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

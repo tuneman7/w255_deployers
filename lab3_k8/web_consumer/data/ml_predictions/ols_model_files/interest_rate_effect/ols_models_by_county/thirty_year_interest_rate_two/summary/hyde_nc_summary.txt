@@ -1,0 +1,31 @@
+************************************************************
+HYDE NC
+************************************************************
+const	 217491.10
+thirty_year_interest_rate_two	 45842.54
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.248
+Model:                              OLS   Adj. R-squared:                  0.239
+Method:                   Least Squares   F-statistic:                     27.40
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           1.23e-06
+Time:                          14:07:50   Log-Likelihood:                -1087.8
+No. Observations:                    85   AIC:                             2180.
+Df Residuals:                        83   BIC:                             2185.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          2.175e+05   3.79e+04      5.745      0.000    1.42e+05    2.93e+05
+thirty_year_interest_rate_two  4.584e+04   8758.307      5.234      0.000    2.84e+04    6.33e+04
+==============================================================================
+Omnibus:                        9.451   Durbin-Watson:                   0.120
+Prob(Omnibus):                  0.009   Jarque-Bera (JB):                4.909
+Skew:                           0.382   Prob(JB):                       0.0859
+Kurtosis:                       2.104   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

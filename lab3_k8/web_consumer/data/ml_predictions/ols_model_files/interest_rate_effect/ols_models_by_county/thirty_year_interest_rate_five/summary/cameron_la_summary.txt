@@ -1,0 +1,31 @@
+************************************************************
+CAMERON LA
+************************************************************
+const	 256933.07
+thirty_year_interest_rate_five	 11939.32
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.093
+Model:                              OLS   Adj. R-squared:                  0.082
+Method:                   Least Squares   F-statistic:                     8.462
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00465
+Time:                          14:08:17   Log-Likelihood:                -1015.4
+No. Observations:                    85   AIC:                             2035.
+Df Residuals:                        83   BIC:                             2040.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           2.569e+05   1.72e+04     14.904      0.000    2.23e+05    2.91e+05
+thirty_year_interest_rate_five  1.194e+04   4104.302      2.909      0.005    3776.032    2.01e+04
+==============================================================================
+Omnibus:                        4.746   Durbin-Watson:                   0.435
+Prob(Omnibus):                  0.093   Jarque-Bera (JB):                4.314
+Skew:                          -0.549   Prob(JB):                        0.116
+Kurtosis:                       3.108   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

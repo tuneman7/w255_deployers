@@ -1,0 +1,31 @@
+************************************************************
+CHARLOTTESVILLE CITY VA
+************************************************************
+const	 443206.96
+thirty_year_interest_rate_two	 5136.78
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.016
+Model:                              OLS   Adj. R-squared:                  0.004
+Method:                   Least Squares   F-statistic:                     1.312
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.255
+Time:                          14:07:04   Log-Likelihood:                -1030.9
+No. Observations:                    85   AIC:                             2066.
+Df Residuals:                        83   BIC:                             2071.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          4.432e+05   1.94e+04     22.867      0.000    4.05e+05    4.82e+05
+thirty_year_interest_rate_two  5136.7834   4483.934      1.146      0.255   -3781.581    1.41e+04
+==============================================================================
+Omnibus:                        4.874   Durbin-Watson:                   0.250
+Prob(Omnibus):                  0.087   Jarque-Bera (JB):                4.690
+Skew:                          -0.521   Prob(JB):                       0.0959
+Kurtosis:                       2.512   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

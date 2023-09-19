@@ -1,0 +1,31 @@
+************************************************************
+CERRO GORDO IA
+************************************************************
+const	 73309.72
+thirty_year_interest_rate_two	 25051.64
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.440
+Model:                              OLS   Adj. R-squared:                  0.434
+Method:                   Least Squares   F-statistic:                     65.31
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           4.47e-12
+Time:                          14:07:19   Log-Likelihood:                -999.52
+No. Observations:                    85   AIC:                             2003.
+Df Residuals:                        83   BIC:                             2008.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          7.331e+04   1.34e+04      5.471      0.000    4.67e+04       1e+05
+thirty_year_interest_rate_two  2.505e+04   3099.783      8.082      0.000    1.89e+04    3.12e+04
+==============================================================================
+Omnibus:                        3.787   Durbin-Watson:                   0.152
+Prob(Omnibus):                  0.151   Jarque-Bera (JB):                3.738
+Skew:                           0.474   Prob(JB):                        0.154
+Kurtosis:                       2.603   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

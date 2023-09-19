@@ -1,0 +1,31 @@
+************************************************************
+RAPPAHANNOCK VA
+************************************************************
+const	 761240.69
+thirty_year_interest_rate_four	 -33056.93
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.036
+Model:                              OLS   Adj. R-squared:                  0.025
+Method:                   Least Squares   F-statistic:                     3.131
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0805
+Time:                          14:07:23   Log-Likelihood:                -1147.5
+No. Observations:                    85   AIC:                             2299.
+Df Residuals:                        83   BIC:                             2304.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           7.612e+05   7.93e+04      9.601      0.000    6.04e+05    9.19e+05
+thirty_year_interest_rate_four -3.306e+04   1.87e+04     -1.769      0.080   -7.02e+04    4100.260
+==============================================================================
+Omnibus:                       15.940   Durbin-Watson:                   0.193
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               18.082
+Skew:                           1.052   Prob(JB):                     0.000118
+Kurtosis:                       3.824   Cond. No.                         18.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

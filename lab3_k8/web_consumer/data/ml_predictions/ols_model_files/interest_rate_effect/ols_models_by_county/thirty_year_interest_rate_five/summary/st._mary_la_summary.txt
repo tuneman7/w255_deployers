@@ -1,0 +1,31 @@
+************************************************************
+ST. MARY LA
+************************************************************
+const	 152126.35
+thirty_year_interest_rate_five	 549.04
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.001
+Model:                              OLS   Adj. R-squared:                 -0.011
+Method:                   Least Squares   F-statistic:                   0.08123
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.776
+Time:                          14:08:14   Log-Likelihood:                -951.13
+No. Observations:                    85   AIC:                             1906.
+Df Residuals:                        83   BIC:                             1911.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           1.521e+05   8091.002     18.802      0.000    1.36e+05    1.68e+05
+thirty_year_interest_rate_five   549.0361   1926.353      0.285      0.776   -3282.402    4380.474
+==============================================================================
+Omnibus:                       14.520   Durbin-Watson:                   0.101
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):               16.559
+Skew:                           1.067   Prob(JB):                     0.000254
+Kurtosis:                       3.348   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

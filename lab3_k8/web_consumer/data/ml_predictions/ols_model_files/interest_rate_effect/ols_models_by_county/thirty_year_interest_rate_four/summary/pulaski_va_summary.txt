@@ -1,0 +1,31 @@
+************************************************************
+PULASKI VA
+************************************************************
+const	 174913.74
+thirty_year_interest_rate_four	 5033.99
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.020
+Model:                              OLS   Adj. R-squared:                  0.008
+Method:                   Least Squares   F-statistic:                     1.692
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.197
+Time:                          14:08:28   Log-Likelihood:                -1013.7
+No. Observations:                    85   AIC:                             2031.
+Df Residuals:                        83   BIC:                             2036.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           1.749e+05   1.64e+04     10.650      0.000    1.42e+05    2.08e+05
+thirty_year_interest_rate_four  5033.9943   3869.964      1.301      0.197   -2663.208    1.27e+04
+==============================================================================
+Omnibus:                        3.731   Durbin-Watson:                   0.232
+Prob(Omnibus):                  0.155   Jarque-Bera (JB):                3.574
+Skew:                           0.499   Prob(JB):                        0.167
+Kurtosis:                       2.883   Cond. No.                         18.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

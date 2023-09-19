@@ -1,0 +1,31 @@
+************************************************************
+ALEXANDRIA CITY VA
+************************************************************
+const	 280764.38
+thirty_year_interest_rate_five	 82040.05
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.529
+Model:                              OLS   Adj. R-squared:                  0.523
+Method:                   Least Squares   F-statistic:                     93.24
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           3.19e-15
+Time:                          14:07:18   Log-Likelihood:                -1077.3
+No. Observations:                    85   AIC:                             2159.
+Df Residuals:                        83   BIC:                             2163.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           2.808e+05   3.57e+04      7.868      0.000     2.1e+05    3.52e+05
+thirty_year_interest_rate_five  8.204e+04   8496.266      9.656      0.000    6.51e+04    9.89e+04
+==============================================================================
+Omnibus:                        5.100   Durbin-Watson:                   0.224
+Prob(Omnibus):                  0.078   Jarque-Bera (JB):                5.127
+Skew:                           0.592   Prob(JB):                       0.0770
+Kurtosis:                       2.788   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

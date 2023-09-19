@@ -1,0 +1,31 @@
+************************************************************
+THAYER NE
+************************************************************
+const	 90837.18
+thirty_year_interest_rate_three	 5705.23
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.009
+Model:                              OLS   Adj. R-squared:                 -0.004
+Method:                   Least Squares   F-statistic:                    0.6715
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.415
+Time:                          14:08:26   Log-Likelihood:                -965.38
+No. Observations:                    77   AIC:                             1935.
+Df Residuals:                        75   BIC:                             1939.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            9.084e+04      3e+04      3.029      0.003    3.11e+04    1.51e+05
+thirty_year_interest_rate_three  5705.2295   6962.392      0.819      0.415   -8164.567    1.96e+04
+==============================================================================
+Omnibus:                       21.619   Durbin-Watson:                   0.863
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               29.119
+Skew:                           1.243   Prob(JB):                     4.75e-07
+Kurtosis:                       4.701   Cond. No.                         17.4
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

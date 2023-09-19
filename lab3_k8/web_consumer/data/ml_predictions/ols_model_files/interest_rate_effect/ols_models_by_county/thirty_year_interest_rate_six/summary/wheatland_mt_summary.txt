@@ -1,0 +1,31 @@
+************************************************************
+WHEATLAND MT
+************************************************************
+const	 101000.65
+thirty_year_interest_rate_six	 6663.23
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.009
+Model:                              OLS   Adj. R-squared:                 -0.005
+Method:                   Least Squares   F-statistic:                    0.6571
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):              0.420
+Time:                          21:22:05   Log-Likelihood:                -917.61
+No. Observations:                    76   AIC:                             1839.
+Df Residuals:                        74   BIC:                             1844.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                           1.01e+05   3.16e+04      3.200      0.002    3.81e+04    1.64e+05
+thirty_year_interest_rate_six  6663.2256   8220.248      0.811      0.420   -9715.976     2.3e+04
+==============================================================================
+Omnibus:                        7.962   Durbin-Watson:                   0.476
+Prob(Omnibus):                  0.019   Jarque-Bera (JB):                7.603
+Skew:                           0.757   Prob(JB):                       0.0223
+Kurtosis:                       3.328   Cond. No.                         26.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

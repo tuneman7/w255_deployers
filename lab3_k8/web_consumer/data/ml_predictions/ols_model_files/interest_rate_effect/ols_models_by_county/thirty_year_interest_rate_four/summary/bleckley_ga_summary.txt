@@ -1,0 +1,31 @@
+************************************************************
+BLECKLEY GA
+************************************************************
+const	 52437.25
+thirty_year_interest_rate_four	 22190.56
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.328
+Model:                              OLS   Adj. R-squared:                  0.320
+Method:                   Least Squares   F-statistic:                     40.49
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           1.03e-08
+Time:                          14:07:40   Log-Likelihood:                -1004.8
+No. Observations:                    85   AIC:                             2014.
+Df Residuals:                        83   BIC:                             2019.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           5.244e+04   1.48e+04      3.543      0.001     2.3e+04    8.19e+04
+thirty_year_interest_rate_four  2.219e+04   3487.129      6.364      0.000    1.53e+04    2.91e+04
+==============================================================================
+Omnibus:                        1.761   Durbin-Watson:                   0.344
+Prob(Omnibus):                  0.415   Jarque-Bera (JB):                1.628
+Skew:                           0.228   Prob(JB):                        0.443
+Kurtosis:                       2.498   Cond. No.                         18.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

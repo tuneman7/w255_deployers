@@ -1,0 +1,31 @@
+************************************************************
+HASKELL OK
+************************************************************
+const	 26128.95
+thirty_year_interest_rate_three	 29784.64
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.400
+Model:                              OLS   Adj. R-squared:                  0.393
+Method:                   Least Squares   F-statistic:                     55.36
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           8.36e-11
+Time:                          14:07:01   Log-Likelihood:                -1018.9
+No. Observations:                    85   AIC:                             2042.
+Df Residuals:                        83   BIC:                             2047.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            2.613e+04   1.71e+04      1.524      0.131   -7962.877    6.02e+04
+thirty_year_interest_rate_three  2.978e+04   4003.073      7.440      0.000    2.18e+04    3.77e+04
+==============================================================================
+Omnibus:                       26.642   Durbin-Watson:                   0.195
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               39.023
+Skew:                           1.393   Prob(JB):                     3.36e-09
+Kurtosis:                       4.805   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

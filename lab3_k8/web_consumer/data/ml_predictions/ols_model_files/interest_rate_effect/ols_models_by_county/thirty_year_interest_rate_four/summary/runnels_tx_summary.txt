@@ -1,0 +1,31 @@
+************************************************************
+RUNNELS TX
+************************************************************
+const	 63428.26
+thirty_year_interest_rate_four	 15307.36
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.205
+Model:                              OLS   Adj. R-squared:                  0.195
+Method:                   Least Squares   F-statistic:                     21.40
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           1.36e-05
+Time:                          14:07:07   Log-Likelihood:                -1000.4
+No. Observations:                    85   AIC:                             2005.
+Df Residuals:                        83   BIC:                             2010.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           6.343e+04    1.4e+04      4.517      0.000    3.55e+04    9.14e+04
+thirty_year_interest_rate_four  1.531e+04   3308.947      4.626      0.000    8725.995    2.19e+04
+==============================================================================
+Omnibus:                      202.958   Durbin-Watson:                   0.115
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                9.229
+Skew:                           0.239   Prob(JB):                      0.00991
+Kurtosis:                       1.458   Cond. No.                         18.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

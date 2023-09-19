@@ -1,0 +1,31 @@
+************************************************************
+RHEA TN
+************************************************************
+const	 115642.30
+thirty_year_interest_rate_two	 35137.16
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.257
+Model:                              OLS   Adj. R-squared:                  0.248
+Method:                   Least Squares   F-statistic:                     28.72
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           7.35e-07
+Time:                          14:07:59   Log-Likelihood:                -1063.2
+No. Observations:                    85   AIC:                             2130.
+Df Residuals:                        83   BIC:                             2135.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          1.156e+05   2.83e+04      4.081      0.000    5.93e+04    1.72e+05
+thirty_year_interest_rate_two  3.514e+04   6556.324      5.359      0.000    2.21e+04    4.82e+04
+==============================================================================
+Omnibus:                       68.320   Durbin-Watson:                   0.072
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                7.839
+Skew:                           0.265   Prob(JB):                       0.0199
+Kurtosis:                       1.610   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

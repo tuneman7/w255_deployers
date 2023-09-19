@@ -1,0 +1,31 @@
+************************************************************
+NELSON ND
+************************************************************
+const	 80787.73
+thirty_year_interest_rate_six	 4119.06
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.005
+Model:                              OLS   Adj. R-squared:                 -0.009
+Method:                   Least Squares   F-statistic:                    0.3367
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):              0.564
+Time:                          21:21:39   Log-Likelihood:                -893.47
+No. Observations:                    75   AIC:                             1791.
+Df Residuals:                        73   BIC:                             1796.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          8.079e+04   2.73e+04      2.956      0.004    2.63e+04    1.35e+05
+thirty_year_interest_rate_six  4119.0611   7098.337      0.580      0.564      -1e+04    1.83e+04
+==============================================================================
+Omnibus:                       12.211   Durbin-Watson:                   0.400
+Prob(Omnibus):                  0.002   Jarque-Bera (JB):               12.759
+Skew:                           0.896   Prob(JB):                      0.00170
+Kurtosis:                       3.934   Cond. No.                         26.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

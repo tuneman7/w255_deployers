@@ -1,0 +1,31 @@
+************************************************************
+FALL RIVER SD
+************************************************************
+const	 52203.44
+thirty_year_interest_rate_three	 42999.79
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.254
+Model:                              OLS   Adj. R-squared:                  0.245
+Method:                   Least Squares   F-statistic:                     28.22
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           8.91e-07
+Time:                          14:07:37   Log-Likelihood:                -1078.7
+No. Observations:                    85   AIC:                             2161.
+Df Residuals:                        83   BIC:                             2166.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                             5.22e+04   3.47e+04      1.506      0.136   -1.67e+04    1.21e+05
+thirty_year_interest_rate_three    4.3e+04   8094.414      5.312      0.000    2.69e+04    5.91e+04
+==============================================================================
+Omnibus:                        7.698   Durbin-Watson:                   0.240
+Prob(Omnibus):                  0.021   Jarque-Bera (JB):                8.116
+Skew:                           0.735   Prob(JB):                       0.0173
+Kurtosis:                       2.637   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

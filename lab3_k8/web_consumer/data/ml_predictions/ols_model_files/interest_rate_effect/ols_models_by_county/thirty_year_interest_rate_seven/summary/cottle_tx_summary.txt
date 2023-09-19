@@ -1,0 +1,31 @@
+************************************************************
+COTTLE TX
+************************************************************
+const	 -502057.29
+thirty_year_interest_rate_seven	 221029.83
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.025
+Model:                              OLS   Adj. R-squared:                  0.010
+Method:                   Least Squares   F-statistic:                     1.683
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):              0.199
+Time:                          21:22:09   Log-Likelihood:                -1009.1
+No. Observations:                    67   AIC:                             2022.
+Df Residuals:                        65   BIC:                             2027.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                           -5.021e+05   6.54e+05     -0.768      0.445   -1.81e+06    8.03e+05
+thirty_year_interest_rate_seven   2.21e+05    1.7e+05      1.297      0.199   -1.19e+05    5.61e+05
+==============================================================================
+Omnibus:                       75.580   Durbin-Watson:                   0.485
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              529.635
+Skew:                           3.509   Prob(JB):                    9.80e-116
+Kurtosis:                      14.852   Cond. No.                         25.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

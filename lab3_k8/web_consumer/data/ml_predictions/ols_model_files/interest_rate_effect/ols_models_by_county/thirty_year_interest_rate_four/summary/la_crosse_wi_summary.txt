@@ -1,0 +1,31 @@
+************************************************************
+LA CROSSE WI
+************************************************************
+const	 187169.26
+thirty_year_interest_rate_four	 21253.15
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.195
+Model:                              OLS   Adj. R-squared:                  0.186
+Method:                   Least Squares   F-statistic:                     20.15
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           2.29e-05
+Time:                          14:08:03   Log-Likelihood:                -1030.8
+No. Observations:                    85   AIC:                             2066.
+Df Residuals:                        83   BIC:                             2071.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           1.872e+05   2.01e+04      9.314      0.000    1.47e+05    2.27e+05
+thirty_year_interest_rate_four  2.125e+04   4735.067      4.488      0.000    1.18e+04    3.07e+04
+==============================================================================
+Omnibus:                       36.072   Durbin-Watson:                   0.069
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                6.301
+Skew:                           0.212   Prob(JB):                       0.0428
+Kurtosis:                       1.735   Cond. No.                         18.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

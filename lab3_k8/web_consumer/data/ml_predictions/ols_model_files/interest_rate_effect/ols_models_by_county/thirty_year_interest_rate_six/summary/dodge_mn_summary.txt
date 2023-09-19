@@ -1,0 +1,31 @@
+************************************************************
+DODGE MN
+************************************************************
+const	 323110.84
+thirty_year_interest_rate_six	 -19132.77
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.058
+Model:                              OLS   Adj. R-squared:                  0.045
+Method:                   Least Squares   F-statistic:                     4.529
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):             0.0367
+Time:                          21:22:49   Log-Likelihood:                -924.42
+No. Observations:                    76   AIC:                             1853.
+Df Residuals:                        74   BIC:                             1857.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          3.231e+05   3.45e+04      9.360      0.000    2.54e+05    3.92e+05
+thirty_year_interest_rate_six -1.913e+04   8990.242     -2.128      0.037    -3.7e+04   -1219.326
+==============================================================================
+Omnibus:                        6.405   Durbin-Watson:                   0.180
+Prob(Omnibus):                  0.041   Jarque-Bera (JB):                5.648
+Skew:                          -0.586   Prob(JB):                       0.0594
+Kurtosis:                       3.640   Cond. No.                         26.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

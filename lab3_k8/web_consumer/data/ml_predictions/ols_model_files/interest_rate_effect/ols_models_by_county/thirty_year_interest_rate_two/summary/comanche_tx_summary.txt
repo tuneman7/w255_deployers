@@ -1,0 +1,31 @@
+************************************************************
+COMANCHE TX
+************************************************************
+const	 41850.37
+thirty_year_interest_rate_two	 26550.27
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.293
+Model:                              OLS   Adj. R-squared:                  0.285
+Method:                   Least Squares   F-statistic:                     34.46
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           8.65e-08
+Time:                          14:07:24   Log-Likelihood:                -1031.6
+No. Observations:                    85   AIC:                             2067.
+Df Residuals:                        83   BIC:                             2072.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          4.185e+04   1.96e+04      2.141      0.035    2965.467    8.07e+04
+thirty_year_interest_rate_two  2.655e+04   4522.883      5.870      0.000    1.76e+04    3.55e+04
+==============================================================================
+Omnibus:                        8.506   Durbin-Watson:                   0.197
+Prob(Omnibus):                  0.014   Jarque-Bera (JB):                8.411
+Skew:                           0.761   Prob(JB):                       0.0149
+Kurtosis:                       3.246   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

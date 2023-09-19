@@ -1,0 +1,31 @@
+************************************************************
+WHITE PINE NV
+************************************************************
+const	 61194.67
+thirty_year_interest_rate_three	 20806.23
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.288
+Model:                              OLS   Adj. R-squared:                  0.280
+Method:                   Least Squares   F-statistic:                     33.61
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           1.18e-07
+Time:                          14:06:59   Log-Likelihood:                -1009.6
+No. Observations:                    85   AIC:                             2023.
+Df Residuals:                        83   BIC:                             2028.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            6.119e+04   1.54e+04      3.982      0.000    3.06e+04    9.18e+04
+thirty_year_interest_rate_three  2.081e+04   3588.866      5.797      0.000    1.37e+04    2.79e+04
+==============================================================================
+Omnibus:                       12.232   Durbin-Watson:                   0.141
+Prob(Omnibus):                  0.002   Jarque-Bera (JB):                4.649
+Skew:                           0.284   Prob(JB):                       0.0978
+Kurtosis:                       2.005   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+SUTTON TX
+************************************************************
+const	 150918.97
+thirty_year_interest_rate_three	 1010.54
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.003
+Model:                              OLS   Adj. R-squared:                 -0.009
+Method:                   Least Squares   F-statistic:                    0.2365
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.628
+Time:                          14:08:14   Log-Likelihood:                -963.16
+No. Observations:                    85   AIC:                             1930.
+Df Residuals:                        83   BIC:                             1935.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.509e+05   8897.809     16.961      0.000    1.33e+05    1.69e+05
+thirty_year_interest_rate_three  1010.5383   2078.032      0.486      0.628   -3122.584    5143.661
+==============================================================================
+Omnibus:                       44.754   Durbin-Watson:                   0.571
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              232.549
+Skew:                           1.479   Prob(JB):                     3.18e-51
+Kurtosis:                      10.544   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

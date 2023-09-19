@@ -1,0 +1,31 @@
+************************************************************
+EAGLE CO
+************************************************************
+const	 234174.42
+thirty_year_interest_rate_three	 162331.65
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.553
+Model:                              OLS   Adj. R-squared:                  0.547
+Method:                   Least Squares   F-statistic:                     102.5
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           3.73e-16
+Time:                          14:07:18   Log-Likelihood:                -1136.8
+No. Observations:                    85   AIC:                             2278.
+Df Residuals:                        83   BIC:                             2283.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            2.342e+05   6.87e+04      3.411      0.001    9.76e+04    3.71e+05
+thirty_year_interest_rate_three  1.623e+05    1.6e+04     10.124      0.000     1.3e+05    1.94e+05
+==============================================================================
+Omnibus:                        2.615   Durbin-Watson:                   0.430
+Prob(Omnibus):                  0.271   Jarque-Bera (JB):                2.061
+Skew:                          -0.190   Prob(JB):                        0.357
+Kurtosis:                       3.662   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

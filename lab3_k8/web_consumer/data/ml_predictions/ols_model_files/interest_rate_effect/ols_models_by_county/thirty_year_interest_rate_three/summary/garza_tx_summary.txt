@@ -1,0 +1,31 @@
+************************************************************
+GARZA TX
+************************************************************
+const	 146064.97
+thirty_year_interest_rate_three	 11833.49
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.030
+Model:                              OLS   Adj. R-squared:                  0.018
+Method:                   Least Squares   F-statistic:                     2.557
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.114
+Time:                          14:07:03   Log-Likelihood:                -1071.1
+No. Observations:                    85   AIC:                             2146.
+Df Residuals:                        83   BIC:                             2151.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.461e+05   3.17e+04      4.609      0.000     8.3e+04    2.09e+05
+thirty_year_interest_rate_three  1.183e+04   7400.855      1.599      0.114   -2886.512    2.66e+04
+==============================================================================
+Omnibus:                       38.925   Durbin-Watson:                   0.555
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              103.916
+Skew:                           1.561   Prob(JB):                     2.72e-23
+Kurtosis:                       7.427   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

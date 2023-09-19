@@ -1,0 +1,31 @@
+************************************************************
+SCHUYLKILL PA
+************************************************************
+const	 89147.43
+thirty_year_interest_rate	 3012.27
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.024
+Model:                              OLS   Adj. R-squared:                  0.012
+Method:                   Least Squares   F-statistic:                     2.063
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.155
+Time:                          14:07:32   Log-Likelihood:                -971.58
+No. Observations:                    85   AIC:                             1947.
+Df Residuals:                        83   BIC:                             1952.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      8.915e+04   9256.661      9.631      0.000    7.07e+04    1.08e+05
+thirty_year_interest_rate  3012.2667   2097.122      1.436      0.155   -1158.825    7183.359
+==============================================================================
+Omnibus:                      198.129   Durbin-Watson:                   0.107
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                8.505
+Skew:                           0.086   Prob(JB):                       0.0142
+Kurtosis:                       1.460   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

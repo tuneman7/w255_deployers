@@ -1,0 +1,31 @@
+************************************************************
+RIO BLANCO CO
+************************************************************
+const	 17203.85
+thirty_year_interest_rate	 53265.61
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.368
+Model:                              OLS   Adj. R-squared:                  0.360
+Method:                   Least Squares   F-statistic:                     48.25
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           7.77e-10
+Time:                          14:07:09   Log-Likelihood:                -1081.8
+No. Observations:                    85   AIC:                             2168.
+Df Residuals:                        83   BIC:                             2172.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                       1.72e+04   3.38e+04      0.508      0.613   -5.01e+04    8.45e+04
+thirty_year_interest_rate  5.327e+04   7668.269      6.946      0.000     3.8e+04    6.85e+04
+==============================================================================
+Omnibus:                       36.554   Durbin-Watson:                   0.417
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               87.781
+Skew:                           1.512   Prob(JB):                     8.68e-20
+Kurtosis:                       6.955   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

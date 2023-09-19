@@ -1,0 +1,31 @@
+************************************************************
+HAMPDEN MA
+************************************************************
+const	 221099.54
+thirty_year_interest_rate_four	 10375.58
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.079
+Model:                              OLS   Adj. R-squared:                  0.068
+Method:                   Least Squares   F-statistic:                     7.106
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00923
+Time:                          14:07:05   Log-Likelihood:                -1014.2
+No. Observations:                    85   AIC:                             2032.
+Df Residuals:                        83   BIC:                             2037.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           2.211e+05   1.65e+04     13.385      0.000    1.88e+05    2.54e+05
+thirty_year_interest_rate_four  1.038e+04   3892.329      2.666      0.009    2633.895    1.81e+04
+==============================================================================
+Omnibus:                       39.654   Durbin-Watson:                   0.089
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                5.972
+Skew:                           0.082   Prob(JB):                       0.0505
+Kurtosis:                       1.712   Cond. No.                         18.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

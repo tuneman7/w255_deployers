@@ -1,0 +1,31 @@
+************************************************************
+ESMERALDA NV
+************************************************************
+const	 165272033.68
+thirty_year_interest_rate_three	 -32380356.65
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.049
+Model:                              OLS   Adj. R-squared:                  0.035
+Method:                   Least Squares   F-statistic:                     3.559
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0634
+Time:                          14:07:57   Log-Likelihood:                -1442.5
+No. Observations:                    71   AIC:                             2889.
+Df Residuals:                        69   BIC:                             2894.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.653e+08    7.5e+07      2.204      0.031    1.57e+07    3.15e+08
+thirty_year_interest_rate_three -3.238e+07   1.72e+07     -1.887      0.063   -6.66e+07    1.86e+06
+==============================================================================
+Omnibus:                      113.162   Durbin-Watson:                   1.067
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             2539.945
+Skew:                           5.276   Prob(JB):                         0.00
+Kurtosis:                      30.336   Cond. No.                         17.7
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+PETROLEUM MT
+************************************************************
+const	 438354.21
+thirty_year_interest_rate_seven	 -59769.84
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.148
+Model:                              OLS   Adj. R-squared:                  0.136
+Method:                   Least Squares   F-statistic:                     12.85
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           0.000601
+Time:                          21:21:00   Log-Likelihood:                -968.90
+No. Observations:                    76   AIC:                             1942.
+Df Residuals:                        74   BIC:                             1946.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            4.384e+05   6.37e+04      6.879      0.000    3.11e+05    5.65e+05
+thirty_year_interest_rate_seven -5.977e+04   1.67e+04     -3.585      0.001    -9.3e+04   -2.66e+04
+==============================================================================
+Omnibus:                       20.014   Durbin-Watson:                   0.462
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               45.006
+Skew:                           0.838   Prob(JB):                     1.69e-10
+Kurtosis:                       6.377   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

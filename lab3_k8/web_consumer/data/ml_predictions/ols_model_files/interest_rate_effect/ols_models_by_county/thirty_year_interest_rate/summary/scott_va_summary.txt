@@ -1,0 +1,31 @@
+************************************************************
+SCOTT VA
+************************************************************
+const	 38587.79
+thirty_year_interest_rate	 23020.13
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.322
+Model:                              OLS   Adj. R-squared:                  0.314
+Method:                   Least Squares   F-statistic:                     39.39
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           1.50e-08
+Time:                          14:07:34   Log-Likelihood:                -1019.1
+No. Observations:                    85   AIC:                             2042.
+Df Residuals:                        83   BIC:                             2047.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      3.859e+04   1.62e+04      2.383      0.019    6386.853    7.08e+04
+thirty_year_interest_rate  2.302e+04   3667.854      6.276      0.000    1.57e+04    3.03e+04
+==============================================================================
+Omnibus:                       10.920   Durbin-Watson:                   0.267
+Prob(Omnibus):                  0.004   Jarque-Bera (JB):                5.760
+Skew:                           0.442   Prob(JB):                       0.0561
+Kurtosis:                       2.081   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

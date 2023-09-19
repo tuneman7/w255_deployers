@@ -1,0 +1,31 @@
+************************************************************
+GARFIELD UT
+************************************************************
+const	 552901.24
+thirty_year_interest_rate_six	 -58083.62
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.189
+Model:                              OLS   Adj. R-squared:                  0.178
+Method:                   Least Squares   F-statistic:                     17.29
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           8.55e-05
+Time:                          21:22:08   Log-Likelihood:                -957.92
+No. Observations:                    76   AIC:                             1920.
+Df Residuals:                        74   BIC:                             1924.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          5.529e+05   5.36e+04     10.307      0.000    4.46e+05     6.6e+05
+thirty_year_interest_rate_six -5.808e+04    1.4e+04     -4.158      0.000   -8.59e+04   -3.02e+04
+==============================================================================
+Omnibus:                        0.360   Durbin-Watson:                   0.156
+Prob(Omnibus):                  0.835   Jarque-Bera (JB):                0.531
+Skew:                          -0.062   Prob(JB):                        0.767
+Kurtosis:                       2.610   Cond. No.                         26.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

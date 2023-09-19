@@ -1,0 +1,31 @@
+************************************************************
+GAINES TX
+************************************************************
+const	 172675.67
+thirty_year_interest_rate_two	 12793.18
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.162
+Model:                              OLS   Adj. R-squared:                  0.152
+Method:                   Least Squares   F-statistic:                     16.00
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           0.000137
+Time:                          14:08:13   Log-Likelihood:                -1002.2
+No. Observations:                    85   AIC:                             2008.
+Df Residuals:                        83   BIC:                             2013.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          1.727e+05   1.38e+04     12.492      0.000    1.45e+05       2e+05
+thirty_year_interest_rate_two  1.279e+04   3197.813      4.001      0.000    6432.855    1.92e+04
+==============================================================================
+Omnibus:                        4.710   Durbin-Watson:                   0.194
+Prob(Omnibus):                  0.095   Jarque-Bera (JB):                3.202
+Skew:                           0.313   Prob(JB):                        0.202
+Kurtosis:                       2.283   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

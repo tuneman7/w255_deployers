@@ -1,0 +1,31 @@
+************************************************************
+ATCHISON KS
+************************************************************
+const	 79102.88
+thirty_year_interest_rate	 5537.38
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.101
+Model:                              OLS   Adj. R-squared:                  0.091
+Method:                   Least Squares   F-statistic:                     9.375
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00296
+Time:                          14:07:49   Log-Likelihood:                -958.99
+No. Observations:                    85   AIC:                             1922.
+Df Residuals:                        83   BIC:                             1927.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                       7.91e+04   7982.685      9.909      0.000    6.32e+04     9.5e+04
+thirty_year_interest_rate  5537.3818   1808.500      3.062      0.003    1940.349    9134.415
+==============================================================================
+Omnibus:                        4.063   Durbin-Watson:                   0.331
+Prob(Omnibus):                  0.131   Jarque-Bera (JB):                3.489
+Skew:                           0.400   Prob(JB):                        0.175
+Kurtosis:                       2.412   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

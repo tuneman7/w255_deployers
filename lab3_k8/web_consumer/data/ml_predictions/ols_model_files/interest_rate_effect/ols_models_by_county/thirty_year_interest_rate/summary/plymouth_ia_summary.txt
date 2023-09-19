@@ -1,0 +1,31 @@
+************************************************************
+PLYMOUTH IA
+************************************************************
+const	 173137.41
+thirty_year_interest_rate	 13535.63
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.107
+Model:                              OLS   Adj. R-squared:                  0.096
+Method:                   Least Squares   F-statistic:                     9.900
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00230
+Time:                          14:07:38   Log-Likelihood:                -1032.6
+No. Observations:                    85   AIC:                             2069.
+Df Residuals:                        83   BIC:                             2074.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      1.731e+05    1.9e+04      9.118      0.000    1.35e+05    2.11e+05
+thirty_year_interest_rate  1.354e+04   4301.866      3.146      0.002    4979.395    2.21e+04
+==============================================================================
+Omnibus:                        9.627   Durbin-Watson:                   0.413
+Prob(Omnibus):                  0.008   Jarque-Bera (JB):                9.691
+Skew:                           0.811   Prob(JB):                      0.00787
+Kurtosis:                       3.326   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

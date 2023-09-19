@@ -1,0 +1,31 @@
+************************************************************
+GRAND FORKS ND
+************************************************************
+const	 186351.23
+thirty_year_interest_rate_three	 20834.87
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.230
+Model:                              OLS   Adj. R-squared:                  0.221
+Method:                   Least Squares   F-statistic:                     24.79
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           3.42e-06
+Time:                          14:06:57   Log-Likelihood:                -1022.7
+No. Observations:                    85   AIC:                             2049.
+Df Residuals:                        83   BIC:                             2054.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.864e+05   1.79e+04     10.400      0.000    1.51e+05    2.22e+05
+thirty_year_interest_rate_three  2.083e+04   4184.718      4.979      0.000    1.25e+04    2.92e+04
+==============================================================================
+Omnibus:                       15.325   Durbin-Watson:                   0.114
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               17.507
+Skew:                           1.084   Prob(JB):                     0.000158
+Kurtosis:                       3.489   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

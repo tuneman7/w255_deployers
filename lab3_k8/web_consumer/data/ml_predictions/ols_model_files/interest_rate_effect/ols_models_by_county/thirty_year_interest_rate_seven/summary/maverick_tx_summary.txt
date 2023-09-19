@@ -1,0 +1,31 @@
+************************************************************
+MAVERICK TX
+************************************************************
+const	 230547.34
+thirty_year_interest_rate_seven	 -17826.64
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.191
+Model:                              OLS   Adj. R-squared:                  0.180
+Method:                   Least Squares   F-statistic:                     17.48
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           7.89e-05
+Time:                          21:22:23   Log-Likelihood:                -865.29
+No. Observations:                    76   AIC:                             1735.
+Df Residuals:                        74   BIC:                             1739.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            2.305e+05   1.63e+04     14.144      0.000    1.98e+05    2.63e+05
+thirty_year_interest_rate_seven -1.783e+04   4264.411     -4.180      0.000   -2.63e+04   -9329.614
+==============================================================================
+Omnibus:                       51.757   Durbin-Watson:                   0.075
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              160.703
+Skew:                           2.304   Prob(JB):                     1.27e-35
+Kurtosis:                       8.433   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+KITSAP WA
+************************************************************
+const	 419971.34
+thirty_year_interest_rate_five	 16492.63
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.034
+Model:                              OLS   Adj. R-squared:                  0.023
+Method:                   Least Squares   F-statistic:                     2.957
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0892
+Time:                          14:07:10   Log-Likelihood:                -1087.6
+No. Observations:                    85   AIC:                             2179.
+Df Residuals:                        83   BIC:                             2184.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                             4.2e+05   4.03e+04     10.426      0.000     3.4e+05       5e+05
+thirty_year_interest_rate_five  1.649e+04   9590.455      1.720      0.089   -2582.398    3.56e+04
+==============================================================================
+Omnibus:                       32.490   Durbin-Watson:                   0.043
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                6.227
+Skew:                           0.234   Prob(JB):                       0.0444
+Kurtosis:                       1.760   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

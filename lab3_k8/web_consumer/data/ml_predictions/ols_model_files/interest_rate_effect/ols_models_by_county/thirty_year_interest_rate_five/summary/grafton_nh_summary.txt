@@ -1,0 +1,31 @@
+************************************************************
+GRAFTON NH
+************************************************************
+const	 132540.13
+thirty_year_interest_rate_five	 40393.22
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.226
+Model:                              OLS   Adj. R-squared:                  0.217
+Method:                   Least Squares   F-statistic:                     24.27
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           4.22e-06
+Time:                          14:08:28   Log-Likelihood:                -1074.2
+No. Observations:                    85   AIC:                             2152.
+Df Residuals:                        83   BIC:                             2157.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           1.325e+05   3.44e+04      3.849      0.000     6.4e+04    2.01e+05
+thirty_year_interest_rate_five  4.039e+04   8199.525      4.926      0.000    2.41e+04    5.67e+04
+==============================================================================
+Omnibus:                        9.496   Durbin-Watson:                   0.053
+Prob(Omnibus):                  0.009   Jarque-Bera (JB):                8.374
+Skew:                           0.684   Prob(JB):                       0.0152
+Kurtosis:                       2.299   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+MONTGOMERY KY
+************************************************************
+const	 161555.35
+thirty_year_interest_rate_four	 8433.50
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.033
+Model:                              OLS   Adj. R-squared:                  0.022
+Method:                   Least Squares   F-statistic:                     2.876
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0936
+Time:                          14:07:56   Log-Likelihood:                -1035.0
+No. Observations:                    85   AIC:                             2074.
+Df Residuals:                        83   BIC:                             2079.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           1.616e+05   2.11e+04      7.655      0.000     1.2e+05    2.04e+05
+thirty_year_interest_rate_four  8433.5001   4972.747      1.696      0.094   -1457.094    1.83e+04
+==============================================================================
+Omnibus:                       54.836   Durbin-Watson:                   0.123
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                9.305
+Skew:                           0.455   Prob(JB):                      0.00954
+Kurtosis:                       1.658   Cond. No.                         18.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

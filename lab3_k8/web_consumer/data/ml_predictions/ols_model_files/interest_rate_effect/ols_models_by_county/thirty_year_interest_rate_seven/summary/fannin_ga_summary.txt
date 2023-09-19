@@ -1,0 +1,31 @@
+************************************************************
+FANNIN GA
+************************************************************
+const	 1000302.76
+thirty_year_interest_rate_seven	 -143865.57
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.383
+Model:                              OLS   Adj. R-squared:                  0.375
+Method:                   Least Squares   F-statistic:                     46.01
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           2.49e-09
+Time:                          21:22:44   Log-Likelihood:                -987.20
+No. Observations:                    76   AIC:                             1978.
+Df Residuals:                        74   BIC:                             1983.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                                1e+06   8.11e+04     12.338      0.000    8.39e+05    1.16e+06
+thirty_year_interest_rate_seven -1.439e+05   2.12e+04     -6.783      0.000   -1.86e+05   -1.02e+05
+==============================================================================
+Omnibus:                        5.973   Durbin-Watson:                   0.067
+Prob(Omnibus):                  0.050   Jarque-Bera (JB):                5.221
+Skew:                           0.540   Prob(JB):                       0.0735
+Kurtosis:                       3.693   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

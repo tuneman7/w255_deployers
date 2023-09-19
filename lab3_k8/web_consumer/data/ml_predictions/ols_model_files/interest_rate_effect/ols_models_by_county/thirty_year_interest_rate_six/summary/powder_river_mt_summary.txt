@@ -1,0 +1,31 @@
+************************************************************
+POWDER RIVER MT
+************************************************************
+const	 201411.91
+thirty_year_interest_rate_six	 78535.49
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.013
+Model:                              OLS   Adj. R-squared:                 -0.003
+Method:                   Least Squares   F-statistic:                    0.7991
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):              0.375
+Time:                          21:21:06   Log-Likelihood:                -901.36
+No. Observations:                    63   AIC:                             1807.
+Df Residuals:                        61   BIC:                             1811.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          2.014e+05   3.46e+05      0.581      0.563   -4.91e+05    8.94e+05
+thirty_year_interest_rate_six  7.854e+04   8.79e+04      0.894      0.375   -9.71e+04    2.54e+05
+==============================================================================
+Omnibus:                       42.640   Durbin-Watson:                   1.007
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              116.188
+Skew:                           2.153   Prob(JB):                     5.89e-26
+Kurtosis:                       8.071   Cond. No.                         28.7
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+BONNEVILLE ID
+************************************************************
+const	 205954.61
+thirty_year_interest_rate	 29475.07
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.114
+Model:                              OLS   Adj. R-squared:                  0.103
+Method:                   Least Squares   F-statistic:                     10.68
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00158
+Time:                          14:07:41   Log-Likelihood:                -1095.6
+No. Observations:                    85   AIC:                             2195.
+Df Residuals:                        83   BIC:                             2200.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                       2.06e+05   3.98e+04      5.173      0.000    1.27e+05    2.85e+05
+thirty_year_interest_rate  2.948e+04   9020.339      3.268      0.002    1.15e+04    4.74e+04
+==============================================================================
+Omnibus:                       11.579   Durbin-Watson:                   0.036
+Prob(Omnibus):                  0.003   Jarque-Bera (JB):                5.098
+Skew:                           0.358   Prob(JB):                       0.0782
+Kurtosis:                       2.037   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

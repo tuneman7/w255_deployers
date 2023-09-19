@@ -1,0 +1,31 @@
+************************************************************
+DELAWARE IA
+************************************************************
+const	 37650.26
+thirty_year_interest_rate_three	 41409.42
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.408
+Model:                              OLS   Adj. R-squared:                  0.401
+Method:                   Least Squares   F-statistic:                     57.30
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           4.64e-11
+Time:                          14:07:59   Log-Likelihood:                -1045.4
+No. Observations:                    85   AIC:                             2095.
+Df Residuals:                        83   BIC:                             2100.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            3.765e+04   2.34e+04      1.607      0.112   -8936.978    8.42e+04
+thirty_year_interest_rate_three  4.141e+04   5470.289      7.570      0.000    3.05e+04    5.23e+04
+==============================================================================
+Omnibus:                        2.507   Durbin-Watson:                   0.258
+Prob(Omnibus):                  0.285   Jarque-Bera (JB):                2.503
+Skew:                           0.387   Prob(JB):                        0.286
+Kurtosis:                       2.671   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

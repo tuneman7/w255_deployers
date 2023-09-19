@@ -1,0 +1,31 @@
+************************************************************
+PAMLICO NC
+************************************************************
+const	 464996.33
+thirty_year_interest_rate_six	 -38317.04
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.151
+Model:                              OLS   Adj. R-squared:                  0.140
+Method:                   Least Squares   F-statistic:                     13.21
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           0.000511
+Time:                          21:20:51   Log-Likelihood:                -936.52
+No. Observations:                    76   AIC:                             1877.
+Df Residuals:                        74   BIC:                             1882.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                           4.65e+05   4.05e+04     11.487      0.000    3.84e+05    5.46e+05
+thirty_year_interest_rate_six -3.832e+04   1.05e+04     -3.634      0.001   -5.93e+04   -1.73e+04
+==============================================================================
+Omnibus:                       10.962   Durbin-Watson:                   0.206
+Prob(Omnibus):                  0.004   Jarque-Bera (JB):               15.113
+Skew:                           0.591   Prob(JB):                     0.000523
+Kurtosis:                       4.837   Cond. No.                         26.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

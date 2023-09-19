@@ -1,0 +1,31 @@
+************************************************************
+BALDWIN AL
+************************************************************
+const	 279189.21
+thirty_year_interest_rate_four	 25568.70
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.118
+Model:                              OLS   Adj. R-squared:                  0.107
+Method:                   Least Squares   F-statistic:                     11.09
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00129
+Time:                          14:06:58   Log-Likelihood:                -1071.9
+No. Observations:                    85   AIC:                             2148.
+Df Residuals:                        83   BIC:                             2153.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           2.792e+05   3.26e+04      8.570      0.000    2.14e+05    3.44e+05
+thirty_year_interest_rate_four  2.557e+04   7676.238      3.331      0.001    1.03e+04    4.08e+04
+==============================================================================
+Omnibus:                        9.255   Durbin-Watson:                   0.037
+Prob(Omnibus):                  0.010   Jarque-Bera (JB):                9.520
+Skew:                           0.775   Prob(JB):                      0.00857
+Kurtosis:                       2.468   Cond. No.                         18.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

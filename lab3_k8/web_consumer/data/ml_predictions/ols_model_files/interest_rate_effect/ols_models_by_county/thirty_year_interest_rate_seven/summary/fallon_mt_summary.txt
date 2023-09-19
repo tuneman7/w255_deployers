@@ -1,0 +1,31 @@
+************************************************************
+FALLON MT
+************************************************************
+const	 29295.60
+thirty_year_interest_rate_seven	 40768.54
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.152
+Model:                              OLS   Adj. R-squared:                  0.139
+Method:                   Least Squares   F-statistic:                     11.83
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):            0.00101
+Time:                          21:22:08   Log-Likelihood:                -843.30
+No. Observations:                    68   AIC:                             1691.
+Df Residuals:                        66   BIC:                             1695.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                             2.93e+04   4.54e+04      0.645      0.521   -6.14e+04     1.2e+05
+thirty_year_interest_rate_seven  4.077e+04   1.19e+04      3.439      0.001    1.71e+04    6.44e+04
+==============================================================================
+Omnibus:                       41.300   Durbin-Watson:                   0.460
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               98.073
+Skew:                           2.075   Prob(JB):                     5.05e-22
+Kurtosis:                       7.171   Cond. No.                         25.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

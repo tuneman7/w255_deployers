@@ -1,0 +1,31 @@
+************************************************************
+WALLA WALLA WA
+************************************************************
+const	 278376.44
+thirty_year_interest_rate_three	 28012.11
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.095
+Model:                              OLS   Adj. R-squared:                  0.084
+Method:                   Least Squares   F-statistic:                     8.683
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00417
+Time:                          14:07:23   Log-Likelihood:                -1092.4
+No. Observations:                    85   AIC:                             2189.
+Df Residuals:                        83   BIC:                             2194.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            2.784e+05   4.07e+04      6.839      0.000    1.97e+05    3.59e+05
+thirty_year_interest_rate_three  2.801e+04   9506.463      2.947      0.004    9104.141    4.69e+04
+==============================================================================
+Omnibus:                       20.435   Durbin-Watson:                   0.078
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                4.691
+Skew:                           0.075   Prob(JB):                       0.0958
+Kurtosis:                       1.859   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

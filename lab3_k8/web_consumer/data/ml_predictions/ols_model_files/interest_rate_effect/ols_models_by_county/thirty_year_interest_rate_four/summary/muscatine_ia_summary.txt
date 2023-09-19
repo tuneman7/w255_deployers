@@ -1,0 +1,31 @@
+************************************************************
+MUSCATINE IA
+************************************************************
+const	 88481.06
+thirty_year_interest_rate_four	 17242.37
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.592
+Model:                              OLS   Adj. R-squared:                  0.587
+Method:                   Least Squares   F-statistic:                     120.3
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           8.10e-18
+Time:                          14:07:08   Log-Likelihood:                -937.14
+No. Observations:                    85   AIC:                             1878.
+Df Residuals:                        83   BIC:                             1883.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           8.848e+04   6672.667     13.260      0.000    7.52e+04    1.02e+05
+thirty_year_interest_rate_four  1.724e+04   1572.263     10.967      0.000    1.41e+04    2.04e+04
+==============================================================================
+Omnibus:                        2.016   Durbin-Watson:                   0.561
+Prob(Omnibus):                  0.365   Jarque-Bera (JB):                1.756
+Skew:                           0.352   Prob(JB):                        0.416
+Kurtosis:                       2.975   Cond. No.                         18.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

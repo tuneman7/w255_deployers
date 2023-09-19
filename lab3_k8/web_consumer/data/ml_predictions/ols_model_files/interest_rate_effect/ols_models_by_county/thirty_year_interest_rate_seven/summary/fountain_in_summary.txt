@@ -1,0 +1,31 @@
+************************************************************
+FOUNTAIN IN
+************************************************************
+const	 292481.47
+thirty_year_interest_rate_seven	 -47640.70
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.365
+Model:                              OLS   Adj. R-squared:                  0.356
+Method:                   Least Squares   F-statistic:                     42.51
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           7.61e-09
+Time:                          21:21:26   Log-Likelihood:                -906.21
+No. Observations:                    76   AIC:                             1816.
+Df Residuals:                        74   BIC:                             1821.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            2.925e+05   2.79e+04     10.472      0.000    2.37e+05    3.48e+05
+thirty_year_interest_rate_seven -4.764e+04   7306.799     -6.520      0.000   -6.22e+04   -3.31e+04
+==============================================================================
+Omnibus:                       31.029   Durbin-Watson:                   0.235
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               58.667
+Skew:                           1.506   Prob(JB):                     1.82e-13
+Kurtosis:                       6.076   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

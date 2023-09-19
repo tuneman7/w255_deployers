@@ -1,0 +1,31 @@
+************************************************************
+CHURCHILL NV
+************************************************************
+const	 234429.89
+thirty_year_interest_rate_two	 16699.03
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.098
+Model:                              OLS   Adj. R-squared:                  0.087
+Method:                   Least Squares   F-statistic:                     9.025
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00352
+Time:                          14:07:03   Log-Likelihood:                -1049.2
+No. Observations:                    85   AIC:                             2102.
+Df Residuals:                        83   BIC:                             2107.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          2.344e+05    2.4e+04      9.757      0.000    1.87e+05    2.82e+05
+thirty_year_interest_rate_two   1.67e+04   5558.583      3.004      0.004    5643.229    2.78e+04
+==============================================================================
+Omnibus:                       19.917   Durbin-Watson:                   0.085
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                5.804
+Skew:                           0.312   Prob(JB):                       0.0549
+Kurtosis:                       1.883   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

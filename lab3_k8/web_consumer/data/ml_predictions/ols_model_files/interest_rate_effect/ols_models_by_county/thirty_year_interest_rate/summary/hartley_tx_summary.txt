@@ -1,0 +1,31 @@
+************************************************************
+HARTLEY TX
+************************************************************
+const	 192176.48
+thirty_year_interest_rate	 11290.98
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.161
+Model:                              OLS   Adj. R-squared:                  0.151
+Method:                   Least Squares   F-statistic:                     15.89
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           0.000144
+Time:                          14:07:02   Log-Likelihood:                -997.14
+No. Observations:                    85   AIC:                             1998.
+Df Residuals:                        83   BIC:                             2003.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      1.922e+05   1.25e+04     15.369      0.000    1.67e+05    2.17e+05
+thirty_year_interest_rate  1.129e+04   2832.925      3.986      0.000    5656.404    1.69e+04
+==============================================================================
+Omnibus:                        3.747   Durbin-Watson:                   0.602
+Prob(Omnibus):                  0.154   Jarque-Bera (JB):                3.194
+Skew:                           0.467   Prob(JB):                        0.203
+Kurtosis:                       3.170   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

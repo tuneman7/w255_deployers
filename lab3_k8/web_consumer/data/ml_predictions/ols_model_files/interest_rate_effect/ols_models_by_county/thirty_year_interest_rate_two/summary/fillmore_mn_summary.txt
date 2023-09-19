@@ -1,0 +1,31 @@
+************************************************************
+FILLMORE MN
+************************************************************
+const	 156886.65
+thirty_year_interest_rate_two	 9410.14
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.029
+Model:                              OLS   Adj. R-squared:                  0.017
+Method:                   Least Squares   F-statistic:                     2.494
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.118
+Time:                          14:07:58   Log-Likelihood:                -1055.1
+No. Observations:                    85   AIC:                             2114.
+Df Residuals:                        83   BIC:                             2119.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          1.569e+05   2.58e+04      6.091      0.000    1.06e+05    2.08e+05
+thirty_year_interest_rate_two  9410.1415   5958.912      1.579      0.118   -2441.895    2.13e+04
+==============================================================================
+Omnibus:                        9.907   Durbin-Watson:                   0.148
+Prob(Omnibus):                  0.007   Jarque-Bera (JB):               10.934
+Skew:                           0.861   Prob(JB):                      0.00422
+Kurtosis:                       2.652   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

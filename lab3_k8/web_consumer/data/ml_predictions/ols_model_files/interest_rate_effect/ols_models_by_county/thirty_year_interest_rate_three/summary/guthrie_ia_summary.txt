@@ -1,0 +1,31 @@
+************************************************************
+GUTHRIE IA
+************************************************************
+const	 85180.63
+thirty_year_interest_rate_three	 28331.53
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.265
+Model:                              OLS   Adj. R-squared:                  0.256
+Method:                   Least Squares   F-statistic:                     29.94
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           4.62e-07
+Time:                          14:08:17   Log-Likelihood:                -1040.8
+No. Observations:                    85   AIC:                             2086.
+Df Residuals:                        83   BIC:                             2090.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            8.518e+04   2.22e+04      3.842      0.000    4.11e+04    1.29e+05
+thirty_year_interest_rate_three  2.833e+04   5177.894      5.472      0.000     1.8e+04    3.86e+04
+==============================================================================
+Omnibus:                       12.536   Durbin-Watson:                   0.222
+Prob(Omnibus):                  0.002   Jarque-Bera (JB):               16.123
+Skew:                           0.689   Prob(JB):                     0.000315
+Kurtosis:                       4.629   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+SHEBOYGAN WI
+************************************************************
+const	 119433.15
+thirty_year_interest_rate	 24451.48
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.380
+Model:                              OLS   Adj. R-squared:                  0.373
+Method:                   Least Squares   F-statistic:                     50.88
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           3.36e-10
+Time:                          14:08:04   Log-Likelihood:                -1013.3
+No. Observations:                    85   AIC:                             2031.
+Df Residuals:                        83   BIC:                             2036.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      1.194e+05   1.51e+04      7.893      0.000    8.93e+04     1.5e+05
+thirty_year_interest_rate  2.445e+04   3428.078      7.133      0.000    1.76e+04    3.13e+04
+==============================================================================
+Omnibus:                        3.691   Durbin-Watson:                   0.137
+Prob(Omnibus):                  0.158   Jarque-Bera (JB):                3.262
+Skew:                          -0.391   Prob(JB):                        0.196
+Kurtosis:                       2.442   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

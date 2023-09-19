@@ -1,0 +1,31 @@
+************************************************************
+KENDALL TX
+************************************************************
+const	 460309.50
+thirty_year_interest_rate_two	 27620.68
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.094
+Model:                              OLS   Adj. R-squared:                  0.083
+Method:                   Least Squares   F-statistic:                     8.635
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00427
+Time:                          14:07:24   Log-Likelihood:                -1093.8
+No. Observations:                    85   AIC:                             2192.
+Df Residuals:                        83   BIC:                             2197.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          4.603e+05   4.06e+04     11.329      0.000    3.79e+05    5.41e+05
+thirty_year_interest_rate_two  2.762e+04   9399.454      2.939      0.004    8925.539    4.63e+04
+==============================================================================
+Omnibus:                        9.206   Durbin-Watson:                   0.103
+Prob(Omnibus):                  0.010   Jarque-Bera (JB):                9.548
+Skew:                           0.819   Prob(JB):                      0.00844
+Kurtosis:                       3.106   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

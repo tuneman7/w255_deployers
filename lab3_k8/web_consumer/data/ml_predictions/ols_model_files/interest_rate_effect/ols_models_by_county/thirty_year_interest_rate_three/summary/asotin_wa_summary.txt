@@ -1,0 +1,31 @@
+************************************************************
+ASOTIN WA
+************************************************************
+const	 185525.24
+thirty_year_interest_rate_three	 28443.31
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.151
+Model:                              OLS   Adj. R-squared:                  0.141
+Method:                   Least Squares   F-statistic:                     14.75
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           0.000239
+Time:                          14:07:30   Log-Likelihood:                -1071.2
+No. Observations:                    85   AIC:                             2146.
+Df Residuals:                        83   BIC:                             2151.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.855e+05   3.17e+04      5.851      0.000    1.22e+05    2.49e+05
+thirty_year_interest_rate_three  2.844e+04   7405.112      3.841      0.000    1.37e+04    4.32e+04
+==============================================================================
+Omnibus:                       17.284   Durbin-Watson:                   0.167
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               20.211
+Skew:                           1.088   Prob(JB):                     4.09e-05
+Kurtosis:                       3.986   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

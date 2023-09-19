@@ -1,0 +1,31 @@
+************************************************************
+DORCHESTER SC
+************************************************************
+const	 244446.53
+thirty_year_interest_rate_three	 18347.80
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.162
+Model:                              OLS   Adj. R-squared:                  0.152
+Method:                   Least Squares   F-statistic:                     16.07
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           0.000133
+Time:                          14:08:09   Log-Likelihood:                -1030.3
+No. Observations:                    85   AIC:                             2065.
+Df Residuals:                        83   BIC:                             2069.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            2.444e+05   1.96e+04     12.474      0.000    2.05e+05    2.83e+05
+thirty_year_interest_rate_three  1.835e+04   4576.474      4.009      0.000    9245.377    2.75e+04
+==============================================================================
+Omnibus:                       16.803   Durbin-Watson:                   0.027
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                8.382
+Skew:                           0.578   Prob(JB):                       0.0151
+Kurtosis:                       1.985   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

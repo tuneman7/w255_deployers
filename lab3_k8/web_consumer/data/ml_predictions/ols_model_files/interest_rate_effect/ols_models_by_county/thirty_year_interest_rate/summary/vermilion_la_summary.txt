@@ -1,0 +1,31 @@
+************************************************************
+VERMILION LA
+************************************************************
+const	 161863.67
+thirty_year_interest_rate	 2434.84
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.034
+Model:                              OLS   Adj. R-squared:                  0.022
+Method:                   Least Squares   F-statistic:                     2.902
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0922
+Time:                          14:08:17   Log-Likelihood:                -938.98
+No. Observations:                    85   AIC:                             1882.
+Df Residuals:                        83   BIC:                             1887.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      1.619e+05   6308.541     25.658      0.000    1.49e+05    1.74e+05
+thirty_year_interest_rate  2434.8407   1429.218      1.704      0.092    -407.816    5277.497
+==============================================================================
+Omnibus:                        4.085   Durbin-Watson:                   0.245
+Prob(Omnibus):                  0.130   Jarque-Bera (JB):                3.901
+Skew:                           0.523   Prob(JB):                        0.142
+Kurtosis:                       2.914   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

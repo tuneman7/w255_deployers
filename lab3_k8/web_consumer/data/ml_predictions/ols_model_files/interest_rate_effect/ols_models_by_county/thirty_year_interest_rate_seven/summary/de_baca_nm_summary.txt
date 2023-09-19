@@ -1,0 +1,31 @@
+************************************************************
+DE BACA NM
+************************************************************
+const	 234898.15
+thirty_year_interest_rate_seven	 -26124.27
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.084
+Model:                              OLS   Adj. R-squared:                  0.072
+Method:                   Least Squares   F-statistic:                     6.724
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):             0.0115
+Time:                          21:20:55   Log-Likelihood:                -918.34
+No. Observations:                    75   AIC:                             1841.
+Df Residuals:                        73   BIC:                             1845.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            2.349e+05   3.85e+04      6.097      0.000    1.58e+05    3.12e+05
+thirty_year_interest_rate_seven -2.612e+04   1.01e+04     -2.593      0.011   -4.62e+04   -6045.787
+==============================================================================
+Omnibus:                        0.743   Durbin-Watson:                   0.654
+Prob(Omnibus):                  0.690   Jarque-Bera (JB):                0.862
+Skew:                          -0.199   Prob(JB):                        0.650
+Kurtosis:                       2.658   Cond. No.                         26.7
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+YAKUTAT AK
+************************************************************
+const	 -45855.75
+thirty_year_interest_rate_five	 71746.70
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.480
+Model:                              OLS   Adj. R-squared:                  0.461
+Method:                   Least Squares   F-statistic:                     24.90
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           3.13e-05
+Time:                          14:08:00   Log-Likelihood:                -354.17
+No. Observations:                    29   AIC:                             712.3
+Df Residuals:                        27   BIC:                             715.1
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                          -4.586e+04   5.95e+04     -0.771      0.447   -1.68e+05    7.62e+04
+thirty_year_interest_rate_five  7.175e+04   1.44e+04      4.990      0.000    4.22e+04    1.01e+05
+==============================================================================
+Omnibus:                        9.830   Durbin-Watson:                   0.891
+Prob(Omnibus):                  0.007   Jarque-Bera (JB):                2.314
+Skew:                          -0.050   Prob(JB):                        0.314
+Kurtosis:                       1.620   Cond. No.                         27.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

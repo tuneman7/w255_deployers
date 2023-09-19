@@ -1,0 +1,31 @@
+************************************************************
+PORTSMOUTH CITY VA
+************************************************************
+const	 125889.49
+thirty_year_interest_rate_two	 15292.35
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.199
+Model:                              OLS   Adj. R-squared:                  0.189
+Method:                   Least Squares   F-statistic:                     20.63
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           1.87e-05
+Time:                          14:07:51   Log-Likelihood:                -1006.6
+No. Observations:                    85   AIC:                             2017.
+Df Residuals:                        83   BIC:                             2022.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          1.259e+05   1.46e+04      8.650      0.000    9.69e+04    1.55e+05
+thirty_year_interest_rate_two  1.529e+04   3367.114      4.542      0.000    8595.296     2.2e+04
+==============================================================================
+Omnibus:                      110.749   Durbin-Watson:                   0.037
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                8.827
+Skew:                           0.291   Prob(JB):                       0.0121
+Kurtosis:                       1.532   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

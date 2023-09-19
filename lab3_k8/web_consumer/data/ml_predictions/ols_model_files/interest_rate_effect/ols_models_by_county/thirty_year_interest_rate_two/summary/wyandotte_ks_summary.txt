@@ -1,0 +1,31 @@
+************************************************************
+WYANDOTTE KS
+************************************************************
+const	 118838.35
+thirty_year_interest_rate_two	 9374.54
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.096
+Model:                              OLS   Adj. R-squared:                  0.085
+Method:                   Least Squares   F-statistic:                     8.812
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00391
+Time:                          14:08:20   Log-Likelihood:                -1001.1
+No. Observations:                    85   AIC:                             2006.
+Df Residuals:                        83   BIC:                             2011.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          1.188e+05   1.37e+04      8.706      0.000    9.17e+04    1.46e+05
+thirty_year_interest_rate_two  9374.5366   3157.942      2.969      0.004    3093.518    1.57e+04
+==============================================================================
+Omnibus:                       16.657   Durbin-Watson:                   0.081
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                5.194
+Skew:                          -0.278   Prob(JB):                       0.0745
+Kurtosis:                       1.924   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

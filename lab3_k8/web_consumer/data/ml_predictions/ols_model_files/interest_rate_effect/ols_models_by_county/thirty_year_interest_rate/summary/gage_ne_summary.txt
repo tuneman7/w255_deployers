@@ -1,0 +1,31 @@
+************************************************************
+GAGE NE
+************************************************************
+const	 51136.60
+thirty_year_interest_rate	 25127.60
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.501
+Model:                              OLS   Adj. R-squared:                  0.495
+Method:                   Least Squares   F-statistic:                     83.35
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           3.59e-14
+Time:                          14:08:27   Log-Likelihood:                -994.68
+No. Observations:                    85   AIC:                             1993.
+Df Residuals:                        83   BIC:                             1998.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      5.114e+04   1.21e+04      4.209      0.000     2.7e+04    7.53e+04
+thirty_year_interest_rate  2.513e+04   2752.244      9.130      0.000    1.97e+04    3.06e+04
+==============================================================================
+Omnibus:                        5.943   Durbin-Watson:                   0.467
+Prob(Omnibus):                  0.051   Jarque-Bera (JB):                5.782
+Skew:                           0.639   Prob(JB):                       0.0555
+Kurtosis:                       3.009   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

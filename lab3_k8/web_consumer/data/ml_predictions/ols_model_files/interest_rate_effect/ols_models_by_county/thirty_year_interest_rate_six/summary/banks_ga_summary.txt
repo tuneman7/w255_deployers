@@ -1,0 +1,31 @@
+************************************************************
+BANKS GA
+************************************************************
+const	 558991.02
+thirty_year_interest_rate_six	 -63543.10
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.245
+Model:                              OLS   Adj. R-squared:                  0.235
+Method:                   Least Squares   F-statistic:                     24.00
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           5.52e-06
+Time:                          21:22:14   Log-Likelihood:                -952.28
+No. Observations:                    76   AIC:                             1909.
+Df Residuals:                        74   BIC:                             1913.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                           5.59e+05   4.98e+04     11.223      0.000     4.6e+05    6.58e+05
+thirty_year_interest_rate_six -6.354e+04    1.3e+04     -4.899      0.000   -8.94e+04   -3.77e+04
+==============================================================================
+Omnibus:                       23.386   Durbin-Watson:                   0.224
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               34.179
+Skew:                           1.277   Prob(JB):                     3.79e-08
+Kurtosis:                       5.065   Cond. No.                         26.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

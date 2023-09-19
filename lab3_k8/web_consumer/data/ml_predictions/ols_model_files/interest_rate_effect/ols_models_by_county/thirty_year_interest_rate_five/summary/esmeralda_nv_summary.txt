@@ -1,0 +1,31 @@
+************************************************************
+ESMERALDA NV
+************************************************************
+const	 168320760.83
+thirty_year_interest_rate_five	 -33523497.89
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.045
+Model:                              OLS   Adj. R-squared:                  0.031
+Method:                   Least Squares   F-statistic:                     3.261
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0753
+Time:                          14:07:57   Log-Likelihood:                -1442.7
+No. Observations:                    71   AIC:                             2889.
+Df Residuals:                        69   BIC:                             2894.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           1.683e+08   7.98e+07      2.110      0.038    9.19e+06    3.27e+08
+thirty_year_interest_rate_five -3.352e+07   1.86e+07     -1.806      0.075   -7.06e+07    3.51e+06
+==============================================================================
+Omnibus:                      113.678   Durbin-Watson:                   1.074
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             2584.205
+Skew:                           5.310   Prob(JB):                         0.00
+Kurtosis:                      30.582   Cond. No.                         18.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

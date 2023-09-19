@@ -1,0 +1,31 @@
+************************************************************
+BENZIE MI
+************************************************************
+const	 161905.76
+thirty_year_interest_rate_five	 36418.58
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.228
+Model:                              OLS   Adj. R-squared:                  0.219
+Method:                   Least Squares   F-statistic:                     24.53
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           3.80e-06
+Time:                          14:07:23   Log-Likelihood:                -1065.0
+No. Observations:                    85   AIC:                             2134.
+Df Residuals:                        83   BIC:                             2139.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           1.619e+05   3.09e+04      5.242      0.000       1e+05    2.23e+05
+thirty_year_interest_rate_five  3.642e+04   7353.013      4.953      0.000    2.18e+04     5.1e+04
+==============================================================================
+Omnibus:                       14.396   Durbin-Watson:                   0.170
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):               17.015
+Skew:                           1.095   Prob(JB):                     0.000202
+Kurtosis:                       3.092   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

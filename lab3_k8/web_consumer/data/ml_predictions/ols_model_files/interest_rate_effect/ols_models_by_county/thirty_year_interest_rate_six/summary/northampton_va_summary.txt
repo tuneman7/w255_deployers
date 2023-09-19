@@ -1,0 +1,31 @@
+************************************************************
+NORTHAMPTON VA
+************************************************************
+const	 798118.60
+thirty_year_interest_rate_six	 -107230.26
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.346
+Model:                              OLS   Adj. R-squared:                  0.337
+Method:                   Least Squares   F-statistic:                     39.18
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           2.28e-08
+Time:                          21:23:02   Log-Likelihood:                -973.42
+No. Observations:                    76   AIC:                             1951.
+Df Residuals:                        74   BIC:                             1956.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          7.981e+05   6.58e+04     12.133      0.000    6.67e+05    9.29e+05
+thirty_year_interest_rate_six -1.072e+05   1.71e+04     -6.259      0.000   -1.41e+05   -7.31e+04
+==============================================================================
+Omnibus:                        9.357   Durbin-Watson:                   0.230
+Prob(Omnibus):                  0.009   Jarque-Bera (JB):                9.555
+Skew:                           0.862   Prob(JB):                      0.00842
+Kurtosis:                       3.204   Cond. No.                         26.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

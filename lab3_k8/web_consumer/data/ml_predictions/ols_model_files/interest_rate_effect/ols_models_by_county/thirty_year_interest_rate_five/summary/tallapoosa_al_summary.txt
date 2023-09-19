@@ -1,0 +1,31 @@
+************************************************************
+TALLAPOOSA AL
+************************************************************
+const	 121878.04
+thirty_year_interest_rate_five	 51649.74
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.463
+Model:                              OLS   Adj. R-squared:                  0.456
+Method:                   Least Squares   F-statistic:                     71.47
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           8.07e-13
+Time:                          14:08:03   Log-Likelihood:                -1049.2
+No. Observations:                    85   AIC:                             2102.
+Df Residuals:                        83   BIC:                             2107.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           1.219e+05   2.57e+04      4.750      0.000    7.08e+04    1.73e+05
+thirty_year_interest_rate_five  5.165e+04   6109.324      8.454      0.000    3.95e+04    6.38e+04
+==============================================================================
+Omnibus:                       11.794   Durbin-Watson:                   0.263
+Prob(Omnibus):                  0.003   Jarque-Bera (JB):               12.583
+Skew:                           0.928   Prob(JB):                      0.00185
+Kurtosis:                       3.328   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

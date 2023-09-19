@@ -1,0 +1,31 @@
+************************************************************
+BUTLER OH
+************************************************************
+const	 147247.32
+thirty_year_interest_rate_three	 25604.52
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.316
+Model:                              OLS   Adj. R-squared:                  0.307
+Method:                   Least Squares   F-statistic:                     38.28
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           2.22e-08
+Time:                          14:07:00   Log-Likelihood:                -1021.7
+No. Observations:                    85   AIC:                             2047.
+Df Residuals:                        83   BIC:                             2052.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.472e+05   1.77e+04      8.309      0.000    1.12e+05    1.82e+05
+thirty_year_interest_rate_three   2.56e+04   4138.581      6.187      0.000    1.74e+04    3.38e+04
+==============================================================================
+Omnibus:                        8.175   Durbin-Watson:                   0.154
+Prob(Omnibus):                  0.017   Jarque-Bera (JB):                3.129
+Skew:                           0.092   Prob(JB):                        0.209
+Kurtosis:                       2.078   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

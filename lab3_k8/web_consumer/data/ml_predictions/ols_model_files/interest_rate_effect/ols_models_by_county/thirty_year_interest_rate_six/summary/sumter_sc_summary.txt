@@ -1,0 +1,31 @@
+************************************************************
+SUMTER SC
+************************************************************
+const	 235806.05
+thirty_year_interest_rate_six	 -14456.38
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.070
+Model:                              OLS   Adj. R-squared:                  0.057
+Method:                   Least Squares   F-statistic:                     5.540
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):             0.0212
+Time:                          21:22:42   Log-Likelihood:                -895.46
+No. Observations:                    76   AIC:                             1795.
+Df Residuals:                        74   BIC:                             1800.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          2.358e+05   2.36e+04      9.999      0.000    1.89e+05    2.83e+05
+thirty_year_interest_rate_six -1.446e+04   6142.031     -2.354      0.021   -2.67e+04   -2218.120
+==============================================================================
+Omnibus:                       33.164   Durbin-Watson:                   0.046
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               58.001
+Skew:                           1.718   Prob(JB):                     2.54e-13
+Kurtosis:                       5.551   Cond. No.                         26.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

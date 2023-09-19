@@ -1,0 +1,31 @@
+************************************************************
+FORD IL
+************************************************************
+const	 60293.97
+thirty_year_interest_rate_four	 9390.76
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.391
+Model:                              OLS   Adj. R-squared:                  0.384
+Method:                   Least Squares   F-statistic:                     53.37
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           1.54e-10
+Time:                          14:07:30   Log-Likelihood:                -920.02
+No. Observations:                    85   AIC:                             1844.
+Df Residuals:                        83   BIC:                             1849.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           6.029e+04   5455.410     11.052      0.000    4.94e+04    7.11e+04
+thirty_year_interest_rate_four  9390.7563   1285.444      7.305      0.000    6834.061    1.19e+04
+==============================================================================
+Omnibus:                        5.608   Durbin-Watson:                   0.330
+Prob(Omnibus):                  0.061   Jarque-Bera (JB):                5.609
+Skew:                           0.626   Prob(JB):                       0.0605
+Kurtosis:                       2.868   Cond. No.                         18.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

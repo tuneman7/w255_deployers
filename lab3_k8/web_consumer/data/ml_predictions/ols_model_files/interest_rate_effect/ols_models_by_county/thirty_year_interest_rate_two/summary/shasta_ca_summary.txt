@@ -1,0 +1,31 @@
+************************************************************
+SHASTA CA
+************************************************************
+const	 348183.61
+thirty_year_interest_rate_two	 6145.72
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.013
+Model:                              OLS   Adj. R-squared:                  0.001
+Method:                   Least Squares   F-statistic:                     1.101
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.297
+Time:                          14:07:21   Log-Likelihood:                -1053.6
+No. Observations:                    85   AIC:                             2111.
+Df Residuals:                        83   BIC:                             2116.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          3.482e+05   2.53e+04     13.754      0.000    2.98e+05    3.99e+05
+thirty_year_interest_rate_two  6145.7234   5856.349      1.049      0.297   -5502.320    1.78e+04
+==============================================================================
+Omnibus:                       65.168   Durbin-Watson:                   0.032
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                8.253
+Skew:                           0.326   Prob(JB):                       0.0161
+Kurtosis:                       1.620   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

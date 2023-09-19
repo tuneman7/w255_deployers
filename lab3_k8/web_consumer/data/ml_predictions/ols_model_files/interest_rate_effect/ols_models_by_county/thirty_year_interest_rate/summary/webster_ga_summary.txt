@@ -1,0 +1,31 @@
+************************************************************
+WEBSTER GA
+************************************************************
+const	 61704.15
+thirty_year_interest_rate	 16095.50
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.032
+Model:                              OLS   Adj. R-squared:                  0.015
+Method:                   Least Squares   F-statistic:                     1.849
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.179
+Time:                          14:07:23   Log-Likelihood:                -752.20
+No. Observations:                    58   AIC:                             1508.
+Df Residuals:                        56   BIC:                             1513.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                       6.17e+04    5.3e+04      1.165      0.249   -4.44e+04    1.68e+05
+thirty_year_interest_rate   1.61e+04   1.18e+04      1.360      0.179   -7617.511    3.98e+04
+==============================================================================
+Omnibus:                       37.927   Durbin-Watson:                   0.562
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               99.381
+Skew:                           1.983   Prob(JB):                     2.63e-22
+Kurtosis:                       8.039   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

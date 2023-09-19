@@ -1,0 +1,31 @@
+************************************************************
+STEPHENS TX
+************************************************************
+const	 45876.66
+thirty_year_interest_rate_three	 24450.23
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.504
+Model:                              OLS   Adj. R-squared:                  0.498
+Method:                   Least Squares   F-statistic:                     84.35
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           2.80e-14
+Time:                          14:07:52   Log-Likelihood:                -984.22
+No. Observations:                    85   AIC:                             1972.
+Df Residuals:                        83   BIC:                             1977.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            4.588e+04   1.14e+04      4.025      0.000    2.32e+04    6.85e+04
+thirty_year_interest_rate_three  2.445e+04   2662.246      9.184      0.000    1.92e+04    2.97e+04
+==============================================================================
+Omnibus:                        8.007   Durbin-Watson:                   0.421
+Prob(Omnibus):                  0.018   Jarque-Bera (JB):                7.510
+Skew:                           0.650   Prob(JB):                       0.0234
+Kurtosis:                       3.655   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

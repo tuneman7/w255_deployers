@@ -1,0 +1,31 @@
+************************************************************
+IONIA MI
+************************************************************
+const	 268560.32
+thirty_year_interest_rate_six	 -22584.00
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.134
+Model:                              OLS   Adj. R-squared:                  0.123
+Method:                   Least Squares   F-statistic:                     11.49
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):            0.00113
+Time:                          21:22:47   Log-Likelihood:                -901.65
+No. Observations:                    76   AIC:                             1807.
+Df Residuals:                        74   BIC:                             1812.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          2.686e+05   2.56e+04     10.497      0.000    2.18e+05     3.2e+05
+thirty_year_interest_rate_six -2.258e+04   6663.202     -3.389      0.001   -3.59e+04   -9307.283
+==============================================================================
+Omnibus:                       18.302   Durbin-Watson:                   0.179
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               22.010
+Skew:                           1.194   Prob(JB):                     1.66e-05
+Kurtosis:                       4.118   Cond. No.                         26.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

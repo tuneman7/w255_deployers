@@ -1,0 +1,31 @@
+************************************************************
+STEELE MN
+************************************************************
+const	 146532.65
+thirty_year_interest_rate_five	 19776.26
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.224
+Model:                              OLS   Adj. R-squared:                  0.214
+Method:                   Least Squares   F-statistic:                     23.91
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           4.86e-06
+Time:                          14:07:59   Log-Likelihood:                -1014.2
+No. Observations:                    85   AIC:                             2032.
+Df Residuals:                        83   BIC:                             2037.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           1.465e+05    1.7e+04      8.627      0.000    1.13e+05     1.8e+05
+thirty_year_interest_rate_five  1.978e+04   4044.029      4.890      0.000    1.17e+04    2.78e+04
+==============================================================================
+Omnibus:                        4.726   Durbin-Watson:                   0.170
+Prob(Omnibus):                  0.094   Jarque-Bera (JB):                2.546
+Skew:                          -0.167   Prob(JB):                        0.280
+Kurtosis:                       2.221   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

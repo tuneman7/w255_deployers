@@ -1,0 +1,31 @@
+************************************************************
+STOREY NV
+************************************************************
+const	 296537.84
+thirty_year_interest_rate_five	 46714.89
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.158
+Model:                              OLS   Adj. R-squared:                  0.148
+Method:                   Least Squares   F-statistic:                     15.56
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           0.000167
+Time:                          14:07:37   Log-Likelihood:                -1105.5
+No. Observations:                    85   AIC:                             2215.
+Df Residuals:                        83   BIC:                             2220.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           2.965e+05   4.97e+04      5.961      0.000    1.98e+05    3.95e+05
+thirty_year_interest_rate_five  4.671e+04   1.18e+04      3.944      0.000    2.32e+04    7.03e+04
+==============================================================================
+Omnibus:                        7.896   Durbin-Watson:                   0.239
+Prob(Omnibus):                  0.019   Jarque-Bera (JB):                7.975
+Skew:                           0.706   Prob(JB):                       0.0185
+Kurtosis:                       2.490   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

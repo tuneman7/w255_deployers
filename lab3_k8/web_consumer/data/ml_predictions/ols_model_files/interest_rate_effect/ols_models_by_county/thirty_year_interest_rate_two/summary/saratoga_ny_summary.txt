@@ -1,0 +1,31 @@
+************************************************************
+SARATOGA NY
+************************************************************
+const	 338995.21
+thirty_year_interest_rate_two	 15035.36
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.101
+Model:                              OLS   Adj. R-squared:                  0.090
+Method:                   Least Squares   F-statistic:                     9.293
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00309
+Time:                          14:07:05   Log-Likelihood:                -1039.0
+No. Observations:                    85   AIC:                             2082.
+Df Residuals:                        83   BIC:                             2087.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                           3.39e+05   2.13e+04     15.901      0.000    2.97e+05    3.81e+05
+thirty_year_interest_rate_two  1.504e+04   4932.183      3.048      0.003    5225.443    2.48e+04
+==============================================================================
+Omnibus:                       76.654   Durbin-Watson:                   0.023
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                8.484
+Skew:                           0.320   Prob(JB):                       0.0144
+Kurtosis:                       1.591   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+MENARD TX
+************************************************************
+const	 545293.16
+thirty_year_interest_rate_seven	 -56376.95
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.026
+Model:                              OLS   Adj. R-squared:                  0.012
+Method:                   Least Squares   F-statistic:                     1.878
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):              0.175
+Time:                          21:22:38   Log-Likelihood:                -980.84
+No. Observations:                    72   AIC:                             1966.
+Df Residuals:                        70   BIC:                             1970.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            5.453e+05   1.58e+05      3.441      0.001    2.29e+05    8.61e+05
+thirty_year_interest_rate_seven -5.638e+04   4.11e+04     -1.371      0.175   -1.38e+05    2.57e+04
+==============================================================================
+Omnibus:                        2.232   Durbin-Watson:                   0.634
+Prob(Omnibus):                  0.328   Jarque-Bera (JB):                2.215
+Skew:                           0.391   Prob(JB):                        0.330
+Kurtosis:                       2.644   Cond. No.                         27.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

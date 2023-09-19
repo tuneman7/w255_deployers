@@ -1,0 +1,31 @@
+************************************************************
+NEMAHA NE
+************************************************************
+const	 178475.22
+thirty_year_interest_rate_seven	 -16193.47
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.116
+Model:                              OLS   Adj. R-squared:                  0.104
+Method:                   Least Squares   F-statistic:                     9.698
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):            0.00262
+Time:                          21:21:49   Log-Likelihood:                -880.36
+No. Observations:                    76   AIC:                             1765.
+Df Residuals:                        74   BIC:                             1769.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.785e+05   1.99e+04      8.979      0.000    1.39e+05    2.18e+05
+thirty_year_interest_rate_seven -1.619e+04   5200.056     -3.114      0.003   -2.66e+04   -5832.131
+==============================================================================
+Omnibus:                       47.326   Durbin-Watson:                   0.290
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              165.582
+Skew:                           1.964   Prob(JB):                     1.11e-36
+Kurtosis:                       9.071   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

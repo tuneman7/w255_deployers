@@ -1,0 +1,31 @@
+************************************************************
+REFUGIO TX
+************************************************************
+const	 121091.59
+thirty_year_interest_rate	 14189.92
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.140
+Model:                              OLS   Adj. R-squared:                  0.130
+Method:                   Least Squares   F-statistic:                     13.50
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           0.000421
+Time:                          14:07:04   Log-Likelihood:                -1023.5
+No. Observations:                    85   AIC:                             2051.
+Df Residuals:                        83   BIC:                             2056.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      1.211e+05    1.7e+04      7.104      0.000    8.72e+04    1.55e+05
+thirty_year_interest_rate  1.419e+04   3861.568      3.675      0.000    6509.413    2.19e+04
+==============================================================================
+Omnibus:                        2.174   Durbin-Watson:                   0.379
+Prob(Omnibus):                  0.337   Jarque-Bera (JB):                2.109
+Skew:                           0.374   Prob(JB):                        0.348
+Kurtosis:                       2.807   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

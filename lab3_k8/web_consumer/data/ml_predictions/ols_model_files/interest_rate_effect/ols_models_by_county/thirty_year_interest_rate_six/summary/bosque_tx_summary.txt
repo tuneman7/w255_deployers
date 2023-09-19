@@ -1,0 +1,31 @@
+************************************************************
+BOSQUE TX
+************************************************************
+const	 363770.27
+thirty_year_interest_rate_six	 -43842.04
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.192
+Model:                              OLS   Adj. R-squared:                  0.181
+Method:                   Least Squares   F-statistic:                     17.56
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           7.60e-05
+Time:                          21:22:46   Log-Likelihood:                -935.93
+No. Observations:                    76   AIC:                             1876.
+Df Residuals:                        74   BIC:                             1881.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          3.638e+05   4.02e+04      9.056      0.000    2.84e+05    4.44e+05
+thirty_year_interest_rate_six -4.384e+04   1.05e+04     -4.191      0.000   -6.47e+04    -2.3e+04
+==============================================================================
+Omnibus:                       15.698   Durbin-Watson:                   0.196
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               17.819
+Skew:                           1.064   Prob(JB):                     0.000135
+Kurtosis:                       4.047   Cond. No.                         26.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

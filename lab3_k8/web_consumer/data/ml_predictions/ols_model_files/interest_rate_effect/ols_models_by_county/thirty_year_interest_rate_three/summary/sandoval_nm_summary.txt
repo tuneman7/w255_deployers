@@ -1,0 +1,31 @@
+************************************************************
+SANDOVAL NM
+************************************************************
+const	 243147.34
+thirty_year_interest_rate_three	 25000.68
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.136
+Model:                              OLS   Adj. R-squared:                  0.126
+Method:                   Least Squares   F-statistic:                     13.09
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           0.000510
+Time:                          14:08:20   Log-Likelihood:                -1065.3
+No. Observations:                    85   AIC:                             2135.
+Df Residuals:                        83   BIC:                             2140.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            2.431e+05   2.96e+04      8.216      0.000    1.84e+05    3.02e+05
+thirty_year_interest_rate_three    2.5e+04   6911.342      3.617      0.001    1.13e+04    3.87e+04
+==============================================================================
+Omnibus:                       26.600   Durbin-Watson:                   0.027
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                8.491
+Skew:                           0.509   Prob(JB):                       0.0143
+Kurtosis:                       1.833   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+APPOMATTOX VA
+************************************************************
+const	 123566.50
+thirty_year_interest_rate_four	 21348.30
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.093
+Model:                              OLS   Adj. R-squared:                  0.082
+Method:                   Least Squares   F-statistic:                     8.491
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00459
+Time:                          14:07:43   Log-Likelihood:                -1067.9
+No. Observations:                    85   AIC:                             2140.
+Df Residuals:                        83   BIC:                             2145.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           1.236e+05   3.11e+04      3.974      0.000    6.17e+04    1.85e+05
+thirty_year_interest_rate_four  2.135e+04   7326.218      2.914      0.005    6776.742    3.59e+04
+==============================================================================
+Omnibus:                        1.914   Durbin-Watson:                   0.107
+Prob(Omnibus):                  0.384   Jarque-Bera (JB):                1.907
+Skew:                          -0.305   Prob(JB):                        0.385
+Kurtosis:                       2.591   Cond. No.                         18.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

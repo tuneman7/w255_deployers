@@ -1,0 +1,31 @@
+************************************************************
+DELTA TX
+************************************************************
+const	 207665.26
+thirty_year_interest_rate_six	 -20170.24
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.056
+Model:                              OLS   Adj. R-squared:                  0.043
+Method:                   Least Squares   F-statistic:                     4.366
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):             0.0401
+Time:                          21:21:02   Log-Likelihood:                -929.83
+No. Observations:                    76   AIC:                             1864.
+Df Residuals:                        74   BIC:                             1868.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          2.077e+05   3.71e+04      5.603      0.000    1.34e+05    2.82e+05
+thirty_year_interest_rate_six -2.017e+04   9653.592     -2.089      0.040   -3.94e+04    -935.037
+==============================================================================
+Omnibus:                        6.028   Durbin-Watson:                   0.502
+Prob(Omnibus):                  0.049   Jarque-Bera (JB):                5.315
+Skew:                           0.564   Prob(JB):                       0.0701
+Kurtosis:                       2.363   Cond. No.                         26.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

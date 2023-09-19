@@ -1,0 +1,31 @@
+************************************************************
+WINNESHIEK IA
+************************************************************
+const	 421236.96
+thirty_year_interest_rate_seven	 -48643.31
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.413
+Model:                              OLS   Adj. R-squared:                  0.406
+Method:                   Least Squares   F-statistic:                     52.16
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           3.78e-10
+Time:                          21:21:15   Log-Likelihood:                -900.02
+No. Observations:                    76   AIC:                             1804.
+Df Residuals:                        74   BIC:                             1809.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            4.212e+05   2.57e+04     16.362      0.000     3.7e+05    4.73e+05
+thirty_year_interest_rate_seven -4.864e+04   6735.250     -7.222      0.000   -6.21e+04   -3.52e+04
+==============================================================================
+Omnibus:                        4.470   Durbin-Watson:                   0.525
+Prob(Omnibus):                  0.107   Jarque-Bera (JB):                3.649
+Skew:                           0.447   Prob(JB):                        0.161
+Kurtosis:                       3.595   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

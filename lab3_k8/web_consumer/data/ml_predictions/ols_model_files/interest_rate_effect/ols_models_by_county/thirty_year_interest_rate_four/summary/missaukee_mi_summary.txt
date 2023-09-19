@@ -1,0 +1,31 @@
+************************************************************
+MISSAUKEE MI
+************************************************************
+const	 126224.13
+thirty_year_interest_rate_four	 13702.05
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.083
+Model:                              OLS   Adj. R-squared:                  0.072
+Method:                   Least Squares   F-statistic:                     7.522
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00746
+Time:                          14:07:58   Log-Likelihood:                -1035.4
+No. Observations:                    85   AIC:                             2075.
+Df Residuals:                        83   BIC:                             2080.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           1.262e+05   2.12e+04      5.953      0.000    8.41e+04    1.68e+05
+thirty_year_interest_rate_four   1.37e+04   4995.799      2.743      0.007    3765.607    2.36e+04
+==============================================================================
+Omnibus:                       17.247   Durbin-Watson:                   0.192
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                7.543
+Skew:                           0.511   Prob(JB):                       0.0230
+Kurtosis:                       1.958   Cond. No.                         18.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+HARDY WV
+************************************************************
+const	 144202.06
+thirty_year_interest_rate_three	 16378.04
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.104
+Model:                              OLS   Adj. R-squared:                  0.093
+Method:                   Least Squares   F-statistic:                     9.640
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00260
+Time:                          14:07:36   Log-Likelihood:                -1042.3
+No. Observations:                    85   AIC:                             2089.
+Df Residuals:                        83   BIC:                             2094.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.442e+05   2.26e+04      6.384      0.000    9.93e+04    1.89e+05
+thirty_year_interest_rate_three  1.638e+04   5275.081      3.105      0.003    5886.117    2.69e+04
+==============================================================================
+Omnibus:                       10.385   Durbin-Watson:                   0.200
+Prob(Omnibus):                  0.006   Jarque-Bera (JB):               11.602
+Skew:                           0.900   Prob(JB):                      0.00302
+Kurtosis:                       2.803   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

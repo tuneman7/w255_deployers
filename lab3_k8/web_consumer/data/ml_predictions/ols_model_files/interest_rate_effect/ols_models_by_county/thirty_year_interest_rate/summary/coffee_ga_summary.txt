@@ -1,0 +1,31 @@
+************************************************************
+COFFEE GA
+************************************************************
+const	 55213.91
+thirty_year_interest_rate	 26479.91
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.336
+Model:                              OLS   Adj. R-squared:                  0.328
+Method:                   Least Squares   F-statistic:                     42.06
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           6.01e-09
+Time:                          14:07:26   Log-Likelihood:                -1028.2
+No. Observations:                    85   AIC:                             2060.
+Df Residuals:                        83   BIC:                             2065.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      5.521e+04    1.8e+04      3.064      0.003    1.94e+04    9.11e+04
+thirty_year_interest_rate  2.648e+04   4082.931      6.486      0.000    1.84e+04    3.46e+04
+==============================================================================
+Omnibus:                       14.738   Durbin-Watson:                   0.053
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):                5.481
+Skew:                           0.347   Prob(JB):                       0.0645
+Kurtosis:                       1.967   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

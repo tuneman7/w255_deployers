@@ -1,0 +1,31 @@
+************************************************************
+BON HOMME SD
+************************************************************
+const	 53427.02
+thirty_year_interest_rate_two	 16240.29
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.328
+Model:                              OLS   Adj. R-squared:                  0.320
+Method:                   Least Squares   F-statistic:                     40.51
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           1.02e-08
+Time:                          14:07:37   Log-Likelihood:                -982.98
+No. Observations:                    85   AIC:                             1970.
+Df Residuals:                        83   BIC:                             1975.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          5.343e+04    1.1e+04      4.844      0.000    3.15e+04    7.54e+04
+thirty_year_interest_rate_two  1.624e+04   2551.549      6.365      0.000    1.12e+04    2.13e+04
+==============================================================================
+Omnibus:                       82.897   Durbin-Watson:                   0.655
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              853.159
+Skew:                           2.980   Prob(JB):                    5.48e-186
+Kurtosis:                      17.331   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

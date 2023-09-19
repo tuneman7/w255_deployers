@@ -1,0 +1,31 @@
+************************************************************
+SCHLEICHER TX
+************************************************************
+const	 159913.39
+thirty_year_interest_rate	 34093.31
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.010
+Model:                              OLS   Adj. R-squared:                 -0.002
+Method:                   Least Squares   F-statistic:                    0.8335
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.364
+Time:                          14:07:04   Log-Likelihood:                -1186.8
+No. Observations:                    83   AIC:                             2378.
+Df Residuals:                        81   BIC:                             2382.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      1.599e+05   1.66e+05      0.965      0.338    -1.7e+05     4.9e+05
+thirty_year_interest_rate  3.409e+04   3.73e+04      0.913      0.364   -4.02e+04    1.08e+05
+==============================================================================
+Omnibus:                       52.212   Durbin-Watson:                   0.721
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              148.549
+Skew:                           2.244   Prob(JB):                     5.53e-33
+Kurtosis:                       7.776   Cond. No.                         17.7
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

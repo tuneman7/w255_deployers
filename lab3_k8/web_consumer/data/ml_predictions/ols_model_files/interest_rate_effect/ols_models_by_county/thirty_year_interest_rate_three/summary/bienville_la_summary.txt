@@ -1,0 +1,31 @@
+************************************************************
+BIENVILLE LA
+************************************************************
+const	 46928.36
+thirty_year_interest_rate_three	 16971.23
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.291
+Model:                              OLS   Adj. R-squared:                  0.283
+Method:                   Least Squares   F-statistic:                     34.08
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           9.94e-08
+Time:                          14:08:17   Log-Likelihood:                -991.70
+No. Observations:                    85   AIC:                             1987.
+Df Residuals:                        83   BIC:                             1992.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            4.693e+04   1.24e+04      3.770      0.000    2.22e+04    7.17e+04
+thirty_year_interest_rate_three  1.697e+04   2907.141      5.838      0.000    1.12e+04    2.28e+04
+==============================================================================
+Omnibus:                        8.267   Durbin-Watson:                   0.352
+Prob(Omnibus):                  0.016   Jarque-Bera (JB):                4.354
+Skew:                           0.344   Prob(JB):                        0.113
+Kurtosis:                       2.130   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

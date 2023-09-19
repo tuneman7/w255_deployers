@@ -1,0 +1,31 @@
+************************************************************
+PRESIDIO TX
+************************************************************
+const	 263295.09
+thirty_year_interest_rate_two	 23480.58
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.176
+Model:                              OLS   Adj. R-squared:                  0.166
+Method:                   Least Squares   F-statistic:                     17.73
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           6.41e-05
+Time:                          14:08:08   Log-Likelihood:                -1049.4
+No. Observations:                    85   AIC:                             2103.
+Df Residuals:                        83   BIC:                             2108.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          2.633e+05   2.41e+04     10.924      0.000    2.15e+05    3.11e+05
+thirty_year_interest_rate_two  2.348e+04   5576.011      4.211      0.000    1.24e+04    3.46e+04
+==============================================================================
+Omnibus:                       17.602   Durbin-Watson:                   0.357
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               21.529
+Skew:                           1.023   Prob(JB):                     2.11e-05
+Kurtosis:                       4.376   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

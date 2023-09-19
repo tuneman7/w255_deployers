@@ -1,0 +1,31 @@
+************************************************************
+HUNTINGTON IN
+************************************************************
+const	 13955.35
+thirty_year_interest_rate_four	 30366.02
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.375
+Model:                              OLS   Adj. R-squared:                  0.368
+Method:                   Least Squares   F-statistic:                     49.90
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           4.59e-10
+Time:                          14:07:56   Log-Likelihood:                -1022.6
+No. Observations:                    85   AIC:                             2049.
+Df Residuals:                        83   BIC:                             2054.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           1.396e+04   1.82e+04      0.765      0.446   -2.23e+04    5.02e+04
+thirty_year_interest_rate_four  3.037e+04   4298.845      7.064      0.000    2.18e+04    3.89e+04
+==============================================================================
+Omnibus:                        9.764   Durbin-Watson:                   0.305
+Prob(Omnibus):                  0.008   Jarque-Bera (JB):                9.821
+Skew:                           0.814   Prob(JB):                      0.00737
+Kurtosis:                       3.354   Cond. No.                         18.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

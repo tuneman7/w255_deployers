@@ -1,0 +1,135 @@
+
+<div class="container">
+
+    <div class="container-fluid" id="post_mortem_event_detail_rendering" >
+        <div class="row">
+            <div class="col-md-1">
+                <img src="./static/images/back-button-svgrepo-com.svg" width="40" height="40" onclick="move_back_post_mortem()" id="move_back_post_mortem"/>
+            </div>
+
+                <div class="col-md-10  float-left">
+
+                        {% if event_text is not none %}
+                        {{event_text|safe}}
+                        {% endif %}
+
+                </div>
+    
+
+            <div class="col-md-1 float-right">
+                <img src="./static/images/back-button-svgrepo-com.svg" width="40" height="40" style="transform:rotate(180deg)" class="float-end" id="move_forward_post_mortem" onclick="move_forward_post_mortem()"/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <br/>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+        {% if post_mortem_image is not none %}
+        <div class="row">
+            <div class="col-md-12">
+                <div id="event_render_post_mortem">
+
+                    {% if image_src is not none %}
+                    <img src="{{post_mortem_image}}" id="{{post_mortem_image}}" width="{{post_mortem_image_width}}" height="{{post_mortem_image_height}}">
+                    {% endif %}
+                </div>
+
+            </div>
+        </div>
+        {% endif %}
+
+        {% if post_mortem_image is none and event_texta is not none %}
+        <div class="row">
+            <div class="col-md-12">
+                <div id="event_render_post_mortem">
+
+                    {% if event_texta is not none %}
+                    {{event_texta|safe}}
+                    {% endif %}
+
+
+                </div>
+
+            </div>
+        </div>
+        {% endif %}
+
+        {% if event_textb is not none %}
+        <div class="row">
+            <div class="col-md-12">
+                <div id="event_render_post_mortem">
+
+                    {% if event_textb is not none %}
+                    {{event_textb|safe}}
+                    {% endif %}
+
+
+                </div>
+
+            </div>
+        </div>
+        {% endif %}
+        
+
+      </div>                    
+    </div>
+
+</div>
+
+
+<script>
+
+var post_mortem_slide_no = 1;
+var current_event_name = "";
+var post_mortem_total_slides = {{post_mortem_slides_total}};
+
+function move_forward_post_mortem()
+{
+    nav_to_section("section_six");
+    post_mortem_slide_no +=1;
+    page_loading();
+    render_post_mortem("post_mortem_section",post_mortem_slide_no);
+
+
+}
+
+function move_back_post_mortem()
+{   nav_to_section("section_six");
+    if(post_mortem_slide_no==1)
+    {
+        return;
+    }
+    post_mortem_slide_no -=1;
+    page_loading();
+    render_post_mortem("post_mortem_section",post_mortem_slide_no);
+}
+
+
+  $(document).ready(function () {
+    
+    post_mortem_slide_no = {{post_mortem_slide_no}};
+
+    if(!(post_mortem_slide_no<post_mortem_total_slides))
+    {
+        $("#move_forward_post_mortem").hide();
+    }
+    else{
+        $("#move_forward_post_mortem").show();
+    }    
+
+
+    page_not_loading();
+
+    
+    {% if tag is not none %}
+        $("#post_mortem_tag").text("{{tag|safe}}");
+    {% endif %}
+
+
+
+});
+</script>
+

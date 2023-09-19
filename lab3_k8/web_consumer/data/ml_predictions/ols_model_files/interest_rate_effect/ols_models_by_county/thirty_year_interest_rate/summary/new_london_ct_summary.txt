@@ -1,0 +1,31 @@
+************************************************************
+NEW LONDON CT
+************************************************************
+const	 200537.79
+thirty_year_interest_rate	 32297.06
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.362
+Model:                              OLS   Adj. R-squared:                  0.354
+Method:                   Least Squares   F-statistic:                     47.13
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           1.12e-09
+Time:                          14:06:57   Log-Likelihood:                -1040.3
+No. Observations:                    85   AIC:                             2085.
+Df Residuals:                        83   BIC:                             2089.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      2.005e+05   2.08e+04      9.657      0.000    1.59e+05    2.42e+05
+thirty_year_interest_rate   3.23e+04   4704.730      6.865      0.000    2.29e+04    4.17e+04
+==============================================================================
+Omnibus:                       13.353   Durbin-Watson:                   0.088
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):                5.236
+Skew:                           0.341   Prob(JB):                       0.0730
+Kurtosis:                       1.993   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+REEVES TX
+************************************************************
+const	 163951.12
+thirty_year_interest_rate	 10948.53
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.061
+Model:                              OLS   Adj. R-squared:                  0.050
+Method:                   Least Squares   F-statistic:                     5.435
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0222
+Time:                          14:07:15   Log-Likelihood:                -1040.1
+No. Observations:                    85   AIC:                             2084.
+Df Residuals:                        83   BIC:                             2089.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                       1.64e+05   2.07e+04      7.909      0.000    1.23e+05    2.05e+05
+thirty_year_interest_rate  1.095e+04   4696.272      2.331      0.022    1607.829    2.03e+04
+==============================================================================
+Omnibus:                       21.656   Durbin-Watson:                   0.335
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                4.750
+Skew:                          -0.041   Prob(JB):                       0.0930
+Kurtosis:                       1.845   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

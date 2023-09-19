@@ -1,0 +1,31 @@
+************************************************************
+PIERCE WA
+************************************************************
+const	 357802.16
+thirty_year_interest_rate_four	 27085.65
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.092
+Model:                              OLS   Adj. R-squared:                  0.081
+Method:                   Least Squares   F-statistic:                     8.423
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00474
+Time:                          14:07:02   Log-Likelihood:                -1088.5
+No. Observations:                    85   AIC:                             2181.
+Df Residuals:                        83   BIC:                             2186.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           3.578e+05   3.96e+04      9.034      0.000    2.79e+05    4.37e+05
+thirty_year_interest_rate_four  2.709e+04   9332.765      2.902      0.005    8523.156    4.56e+04
+==============================================================================
+Omnibus:                       35.297   Durbin-Watson:                   0.018
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                5.897
+Skew:                           0.133   Prob(JB):                       0.0524
+Kurtosis:                       1.738   Cond. No.                         18.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

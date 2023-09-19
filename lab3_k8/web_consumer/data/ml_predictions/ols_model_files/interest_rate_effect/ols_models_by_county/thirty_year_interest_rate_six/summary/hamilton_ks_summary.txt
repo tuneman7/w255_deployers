@@ -1,0 +1,31 @@
+************************************************************
+HAMILTON KS
+************************************************************
+const	 209916.58
+thirty_year_interest_rate_six	 -24018.45
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.090
+Model:                              OLS   Adj. R-squared:                  0.077
+Method:                   Least Squares   F-statistic:                     6.862
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):             0.0108
+Time:                          21:22:29   Log-Likelihood:                -863.89
+No. Observations:                    71   AIC:                             1732.
+Df Residuals:                        69   BIC:                             1736.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          2.099e+05   3.54e+04      5.923      0.000    1.39e+05    2.81e+05
+thirty_year_interest_rate_six -2.402e+04   9168.851     -2.620      0.011   -4.23e+04   -5727.094
+==============================================================================
+Omnibus:                       42.727   Durbin-Watson:                   0.575
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              116.380
+Skew:                           1.981   Prob(JB):                     5.35e-26
+Kurtosis:                       7.863   Cond. No.                         26.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

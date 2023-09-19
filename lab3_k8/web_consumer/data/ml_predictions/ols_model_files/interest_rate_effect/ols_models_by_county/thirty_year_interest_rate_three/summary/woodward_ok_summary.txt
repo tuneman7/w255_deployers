@@ -1,0 +1,31 @@
+************************************************************
+WOODWARD OK
+************************************************************
+const	 124800.20
+thirty_year_interest_rate_three	 5160.29
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.143
+Model:                              OLS   Adj. R-squared:                  0.133
+Method:                   Least Squares   F-statistic:                     13.84
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           0.000361
+Time:                          14:08:27   Log-Likelihood:                -928.81
+No. Observations:                    85   AIC:                             1862.
+Df Residuals:                        83   BIC:                             1867.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.248e+05   5939.596     21.012      0.000    1.13e+05    1.37e+05
+thirty_year_interest_rate_three  5160.2858   1387.159      3.720      0.000    2401.283    7919.289
+==============================================================================
+Omnibus:                        4.881   Durbin-Watson:                   0.290
+Prob(Omnibus):                  0.087   Jarque-Bera (JB):                2.406
+Skew:                           0.096   Prob(JB):                        0.300
+Kurtosis:                       2.199   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

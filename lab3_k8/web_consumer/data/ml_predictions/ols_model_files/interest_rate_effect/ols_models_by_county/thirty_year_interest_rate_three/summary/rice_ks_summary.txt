@@ -1,0 +1,31 @@
+************************************************************
+RICE KS
+************************************************************
+const	 28329.28
+thirty_year_interest_rate_three	 17543.06
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.276
+Model:                              OLS   Adj. R-squared:                  0.267
+Method:                   Least Squares   F-statistic:                     31.65
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           2.43e-07
+Time:                          14:07:10   Log-Likelihood:                -997.67
+No. Observations:                    85   AIC:                             1999.
+Df Residuals:                        83   BIC:                             2004.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            2.833e+04   1.34e+04      2.122      0.037    1770.718    5.49e+04
+thirty_year_interest_rate_three  1.754e+04   3118.514      5.625      0.000    1.13e+04    2.37e+04
+==============================================================================
+Omnibus:                       15.044   Durbin-Watson:                   0.288
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):               18.070
+Skew:                           1.129   Prob(JB):                     0.000119
+Kurtosis:                       3.086   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

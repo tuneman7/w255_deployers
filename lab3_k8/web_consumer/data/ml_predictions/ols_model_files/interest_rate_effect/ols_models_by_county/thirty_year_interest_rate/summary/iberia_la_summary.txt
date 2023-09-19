@@ -1,0 +1,31 @@
+************************************************************
+IBERIA LA
+************************************************************
+const	 146320.13
+thirty_year_interest_rate	 3869.44
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.058
+Model:                              OLS   Adj. R-squared:                  0.046
+Method:                   Least Squares   F-statistic:                     5.079
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0269
+Time:                          14:08:07   Log-Likelihood:                -954.58
+No. Observations:                    85   AIC:                             1913.
+Df Residuals:                        83   BIC:                             1918.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      1.463e+05   7578.870     19.306      0.000    1.31e+05    1.61e+05
+thirty_year_interest_rate  3869.4437   1717.014      2.254      0.027     454.371    7284.516
+==============================================================================
+Omnibus:                        6.127   Durbin-Watson:                   0.275
+Prob(Omnibus):                  0.047   Jarque-Bera (JB):                5.106
+Skew:                           0.502   Prob(JB):                       0.0779
+Kurtosis:                       2.342   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+CEDAR IA
+************************************************************
+const	 254648.12
+thirty_year_interest_rate_six	 -19063.93
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.105
+Model:                              OLS   Adj. R-squared:                  0.093
+Method:                   Least Squares   F-statistic:                     8.693
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):            0.00427
+Time:                          21:21:30   Log-Likelihood:                -899.37
+No. Observations:                    76   AIC:                             1803.
+Df Residuals:                        74   BIC:                             1807.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          2.546e+05   2.48e+04     10.257      0.000    2.05e+05    3.04e+05
+thirty_year_interest_rate_six -1.906e+04   6465.707     -2.948      0.004   -3.19e+04   -6180.729
+==============================================================================
+Omnibus:                        3.324   Durbin-Watson:                   0.100
+Prob(Omnibus):                  0.190   Jarque-Bera (JB):                2.910
+Skew:                           0.479   Prob(JB):                        0.233
+Kurtosis:                       3.039   Cond. No.                         26.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

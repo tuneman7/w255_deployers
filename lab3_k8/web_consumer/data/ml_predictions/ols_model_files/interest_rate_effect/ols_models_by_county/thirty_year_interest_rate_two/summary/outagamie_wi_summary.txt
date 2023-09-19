@@ -1,0 +1,31 @@
+************************************************************
+OUTAGAMIE WI
+************************************************************
+const	 151139.41
+thirty_year_interest_rate_two	 31221.30
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.238
+Model:                              OLS   Adj. R-squared:                  0.229
+Method:                   Least Squares   F-statistic:                     25.98
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           2.14e-06
+Time:                          14:07:12   Log-Likelihood:                -1057.4
+No. Observations:                    85   AIC:                             2119.
+Df Residuals:                        83   BIC:                             2124.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          1.511e+05   2.65e+04      5.708      0.000    9.85e+04    2.04e+05
+thirty_year_interest_rate_two  3.122e+04   6125.742      5.097      0.000     1.9e+04    4.34e+04
+==============================================================================
+Omnibus:                        9.621   Durbin-Watson:                   0.047
+Prob(Omnibus):                  0.008   Jarque-Bera (JB):                4.043
+Skew:                          -0.257   Prob(JB):                        0.132
+Kurtosis:                       2.063   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

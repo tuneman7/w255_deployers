@@ -1,0 +1,31 @@
+************************************************************
+COLEMAN TX
+************************************************************
+const	 46082.84
+thirty_year_interest_rate_six	 6351.64
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.095
+Model:                              OLS   Adj. R-squared:                  0.083
+Method:                   Least Squares   F-statistic:                     7.776
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):            0.00673
+Time:                          21:21:44   Log-Likelihood:                -820.07
+No. Observations:                    76   AIC:                             1644.
+Df Residuals:                        74   BIC:                             1649.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          4.608e+04   8745.681      5.269      0.000    2.87e+04    6.35e+04
+thirty_year_interest_rate_six  6351.6399   2277.754      2.789      0.007    1813.116    1.09e+04
+==============================================================================
+Omnibus:                       17.125   Durbin-Watson:                   0.206
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               20.210
+Skew:                           1.111   Prob(JB):                     4.09e-05
+Kurtosis:                       4.201   Cond. No.                         26.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+CULPEPER VA
+************************************************************
+const	 619649.31
+thirty_year_interest_rate_seven	 -63535.32
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.377
+Model:                              OLS   Adj. R-squared:                  0.368
+Method:                   Least Squares   F-statistic:                     44.74
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           3.72e-09
+Time:                          21:23:00   Log-Likelihood:                -926.15
+No. Observations:                    76   AIC:                             1856.
+Df Residuals:                        74   BIC:                             1861.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            6.196e+05   3.63e+04     17.066      0.000    5.47e+05    6.92e+05
+thirty_year_interest_rate_seven -6.354e+04   9499.154     -6.689      0.000   -8.25e+04   -4.46e+04
+==============================================================================
+Omnibus:                       17.881   Durbin-Watson:                   0.100
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               25.850
+Skew:                           0.961   Prob(JB):                     2.44e-06
+Kurtosis:                       5.114   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

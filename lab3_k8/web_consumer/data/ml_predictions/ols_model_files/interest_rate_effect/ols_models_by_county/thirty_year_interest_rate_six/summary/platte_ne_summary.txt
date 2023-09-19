@@ -1,0 +1,31 @@
+************************************************************
+PLATTE NE
+************************************************************
+const	 321866.49
+thirty_year_interest_rate_six	 -22615.21
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.141
+Model:                              OLS   Adj. R-squared:                  0.130
+Method:                   Least Squares   F-statistic:                     12.17
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           0.000823
+Time:                          21:21:42   Log-Likelihood:                -899.57
+No. Observations:                    76   AIC:                             1803.
+Df Residuals:                        74   BIC:                             1808.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          3.219e+05   2.49e+04     12.930      0.000    2.72e+05    3.71e+05
+thirty_year_interest_rate_six -2.262e+04   6483.432     -3.488      0.001   -3.55e+04   -9696.686
+==============================================================================
+Omnibus:                        1.274   Durbin-Watson:                   0.258
+Prob(Omnibus):                  0.529   Jarque-Bera (JB):                1.269
+Skew:                           0.209   Prob(JB):                        0.530
+Kurtosis:                       2.525   Cond. No.                         26.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

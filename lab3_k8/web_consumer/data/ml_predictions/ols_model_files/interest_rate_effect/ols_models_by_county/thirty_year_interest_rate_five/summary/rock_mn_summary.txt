@@ -1,0 +1,31 @@
+************************************************************
+ROCK MN
+************************************************************
+const	 78187.25
+thirty_year_interest_rate_five	 21996.44
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.264
+Model:                              OLS   Adj. R-squared:                  0.255
+Method:                   Least Squares   F-statistic:                     29.73
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           5.01e-07
+Time:                          14:07:32   Log-Likelihood:                -1014.0
+No. Observations:                    85   AIC:                             2032.
+Df Residuals:                        83   BIC:                             2037.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           7.819e+04   1.69e+04      4.614      0.000    4.45e+04    1.12e+05
+thirty_year_interest_rate_five    2.2e+04   4034.373      5.452      0.000     1.4e+04       3e+04
+==============================================================================
+Omnibus:                       10.228   Durbin-Watson:                   0.145
+Prob(Omnibus):                  0.006   Jarque-Bera (JB):                3.602
+Skew:                           0.135   Prob(JB):                        0.165
+Kurtosis:                       2.028   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

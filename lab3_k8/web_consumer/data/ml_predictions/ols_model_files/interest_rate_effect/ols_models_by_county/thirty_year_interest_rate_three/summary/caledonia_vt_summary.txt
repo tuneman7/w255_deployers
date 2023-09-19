@@ -1,0 +1,31 @@
+************************************************************
+CALEDONIA VT
+************************************************************
+const	 55576.73
+thirty_year_interest_rate_three	 44620.76
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.405
+Model:                              OLS   Adj. R-squared:                  0.397
+Method:                   Least Squares   F-statistic:                     56.40
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           6.10e-11
+Time:                          14:07:31   Log-Likelihood:                -1052.5
+No. Observations:                    85   AIC:                             2109.
+Df Residuals:                        83   BIC:                             2114.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            5.558e+04   2.54e+04      2.185      0.032    4976.279    1.06e+05
+thirty_year_interest_rate_three  4.462e+04   5941.521      7.510      0.000    3.28e+04    5.64e+04
+==============================================================================
+Omnibus:                       20.742   Durbin-Watson:                   0.093
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                7.344
+Skew:                           0.461   Prob(JB):                       0.0254
+Kurtosis:                       1.894   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

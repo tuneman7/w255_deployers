@@ -1,0 +1,31 @@
+************************************************************
+NANTUCKET MA
+************************************************************
+const	 2083236.03
+thirty_year_interest_rate_three	 275037.13
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.128
+Model:                              OLS   Adj. R-squared:                  0.117
+Method:                   Least Squares   F-statistic:                     12.14
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           0.000790
+Time:                          14:07:04   Log-Likelihood:                -1272.3
+No. Observations:                    85   AIC:                             2549.
+Df Residuals:                        83   BIC:                             2554.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            2.083e+06   3.38e+05      6.164      0.000    1.41e+06    2.76e+06
+thirty_year_interest_rate_three   2.75e+05   7.89e+04      3.484      0.001    1.18e+05    4.32e+05
+==============================================================================
+Omnibus:                       22.520   Durbin-Watson:                   0.091
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                5.350
+Skew:                           0.207   Prob(JB):                       0.0689
+Kurtosis:                       1.843   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

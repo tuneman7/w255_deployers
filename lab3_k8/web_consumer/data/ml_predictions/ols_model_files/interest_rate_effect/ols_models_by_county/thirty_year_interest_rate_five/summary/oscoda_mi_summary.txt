@@ -1,0 +1,31 @@
+************************************************************
+OSCODA MI
+************************************************************
+const	 82355.89
+thirty_year_interest_rate_five	 5930.46
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.037
+Model:                              OLS   Adj. R-squared:                  0.025
+Method:                   Least Squares   F-statistic:                     3.176
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0784
+Time:                          14:07:01   Log-Likelihood:                -997.59
+No. Observations:                    85   AIC:                             1999.
+Df Residuals:                        83   BIC:                             2004.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           8.236e+04    1.4e+04      5.892      0.000    5.46e+04     1.1e+05
+thirty_year_interest_rate_five  5930.4634   3327.666      1.782      0.078    -688.130    1.25e+04
+==============================================================================
+Omnibus:                       15.006   Durbin-Watson:                   0.154
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):                9.489
+Skew:                           0.670   Prob(JB):                      0.00870
+Kurtosis:                       2.060   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

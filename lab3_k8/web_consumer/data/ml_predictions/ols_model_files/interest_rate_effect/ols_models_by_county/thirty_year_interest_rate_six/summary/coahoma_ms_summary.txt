@@ -1,0 +1,31 @@
+************************************************************
+COAHOMA MS
+************************************************************
+const	 143245.05
+thirty_year_interest_rate_six	 -9253.56
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.035
+Model:                              OLS   Adj. R-squared:                  0.022
+Method:                   Least Squares   F-statistic:                     2.715
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):              0.104
+Time:                          21:22:29   Log-Likelihood:                -888.66
+No. Observations:                    76   AIC:                             1781.
+Df Residuals:                        74   BIC:                             1786.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          1.432e+05   2.16e+04      6.643      0.000       1e+05    1.86e+05
+thirty_year_interest_rate_six -9253.5632   5616.282     -1.648      0.104   -2.04e+04    1937.123
+==============================================================================
+Omnibus:                       18.662   Durbin-Watson:                   0.520
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               22.743
+Skew:                           1.189   Prob(JB):                     1.15e-05
+Kurtosis:                       4.237   Cond. No.                         26.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

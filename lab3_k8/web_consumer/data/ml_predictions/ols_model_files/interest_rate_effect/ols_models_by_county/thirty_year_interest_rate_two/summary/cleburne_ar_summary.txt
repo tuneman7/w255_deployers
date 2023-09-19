@@ -1,0 +1,31 @@
+************************************************************
+CLEBURNE AR
+************************************************************
+const	 206499.16
+thirty_year_interest_rate_two	 11579.11
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.049
+Model:                              OLS   Adj. R-squared:                  0.038
+Method:                   Least Squares   F-statistic:                     4.322
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0407
+Time:                          14:07:17   Log-Likelihood:                -1049.3
+No. Observations:                    85   AIC:                             2103.
+Df Residuals:                        83   BIC:                             2108.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          2.065e+05   2.41e+04      8.577      0.000    1.59e+05    2.54e+05
+thirty_year_interest_rate_two  1.158e+04   5569.828      2.079      0.041     500.948    2.27e+04
+==============================================================================
+Omnibus:                       34.959   Durbin-Watson:                   0.093
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               63.053
+Skew:                           1.656   Prob(JB):                     2.03e-14
+Kurtosis:                       5.614   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

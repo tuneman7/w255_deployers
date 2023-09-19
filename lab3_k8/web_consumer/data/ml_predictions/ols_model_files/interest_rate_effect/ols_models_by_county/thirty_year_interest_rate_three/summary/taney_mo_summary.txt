@@ -1,0 +1,31 @@
+************************************************************
+TANEY MO
+************************************************************
+const	 123971.02
+thirty_year_interest_rate_three	 23994.88
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.179
+Model:                              OLS   Adj. R-squared:                  0.169
+Method:                   Least Squares   F-statistic:                     18.12
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           5.42e-05
+Time:                          14:07:36   Log-Likelihood:                -1048.0
+No. Observations:                    85   AIC:                             2100.
+Df Residuals:                        83   BIC:                             2105.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                             1.24e+05   2.41e+04      5.137      0.000     7.6e+04    1.72e+05
+thirty_year_interest_rate_three  2.399e+04   5636.187      4.257      0.000    1.28e+04    3.52e+04
+==============================================================================
+Omnibus:                       14.796   Durbin-Watson:                   0.029
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):                9.305
+Skew:                           0.661   Prob(JB):                      0.00954
+Kurtosis:                       2.062   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

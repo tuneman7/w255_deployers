@@ -1,0 +1,31 @@
+************************************************************
+CHAUTAUQUA KS
+************************************************************
+const	 190167.09
+thirty_year_interest_rate_two	 -12402.75
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.023
+Model:                              OLS   Adj. R-squared:                  0.011
+Method:                   Least Squares   F-statistic:                     1.913
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.170
+Time:                          14:07:39   Log-Likelihood:                -1089.8
+No. Observations:                    85   AIC:                             2184.
+Df Residuals:                        83   BIC:                             2189.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          1.902e+05   3.88e+04      4.906      0.000    1.13e+05    2.67e+05
+thirty_year_interest_rate_two  -1.24e+04   8966.737     -1.383      0.170   -3.02e+04    5431.730
+==============================================================================
+Omnibus:                       10.242   Durbin-Watson:                   0.639
+Prob(Omnibus):                  0.006   Jarque-Bera (JB):               10.854
+Skew:                           0.873   Prob(JB):                      0.00440
+Kurtosis:                       3.134   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

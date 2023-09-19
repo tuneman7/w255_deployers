@@ -1,0 +1,31 @@
+************************************************************
+EMERY UT
+************************************************************
+const	 146404.71
+thirty_year_interest_rate_two	 14170.60
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.038
+Model:                              OLS   Adj. R-squared:                  0.027
+Method:                   Least Squares   F-statistic:                     3.297
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0730
+Time:                          14:08:29   Log-Likelihood:                -1078.0
+No. Observations:                    85   AIC:                             2160.
+Df Residuals:                        83   BIC:                             2165.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          1.464e+05   3.37e+04      4.340      0.000    7.93e+04    2.14e+05
+thirty_year_interest_rate_two  1.417e+04   7804.227      1.816      0.073   -1351.691    2.97e+04
+==============================================================================
+Omnibus:                       10.882   Durbin-Watson:                   0.112
+Prob(Omnibus):                  0.004   Jarque-Bera (JB):               12.211
+Skew:                           0.926   Prob(JB):                      0.00223
+Kurtosis:                       2.875   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

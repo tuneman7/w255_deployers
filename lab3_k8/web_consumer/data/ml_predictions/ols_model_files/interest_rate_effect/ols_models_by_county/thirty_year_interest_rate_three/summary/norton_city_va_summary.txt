@@ -1,0 +1,31 @@
+************************************************************
+NORTON CITY VA
+************************************************************
+const	 4236.91
+thirty_year_interest_rate_three	 22731.33
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.501
+Model:                              OLS   Adj. R-squared:                  0.495
+Method:                   Least Squares   F-statistic:                     83.32
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           3.62e-14
+Time:                          14:08:27   Log-Likelihood:                -978.54
+No. Observations:                    85   AIC:                             1961.
+Df Residuals:                        83   BIC:                             1966.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            4236.9127   1.07e+04      0.397      0.692    -1.7e+04    2.54e+04
+thirty_year_interest_rate_three  2.273e+04   2490.251      9.128      0.000    1.78e+04    2.77e+04
+==============================================================================
+Omnibus:                        3.334   Durbin-Watson:                   0.551
+Prob(Omnibus):                  0.189   Jarque-Bera (JB):                3.305
+Skew:                           0.464   Prob(JB):                        0.192
+Kurtosis:                       2.733   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

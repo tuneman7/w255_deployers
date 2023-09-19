@@ -1,0 +1,31 @@
+************************************************************
+SCHOOLCRAFT MI
+************************************************************
+const	 308450.95
+thirty_year_interest_rate_seven	 -41356.64
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.380
+Model:                              OLS   Adj. R-squared:                  0.372
+Method:                   Least Squares   F-statistic:                     45.38
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           3.03e-09
+Time:                          21:20:54   Log-Likelihood:                -892.98
+No. Observations:                    76   AIC:                             1790.
+Df Residuals:                        74   BIC:                             1795.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            3.085e+05   2.35e+04     13.145      0.000    2.62e+05    3.55e+05
+thirty_year_interest_rate_seven -4.136e+04   6139.098     -6.737      0.000   -5.36e+04   -2.91e+04
+==============================================================================
+Omnibus:                       16.604   Durbin-Watson:                   0.348
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               23.562
+Skew:                           0.901   Prob(JB):                     7.65e-06
+Kurtosis:                       5.048   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

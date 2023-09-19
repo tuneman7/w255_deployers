@@ -1,0 +1,31 @@
+************************************************************
+PASQUOTANK NC
+************************************************************
+const	 125391.19
+thirty_year_interest_rate_four	 25873.84
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.266
+Model:                              OLS   Adj. R-squared:                  0.257
+Method:                   Least Squares   F-statistic:                     30.07
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           4.40e-07
+Time:                          14:07:28   Log-Likelihood:                -1030.6
+No. Observations:                    85   AIC:                             2065.
+Df Residuals:                        83   BIC:                             2070.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           1.254e+05      2e+04      6.262      0.000    8.56e+04    1.65e+05
+thirty_year_interest_rate_four  2.587e+04   4718.440      5.484      0.000    1.65e+04    3.53e+04
+==============================================================================
+Omnibus:                        9.964   Durbin-Watson:                   0.092
+Prob(Omnibus):                  0.007   Jarque-Bera (JB):                7.928
+Skew:                           0.641   Prob(JB):                       0.0190
+Kurtosis:                       2.229   Cond. No.                         18.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

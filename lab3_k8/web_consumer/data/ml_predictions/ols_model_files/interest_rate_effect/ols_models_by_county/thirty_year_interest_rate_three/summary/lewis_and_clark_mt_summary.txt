@@ -1,0 +1,31 @@
+************************************************************
+LEWIS AND CLARK MT
+************************************************************
+const	 217718.11
+thirty_year_interest_rate_three	 41503.19
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.148
+Model:                              OLS   Adj. R-squared:                  0.137
+Method:                   Least Squares   F-statistic:                     14.38
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           0.000282
+Time:                          14:07:54   Log-Likelihood:                -1104.4
+No. Observations:                    85   AIC:                             2213.
+Df Residuals:                        83   BIC:                             2218.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            2.177e+05   4.69e+04      4.647      0.000    1.25e+05    3.11e+05
+thirty_year_interest_rate_three   4.15e+04   1.09e+04      3.793      0.000    1.97e+04    6.33e+04
+==============================================================================
+Omnibus:                      121.670   Durbin-Watson:                   0.024
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               10.086
+Skew:                           0.406   Prob(JB):                      0.00645
+Kurtosis:                       1.520   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+HAMILTON TX
+************************************************************
+const	 112665.46
+thirty_year_interest_rate_five	 10803.89
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.041
+Model:                              OLS   Adj. R-squared:                  0.029
+Method:                   Least Squares   F-statistic:                     3.546
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0632
+Time:                          14:07:18   Log-Likelihood:                -1043.9
+No. Observations:                    85   AIC:                             2092.
+Df Residuals:                        83   BIC:                             2097.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           1.127e+05   2.41e+04      4.676      0.000    6.47e+04    1.61e+05
+thirty_year_interest_rate_five   1.08e+04   5736.945      1.883      0.063    -606.664    2.22e+04
+==============================================================================
+Omnibus:                        5.822   Durbin-Watson:                   0.106
+Prob(Omnibus):                  0.054   Jarque-Bera (JB):                5.885
+Skew:                           0.612   Prob(JB):                       0.0527
+Kurtosis:                       2.594   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

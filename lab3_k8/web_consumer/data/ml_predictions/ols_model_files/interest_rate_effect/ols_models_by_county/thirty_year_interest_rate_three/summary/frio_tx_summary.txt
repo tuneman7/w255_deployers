@@ -1,0 +1,31 @@
+************************************************************
+FRIO TX
+************************************************************
+const	 158489.34
+thirty_year_interest_rate_three	 977.00
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.001
+Model:                              OLS   Adj. R-squared:                 -0.011
+Method:                   Least Squares   F-statistic:                   0.06405
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.801
+Time:                          14:07:02   Log-Likelihood:                -1015.8
+No. Observations:                    85   AIC:                             2036.
+Df Residuals:                        83   BIC:                             2040.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.585e+05   1.65e+04      9.588      0.000    1.26e+05    1.91e+05
+thirty_year_interest_rate_three   976.9992   3860.325      0.253      0.801   -6701.031    8655.030
+==============================================================================
+Omnibus:                       19.604   Durbin-Watson:                   0.310
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                4.936
+Skew:                           0.177   Prob(JB):                       0.0847
+Kurtosis:                       1.874   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

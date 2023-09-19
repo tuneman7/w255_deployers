@@ -1,0 +1,31 @@
+************************************************************
+SUBLETTE WY
+************************************************************
+const	 25428.41
+thirty_year_interest_rate	 72954.01
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.435
+Model:                              OLS   Adj. R-squared:                  0.429
+Method:                   Least Squares   F-statistic:                     64.00
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           6.51e-12
+Time:                          14:08:25   Log-Likelihood:                -1096.5
+No. Observations:                    85   AIC:                             2197.
+Df Residuals:                        83   BIC:                             2202.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      2.543e+04   4.03e+04      0.632      0.529   -5.46e+04    1.05e+05
+thirty_year_interest_rate  7.295e+04   9119.447      8.000      0.000    5.48e+04    9.11e+04
+==============================================================================
+Omnibus:                        9.933   Durbin-Watson:                   0.138
+Prob(Omnibus):                  0.007   Jarque-Bera (JB):               10.820
+Skew:                           0.848   Prob(JB):                      0.00447
+Kurtosis:                       2.575   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

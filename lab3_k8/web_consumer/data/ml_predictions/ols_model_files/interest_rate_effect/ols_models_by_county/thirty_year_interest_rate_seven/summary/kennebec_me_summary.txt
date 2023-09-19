@@ -1,0 +1,31 @@
+************************************************************
+KENNEBEC ME
+************************************************************
+const	 439539.87
+thirty_year_interest_rate_seven	 -52324.35
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.304
+Model:                              OLS   Adj. R-squared:                  0.295
+Method:                   Least Squares   F-statistic:                     32.40
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           2.38e-07
+Time:                          21:22:07   Log-Likelihood:                -923.67
+No. Observations:                    76   AIC:                             1851.
+Df Residuals:                        74   BIC:                             1856.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            4.395e+05   3.51e+04     12.508      0.000     3.7e+05     5.1e+05
+thirty_year_interest_rate_seven -5.232e+04   9193.141     -5.692      0.000   -7.06e+04    -3.4e+04
+==============================================================================
+Omnibus:                        2.940   Durbin-Watson:                   0.084
+Prob(Omnibus):                  0.230   Jarque-Bera (JB):                2.295
+Skew:                           0.246   Prob(JB):                        0.317
+Kurtosis:                       3.694   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

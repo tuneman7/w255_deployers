@@ -1,0 +1,31 @@
+************************************************************
+BEAVERHEAD MT
+************************************************************
+const	 951555.17
+thirty_year_interest_rate_seven	 -154175.62
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.305
+Model:                              OLS   Adj. R-squared:                  0.296
+Method:                   Least Squares   F-statistic:                     32.53
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           2.27e-07
+Time:                          21:21:02   Log-Likelihood:                -1005.6
+No. Observations:                    76   AIC:                             2015.
+Df Residuals:                        74   BIC:                             2020.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            9.516e+05   1.03e+05      9.210      0.000    7.46e+05    1.16e+06
+thirty_year_interest_rate_seven -1.542e+05    2.7e+04     -5.704      0.000   -2.08e+05      -1e+05
+==============================================================================
+Omnibus:                        8.956   Durbin-Watson:                   0.154
+Prob(Omnibus):                  0.011   Jarque-Bera (JB):                9.515
+Skew:                           0.866   Prob(JB):                      0.00859
+Kurtosis:                       2.950   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+KNOX MO
+************************************************************
+const	 127788.00
+thirty_year_interest_rate	 -6943.08
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.038
+Model:                              OLS   Adj. R-squared:                  0.026
+Method:                   Least Squares   F-statistic:                     3.282
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0737
+Time:                          14:07:35   Log-Likelihood:                -1022.8
+No. Observations:                    85   AIC:                             2050.
+Df Residuals:                        83   BIC:                             2055.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      1.278e+05   1.69e+04      7.554      0.000    9.41e+04    1.61e+05
+thirty_year_interest_rate -6943.0819   3832.675     -1.812      0.074   -1.46e+04     679.954
+==============================================================================
+Omnibus:                       60.518   Durbin-Watson:                   0.688
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              319.654
+Skew:                           2.204   Prob(JB):                     3.87e-70
+Kurtosis:                      11.416   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

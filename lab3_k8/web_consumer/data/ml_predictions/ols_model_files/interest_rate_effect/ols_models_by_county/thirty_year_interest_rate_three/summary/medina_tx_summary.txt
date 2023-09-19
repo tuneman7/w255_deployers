@@ -1,0 +1,31 @@
+************************************************************
+MEDINA TX
+************************************************************
+const	 209907.33
+thirty_year_interest_rate_three	 28636.04
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.294
+Model:                              OLS   Adj. R-squared:                  0.285
+Method:                   Least Squares   F-statistic:                     34.55
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           8.37e-08
+Time:                          14:07:02   Log-Likelihood:                -1035.6
+No. Observations:                    85   AIC:                             2075.
+Df Residuals:                        83   BIC:                             2080.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            2.099e+05   2.09e+04     10.063      0.000    1.68e+05    2.51e+05
+thirty_year_interest_rate_three  2.864e+04   4871.760      5.878      0.000    1.89e+04    3.83e+04
+==============================================================================
+Omnibus:                       11.427   Durbin-Watson:                   0.162
+Prob(Omnibus):                  0.003   Jarque-Bera (JB):               12.951
+Skew:                           0.955   Prob(JB):                      0.00154
+Kurtosis:                       2.895   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

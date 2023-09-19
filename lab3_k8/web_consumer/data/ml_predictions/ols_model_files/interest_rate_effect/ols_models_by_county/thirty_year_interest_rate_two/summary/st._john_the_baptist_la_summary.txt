@@ -1,0 +1,31 @@
+************************************************************
+ST. JOHN THE BAPTIST LA
+************************************************************
+const	 110141.58
+thirty_year_interest_rate_two	 16378.34
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.442
+Model:                              OLS   Adj. R-squared:                  0.436
+Method:                   Least Squares   F-statistic:                     65.86
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           3.83e-12
+Time:                          14:07:37   Log-Likelihood:                -963.04
+No. Observations:                    85   AIC:                             1930.
+Df Residuals:                        83   BIC:                             1935.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          1.101e+05   8723.460     12.626      0.000    9.28e+04    1.27e+05
+thirty_year_interest_rate_two  1.638e+04   2018.130      8.116      0.000    1.24e+04    2.04e+04
+==============================================================================
+Omnibus:                       10.262   Durbin-Watson:                   0.265
+Prob(Omnibus):                  0.006   Jarque-Bera (JB):               10.778
+Skew:                           0.867   Prob(JB):                      0.00457
+Kurtosis:                       3.184   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

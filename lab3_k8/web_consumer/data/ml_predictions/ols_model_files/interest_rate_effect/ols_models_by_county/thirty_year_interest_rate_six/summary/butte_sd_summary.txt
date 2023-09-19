@@ -1,0 +1,31 @@
+************************************************************
+BUTTE SD
+************************************************************
+const	 602242.07
+thirty_year_interest_rate_six	 -83373.41
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.159
+Model:                              OLS   Adj. R-squared:                  0.147
+Method:                   Least Squares   F-statistic:                     13.95
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           0.000367
+Time:                          21:21:24   Log-Likelihood:                -993.54
+No. Observations:                    76   AIC:                             1991.
+Df Residuals:                        74   BIC:                             1996.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          6.022e+05   8.57e+04      7.026      0.000    4.31e+05    7.73e+05
+thirty_year_interest_rate_six -8.337e+04   2.23e+04     -3.734      0.000   -1.28e+05   -3.89e+04
+==============================================================================
+Omnibus:                       12.856   Durbin-Watson:                   0.243
+Prob(Omnibus):                  0.002   Jarque-Bera (JB):               13.747
+Skew:                           1.002   Prob(JB):                      0.00104
+Kurtosis:                       3.567   Cond. No.                         26.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

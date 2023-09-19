@@ -1,0 +1,31 @@
+************************************************************
+GRUNDY IA
+************************************************************
+const	 97879.14
+thirty_year_interest_rate_three	 12126.19
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.201
+Model:                              OLS   Adj. R-squared:                  0.191
+Method:                   Least Squares   F-statistic:                     20.82
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           1.73e-05
+Time:                          14:07:27   Log-Likelihood:                -984.07
+No. Observations:                    85   AIC:                             1972.
+Df Residuals:                        83   BIC:                             1977.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            9.788e+04   1.14e+04      8.602      0.000    7.52e+04    1.21e+05
+thirty_year_interest_rate_three  1.213e+04   2657.389      4.563      0.000    6840.748    1.74e+04
+==============================================================================
+Omnibus:                       10.251   Durbin-Watson:                   0.336
+Prob(Omnibus):                  0.006   Jarque-Bera (JB):               11.092
+Skew:                           0.885   Prob(JB):                      0.00390
+Kurtosis:                       3.022   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

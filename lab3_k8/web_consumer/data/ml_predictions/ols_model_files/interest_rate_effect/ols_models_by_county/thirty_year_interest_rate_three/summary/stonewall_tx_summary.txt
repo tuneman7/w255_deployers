@@ -1,0 +1,31 @@
+************************************************************
+STONEWALL TX
+************************************************************
+const	 106432.30
+thirty_year_interest_rate_three	 11770.96
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.013
+Model:                              OLS   Adj. R-squared:                 -0.006
+Method:                   Least Squares   F-statistic:                    0.6927
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.409
+Time:                          14:07:44   Log-Likelihood:                -710.50
+No. Observations:                    54   AIC:                             1425.
+Df Residuals:                        52   BIC:                             1429.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.064e+05   6.19e+04      1.720      0.091   -1.77e+04    2.31e+05
+thirty_year_interest_rate_three  1.177e+04   1.41e+04      0.832      0.409   -1.66e+04    4.02e+04
+==============================================================================
+Omnibus:                        8.095   Durbin-Watson:                   0.608
+Prob(Omnibus):                  0.017   Jarque-Bera (JB):                7.683
+Skew:                           0.912   Prob(JB):                       0.0215
+Kurtosis:                       3.299   Cond. No.                         16.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+WOODRUFF AR
+************************************************************
+const	 162109.67
+thirty_year_interest_rate_six	 -19871.76
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.205
+Model:                              OLS   Adj. R-squared:                  0.195
+Method:                   Least Squares   F-statistic:                     19.12
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           3.96e-05
+Time:                          21:21:42   Log-Likelihood:                -872.58
+No. Observations:                    76   AIC:                             1749.
+Df Residuals:                        74   BIC:                             1754.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          1.621e+05   1.75e+04      9.289      0.000    1.27e+05    1.97e+05
+thirty_year_interest_rate_six -1.987e+04   4545.020     -4.372      0.000   -2.89e+04   -1.08e+04
+==============================================================================
+Omnibus:                        3.214   Durbin-Watson:                   0.843
+Prob(Omnibus):                  0.200   Jarque-Bera (JB):                2.730
+Skew:                           0.221   Prob(JB):                        0.255
+Kurtosis:                       3.817   Cond. No.                         26.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

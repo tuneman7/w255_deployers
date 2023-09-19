@@ -1,0 +1,31 @@
+************************************************************
+ROCK NE
+************************************************************
+const	 78223.95
+thirty_year_interest_rate_seven	 1766.52
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.002
+Model:                              OLS   Adj. R-squared:                 -0.012
+Method:                   Least Squares   F-statistic:                    0.1295
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):              0.720
+Time:                          21:21:36   Log-Likelihood:                -852.68
+No. Observations:                    74   AIC:                             1709.
+Df Residuals:                        72   BIC:                             1714.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            7.822e+04   1.88e+04      4.161      0.000    4.07e+04    1.16e+05
+thirty_year_interest_rate_seven  1766.5189   4908.015      0.360      0.720   -8017.430    1.16e+04
+==============================================================================
+Omnibus:                        9.987   Durbin-Watson:                   0.677
+Prob(Omnibus):                  0.007   Jarque-Bera (JB):               10.161
+Skew:                           0.893   Prob(JB):                      0.00622
+Kurtosis:                       3.324   Cond. No.                         26.7
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

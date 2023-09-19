@@ -1,0 +1,31 @@
+************************************************************
+ST. CLAIR AL
+************************************************************
+const	 356076.10
+thirty_year_interest_rate_seven	 -28693.13
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.296
+Model:                              OLS   Adj. R-squared:                  0.286
+Method:                   Least Squares   F-statistic:                     31.09
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           3.81e-07
+Time:                          21:20:58   Log-Likelihood:                -879.56
+No. Observations:                    76   AIC:                             1763.
+Df Residuals:                        74   BIC:                             1768.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            3.561e+05   1.97e+04     18.104      0.000    3.17e+05    3.95e+05
+thirty_year_interest_rate_seven -2.869e+04   5145.678     -5.576      0.000   -3.89e+04   -1.84e+04
+==============================================================================
+Omnibus:                        5.883   Durbin-Watson:                   0.100
+Prob(Omnibus):                  0.053   Jarque-Bera (JB):                5.219
+Skew:                           0.621   Prob(JB):                       0.0736
+Kurtosis:                       3.326   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

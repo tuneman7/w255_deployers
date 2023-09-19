@@ -1,0 +1,31 @@
+************************************************************
+CLINTON IA
+************************************************************
+const	 -28232.68
+thirty_year_interest_rate_two	 32047.84
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.598
+Model:                              OLS   Adj. R-squared:                  0.594
+Method:                   Least Squares   F-statistic:                     123.7
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           4.03e-18
+Time:                          14:08:13   Log-Likelihood:                -993.32
+No. Observations:                    85   AIC:                             1991.
+Df Residuals:                        83   BIC:                             1996.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                         -2.823e+04   1.25e+04     -2.267      0.026    -5.3e+04   -3458.196
+thirty_year_interest_rate_two  3.205e+04   2881.635     11.121      0.000    2.63e+04    3.78e+04
+==============================================================================
+Omnibus:                       11.514   Durbin-Watson:                   0.215
+Prob(Omnibus):                  0.003   Jarque-Bera (JB):               12.072
+Skew:                           0.901   Prob(JB):                      0.00239
+Kurtosis:                       3.398   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

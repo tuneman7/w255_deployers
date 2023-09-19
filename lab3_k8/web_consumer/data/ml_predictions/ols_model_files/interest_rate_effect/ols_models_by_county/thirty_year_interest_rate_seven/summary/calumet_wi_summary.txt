@@ -1,0 +1,31 @@
+************************************************************
+CALUMET WI
+************************************************************
+const	 400187.33
+thirty_year_interest_rate_seven	 -34358.00
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.152
+Model:                              OLS   Adj. R-squared:                  0.140
+Method:                   Least Squares   F-statistic:                     13.23
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           0.000506
+Time:                          21:22:05   Log-Likelihood:                -925.72
+No. Observations:                    76   AIC:                             1855.
+Df Residuals:                        74   BIC:                             1860.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            4.002e+05   3.61e+04     11.085      0.000    3.28e+05    4.72e+05
+thirty_year_interest_rate_seven -3.436e+04   9444.638     -3.638      0.001   -5.32e+04   -1.55e+04
+==============================================================================
+Omnibus:                       16.044   Durbin-Watson:                   0.070
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               19.909
+Skew:                           0.964   Prob(JB):                     4.75e-05
+Kurtosis:                       4.602   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

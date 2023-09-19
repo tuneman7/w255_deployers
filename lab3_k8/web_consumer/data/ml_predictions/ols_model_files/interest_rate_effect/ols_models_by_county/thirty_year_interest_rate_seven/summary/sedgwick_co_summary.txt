@@ -1,0 +1,31 @@
+************************************************************
+SEDGWICK CO
+************************************************************
+const	 243830.96
+thirty_year_interest_rate_seven	 -25762.41
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.049
+Model:                              OLS   Adj. R-squared:                  0.036
+Method:                   Least Squares   F-statistic:                     3.798
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):             0.0551
+Time:                          21:22:01   Log-Likelihood:                -951.27
+No. Observations:                    76   AIC:                             1907.
+Df Residuals:                        74   BIC:                             1911.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            2.438e+05   5.05e+04      4.825      0.000    1.43e+05    3.45e+05
+thirty_year_interest_rate_seven -2.576e+04   1.32e+04     -1.949      0.055   -5.21e+04     579.164
+==============================================================================
+Omnibus:                       45.932   Durbin-Watson:                   1.255
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              193.034
+Skew:                           1.783   Prob(JB):                     1.21e-42
+Kurtosis:                       9.946   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

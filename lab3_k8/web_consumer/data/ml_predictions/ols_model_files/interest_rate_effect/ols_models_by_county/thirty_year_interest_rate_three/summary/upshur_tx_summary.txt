@@ -1,0 +1,31 @@
+************************************************************
+UPSHUR TX
+************************************************************
+const	 146849.69
+thirty_year_interest_rate_three	 15893.19
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.084
+Model:                              OLS   Adj. R-squared:                  0.073
+Method:                   Least Squares   F-statistic:                     7.578
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00725
+Time:                          14:07:46   Log-Likelihood:                -1050.0
+No. Observations:                    85   AIC:                             2104.
+Df Residuals:                        83   BIC:                             2109.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.468e+05   2.47e+04      5.940      0.000    9.77e+04    1.96e+05
+thirty_year_interest_rate_three  1.589e+04   5773.252      2.753      0.007    4410.425    2.74e+04
+==============================================================================
+Omnibus:                       15.339   Durbin-Watson:                   0.139
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               17.957
+Skew:                           1.115   Prob(JB):                     0.000126
+Kurtosis:                       3.305   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

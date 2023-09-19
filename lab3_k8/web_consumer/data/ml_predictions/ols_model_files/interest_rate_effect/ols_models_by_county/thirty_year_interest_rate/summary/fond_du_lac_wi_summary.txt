@@ -1,0 +1,31 @@
+************************************************************
+FOND DU LAC WI
+************************************************************
+const	 57184.91
+thirty_year_interest_rate	 33494.04
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.398
+Model:                              OLS   Adj. R-squared:                  0.391
+Method:                   Least Squares   F-statistic:                     54.86
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           9.75e-11
+Time:                          14:07:09   Log-Likelihood:                -1036.9
+No. Observations:                    85   AIC:                             2078.
+Df Residuals:                        83   BIC:                             2083.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      5.718e+04      2e+04      2.865      0.005    1.75e+04    9.69e+04
+thirty_year_interest_rate  3.349e+04   4522.223      7.407      0.000    2.45e+04    4.25e+04
+==============================================================================
+Omnibus:                       35.037   Durbin-Watson:                   0.108
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                6.018
+Skew:                           0.167   Prob(JB):                       0.0493
+Kurtosis:                       1.740   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

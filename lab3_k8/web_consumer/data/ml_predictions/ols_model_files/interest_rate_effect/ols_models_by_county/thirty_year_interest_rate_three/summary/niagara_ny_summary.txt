@@ -1,0 +1,31 @@
+************************************************************
+NIAGARA NY
+************************************************************
+const	 115421.20
+thirty_year_interest_rate_three	 11015.47
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.170
+Model:                              OLS   Adj. R-squared:                  0.160
+Method:                   Least Squares   F-statistic:                     16.98
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           8.90e-05
+Time:                          14:08:20   Log-Likelihood:                -984.57
+No. Observations:                    85   AIC:                             1973.
+Df Residuals:                        83   BIC:                             1978.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.154e+05   1.14e+04     10.084      0.000    9.27e+04    1.38e+05
+thirty_year_interest_rate_three  1.102e+04   2673.177      4.121      0.000    5698.631    1.63e+04
+==============================================================================
+Omnibus:                       13.879   Durbin-Watson:                   0.094
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):                4.181
+Skew:                           0.149   Prob(JB):                        0.124
+Kurtosis:                       1.955   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

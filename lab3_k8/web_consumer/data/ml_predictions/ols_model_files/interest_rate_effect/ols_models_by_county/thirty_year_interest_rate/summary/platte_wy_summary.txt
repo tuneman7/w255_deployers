@@ -1,0 +1,31 @@
+************************************************************
+PLATTE WY
+************************************************************
+const	 151766.97
+thirty_year_interest_rate	 15164.09
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.213
+Model:                              OLS   Adj. R-squared:                  0.204
+Method:                   Least Squares   F-statistic:                     22.49
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           8.67e-06
+Time:                          14:08:16   Log-Likelihood:                -1007.4
+No. Observations:                    85   AIC:                             2019.
+Df Residuals:                        83   BIC:                             2024.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      1.518e+05   1.41e+04     10.753      0.000    1.24e+05     1.8e+05
+thirty_year_interest_rate  1.516e+04   3197.677      4.742      0.000    8804.041    2.15e+04
+==============================================================================
+Omnibus:                       16.788   Durbin-Watson:                   0.337
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               19.624
+Skew:                           1.033   Prob(JB):                     5.48e-05
+Kurtosis:                       4.128   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

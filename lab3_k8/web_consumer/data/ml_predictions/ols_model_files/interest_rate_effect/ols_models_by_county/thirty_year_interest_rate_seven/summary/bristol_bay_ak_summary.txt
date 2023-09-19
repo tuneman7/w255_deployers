@@ -1,0 +1,31 @@
+************************************************************
+BRISTOL BAY AK
+************************************************************
+const	 675582.26
+thirty_year_interest_rate_seven	 -109562.02
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.204
+Model:                              OLS   Adj. R-squared:                  0.187
+Method:                   Least Squares   F-statistic:                     11.80
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):            0.00127
+Time:                          21:21:29   Log-Likelihood:                -626.12
+No. Observations:                    48   AIC:                             1256.
+Df Residuals:                        46   BIC:                             1260.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            6.756e+05    1.2e+05      5.615      0.000    4.33e+05    9.18e+05
+thirty_year_interest_rate_seven -1.096e+05   3.19e+04     -3.435      0.001   -1.74e+05   -4.54e+04
+==============================================================================
+Omnibus:                        3.711   Durbin-Watson:                   0.501
+Prob(Omnibus):                  0.156   Jarque-Bera (JB):                1.725
+Skew:                          -0.006   Prob(JB):                        0.422
+Kurtosis:                       2.071   Cond. No.                         29.4
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

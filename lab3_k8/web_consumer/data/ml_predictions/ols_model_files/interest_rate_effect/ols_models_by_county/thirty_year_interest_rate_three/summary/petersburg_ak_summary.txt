@@ -1,0 +1,31 @@
+************************************************************
+PETERSBURG AK
+************************************************************
+const	 94658.96
+thirty_year_interest_rate_three	 44197.68
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.657
+Model:                              OLS   Adj. R-squared:                  0.653
+Method:                   Least Squares   F-statistic:                     159.2
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           5.30e-21
+Time:                          14:08:21   Log-Likelihood:                -1007.5
+No. Observations:                    85   AIC:                             2019.
+Df Residuals:                        83   BIC:                             2024.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            9.466e+04    1.5e+04      6.312      0.000    6.48e+04    1.24e+05
+thirty_year_interest_rate_three   4.42e+04   3502.374     12.619      0.000    3.72e+04    5.12e+04
+==============================================================================
+Omnibus:                       20.145   Durbin-Watson:                   0.715
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               29.616
+Skew:                           1.013   Prob(JB):                     3.71e-07
+Kurtosis:                       5.063   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

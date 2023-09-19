@@ -1,0 +1,31 @@
+************************************************************
+FAULK SD
+************************************************************
+const	 122987.71
+thirty_year_interest_rate	 -1894.78
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.001
+Model:                              OLS   Adj. R-squared:                 -0.014
+Method:                   Least Squares   F-statistic:                   0.06592
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.798
+Time:                          14:07:52   Log-Likelihood:                -859.12
+No. Observations:                    68   AIC:                             1722.
+Df Residuals:                        66   BIC:                             1727.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                       1.23e+05   3.34e+04      3.685      0.000    5.64e+04     1.9e+05
+thirty_year_interest_rate -1894.7812   7380.033     -0.257      0.798   -1.66e+04    1.28e+04
+==============================================================================
+Omnibus:                       10.224   Durbin-Watson:                   0.743
+Prob(Omnibus):                  0.006   Jarque-Bera (JB):               11.121
+Skew:                           0.991   Prob(JB):                      0.00385
+Kurtosis:                       3.005   Cond. No.                         17.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

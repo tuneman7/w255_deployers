@@ -1,0 +1,31 @@
+************************************************************
+MENOMINEE WI
+************************************************************
+const	 72281.92
+thirty_year_interest_rate_three	 65395.97
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.367
+Model:                              OLS   Adj. R-squared:                  0.360
+Method:                   Least Squares   F-statistic:                     48.15
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           8.02e-10
+Time:                          14:07:42   Log-Likelihood:                -1091.7
+No. Observations:                    85   AIC:                             2187.
+Df Residuals:                        83   BIC:                             2192.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            7.228e+04   4.04e+04      1.791      0.077   -7976.493    1.53e+05
+thirty_year_interest_rate_three   6.54e+04   9423.968      6.939      0.000    4.67e+04    8.41e+04
+==============================================================================
+Omnibus:                       14.439   Durbin-Watson:                   0.398
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):               16.205
+Skew:                           1.045   Prob(JB):                     0.000303
+Kurtosis:                       3.453   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

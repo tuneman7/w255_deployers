@@ -1,0 +1,31 @@
+************************************************************
+PEMISCOT MO
+************************************************************
+const	 59515.07
+thirty_year_interest_rate_four	 7221.82
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.093
+Model:                              OLS   Adj. R-squared:                  0.082
+Method:                   Least Squares   F-statistic:                     8.544
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00447
+Time:                          14:06:56   Log-Likelihood:                -975.55
+No. Observations:                    85   AIC:                             1955.
+Df Residuals:                        83   BIC:                             1960.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           5.952e+04   1.05e+04      5.676      0.000    3.87e+04    8.04e+04
+thirty_year_interest_rate_four  7221.8166   2470.608      2.923      0.004    2307.877    1.21e+04
+==============================================================================
+Omnibus:                        1.907   Durbin-Watson:                   0.278
+Prob(Omnibus):                  0.385   Jarque-Bera (JB):                1.304
+Skew:                           0.147   Prob(JB):                        0.521
+Kurtosis:                       3.530   Cond. No.                         18.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

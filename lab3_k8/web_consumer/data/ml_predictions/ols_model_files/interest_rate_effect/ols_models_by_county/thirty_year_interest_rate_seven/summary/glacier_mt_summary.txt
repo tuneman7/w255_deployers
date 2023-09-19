@@ -1,0 +1,31 @@
+************************************************************
+GLACIER MT
+************************************************************
+const	 530651.18
+thirty_year_interest_rate_seven	 -89101.02
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.264
+Model:                              OLS   Adj. R-squared:                  0.254
+Method:                   Least Squares   F-statistic:                     26.52
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           2.08e-06
+Time:                          21:22:54   Log-Likelihood:                -971.73
+No. Observations:                    76   AIC:                             1947.
+Df Residuals:                        74   BIC:                             1952.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            5.307e+05   6.61e+04      8.024      0.000    3.99e+05    6.62e+05
+thirty_year_interest_rate_seven  -8.91e+04   1.73e+04     -5.150      0.000   -1.24e+05   -5.46e+04
+==============================================================================
+Omnibus:                       19.967   Durbin-Watson:                   0.406
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               25.028
+Skew:                           1.340   Prob(JB):                     3.67e-06
+Kurtosis:                       3.851   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

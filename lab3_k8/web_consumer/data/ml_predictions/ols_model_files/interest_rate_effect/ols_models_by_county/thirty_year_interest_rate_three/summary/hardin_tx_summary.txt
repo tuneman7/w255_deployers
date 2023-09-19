@@ -1,0 +1,31 @@
+************************************************************
+HARDIN TX
+************************************************************
+const	 171944.62
+thirty_year_interest_rate_three	 15345.99
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.155
+Model:                              OLS   Adj. R-squared:                  0.145
+Method:                   Least Squares   F-statistic:                     15.20
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           0.000196
+Time:                          14:07:42   Log-Likelihood:                -1017.5
+No. Observations:                    85   AIC:                             2039.
+Df Residuals:                        83   BIC:                             2044.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.719e+05   1.69e+04     10.201      0.000    1.38e+05    2.05e+05
+thirty_year_interest_rate_three  1.535e+04   3936.678      3.898      0.000    7516.092    2.32e+04
+==============================================================================
+Omnibus:                      123.928   Durbin-Watson:                   0.048
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                7.815
+Skew:                           0.020   Prob(JB):                       0.0201
+Kurtosis:                       1.515   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

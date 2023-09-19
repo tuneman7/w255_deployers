@@ -1,0 +1,31 @@
+************************************************************
+IBERVILLE LA
+************************************************************
+const	 178451.50
+thirty_year_interest_rate_two	 8993.05
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.133
+Model:                              OLS   Adj. R-squared:                  0.122
+Method:                   Least Squares   F-statistic:                     12.71
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           0.000607
+Time:                          14:07:04   Log-Likelihood:                -982.01
+No. Observations:                    85   AIC:                             1968.
+Df Residuals:                        83   BIC:                             1973.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          1.785e+05   1.09e+04     16.365      0.000    1.57e+05       2e+05
+thirty_year_interest_rate_two  8993.0536   2522.626      3.565      0.001    3975.653     1.4e+04
+==============================================================================
+Omnibus:                        6.487   Durbin-Watson:                   0.281
+Prob(Omnibus):                  0.039   Jarque-Bera (JB):                6.800
+Skew:                           0.423   Prob(JB):                       0.0334
+Kurtosis:                       4.098   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

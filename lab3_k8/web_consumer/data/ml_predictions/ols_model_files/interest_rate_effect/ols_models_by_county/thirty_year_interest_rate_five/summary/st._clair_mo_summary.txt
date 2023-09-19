@@ -1,0 +1,31 @@
+************************************************************
+ST. CLAIR MO
+************************************************************
+const	 -7155.15
+thirty_year_interest_rate_five	 41090.40
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.210
+Model:                              OLS   Adj. R-squared:                  0.201
+Method:                   Least Squares   F-statistic:                     22.11
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           1.01e-05
+Time:                          14:08:04   Log-Likelihood:                -1079.6
+No. Observations:                    85   AIC:                             2163.
+Df Residuals:                        83   BIC:                             2168.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                          -7155.1452   3.67e+04     -0.195      0.846   -8.01e+04    6.58e+04
+thirty_year_interest_rate_five  4.109e+04   8737.745      4.703      0.000    2.37e+04    5.85e+04
+==============================================================================
+Omnibus:                       47.267   Durbin-Watson:                   0.232
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              137.186
+Skew:                           1.919   Prob(JB):                     1.62e-30
+Kurtosis:                       7.900   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

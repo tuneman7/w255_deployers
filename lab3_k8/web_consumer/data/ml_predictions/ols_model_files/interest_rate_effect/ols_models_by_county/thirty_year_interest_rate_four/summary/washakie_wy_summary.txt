@@ -1,0 +1,31 @@
+************************************************************
+WASHAKIE WY
+************************************************************
+const	 142275.36
+thirty_year_interest_rate_four	 11153.36
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.085
+Model:                              OLS   Adj. R-squared:                  0.074
+Method:                   Least Squares   F-statistic:                     7.754
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00664
+Time:                          14:07:58   Log-Likelihood:                -1016.6
+No. Observations:                    85   AIC:                             2037.
+Df Residuals:                        83   BIC:                             2042.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           1.423e+05    1.7e+04      8.370      0.000    1.08e+05    1.76e+05
+thirty_year_interest_rate_four  1.115e+04   4005.250      2.785      0.007    3187.080    1.91e+04
+==============================================================================
+Omnibus:                       21.482   Durbin-Watson:                   0.172
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               27.849
+Skew:                           1.361   Prob(JB):                     8.97e-07
+Kurtosis:                       3.676   Cond. No.                         18.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

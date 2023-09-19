@@ -1,0 +1,31 @@
+************************************************************
+MCHENRY ND
+************************************************************
+const	 70452.34
+thirty_year_interest_rate_two	 11407.24
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.237
+Model:                              OLS   Adj. R-squared:                  0.227
+Method:                   Least Squares   F-statistic:                     25.72
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           2.37e-06
+Time:                          14:08:12   Log-Likelihood:                -972.27
+No. Observations:                    85   AIC:                             1949.
+Df Residuals:                        83   BIC:                             1953.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          7.045e+04   9723.323      7.246      0.000    5.11e+04    8.98e+04
+thirty_year_interest_rate_two  1.141e+04   2249.443      5.071      0.000    6933.188    1.59e+04
+==============================================================================
+Omnibus:                       10.664   Durbin-Watson:                   0.859
+Prob(Omnibus):                  0.005   Jarque-Bera (JB):               11.593
+Skew:                           0.686   Prob(JB):                      0.00304
+Kurtosis:                       4.180   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

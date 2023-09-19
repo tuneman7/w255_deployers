@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.my_column {
+  float: left;
+  width: 20.0%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .my_column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.my_card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.my_container {
+  padding: 0 12px;
+}
+
+.my_container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.my_title {
+  color: grey;
+}
+
+.my_p{
+  width: 200px;  
+  word-wrap: normal;  
+}  
+
+.my_center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+</style>
+</head>
+<body>
+<br/>
+
+
+  <div class="container-fluid" id="eu_event_detail_rendering" >
+    <div class="row">
+      <div class="col-md-4 align-baseline">
+        <h2>Academic Underpinnings:</h2>
+      </div>
+      <div class="col-md-8 align-baseline">
+        <a href="http://www.econ.yale.edu/~shiller/" target="http://www.econ.yale.edu/~shiller/">
+          <img src="./static/images/economics/schiller.jpg?bozo2">
+        </a>
+          <a href="https://www.wellesley.edu/economics/faculty/casek" target="https://www.wellesley.edu/economics/faculty/casek">
+            <img src="./static/images/economics/case.jpg?bozo2">
+          </a>
+          <a href="https://www.econ.berkeley.edu/profile/john-m-quigley" target="https://www.econ.berkeley.edu/profile/john-m-quigley">
+            <img src="./static/images/economics/quigley_web.jpg?bozo29">
+          </a>
+
+        </table>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 align-baseline">
+        <ul>
+          <li>The academic underpinnings of this project are fundemental economic concepts as taught in most 
+          undergrad Business Administration or Econ programs. </li>
+          <li>We operationalize, visualize, simplify, and make accessible, 
+          the work of Nobel Prize Laureate and Yale Professor, Robert Schiller, the late Professor Karl E. Case of Wellesley University, 
+          and the late Professor John M Quigley of U.C. Berkeley. </li>
+          <li>This Data Science application is based on the aforementioned authors' three papers:</li>
+          <li>
+            <a href="http://www.econ.yale.edu/~shiller/pubs/p1089.pdf" target="http://www.econ.yale.edu/~shiller/pubs/p1089.pdf">
+              IS THERE A BUBBLE IN THE HOUSING MARKET?
+            </a>
+          </li>
+          <li>
+            <a href="http://urbanpolicy.berkeley.edu/pdf/CQSAdvMacro2005Web.pdf" target="http://urbanpolicy.berkeley.edu/pdf/CQSAdvMacro2005Web.pdf">
+              COMPARING WEALTH EFFECTS:
+              THE STOCK MAREKET VERSUS THE HOUSING MARKET
+            </a>
+          </li>
+          <li>
+            <a href="http://urbanpolicy.berkeley.edu/pdf/CQ_EJHP08.pdf" target="http://urbanpolicy.berkeley.edu/pdf/CQ_EJHP08.pdf">
+              How Housing Booms Unwind: Income
+              Effects, Wealth Effects, and Feedbacks
+              through Financial Markets
+            </a>
+          </li>	
+        </ul>
+      </div>
+    </div>
+   </div>
+
+</div>		
+
+
+
+ 
+  <div class="modal fade" id="email_modal" >
+    <div class="modal-dialog modal-md" >
+        <div class="modal-content modal-md">
+            <div class="modal-header modal-md">
+                <h4 class="modal-title">
+                  Send us a message.
+                  <button type="button" class="close" id="closemailmodal" data-dismiss="modal">X</button>
+                </h4>
+            </div>
+            <div class="modal-body modal-lg">
+            </div>
+        </div>
+    </div>
+  </div>
+    
+<script>
+
+  function render_email_modal(){
+
+          $('#email_modal').modal('show'); 
+          //Implicit else
+            page_loading();
+            
+
+            $.ajax({
+                url: '/send_email',
+                type: 'get',
+                success: function(data){ 
+                    $('.modal-body').html(data); 
+                    $('.modal-body').append(data.htmlresponse);
+                    $('#email_modal').modal('show'); 
+                }
+            });
+          };
+
+
+ </script>  
+
+
+
+
+
+</body>
+</html>

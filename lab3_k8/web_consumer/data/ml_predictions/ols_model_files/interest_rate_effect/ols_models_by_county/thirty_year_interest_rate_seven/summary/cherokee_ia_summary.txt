@@ -1,0 +1,31 @@
+************************************************************
+CHEROKEE IA
+************************************************************
+const	 165041.76
+thirty_year_interest_rate_seven	 -16056.76
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.139
+Model:                              OLS   Adj. R-squared:                  0.127
+Method:                   Least Squares   F-statistic:                     11.95
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           0.000908
+Time:                          21:21:04   Log-Likelihood:                -871.77
+No. Observations:                    76   AIC:                             1748.
+Df Residuals:                        74   BIC:                             1752.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                             1.65e+05   1.78e+04      9.297      0.000     1.3e+05       2e+05
+thirty_year_interest_rate_seven -1.606e+04   4644.182     -3.457      0.001   -2.53e+04   -6803.027
+==============================================================================
+Omnibus:                       12.816   Durbin-Watson:                   0.240
+Prob(Omnibus):                  0.002   Jarque-Bera (JB):               13.826
+Skew:                           1.017   Prob(JB):                     0.000995
+Kurtosis:                       3.477   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

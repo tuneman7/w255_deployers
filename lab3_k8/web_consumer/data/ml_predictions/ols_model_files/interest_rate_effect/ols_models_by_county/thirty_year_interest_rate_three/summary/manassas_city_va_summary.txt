@@ -1,0 +1,31 @@
+************************************************************
+MANASSAS CITY VA
+************************************************************
+const	 214756.56
+thirty_year_interest_rate_three	 39925.45
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.336
+Model:                              OLS   Adj. R-squared:                  0.328
+Method:                   Least Squares   F-statistic:                     41.97
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           6.20e-09
+Time:                          14:08:03   Log-Likelihood:                -1055.6
+No. Observations:                    85   AIC:                             2115.
+Df Residuals:                        83   BIC:                             2120.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            2.148e+05   2.64e+04      8.138      0.000    1.62e+05    2.67e+05
+thirty_year_interest_rate_three  3.993e+04   6162.716      6.479      0.000    2.77e+04    5.22e+04
+==============================================================================
+Omnibus:                       13.833   Durbin-Watson:                   0.204
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):               14.981
+Skew:                           0.961   Prob(JB):                     0.000558
+Kurtosis:                       3.731   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

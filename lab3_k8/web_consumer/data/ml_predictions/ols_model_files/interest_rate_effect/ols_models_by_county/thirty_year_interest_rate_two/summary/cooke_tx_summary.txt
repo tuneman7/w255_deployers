@@ -1,0 +1,31 @@
+************************************************************
+COOKE TX
+************************************************************
+const	 180725.97
+thirty_year_interest_rate_two	 32902.36
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.389
+Model:                              OLS   Adj. R-squared:                  0.381
+Method:                   Least Squares   F-statistic:                     52.77
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           1.86e-10
+Time:                          14:08:24   Log-Likelihood:                -1031.8
+No. Observations:                    85   AIC:                             2068.
+Df Residuals:                        83   BIC:                             2072.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          1.807e+05   1.96e+04      9.231      0.000    1.42e+05     2.2e+05
+thirty_year_interest_rate_two   3.29e+04   4529.374      7.264      0.000    2.39e+04    4.19e+04
+==============================================================================
+Omnibus:                        1.993   Durbin-Watson:                   0.529
+Prob(Omnibus):                  0.369   Jarque-Bera (JB):                1.500
+Skew:                           0.008   Prob(JB):                        0.472
+Kurtosis:                       3.651   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

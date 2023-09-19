@@ -1,0 +1,31 @@
+************************************************************
+BUFFALO SD
+************************************************************
+const	 170170.47
+thirty_year_interest_rate	 10265.36
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.060
+Model:                              OLS   Adj. R-squared:                  0.010
+Method:                   Least Squares   F-statistic:                     1.211
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.285
+Time:                          14:07:54   Log-Likelihood:                -253.56
+No. Observations:                    21   AIC:                             511.1
+Df Residuals:                        19   BIC:                             513.2
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      1.702e+05   4.33e+04      3.928      0.001    7.95e+04    2.61e+05
+thirty_year_interest_rate  1.027e+04   9326.647      1.101      0.285   -9255.533    2.98e+04
+==============================================================================
+Omnibus:                       22.078   Durbin-Watson:                   0.331
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                2.881
+Skew:                           0.219   Prob(JB):                        0.237
+Kurtosis:                       1.239   Cond. No.                         21.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

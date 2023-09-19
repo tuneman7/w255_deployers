@@ -1,0 +1,31 @@
+************************************************************
+HENDERSON TX
+************************************************************
+const	 396787.08
+thirty_year_interest_rate_six	 -30948.86
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.123
+Model:                              OLS   Adj. R-squared:                  0.111
+Method:                   Least Squares   F-statistic:                     10.36
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):            0.00192
+Time:                          21:22:27   Log-Likelihood:                -929.54
+No. Observations:                    76   AIC:                             1863.
+Df Residuals:                        74   BIC:                             1868.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          3.968e+05   3.69e+04     10.746      0.000    3.23e+05     4.7e+05
+thirty_year_interest_rate_six -3.095e+04   9616.985     -3.218      0.002   -5.01e+04   -1.18e+04
+==============================================================================
+Omnibus:                       14.097   Durbin-Watson:                   0.103
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):               15.394
+Skew:                           1.039   Prob(JB):                     0.000454
+Kurtosis:                       3.735   Cond. No.                         26.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

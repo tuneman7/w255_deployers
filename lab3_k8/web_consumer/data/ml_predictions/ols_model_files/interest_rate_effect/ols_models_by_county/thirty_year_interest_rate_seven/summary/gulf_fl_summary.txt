@@ -1,0 +1,31 @@
+************************************************************
+GULF FL
+************************************************************
+const	 505633.91
+thirty_year_interest_rate_seven	 -29513.30
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.064
+Model:                              OLS   Adj. R-squared:                  0.051
+Method:                   Least Squares   F-statistic:                     5.052
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):             0.0276
+Time:                          21:20:56   Log-Likelihood:                -950.76
+No. Observations:                    76   AIC:                             1906.
+Df Residuals:                        74   BIC:                             1910.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            5.056e+05   5.02e+04     10.074      0.000    4.06e+05    6.06e+05
+thirty_year_interest_rate_seven -2.951e+04   1.31e+04     -2.248      0.028   -5.57e+04   -3349.074
+==============================================================================
+Omnibus:                       33.470   Durbin-Watson:                   0.184
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               67.039
+Skew:                           1.599   Prob(JB):                     2.77e-15
+Kurtosis:                       6.309   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

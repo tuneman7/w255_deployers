@@ -1,0 +1,31 @@
+************************************************************
+LANCASTER SC
+************************************************************
+const	 313534.98
+thirty_year_interest_rate_four	 6923.14
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.044
+Model:                              OLS   Adj. R-squared:                  0.032
+Method:                   Least Squares   F-statistic:                     3.798
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0547
+Time:                          14:08:19   Log-Likelihood:                -1006.4
+No. Observations:                    85   AIC:                             2017.
+Df Residuals:                        83   BIC:                             2022.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           3.135e+05   1.51e+04     20.796      0.000    2.84e+05    3.44e+05
+thirty_year_interest_rate_four  6923.1437   3552.507      1.949      0.055    -142.649     1.4e+04
+==============================================================================
+Omnibus:                       13.711   Durbin-Watson:                   0.119
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):                4.166
+Skew:                           0.151   Prob(JB):                        0.125
+Kurtosis:                       1.958   Cond. No.                         18.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+ADDISON VT
+************************************************************
+const	 423030.25
+thirty_year_interest_rate_six	 -21123.24
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.048
+Model:                              OLS   Adj. R-squared:                  0.036
+Method:                   Least Squares   F-statistic:                     3.764
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):             0.0562
+Time:                          21:22:21   Log-Likelihood:                -938.97
+No. Observations:                    76   AIC:                             1882.
+Df Residuals:                        74   BIC:                             1887.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                           4.23e+05   4.18e+04     10.119      0.000     3.4e+05    5.06e+05
+thirty_year_interest_rate_six -2.112e+04   1.09e+04     -1.940      0.056   -4.28e+04     571.745
+==============================================================================
+Omnibus:                       44.303   Durbin-Watson:                   0.132
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              116.291
+Skew:                           2.002   Prob(JB):                     5.59e-26
+Kurtosis:                       7.548   Cond. No.                         26.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

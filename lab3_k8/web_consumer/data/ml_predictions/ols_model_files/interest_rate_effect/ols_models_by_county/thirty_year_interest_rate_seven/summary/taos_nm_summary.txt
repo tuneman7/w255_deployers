@@ -1,0 +1,31 @@
+************************************************************
+TAOS NM
+************************************************************
+const	 643385.35
+thirty_year_interest_rate_seven	 -59207.41
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.252
+Model:                              OLS   Adj. R-squared:                  0.242
+Method:                   Least Squares   F-statistic:                     24.91
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           3.87e-06
+Time:                          21:21:36   Log-Likelihood:                -943.05
+No. Observations:                    76   AIC:                             1890.
+Df Residuals:                        74   BIC:                             1895.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            6.434e+05   4.53e+04     14.188      0.000    5.53e+05    7.34e+05
+thirty_year_interest_rate_seven -5.921e+04   1.19e+04     -4.991      0.000   -8.28e+04   -3.56e+04
+==============================================================================
+Omnibus:                       21.922   Durbin-Watson:                   0.118
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               33.895
+Skew:                           1.143   Prob(JB):                     4.36e-08
+Kurtosis:                       5.341   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+TIOGA PA
+************************************************************
+const	 122058.66
+thirty_year_interest_rate_two	 12183.32
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.244
+Model:                              OLS   Adj. R-squared:                  0.235
+Method:                   Least Squares   F-statistic:                     26.74
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           1.58e-06
+Time:                          14:08:06   Log-Likelihood:                -976.20
+No. Observations:                    85   AIC:                             1956.
+Df Residuals:                        83   BIC:                             1961.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          1.221e+05   1.02e+04     11.985      0.000    1.02e+05    1.42e+05
+thirty_year_interest_rate_two  1.218e+04   2356.061      5.171      0.000    7497.209    1.69e+04
+==============================================================================
+Omnibus:                       16.149   Durbin-Watson:                   0.345
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               18.448
+Skew:                           1.080   Prob(JB):                     9.87e-05
+Kurtosis:                       3.738   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

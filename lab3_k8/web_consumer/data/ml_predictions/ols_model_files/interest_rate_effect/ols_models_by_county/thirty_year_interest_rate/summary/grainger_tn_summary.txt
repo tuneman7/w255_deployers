@@ -1,0 +1,31 @@
+************************************************************
+GRAINGER TN
+************************************************************
+const	 166242.68
+thirty_year_interest_rate	 31595.92
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.119
+Model:                              OLS   Adj. R-squared:                  0.108
+Method:                   Least Squares   F-statistic:                     11.16
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00125
+Time:                          14:06:58   Log-Likelihood:                -1099.6
+No. Observations:                    85   AIC:                             2203.
+Df Residuals:                        83   BIC:                             2208.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      1.662e+05   4.17e+04      3.982      0.000    8.32e+04    2.49e+05
+thirty_year_interest_rate   3.16e+04   9458.041      3.341      0.001    1.28e+04    5.04e+04
+==============================================================================
+Omnibus:                        8.966   Durbin-Watson:                   0.123
+Prob(Omnibus):                  0.011   Jarque-Bera (JB):                6.949
+Skew:                           0.587   Prob(JB):                       0.0310
+Kurtosis:                       2.237   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

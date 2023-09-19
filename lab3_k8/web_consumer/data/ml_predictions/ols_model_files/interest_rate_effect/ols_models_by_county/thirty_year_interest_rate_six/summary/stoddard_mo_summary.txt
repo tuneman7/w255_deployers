@@ -1,0 +1,31 @@
+************************************************************
+STODDARD MO
+************************************************************
+const	 130545.33
+thirty_year_interest_rate_six	 -3341.99
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.028
+Model:                              OLS   Adj. R-squared:                  0.015
+Method:                   Least Squares   F-statistic:                     2.125
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):              0.149
+Time:                          21:21:32   Log-Likelihood:                -820.57
+No. Observations:                    76   AIC:                             1645.
+Df Residuals:                        74   BIC:                             1650.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          1.305e+05   8802.814     14.830      0.000    1.13e+05    1.48e+05
+thirty_year_interest_rate_six -3341.9871   2292.634     -1.458      0.149   -7910.160    1226.186
+==============================================================================
+Omnibus:                       10.962   Durbin-Watson:                   0.364
+Prob(Omnibus):                  0.004   Jarque-Bera (JB):               11.423
+Skew:                           0.779   Prob(JB):                      0.00331
+Kurtosis:                       4.086   Cond. No.                         26.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

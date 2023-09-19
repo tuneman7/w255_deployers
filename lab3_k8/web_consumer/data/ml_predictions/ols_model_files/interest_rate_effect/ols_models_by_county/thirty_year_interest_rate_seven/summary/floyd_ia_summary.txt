@@ -1,0 +1,31 @@
+************************************************************
+FLOYD IA
+************************************************************
+const	 178960.06
+thirty_year_interest_rate_seven	 -16622.46
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.152
+Model:                              OLS   Adj. R-squared:                  0.140
+Method:                   Least Squares   F-statistic:                     13.21
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           0.000510
+Time:                          21:20:50   Log-Likelihood:                -870.59
+No. Observations:                    76   AIC:                             1745.
+Df Residuals:                        74   BIC:                             1750.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                             1.79e+05   1.75e+04     10.239      0.000    1.44e+05    2.14e+05
+thirty_year_interest_rate_seven -1.662e+04   4572.742     -3.635      0.001   -2.57e+04   -7511.072
+==============================================================================
+Omnibus:                       33.913   Durbin-Watson:                   0.407
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               81.211
+Skew:                           1.497   Prob(JB):                     2.32e-18
+Kurtosis:                       7.084   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

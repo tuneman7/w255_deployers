@@ -1,0 +1,31 @@
+************************************************************
+WAGONER OK
+************************************************************
+const	 158650.99
+thirty_year_interest_rate_five	 18167.49
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.128
+Model:                              OLS   Adj. R-squared:                  0.117
+Method:                   Least Squares   F-statistic:                     12.18
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           0.000777
+Time:                          14:07:44   Log-Likelihood:                -1035.6
+No. Observations:                    85   AIC:                             2075.
+Df Residuals:                        83   BIC:                             2080.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           1.587e+05   2.19e+04      7.256      0.000    1.15e+05    2.02e+05
+thirty_year_interest_rate_five  1.817e+04   5206.007      3.490      0.001    7812.948    2.85e+04
+==============================================================================
+Omnibus:                      774.918   Durbin-Watson:                   0.053
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               10.839
+Skew:                           0.321   Prob(JB):                      0.00443
+Kurtosis:                       1.373   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

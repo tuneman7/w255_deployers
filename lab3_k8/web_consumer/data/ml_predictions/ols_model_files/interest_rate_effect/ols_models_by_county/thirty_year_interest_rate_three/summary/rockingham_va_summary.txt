@@ -1,0 +1,31 @@
+************************************************************
+ROCKINGHAM VA
+************************************************************
+const	 245245.56
+thirty_year_interest_rate_three	 13927.37
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.155
+Model:                              OLS   Adj. R-squared:                  0.144
+Method:                   Least Squares   F-statistic:                     15.18
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           0.000197
+Time:                          14:07:57   Log-Likelihood:                -1009.3
+No. Observations:                    85   AIC:                             2023.
+Df Residuals:                        83   BIC:                             2027.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            2.452e+05   1.53e+04     16.022      0.000    2.15e+05    2.76e+05
+thirty_year_interest_rate_three  1.393e+04   3574.917      3.896      0.000    6817.009     2.1e+04
+==============================================================================
+Omnibus:                       60.982   Durbin-Watson:                   0.066
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                6.945
+Skew:                          -0.141   Prob(JB):                       0.0310
+Kurtosis:                       1.628   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

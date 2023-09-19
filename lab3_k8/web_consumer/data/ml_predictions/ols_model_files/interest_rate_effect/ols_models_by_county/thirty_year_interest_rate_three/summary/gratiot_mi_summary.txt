@@ -1,0 +1,31 @@
+************************************************************
+GRATIOT MI
+************************************************************
+const	 80680.29
+thirty_year_interest_rate_three	 10437.19
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.117
+Model:                              OLS   Adj. R-squared:                  0.106
+Method:                   Least Squares   F-statistic:                     10.95
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00139
+Time:                          14:07:43   Log-Likelihood:                -998.65
+No. Observations:                    85   AIC:                             2001.
+Df Residuals:                        83   BIC:                             2006.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            8.068e+04   1.35e+04      5.973      0.000    5.38e+04    1.08e+05
+thirty_year_interest_rate_three  1.044e+04   3154.680      3.308      0.001    4162.660    1.67e+04
+==============================================================================
+Omnibus:                       14.645   Durbin-Watson:                   0.145
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):                6.173
+Skew:                           0.422   Prob(JB):                       0.0457
+Kurtosis:                       1.985   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

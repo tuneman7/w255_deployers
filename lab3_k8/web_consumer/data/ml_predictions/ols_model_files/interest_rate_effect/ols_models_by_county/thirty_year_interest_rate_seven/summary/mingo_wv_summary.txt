@@ -1,0 +1,31 @@
+************************************************************
+MINGO WV
+************************************************************
+const	 121069.99
+thirty_year_interest_rate_seven	 -8237.12
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.135
+Model:                              OLS   Adj. R-squared:                  0.124
+Method:                   Least Squares   F-statistic:                     11.59
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):            0.00107
+Time:                          21:22:51   Log-Likelihood:                -822.22
+No. Observations:                    76   AIC:                             1648.
+Df Residuals:                        74   BIC:                             1653.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.211e+05   9248.589     13.091      0.000    1.03e+05    1.39e+05
+thirty_year_interest_rate_seven -8237.1152   2419.590     -3.404      0.001   -1.31e+04   -3415.978
+==============================================================================
+Omnibus:                       14.103   Durbin-Watson:                   0.549
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):               15.363
+Skew:                           1.014   Prob(JB):                     0.000461
+Kurtosis:                       3.860   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

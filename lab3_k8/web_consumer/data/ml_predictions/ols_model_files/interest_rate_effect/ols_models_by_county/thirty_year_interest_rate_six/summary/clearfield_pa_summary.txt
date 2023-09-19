@@ -1,0 +1,31 @@
+************************************************************
+CLEARFIELD PA
+************************************************************
+const	 148376.70
+thirty_year_interest_rate_six	 -6509.17
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.111
+Model:                              OLS   Adj. R-squared:                  0.099
+Method:                   Least Squares   F-statistic:                     9.280
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):            0.00321
+Time:                          21:21:45   Log-Likelihood:                -815.22
+No. Observations:                    76   AIC:                             1634.
+Df Residuals:                        74   BIC:                             1639.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          1.484e+05   8204.397     18.085      0.000    1.32e+05    1.65e+05
+thirty_year_interest_rate_six -6509.1694   2136.780     -3.046      0.003   -1.08e+04   -2251.542
+==============================================================================
+Omnibus:                       25.796   Durbin-Watson:                   0.358
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               40.653
+Skew:                           1.354   Prob(JB):                     1.49e-09
+Kurtosis:                       5.345   Cond. No.                         26.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

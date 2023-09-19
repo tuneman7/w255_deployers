@@ -1,0 +1,31 @@
+************************************************************
+EUREKA NV
+************************************************************
+const	 343890.33
+thirty_year_interest_rate_two	 -37408.57
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.372
+Model:                              OLS   Adj. R-squared:                  0.364
+Method:                   Least Squares   F-statistic:                     49.14
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           5.84e-10
+Time:                          14:07:26   Log-Likelihood:                -1045.7
+No. Observations:                    85   AIC:                             2095.
+Df Residuals:                        83   BIC:                             2100.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          3.439e+05   2.31e+04     14.908      0.000    2.98e+05     3.9e+05
+thirty_year_interest_rate_two -3.741e+04   5336.479     -7.010      0.000    -4.8e+04   -2.68e+04
+==============================================================================
+Omnibus:                        1.897   Durbin-Watson:                   0.358
+Prob(Omnibus):                  0.387   Jarque-Bera (JB):                1.711
+Skew:                           0.345   Prob(JB):                        0.425
+Kurtosis:                       2.922   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

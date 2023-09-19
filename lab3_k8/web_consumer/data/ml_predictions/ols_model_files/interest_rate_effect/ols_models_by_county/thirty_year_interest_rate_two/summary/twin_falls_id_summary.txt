@@ -1,0 +1,31 @@
+************************************************************
+TWIN FALLS ID
+************************************************************
+const	 208239.35
+thirty_year_interest_rate_two	 26731.87
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.120
+Model:                              OLS   Adj. R-squared:                  0.110
+Method:                   Least Squares   F-statistic:                     11.37
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00114
+Time:                          14:08:16   Log-Likelihood:                -1079.3
+No. Observations:                    85   AIC:                             2163.
+Df Residuals:                        83   BIC:                             2168.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          2.082e+05   3.43e+04      6.077      0.000     1.4e+05    2.76e+05
+thirty_year_interest_rate_two  2.673e+04   7928.097      3.372      0.001     1.1e+04    4.25e+04
+==============================================================================
+Omnibus:                       17.975   Durbin-Watson:                   0.029
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                7.762
+Skew:                           0.521   Prob(JB):                       0.0206
+Kurtosis:                       1.948   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

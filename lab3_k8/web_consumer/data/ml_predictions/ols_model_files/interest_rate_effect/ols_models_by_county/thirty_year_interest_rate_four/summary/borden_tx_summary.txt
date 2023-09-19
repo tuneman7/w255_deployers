@@ -1,0 +1,31 @@
+************************************************************
+BORDEN TX
+************************************************************
+const	 31082.84
+thirty_year_interest_rate_four	 35448.60
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.223
+Model:                              OLS   Adj. R-squared:                  0.191
+Method:                   Least Squares   F-statistic:                     6.887
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0149
+Time:                          14:06:56   Log-Likelihood:                -331.37
+No. Observations:                    26   AIC:                             666.7
+Df Residuals:                        24   BIC:                             669.3
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           3.108e+04   6.69e+04      0.465      0.646   -1.07e+05    1.69e+05
+thirty_year_interest_rate_four  3.545e+04   1.35e+04      2.624      0.015    7569.460    6.33e+04
+==============================================================================
+Omnibus:                        1.707   Durbin-Watson:                   0.904
+Prob(Omnibus):                  0.426   Jarque-Bera (JB):                1.529
+Skew:                          -0.531   Prob(JB):                        0.466
+Kurtosis:                       2.467   Cond. No.                         20.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

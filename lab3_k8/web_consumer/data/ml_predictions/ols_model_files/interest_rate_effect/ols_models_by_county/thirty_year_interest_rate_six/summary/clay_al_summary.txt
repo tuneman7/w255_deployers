@@ -1,0 +1,31 @@
+************************************************************
+CLAY AL
+************************************************************
+const	 338379.26
+thirty_year_interest_rate_six	 -42241.09
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.220
+Model:                              OLS   Adj. R-squared:                  0.209
+Method:                   Least Squares   F-statistic:                     20.83
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           1.95e-05
+Time:                          21:21:00   Log-Likelihood:                -926.62
+No. Observations:                    76   AIC:                             1857.
+Df Residuals:                        74   BIC:                             1862.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          3.384e+05   3.55e+04      9.522      0.000    2.68e+05    4.09e+05
+thirty_year_interest_rate_six -4.224e+04   9254.867     -4.564      0.000   -6.07e+04   -2.38e+04
+==============================================================================
+Omnibus:                       24.392   Durbin-Watson:                   0.298
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               35.002
+Skew:                           1.367   Prob(JB):                     2.51e-08
+Kurtosis:                       4.892   Cond. No.                         26.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

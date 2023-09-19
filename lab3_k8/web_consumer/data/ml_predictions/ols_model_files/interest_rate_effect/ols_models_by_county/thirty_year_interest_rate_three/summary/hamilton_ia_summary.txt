@@ -1,0 +1,31 @@
+************************************************************
+HAMILTON IA
+************************************************************
+const	 88210.99
+thirty_year_interest_rate_three	 9401.68
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.222
+Model:                              OLS   Adj. R-squared:                  0.213
+Method:                   Least Squares   F-statistic:                     23.67
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           5.37e-06
+Time:                          14:08:02   Log-Likelihood:                -956.99
+No. Observations:                    85   AIC:                             1918.
+Df Residuals:                        83   BIC:                             1923.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            8.821e+04   8274.670     10.660      0.000    7.18e+04    1.05e+05
+thirty_year_interest_rate_three  9401.6847   1932.502      4.865      0.000    5558.016    1.32e+04
+==============================================================================
+Omnibus:                        1.375   Durbin-Watson:                   0.386
+Prob(Omnibus):                  0.503   Jarque-Bera (JB):                1.434
+Skew:                          -0.277   Prob(JB):                        0.488
+Kurtosis:                       2.686   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+TUNICA MS
+************************************************************
+const	 130556.93
+thirty_year_interest_rate_three	 5333.72
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.016
+Model:                              OLS   Adj. R-squared:                  0.004
+Method:                   Least Squares   F-statistic:                     1.315
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.255
+Time:                          14:08:10   Log-Likelihood:                -1031.6
+No. Observations:                    85   AIC:                             2067.
+Df Residuals:                        83   BIC:                             2072.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.306e+05   1.99e+04      6.556      0.000    9.09e+04     1.7e+05
+thirty_year_interest_rate_three  5333.7182   4650.941      1.147      0.255   -3916.816    1.46e+04
+==============================================================================
+Omnibus:                      133.180   Durbin-Watson:                   1.307
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             5426.782
+Skew:                           5.344   Prob(JB):                         0.00
+Kurtosis:                      40.657   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

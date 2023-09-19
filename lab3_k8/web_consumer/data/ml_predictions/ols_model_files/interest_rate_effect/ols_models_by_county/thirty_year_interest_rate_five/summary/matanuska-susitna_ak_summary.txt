@@ -1,0 +1,31 @@
+************************************************************
+MATANUSKA-SUSITNA AK
+************************************************************
+const	 263677.71
+thirty_year_interest_rate_five	 16139.27
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.067
+Model:                              OLS   Adj. R-squared:                  0.056
+Method:                   Least Squares   F-statistic:                     6.005
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0164
+Time:                          14:08:12   Log-Likelihood:                -1055.6
+No. Observations:                    85   AIC:                             2115.
+Df Residuals:                        83   BIC:                             2120.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           2.637e+05   2.77e+04      9.532      0.000    2.09e+05    3.19e+05
+thirty_year_interest_rate_five  1.614e+04   6585.937      2.451      0.016    3040.107    2.92e+04
+==============================================================================
+Omnibus:                       44.646   Durbin-Watson:                   0.018
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               10.399
+Skew:                           0.564   Prob(JB):                      0.00552
+Kurtosis:                       1.710   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+WICOMICO MD
+************************************************************
+const	 119980.74
+thirty_year_interest_rate	 23460.11
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.288
+Model:                              OLS   Adj. R-squared:                  0.279
+Method:                   Least Squares   F-statistic:                     33.53
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           1.21e-07
+Time:                          14:08:22   Log-Likelihood:                -1027.5
+No. Observations:                    85   AIC:                             2059.
+Df Residuals:                        83   BIC:                             2064.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                        1.2e+05   1.79e+04      6.710      0.000    8.44e+04    1.56e+05
+thirty_year_interest_rate  2.346e+04   4051.178      5.791      0.000    1.54e+04    3.15e+04
+==============================================================================
+Omnibus:                       51.585   Durbin-Watson:                   0.076
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                6.394
+Skew:                          -0.040   Prob(JB):                       0.0409
+Kurtosis:                       1.659   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+INDIANA PA
+************************************************************
+const	 108621.58
+thirty_year_interest_rate_five	 5002.61
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.240
+Model:                              OLS   Adj. R-squared:                  0.231
+Method:                   Least Squares   F-statistic:                     26.25
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           1.92e-06
+Time:                          14:07:44   Log-Likelihood:                -893.37
+No. Observations:                    85   AIC:                             1791.
+Df Residuals:                        83   BIC:                             1796.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           1.086e+05   4101.353     26.484      0.000       1e+05    1.17e+05
+thirty_year_interest_rate_five  5002.6051    976.474      5.123      0.000    3060.438    6944.773
+==============================================================================
+Omnibus:                        3.986   Durbin-Watson:                   0.442
+Prob(Omnibus):                  0.136   Jarque-Bera (JB):                3.222
+Skew:                           0.408   Prob(JB):                        0.200
+Kurtosis:                       3.495   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

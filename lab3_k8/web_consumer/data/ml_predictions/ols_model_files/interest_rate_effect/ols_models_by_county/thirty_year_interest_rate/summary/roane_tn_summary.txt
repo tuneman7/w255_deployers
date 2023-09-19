@@ -1,0 +1,31 @@
+************************************************************
+ROANE TN
+************************************************************
+const	 137529.89
+thirty_year_interest_rate	 28323.67
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.360
+Model:                              OLS   Adj. R-squared:                  0.352
+Method:                   Least Squares   F-statistic:                     46.69
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           1.29e-09
+Time:                          14:07:59   Log-Likelihood:                -1029.5
+No. Observations:                    85   AIC:                             2063.
+Df Residuals:                        83   BIC:                             2068.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      1.375e+05   1.83e+04      7.517      0.000    1.01e+05    1.74e+05
+thirty_year_interest_rate  2.832e+04   4145.032      6.833      0.000    2.01e+04    3.66e+04
+==============================================================================
+Omnibus:                        5.465   Durbin-Watson:                   0.185
+Prob(Omnibus):                  0.065   Jarque-Bera (JB):                3.378
+Skew:                           0.303   Prob(JB):                        0.185
+Kurtosis:                       2.234   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

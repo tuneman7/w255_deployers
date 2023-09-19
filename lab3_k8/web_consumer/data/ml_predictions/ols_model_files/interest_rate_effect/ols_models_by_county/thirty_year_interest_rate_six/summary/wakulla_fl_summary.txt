@@ -1,0 +1,31 @@
+************************************************************
+WAKULLA FL
+************************************************************
+const	 384314.66
+thirty_year_interest_rate_six	 -34437.42
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.179
+Model:                              OLS   Adj. R-squared:                  0.168
+Method:                   Least Squares   F-statistic:                     16.09
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           0.000143
+Time:                          21:21:50   Log-Likelihood:                -920.90
+No. Observations:                    76   AIC:                             1846.
+Df Residuals:                        74   BIC:                             1850.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          3.843e+05    3.3e+04     11.660      0.000    3.19e+05     4.5e+05
+thirty_year_interest_rate_six -3.444e+04   8584.040     -4.012      0.000   -5.15e+04   -1.73e+04
+==============================================================================
+Omnibus:                       23.791   Durbin-Watson:                   0.032
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               32.511
+Skew:                           1.409   Prob(JB):                     8.71e-08
+Kurtosis:                       4.524   Cond. No.                         26.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

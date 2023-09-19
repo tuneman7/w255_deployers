@@ -1,0 +1,31 @@
+************************************************************
+GENTRY MO
+************************************************************
+const	 70312.44
+thirty_year_interest_rate_three	 9716.67
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.097
+Model:                              OLS   Adj. R-squared:                  0.087
+Method:                   Least Squares   F-statistic:                     8.959
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00364
+Time:                          14:07:47   Log-Likelihood:                -1001.1
+No. Observations:                    85   AIC:                             2006.
+Df Residuals:                        83   BIC:                             2011.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            7.031e+04   1.39e+04      5.058      0.000    4.27e+04     9.8e+04
+thirty_year_interest_rate_three  9716.6672   3246.268      2.993      0.004    3259.971    1.62e+04
+==============================================================================
+Omnibus:                       29.562   Durbin-Watson:                   0.438
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               46.187
+Skew:                           1.497   Prob(JB):                     9.34e-11
+Kurtosis:                       5.019   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

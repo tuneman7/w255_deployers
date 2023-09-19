@@ -1,0 +1,31 @@
+************************************************************
+CROCKETT TX
+************************************************************
+const	 122876.85
+thirty_year_interest_rate_three	 5283.51
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.034
+Model:                              OLS   Adj. R-squared:                  0.022
+Method:                   Least Squares   F-statistic:                     2.879
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0935
+Time:                          14:07:58   Log-Likelihood:                -997.53
+No. Observations:                    85   AIC:                             1999.
+Df Residuals:                        83   BIC:                             2004.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.229e+05   1.33e+04      9.217      0.000    9.64e+04    1.49e+05
+thirty_year_interest_rate_three  5283.5057   3113.611      1.697      0.093    -909.341    1.15e+04
+==============================================================================
+Omnibus:                        2.624   Durbin-Watson:                   0.937
+Prob(Omnibus):                  0.269   Jarque-Bera (JB):                1.706
+Skew:                          -0.095   Prob(JB):                        0.426
+Kurtosis:                       2.332   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

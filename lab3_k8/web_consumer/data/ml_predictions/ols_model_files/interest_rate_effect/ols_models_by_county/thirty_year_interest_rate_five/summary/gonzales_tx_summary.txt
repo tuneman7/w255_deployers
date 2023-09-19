@@ -1,0 +1,31 @@
+************************************************************
+GONZALES TX
+************************************************************
+const	 186889.11
+thirty_year_interest_rate_five	 14000.15
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.081
+Model:                              OLS   Adj. R-squared:                  0.070
+Method:                   Least Squares   F-statistic:                     7.314
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00830
+Time:                          14:07:19   Log-Likelihood:                -1035.2
+No. Observations:                    85   AIC:                             2074.
+Df Residuals:                        83   BIC:                             2079.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           1.869e+05   2.17e+04      8.595      0.000    1.44e+05     2.3e+05
+thirty_year_interest_rate_five    1.4e+04   5176.656      2.704      0.008    3703.986    2.43e+04
+==============================================================================
+Omnibus:                        7.377   Durbin-Watson:                   0.329
+Prob(Omnibus):                  0.025   Jarque-Bera (JB):                4.377
+Skew:                           0.374   Prob(JB):                        0.112
+Kurtosis:                       2.178   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+WYOMING NY
+************************************************************
+const	 104368.56
+thirty_year_interest_rate_three	 8033.14
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.049
+Model:                              OLS   Adj. R-squared:                  0.038
+Method:                   Least Squares   F-statistic:                     4.306
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0411
+Time:                          14:07:30   Log-Likelihood:                -1016.0
+No. Observations:                    85   AIC:                             2036.
+Df Residuals:                        83   BIC:                             2041.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.044e+05   1.66e+04      6.296      0.000    7.14e+04    1.37e+05
+thirty_year_interest_rate_three  8033.1377   3871.232      2.075      0.041     333.414    1.57e+04
+==============================================================================
+Omnibus:                       11.739   Durbin-Watson:                   0.136
+Prob(Omnibus):                  0.003   Jarque-Bera (JB):                5.500
+Skew:                           0.400   Prob(JB):                       0.0639
+Kurtosis:                       2.045   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

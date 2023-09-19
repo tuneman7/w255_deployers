@@ -1,0 +1,31 @@
+************************************************************
+TALLAHATCHIE MS
+************************************************************
+const	 44139.59
+thirty_year_interest_rate_three	 14686.25
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.185
+Model:                              OLS   Adj. R-squared:                  0.175
+Method:                   Least Squares   F-statistic:                     18.86
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           3.96e-05
+Time:                          14:08:08   Log-Likelihood:                -1004.6
+No. Observations:                    85   AIC:                             2013.
+Df Residuals:                        83   BIC:                             2018.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            4.414e+04   1.45e+04      3.048      0.003    1.53e+04    7.29e+04
+thirty_year_interest_rate_three  1.469e+04   3381.986      4.342      0.000    7959.618    2.14e+04
+==============================================================================
+Omnibus:                        5.700   Durbin-Watson:                   0.403
+Prob(Omnibus):                  0.058   Jarque-Bera (JB):                3.356
+Skew:                           0.288   Prob(JB):                        0.187
+Kurtosis:                       2.215   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

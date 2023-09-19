@@ -1,0 +1,31 @@
+************************************************************
+DESOTO FL
+************************************************************
+const	 131702.38
+thirty_year_interest_rate_two	 36694.76
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.341
+Model:                              OLS   Adj. R-squared:                  0.334
+Method:                   Least Squares   F-statistic:                     43.04
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           4.32e-09
+Time:                          14:07:09   Log-Likelihood:                -1049.7
+No. Observations:                    85   AIC:                             2103.
+Df Residuals:                        83   BIC:                             2108.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          1.317e+05   2.42e+04      5.447      0.000    8.36e+04     1.8e+05
+thirty_year_interest_rate_two  3.669e+04   5593.366      6.560      0.000    2.56e+04    4.78e+04
+==============================================================================
+Omnibus:                        5.339   Durbin-Watson:                   0.088
+Prob(Omnibus):                  0.069   Jarque-Bera (JB):                4.558
+Skew:                           0.474   Prob(JB):                        0.102
+Kurtosis:                       2.377   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+BRAZOS TX
+************************************************************
+const	 356835.68
+thirty_year_interest_rate_seven	 -16615.21
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.090
+Model:                              OLS   Adj. R-squared:                  0.078
+Method:                   Least Squares   F-statistic:                     7.328
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):            0.00842
+Time:                          21:21:11   Log-Likelihood:                -892.96
+No. Observations:                    76   AIC:                             1790.
+Df Residuals:                        74   BIC:                             1795.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            3.568e+05   2.35e+04     15.210      0.000     3.1e+05    4.04e+05
+thirty_year_interest_rate_seven -1.662e+04   6137.709     -2.707      0.008   -2.88e+04   -4385.559
+==============================================================================
+Omnibus:                        3.438   Durbin-Watson:                   0.129
+Prob(Omnibus):                  0.179   Jarque-Bera (JB):                2.706
+Skew:                           0.435   Prob(JB):                        0.258
+Kurtosis:                       3.310   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

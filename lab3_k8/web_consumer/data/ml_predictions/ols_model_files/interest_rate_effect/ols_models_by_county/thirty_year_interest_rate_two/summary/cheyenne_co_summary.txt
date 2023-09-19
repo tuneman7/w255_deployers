@@ -1,0 +1,31 @@
+************************************************************
+CHEYENNE CO
+************************************************************
+const	 51036.11
+thirty_year_interest_rate_two	 22222.59
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.128
+Model:                              OLS   Adj. R-squared:                  0.116
+Method:                   Least Squares   F-statistic:                     10.42
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00189
+Time:                          14:07:20   Log-Likelihood:                -916.09
+No. Observations:                    73   AIC:                             1836.
+Df Residuals:                        71   BIC:                             1841.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          5.104e+04   2.98e+04      1.711      0.091   -8442.404    1.11e+05
+thirty_year_interest_rate_two  2.222e+04   6885.184      3.228      0.002    8493.926     3.6e+04
+==============================================================================
+Omnibus:                        4.482   Durbin-Watson:                   0.427
+Prob(Omnibus):                  0.106   Jarque-Bera (JB):                4.181
+Skew:                           0.520   Prob(JB):                        0.124
+Kurtosis:                       2.457   Cond. No.                         16.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

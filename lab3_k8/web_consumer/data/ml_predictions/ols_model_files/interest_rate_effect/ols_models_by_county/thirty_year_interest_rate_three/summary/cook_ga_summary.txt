@@ -1,0 +1,31 @@
+************************************************************
+COOK GA
+************************************************************
+const	 23591.95
+thirty_year_interest_rate_three	 27262.42
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.550
+Model:                              OLS   Adj. R-squared:                  0.544
+Method:                   Least Squares   F-statistic:                     101.4
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           4.83e-16
+Time:                          14:07:08   Log-Likelihood:                -985.67
+No. Observations:                    85   AIC:                             1975.
+Df Residuals:                        83   BIC:                             1980.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            2.359e+04   1.16e+04      2.035      0.045     529.518    4.67e+04
+thirty_year_interest_rate_three  2.726e+04   2707.997     10.067      0.000    2.19e+04    3.26e+04
+==============================================================================
+Omnibus:                       17.181   Durbin-Watson:                   0.568
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               20.421
+Skew:                           1.170   Prob(JB):                     3.68e-05
+Kurtosis:                       3.538   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+HUNT TX
+************************************************************
+const	 157797.03
+thirty_year_interest_rate_five	 20541.07
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.171
+Model:                              OLS   Adj. R-squared:                  0.161
+Method:                   Least Squares   F-statistic:                     17.10
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           8.44e-05
+Time:                          14:07:31   Log-Likelihood:                -1031.6
+No. Observations:                    85   AIC:                             2067.
+Df Residuals:                        83   BIC:                             2072.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           1.578e+05   2.09e+04      7.563      0.000    1.16e+05    1.99e+05
+thirty_year_interest_rate_five  2.054e+04   4967.273      4.135      0.000    1.07e+04    3.04e+04
+==============================================================================
+Omnibus:                       18.995   Durbin-Watson:                   0.043
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                7.805
+Skew:                           0.514   Prob(JB):                       0.0202
+Kurtosis:                       1.930   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

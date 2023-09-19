@@ -1,0 +1,31 @@
+************************************************************
+HARDING NM
+************************************************************
+const	 534064.66
+thirty_year_interest_rate_three	 -76568.51
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.075
+Model:                              OLS   Adj. R-squared:                  0.055
+Method:                   Least Squares   F-statistic:                     3.668
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0618
+Time:                          14:08:08   Log-Likelihood:                -624.19
+No. Observations:                    47   AIC:                             1252.
+Df Residuals:                        45   BIC:                             1256.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            5.341e+05   1.62e+05      3.304      0.002    2.08e+05     8.6e+05
+thirty_year_interest_rate_three -7.657e+04      4e+04     -1.915      0.062   -1.57e+05    3951.456
+==============================================================================
+Omnibus:                       33.353   Durbin-Watson:                   0.128
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                4.629
+Skew:                           0.221   Prob(JB):                       0.0988
+Kurtosis:                       1.527   Cond. No.                         32.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

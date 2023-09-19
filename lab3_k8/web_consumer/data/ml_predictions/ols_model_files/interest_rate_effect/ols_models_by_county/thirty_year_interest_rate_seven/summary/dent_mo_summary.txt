@@ -1,0 +1,31 @@
+************************************************************
+DENT MO
+************************************************************
+const	 156462.33
+thirty_year_interest_rate_seven	 -11251.17
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.046
+Model:                              OLS   Adj. R-squared:                  0.033
+Method:                   Least Squares   F-statistic:                     3.553
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):             0.0634
+Time:                          21:21:58   Log-Likelihood:                -890.84
+No. Observations:                    76   AIC:                             1786.
+Df Residuals:                        74   BIC:                             1790.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.565e+05   2.28e+04      6.858      0.000    1.11e+05    2.02e+05
+thirty_year_interest_rate_seven -1.125e+04   5969.097     -1.885      0.063   -2.31e+04     642.521
+==============================================================================
+Omnibus:                       40.275   Durbin-Watson:                   0.206
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               90.452
+Skew:                           1.900   Prob(JB):                     2.28e-20
+Kurtosis:                       6.758   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

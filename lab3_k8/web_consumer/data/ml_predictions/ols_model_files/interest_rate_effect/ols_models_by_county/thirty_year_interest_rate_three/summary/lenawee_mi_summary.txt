@@ -1,0 +1,31 @@
+************************************************************
+LENAWEE MI
+************************************************************
+const	 108813.37
+thirty_year_interest_rate_three	 20283.16
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.225
+Model:                              OLS   Adj. R-squared:                  0.216
+Method:                   Least Squares   F-statistic:                     24.13
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           4.46e-06
+Time:                          14:07:39   Log-Likelihood:                -1021.5
+No. Observations:                    85   AIC:                             2047.
+Df Residuals:                        83   BIC:                             2052.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.088e+05   1.77e+04      6.154      0.000    7.36e+04    1.44e+05
+thirty_year_interest_rate_three  2.028e+04   4129.293      4.912      0.000    1.21e+04    2.85e+04
+==============================================================================
+Omnibus:                       14.771   Durbin-Watson:                   0.095
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):                6.542
+Skew:                           0.455   Prob(JB):                       0.0380
+Kurtosis:                       1.991   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

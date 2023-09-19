@@ -1,0 +1,31 @@
+************************************************************
+STARKE IN
+************************************************************
+const	 246893.01
+thirty_year_interest_rate_seven	 -23966.31
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.139
+Model:                              OLS   Adj. R-squared:                  0.127
+Method:                   Least Squares   F-statistic:                     11.94
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           0.000912
+Time:                          21:22:40   Log-Likelihood:                -902.24
+No. Observations:                    76   AIC:                             1808.
+Df Residuals:                        74   BIC:                             1813.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            2.469e+05   2.65e+04      9.314      0.000    1.94e+05       3e+05
+thirty_year_interest_rate_seven -2.397e+04   6935.137     -3.456      0.001   -3.78e+04   -1.01e+04
+==============================================================================
+Omnibus:                        3.939   Durbin-Watson:                   0.212
+Prob(Omnibus):                  0.140   Jarque-Bera (JB):                3.889
+Skew:                           0.539   Prob(JB):                        0.143
+Kurtosis:                       2.744   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

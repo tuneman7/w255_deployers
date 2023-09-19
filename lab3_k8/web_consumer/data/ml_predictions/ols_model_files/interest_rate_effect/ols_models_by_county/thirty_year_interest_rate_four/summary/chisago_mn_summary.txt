@@ -1,0 +1,31 @@
+************************************************************
+CHISAGO MN
+************************************************************
+const	 268934.68
+thirty_year_interest_rate_four	 15736.25
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.112
+Model:                              OLS   Adj. R-squared:                  0.102
+Method:                   Least Squares   F-statistic:                     10.50
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00172
+Time:                          14:07:13   Log-Likelihood:                -1033.0
+No. Observations:                    85   AIC:                             2070.
+Df Residuals:                        83   BIC:                             2075.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           2.689e+05   2.06e+04     13.051      0.000    2.28e+05     3.1e+05
+thirty_year_interest_rate_four  1.574e+04   4855.379      3.241      0.002    6079.096    2.54e+04
+==============================================================================
+Omnibus:                       16.588   Durbin-Watson:                   0.072
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                7.138
+Skew:                           0.485   Prob(JB):                       0.0282
+Kurtosis:                       1.964   Cond. No.                         18.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

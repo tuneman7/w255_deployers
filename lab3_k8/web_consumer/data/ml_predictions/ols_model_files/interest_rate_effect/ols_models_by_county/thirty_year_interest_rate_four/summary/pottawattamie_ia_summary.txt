@@ -1,0 +1,31 @@
+************************************************************
+POTTAWATTAMIE IA
+************************************************************
+const	 58730.45
+thirty_year_interest_rate_four	 27619.68
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.414
+Model:                              OLS   Adj. R-squared:                  0.407
+Method:                   Least Squares   F-statistic:                     58.65
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           3.11e-11
+Time:                          14:07:44   Log-Likelihood:                -1007.7
+No. Observations:                    85   AIC:                             2019.
+Df Residuals:                        83   BIC:                             2024.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           5.873e+04   1.53e+04      3.837      0.000    2.83e+04    8.92e+04
+thirty_year_interest_rate_four  2.762e+04   3606.604      7.658      0.000    2.04e+04    3.48e+04
+==============================================================================
+Omnibus:                        2.661   Durbin-Watson:                   0.283
+Prob(Omnibus):                  0.264   Jarque-Bera (JB):                2.351
+Skew:                           0.407   Prob(JB):                        0.309
+Kurtosis:                       2.994   Cond. No.                         18.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

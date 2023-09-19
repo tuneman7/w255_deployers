@@ -1,0 +1,31 @@
+************************************************************
+EAST FELICIANA LA
+************************************************************
+const	 395927.15
+thirty_year_interest_rate_seven	 -37369.40
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.158
+Model:                              OLS   Adj. R-squared:                  0.147
+Method:                   Least Squares   F-statistic:                     13.91
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           0.000374
+Time:                          21:21:15   Log-Likelihood:                -930.22
+No. Observations:                    76   AIC:                             1864.
+Df Residuals:                        74   BIC:                             1869.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            3.959e+05   3.83e+04     10.336      0.000     3.2e+05    4.72e+05
+thirty_year_interest_rate_seven -3.737e+04      1e+04     -3.729      0.000   -5.73e+04   -1.74e+04
+==============================================================================
+Omnibus:                       41.129   Durbin-Watson:                   0.490
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              126.185
+Skew:                           1.719   Prob(JB):                     3.97e-28
+Kurtosis:                       8.294   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

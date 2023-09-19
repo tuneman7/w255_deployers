@@ -1,0 +1,31 @@
+************************************************************
+GATES NC
+************************************************************
+const	 129099.41
+thirty_year_interest_rate_three	 9945.41
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.104
+Model:                              OLS   Adj. R-squared:                  0.093
+Method:                   Least Squares   F-statistic:                     9.659
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00258
+Time:                          14:08:08   Log-Likelihood:                -999.86
+No. Observations:                    85   AIC:                             2004.
+Df Residuals:                        83   BIC:                             2009.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.291e+05   1.37e+04      9.422      0.000    1.02e+05    1.56e+05
+thirty_year_interest_rate_three  9945.4064   3199.985      3.108      0.003    3580.765    1.63e+04
+==============================================================================
+Omnibus:                        9.309   Durbin-Watson:                   0.469
+Prob(Omnibus):                  0.010   Jarque-Bera (JB):                9.500
+Skew:                           0.813   Prob(JB):                      0.00865
+Kurtosis:                       3.200   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+COMANCHE KS
+************************************************************
+const	 141261.13
+thirty_year_interest_rate_two	 -16246.71
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.108
+Model:                              OLS   Adj. R-squared:                  0.091
+Method:                   Least Squares   F-statistic:                     6.186
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0162
+Time:                          14:07:48   Log-Likelihood:                -638.24
+No. Observations:                    53   AIC:                             1280.
+Df Residuals:                        51   BIC:                             1284.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          1.413e+05   2.77e+04      5.107      0.000    8.57e+04    1.97e+05
+thirty_year_interest_rate_two -1.625e+04   6532.401     -2.487      0.016   -2.94e+04   -3132.362
+==============================================================================
+Omnibus:                        1.690   Durbin-Watson:                   0.698
+Prob(Omnibus):                  0.429   Jarque-Bera (JB):                1.596
+Skew:                           0.323   Prob(JB):                        0.450
+Kurtosis:                       2.448   Cond. No.                         21.4
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+MONITEAU MO
+************************************************************
+const	 60297.54
+thirty_year_interest_rate_three	 22557.58
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.178
+Model:                              OLS   Adj. R-squared:                  0.168
+Method:                   Least Squares   F-statistic:                     17.93
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           5.90e-05
+Time:                          14:07:01   Log-Likelihood:                -1043.2
+No. Observations:                    85   AIC:                             2090.
+Df Residuals:                        83   BIC:                             2095.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                             6.03e+04   2.28e+04      2.643      0.010    1.49e+04    1.06e+05
+thirty_year_interest_rate_three  2.256e+04   5327.763      4.234      0.000     1.2e+04    3.32e+04
+==============================================================================
+Omnibus:                        6.137   Durbin-Watson:                   0.272
+Prob(Omnibus):                  0.047   Jarque-Bera (JB):                6.314
+Skew:                           0.655   Prob(JB):                       0.0426
+Kurtosis:                       2.739   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

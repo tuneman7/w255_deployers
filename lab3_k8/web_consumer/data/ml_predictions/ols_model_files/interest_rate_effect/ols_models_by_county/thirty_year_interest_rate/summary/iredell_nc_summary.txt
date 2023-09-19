@@ -1,0 +1,31 @@
+************************************************************
+IREDELL NC
+************************************************************
+const	 321157.16
+thirty_year_interest_rate	 13837.62
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.167
+Model:                              OLS   Adj. R-squared:                  0.157
+Method:                   Least Squares   F-statistic:                     16.64
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           0.000103
+Time:                          14:07:39   Log-Likelihood:                -1012.5
+No. Observations:                    85   AIC:                             2029.
+Df Residuals:                        83   BIC:                             2034.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      3.212e+05    1.5e+04     21.448      0.000    2.91e+05    3.51e+05
+thirty_year_interest_rate  1.384e+04   3392.418      4.079      0.000    7090.241    2.06e+04
+==============================================================================
+Omnibus:                        8.767   Durbin-Watson:                   0.081
+Prob(Omnibus):                  0.012   Jarque-Bera (JB):                9.493
+Skew:                           0.808   Prob(JB):                      0.00868
+Kurtosis:                       2.733   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

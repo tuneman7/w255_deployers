@@ -1,0 +1,31 @@
+************************************************************
+SCHLEY GA
+************************************************************
+const	 70299.08
+thirty_year_interest_rate_five	 21497.16
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.199
+Model:                              OLS   Adj. R-squared:                  0.189
+Method:                   Least Squares   F-statistic:                     20.61
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           1.89e-05
+Time:                          14:06:55   Log-Likelihood:                -1027.6
+No. Observations:                    85   AIC:                             2059.
+Df Residuals:                        83   BIC:                             2064.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                            7.03e+04   1.99e+04      3.535      0.001    3.07e+04     1.1e+05
+thirty_year_interest_rate_five   2.15e+04   4735.151      4.540      0.000    1.21e+04    3.09e+04
+==============================================================================
+Omnibus:                       16.464   Durbin-Watson:                   0.929
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               19.451
+Skew:                           0.989   Prob(JB):                     5.97e-05
+Kurtosis:                       4.257   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

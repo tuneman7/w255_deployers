@@ -1,0 +1,31 @@
+************************************************************
+BERNALILLO NM
+************************************************************
+const	 208306.60
+thirty_year_interest_rate_three	 21101.74
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.158
+Model:                              OLS   Adj. R-squared:                  0.148
+Method:                   Least Squares   F-statistic:                     15.60
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           0.000163
+Time:                          14:07:20   Log-Likelihood:                -1043.4
+No. Observations:                    85   AIC:                             2091.
+Df Residuals:                        83   BIC:                             2096.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            2.083e+05   2.29e+04      9.107      0.000    1.63e+05    2.54e+05
+thirty_year_interest_rate_three   2.11e+04   5342.177      3.950      0.000    1.05e+04    3.17e+04
+==============================================================================
+Omnibus:                     3784.228   Durbin-Watson:                   0.022
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               10.244
+Skew:                           0.155   Prob(JB):                      0.00597
+Kurtosis:                       1.328   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

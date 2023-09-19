@@ -1,0 +1,31 @@
+************************************************************
+CAYUGA NY
+************************************************************
+const	 157155.37
+thirty_year_interest_rate	 5707.26
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.054
+Model:                              OLS   Adj. R-squared:                  0.043
+Method:                   Least Squares   F-statistic:                     4.770
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0318
+Time:                          14:08:04   Log-Likelihood:                -990.27
+No. Observations:                    85   AIC:                             1985.
+Df Residuals:                        83   BIC:                             1989.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      1.572e+05   1.15e+04     13.625      0.000    1.34e+05     1.8e+05
+thirty_year_interest_rate  5707.2592   2613.121      2.184      0.032     509.868    1.09e+04
+==============================================================================
+Omnibus:                        3.142   Durbin-Watson:                   0.271
+Prob(Omnibus):                  0.208   Jarque-Bera (JB):                2.889
+Skew:                           0.372   Prob(JB):                        0.236
+Kurtosis:                       2.488   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

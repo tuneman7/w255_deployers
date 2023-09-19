@@ -1,0 +1,31 @@
+************************************************************
+MECKLENBURG VA
+************************************************************
+const	 89405.15
+thirty_year_interest_rate	 37370.36
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.430
+Model:                              OLS   Adj. R-squared:                  0.423
+Method:                   Least Squares   F-statistic:                     62.57
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           9.82e-12
+Time:                          14:07:23   Log-Likelihood:                -1040.6
+No. Observations:                    85   AIC:                             2085.
+Df Residuals:                        83   BIC:                             2090.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      8.941e+04   2.09e+04      4.287      0.000    4.79e+04    1.31e+05
+thirty_year_interest_rate  3.737e+04   4724.400      7.910      0.000     2.8e+04    4.68e+04
+==============================================================================
+Omnibus:                       11.593   Durbin-Watson:                   0.361
+Prob(Omnibus):                  0.003   Jarque-Bera (JB):               12.214
+Skew:                           0.781   Prob(JB):                      0.00223
+Kurtosis:                       4.004   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

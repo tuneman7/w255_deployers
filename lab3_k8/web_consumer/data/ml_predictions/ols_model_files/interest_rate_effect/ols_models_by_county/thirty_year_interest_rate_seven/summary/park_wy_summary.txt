@@ -1,0 +1,31 @@
+************************************************************
+PARK WY
+************************************************************
+const	 1240349.23
+thirty_year_interest_rate_seven	 -206840.50
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.557
+Model:                              OLS   Adj. R-squared:                  0.551
+Method:                   Least Squares   F-statistic:                     93.13
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           9.92e-15
+Time:                          21:22:12   Log-Likelihood:                -988.00
+No. Observations:                    76   AIC:                             1980.
+Df Residuals:                        74   BIC:                             1985.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                             1.24e+06   8.19e+04     15.140      0.000    1.08e+06     1.4e+06
+thirty_year_interest_rate_seven -2.068e+05   2.14e+04     -9.651      0.000    -2.5e+05   -1.64e+05
+==============================================================================
+Omnibus:                        4.062   Durbin-Watson:                   0.198
+Prob(Omnibus):                  0.131   Jarque-Bera (JB):                3.249
+Skew:                           0.413   Prob(JB):                        0.197
+Kurtosis:                       3.586   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

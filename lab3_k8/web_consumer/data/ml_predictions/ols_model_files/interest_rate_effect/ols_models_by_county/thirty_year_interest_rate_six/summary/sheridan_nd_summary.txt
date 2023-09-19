@@ -1,0 +1,31 @@
+************************************************************
+SHERIDAN ND
+************************************************************
+const	 93430.97
+thirty_year_interest_rate_six	 -12280.12
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.156
+Model:                              OLS   Adj. R-squared:                  0.144
+Method:                   Least Squares   F-statistic:                     13.65
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           0.000420
+Time:                          21:21:20   Log-Likelihood:                -848.80
+No. Observations:                    76   AIC:                             1702.
+Df Residuals:                        74   BIC:                             1706.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          9.343e+04   1.28e+04      7.320      0.000     6.8e+04    1.19e+05
+thirty_year_interest_rate_six -1.228e+04   3324.176     -3.694      0.000   -1.89e+04   -5656.556
+==============================================================================
+Omnibus:                       55.280   Durbin-Watson:                   1.025
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              301.406
+Skew:                           2.118   Prob(JB):                     3.55e-66
+Kurtosis:                      11.788   Cond. No.                         26.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

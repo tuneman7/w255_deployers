@@ -1,0 +1,31 @@
+************************************************************
+CLEAR CREEK CO
+************************************************************
+const	 777686.07
+thirty_year_interest_rate_five	 -26883.20
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.021
+Model:                              OLS   Adj. R-squared:                  0.009
+Method:                   Least Squares   F-statistic:                     1.757
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.189
+Time:                          14:07:10   Log-Likelihood:                -1151.2
+No. Observations:                    85   AIC:                             2306.
+Df Residuals:                        83   BIC:                             2311.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           7.777e+05   8.52e+04      9.130      0.000    6.08e+05    9.47e+05
+thirty_year_interest_rate_five -2.688e+04   2.03e+04     -1.326      0.189   -6.72e+04    1.35e+04
+==============================================================================
+Omnibus:                       12.196   Durbin-Watson:                   0.265
+Prob(Omnibus):                  0.002   Jarque-Bera (JB):               12.718
+Skew:                           0.865   Prob(JB):                      0.00173
+Kurtosis:                       3.772   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

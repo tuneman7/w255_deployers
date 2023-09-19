@@ -1,0 +1,31 @@
+************************************************************
+CARTER MO
+************************************************************
+const	 40687.51
+thirty_year_interest_rate_two	 40108.18
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.283
+Model:                              OLS   Adj. R-squared:                  0.274
+Method:                   Least Squares   F-statistic:                     32.75
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           1.62e-07
+Time:                          14:08:00   Log-Likelihood:                -1068.9
+No. Observations:                    85   AIC:                             2142.
+Df Residuals:                        83   BIC:                             2147.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          4.069e+04   3.03e+04      1.343      0.183   -1.96e+04    1.01e+05
+thirty_year_interest_rate_two  4.011e+04   7008.985      5.722      0.000    2.62e+04     5.4e+04
+==============================================================================
+Omnibus:                       23.990   Durbin-Watson:                   0.248
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               32.927
+Skew:                           1.308   Prob(JB):                     7.08e-08
+Kurtosis:                       4.568   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

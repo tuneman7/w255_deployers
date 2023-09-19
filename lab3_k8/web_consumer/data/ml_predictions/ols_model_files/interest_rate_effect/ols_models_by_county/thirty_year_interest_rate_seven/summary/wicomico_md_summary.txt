@@ -1,0 +1,31 @@
+************************************************************
+WICOMICO MD
+************************************************************
+const	 319444.39
+thirty_year_interest_rate_seven	 -28923.14
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.141
+Model:                              OLS   Adj. R-squared:                  0.129
+Method:                   Least Squares   F-statistic:                     12.12
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           0.000842
+Time:                          21:21:52   Log-Likelihood:                -915.99
+No. Observations:                    76   AIC:                             1836.
+Df Residuals:                        74   BIC:                             1841.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            3.194e+05   3.18e+04     10.057      0.000    2.56e+05    3.83e+05
+thirty_year_interest_rate_seven -2.892e+04   8309.663     -3.481      0.001   -4.55e+04   -1.24e+04
+==============================================================================
+Omnibus:                       12.014   Durbin-Watson:                   0.082
+Prob(Omnibus):                  0.002   Jarque-Bera (JB):               12.529
+Skew:                           0.874   Prob(JB):                      0.00190
+Kurtosis:                       3.950   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+MITCHELL TX
+************************************************************
+const	 58874.99
+thirty_year_interest_rate	 7288.61
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.401
+Model:                              OLS   Adj. R-squared:                  0.394
+Method:                   Least Squares   F-statistic:                     55.64
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           7.69e-11
+Time:                          14:07:37   Log-Likelihood:                -906.66
+No. Observations:                    85   AIC:                             1817.
+Df Residuals:                        83   BIC:                             1822.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      5.887e+04   4313.209     13.650      0.000    5.03e+04    6.75e+04
+thirty_year_interest_rate  7288.6142    977.170      7.459      0.000    5345.063    9232.165
+==============================================================================
+Omnibus:                       14.384   Durbin-Watson:                   0.455
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):               15.795
+Skew:                           0.996   Prob(JB):                     0.000372
+Kurtosis:                       3.700   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

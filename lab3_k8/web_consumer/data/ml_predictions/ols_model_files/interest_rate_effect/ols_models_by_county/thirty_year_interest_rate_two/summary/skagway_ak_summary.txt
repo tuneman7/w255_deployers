@@ -1,0 +1,31 @@
+************************************************************
+SKAGWAY AK
+************************************************************
+const	 23039.23
+thirty_year_interest_rate_two	 102392.50
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.234
+Model:                              OLS   Adj. R-squared:                  0.212
+Method:                   Least Squares   F-statistic:                     10.68
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00243
+Time:                          14:08:03   Log-Likelihood:                -516.14
+No. Observations:                    37   AIC:                             1036.
+Df Residuals:                        35   BIC:                             1039.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          2.304e+04   1.47e+05      0.157      0.876   -2.76e+05    3.22e+05
+thirty_year_interest_rate_two  1.024e+05   3.13e+04      3.269      0.002    3.88e+04    1.66e+05
+==============================================================================
+Omnibus:                       16.574   Durbin-Watson:                   1.004
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               19.476
+Skew:                           1.410   Prob(JB):                     5.90e-05
+Kurtosis:                       5.164   Cond. No.                         15.4
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+BENSON ND
+************************************************************
+const	 388070.41
+thirty_year_interest_rate_three	 -40488.73
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.199
+Model:                              OLS   Adj. R-squared:                  0.189
+Method:                   Least Squares   F-statistic:                     19.43
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           3.29e-05
+Time:                          14:07:47   Log-Likelihood:                -1006.1
+No. Observations:                    80   AIC:                             2016.
+Df Residuals:                        78   BIC:                             2021.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            3.881e+05   3.74e+04     10.366      0.000    3.14e+05    4.63e+05
+thirty_year_interest_rate_three -4.049e+04   9184.503     -4.408      0.000   -5.88e+04   -2.22e+04
+==============================================================================
+Omnibus:                        8.123   Durbin-Watson:                   0.612
+Prob(Omnibus):                  0.017   Jarque-Bera (JB):                3.034
+Skew:                          -0.080   Prob(JB):                        0.219
+Kurtosis:                       2.059   Cond. No.                         20.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

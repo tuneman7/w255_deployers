@@ -1,0 +1,31 @@
+************************************************************
+NEWTON AR
+************************************************************
+const	 206746.60
+thirty_year_interest_rate_four	 4056.99
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.003
+Model:                              OLS   Adj. R-squared:                 -0.009
+Method:                   Least Squares   F-statistic:                    0.2331
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.631
+Time:                          14:08:22   Log-Likelihood:                -1079.6
+No. Observations:                    85   AIC:                             2163.
+Df Residuals:                        83   BIC:                             2168.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           2.067e+05   3.57e+04      5.797      0.000    1.36e+05    2.78e+05
+thirty_year_interest_rate_four  4056.9943   8403.525      0.483      0.631   -1.27e+04    2.08e+04
+==============================================================================
+Omnibus:                       47.065   Durbin-Watson:                   0.048
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                8.565
+Skew:                           0.418   Prob(JB):                       0.0138
+Kurtosis:                       1.688   Cond. No.                         18.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

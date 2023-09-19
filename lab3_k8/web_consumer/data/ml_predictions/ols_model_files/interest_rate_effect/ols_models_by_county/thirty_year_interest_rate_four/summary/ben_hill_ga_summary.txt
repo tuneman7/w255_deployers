@@ -1,0 +1,31 @@
+************************************************************
+BEN HILL GA
+************************************************************
+const	 88293.86
+thirty_year_interest_rate_four	 6916.11
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.068
+Model:                              OLS   Adj. R-squared:                  0.057
+Method:                   Least Squares   F-statistic:                     6.056
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0159
+Time:                          14:07:49   Log-Likelihood:                -986.51
+No. Observations:                    85   AIC:                             1977.
+Df Residuals:                        83   BIC:                             1982.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           8.829e+04   1.19e+04      7.402      0.000    6.46e+04    1.12e+05
+thirty_year_interest_rate_four  6916.1149   2810.514      2.461      0.016    1326.116    1.25e+04
+==============================================================================
+Omnibus:                       20.071   Durbin-Watson:                   0.213
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               24.904
+Skew:                           1.203   Prob(JB):                     3.91e-06
+Kurtosis:                       4.116   Cond. No.                         18.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

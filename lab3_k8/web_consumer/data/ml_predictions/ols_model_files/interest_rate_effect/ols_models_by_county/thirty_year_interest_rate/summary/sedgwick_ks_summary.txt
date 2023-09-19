@@ -1,0 +1,31 @@
+************************************************************
+SEDGWICK KS
+************************************************************
+const	 137221.54
+thirty_year_interest_rate	 22579.20
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.341
+Model:                              OLS   Adj. R-squared:                  0.333
+Method:                   Least Squares   F-statistic:                     42.98
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           4.41e-09
+Time:                          14:07:59   Log-Likelihood:                -1013.7
+No. Observations:                    85   AIC:                             2031.
+Df Residuals:                        83   BIC:                             2036.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      1.372e+05   1.52e+04      9.026      0.000    1.07e+05    1.67e+05
+thirty_year_interest_rate  2.258e+04   3444.189      6.556      0.000    1.57e+04    2.94e+04
+==============================================================================
+Omnibus:                       81.949   Durbin-Watson:                   0.061
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                7.934
+Skew:                          -0.234   Prob(JB):                       0.0189
+Kurtosis:                       1.578   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

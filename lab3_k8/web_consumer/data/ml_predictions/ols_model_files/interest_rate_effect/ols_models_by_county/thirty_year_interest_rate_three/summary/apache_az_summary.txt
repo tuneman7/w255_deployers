@@ -1,0 +1,31 @@
+************************************************************
+APACHE AZ
+************************************************************
+const	 210756.97
+thirty_year_interest_rate_three	 21083.83
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.088
+Model:                              OLS   Adj. R-squared:                  0.077
+Method:                   Least Squares   F-statistic:                     8.051
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00571
+Time:                          14:07:59   Log-Likelihood:                -1071.5
+No. Observations:                    85   AIC:                             2147.
+Df Residuals:                        83   BIC:                             2152.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            2.108e+05   3.18e+04      6.624      0.000    1.47e+05    2.74e+05
+thirty_year_interest_rate_three  2.108e+04   7430.413      2.838      0.006    6305.039    3.59e+04
+==============================================================================
+Omnibus:                       11.739   Durbin-Watson:                   0.047
+Prob(Omnibus):                  0.003   Jarque-Bera (JB):                5.137
+Skew:                           0.359   Prob(JB):                       0.0767
+Kurtosis:                       2.033   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

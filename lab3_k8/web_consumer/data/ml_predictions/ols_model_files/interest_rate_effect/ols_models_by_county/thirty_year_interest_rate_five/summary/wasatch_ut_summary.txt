@@ -1,0 +1,31 @@
+************************************************************
+WASATCH UT
+************************************************************
+const	 675972.23
+thirty_year_interest_rate_five	 68264.40
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.042
+Model:                              OLS   Adj. R-squared:                  0.031
+Method:                   Least Squares   F-statistic:                     3.658
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0592
+Time:                          14:07:25   Log-Likelihood:                -1199.3
+No. Observations:                    85   AIC:                             2403.
+Df Residuals:                        83   BIC:                             2407.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                            6.76e+05    1.5e+05      4.509      0.000    3.78e+05    9.74e+05
+thirty_year_interest_rate_five  6.826e+04   3.57e+04      1.913      0.059   -2723.264    1.39e+05
+==============================================================================
+Omnibus:                       10.138   Durbin-Watson:                   0.040
+Prob(Omnibus):                  0.006   Jarque-Bera (JB):                9.646
+Skew:                           0.757   Prob(JB):                      0.00804
+Kurtosis:                       2.343   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

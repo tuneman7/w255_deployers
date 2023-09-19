@@ -1,0 +1,31 @@
+************************************************************
+SOMERVELL TX
+************************************************************
+const	 242371.24
+thirty_year_interest_rate_four	 27879.61
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.113
+Model:                              OLS   Adj. R-squared:                  0.103
+Method:                   Least Squares   F-statistic:                     10.61
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00163
+Time:                          14:07:38   Log-Likelihood:                -1081.2
+No. Observations:                    85   AIC:                             2166.
+Df Residuals:                        83   BIC:                             2171.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           2.424e+05   3.63e+04      6.672      0.000     1.7e+05    3.15e+05
+thirty_year_interest_rate_four  2.788e+04   8559.786      3.257      0.002    1.09e+04    4.49e+04
+==============================================================================
+Omnibus:                       12.625   Durbin-Watson:                   0.073
+Prob(Omnibus):                  0.002   Jarque-Bera (JB):               14.690
+Skew:                           1.017   Prob(JB):                     0.000646
+Kurtosis:                       2.902   Cond. No.                         18.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

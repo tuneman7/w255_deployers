@@ -1,0 +1,31 @@
+************************************************************
+HANCOCK MS
+************************************************************
+const	 162226.76
+thirty_year_interest_rate_two	 21518.53
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.156
+Model:                              OLS   Adj. R-squared:                  0.146
+Method:                   Least Squares   F-statistic:                     15.32
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           0.000185
+Time:                          14:07:13   Log-Likelihood:                -1048.2
+No. Observations:                    85   AIC:                             2100.
+Df Residuals:                        83   BIC:                             2105.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          1.622e+05   2.38e+04      6.826      0.000    1.15e+05    2.09e+05
+thirty_year_interest_rate_two  2.152e+04   5498.102      3.914      0.000    1.06e+04    3.25e+04
+==============================================================================
+Omnibus:                       39.139   Durbin-Watson:                   0.036
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                7.251
+Skew:                           0.323   Prob(JB):                       0.0266
+Kurtosis:                       1.723   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

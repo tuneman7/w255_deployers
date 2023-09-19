@@ -1,0 +1,31 @@
+************************************************************
+POCAHONTAS WV
+************************************************************
+const	 137706.11
+thirty_year_interest_rate_six	 2023.45
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.003
+Model:                              OLS   Adj. R-squared:                 -0.010
+Method:                   Least Squares   F-statistic:                    0.2347
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):              0.630
+Time:                          21:21:46   Log-Likelihood:                -866.16
+No. Observations:                    76   AIC:                             1736.
+Df Residuals:                        74   BIC:                             1741.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          1.377e+05    1.6e+04      8.586      0.000    1.06e+05     1.7e+05
+thirty_year_interest_rate_six  2023.4487   4176.904      0.484      0.630   -6299.214    1.03e+04
+==============================================================================
+Omnibus:                        5.269   Durbin-Watson:                   0.132
+Prob(Omnibus):                  0.072   Jarque-Bera (JB):                4.451
+Skew:                           0.541   Prob(JB):                        0.108
+Kurtosis:                       3.486   Cond. No.                         26.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

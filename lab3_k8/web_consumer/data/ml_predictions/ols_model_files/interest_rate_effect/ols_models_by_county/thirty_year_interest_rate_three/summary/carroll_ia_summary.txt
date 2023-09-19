@@ -1,0 +1,31 @@
+************************************************************
+CARROLL IA
+************************************************************
+const	 101209.54
+thirty_year_interest_rate_three	 12468.14
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.383
+Model:                              OLS   Adj. R-squared:                  0.376
+Method:                   Least Squares   F-statistic:                     51.52
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           2.74e-10
+Time:                          14:08:12   Log-Likelihood:                -947.92
+No. Observations:                    85   AIC:                             1900.
+Df Residuals:                        83   BIC:                             1905.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.012e+05   7437.456     13.608      0.000    8.64e+04    1.16e+05
+thirty_year_interest_rate_three  1.247e+04   1736.975      7.178      0.000    9013.368    1.59e+04
+==============================================================================
+Omnibus:                        2.815   Durbin-Watson:                   0.289
+Prob(Omnibus):                  0.245   Jarque-Bera (JB):                2.606
+Skew:                           0.059   Prob(JB):                        0.272
+Kurtosis:                       3.850   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

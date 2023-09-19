@@ -1,0 +1,31 @@
+************************************************************
+GRANITE MT
+************************************************************
+const	 328946.39
+thirty_year_interest_rate_two	 40517.18
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.035
+Model:                              OLS   Adj. R-squared:                  0.023
+Method:                   Least Squares   F-statistic:                     2.991
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0874
+Time:                          14:08:07   Log-Likelihood:                -1171.4
+No. Observations:                    85   AIC:                             2347.
+Df Residuals:                        83   BIC:                             2352.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          3.289e+05   1.01e+05      3.249      0.002    1.28e+05     5.3e+05
+thirty_year_interest_rate_two  4.052e+04   2.34e+04      1.730      0.087   -6076.184    8.71e+04
+==============================================================================
+Omnibus:                       18.875   Durbin-Watson:                   0.132
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               22.817
+Skew:                           1.159   Prob(JB):                     1.11e-05
+Kurtosis:                       4.033   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

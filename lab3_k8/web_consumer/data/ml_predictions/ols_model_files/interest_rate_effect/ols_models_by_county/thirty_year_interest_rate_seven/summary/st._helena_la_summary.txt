@@ -1,0 +1,31 @@
+************************************************************
+ST. HELENA LA
+************************************************************
+const	 381367.01
+thirty_year_interest_rate_seven	 -45245.96
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.161
+Model:                              OLS   Adj. R-squared:                  0.149
+Method:                   Least Squares   F-statistic:                     14.17
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           0.000332
+Time:                          21:21:46   Log-Likelihood:                -944.03
+No. Observations:                    76   AIC:                             1892.
+Df Residuals:                        74   BIC:                             1897.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            3.814e+05   4.59e+04      8.301      0.000     2.9e+05    4.73e+05
+thirty_year_interest_rate_seven -4.525e+04    1.2e+04     -3.765      0.000   -6.92e+04   -2.13e+04
+==============================================================================
+Omnibus:                       15.828   Durbin-Watson:                   0.819
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               19.537
+Skew:                           0.955   Prob(JB):                     5.72e-05
+Kurtosis:                       4.588   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

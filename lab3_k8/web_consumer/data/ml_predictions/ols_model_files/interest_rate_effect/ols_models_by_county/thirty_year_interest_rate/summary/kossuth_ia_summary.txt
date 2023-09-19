@@ -1,0 +1,31 @@
+************************************************************
+KOSSUTH IA
+************************************************************
+const	 119509.90
+thirty_year_interest_rate	 4181.96
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.049
+Model:                              OLS   Adj. R-squared:                  0.038
+Method:                   Least Squares   F-statistic:                     4.297
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0413
+Time:                          14:07:27   Log-Likelihood:                -968.28
+No. Observations:                    85   AIC:                             1941.
+Df Residuals:                        83   BIC:                             1945.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      1.195e+05   8904.418     13.421      0.000    1.02e+05    1.37e+05
+thirty_year_interest_rate  4181.9595   2017.321      2.073      0.041     169.589    8194.330
+==============================================================================
+Omnibus:                        2.985   Durbin-Watson:                   0.178
+Prob(Omnibus):                  0.225   Jarque-Bera (JB):                2.946
+Skew:                          -0.413   Prob(JB):                        0.229
+Kurtosis:                       2.611   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

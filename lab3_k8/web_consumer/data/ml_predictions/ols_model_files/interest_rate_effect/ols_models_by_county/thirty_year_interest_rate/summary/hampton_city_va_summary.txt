@@ -1,0 +1,31 @@
+************************************************************
+HAMPTON CITY VA
+************************************************************
+const	 132645.41
+thirty_year_interest_rate	 18446.30
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.367
+Model:                              OLS   Adj. R-squared:                  0.359
+Method:                   Least Squares   F-statistic:                     48.05
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           8.29e-10
+Time:                          14:08:23   Log-Likelihood:                -991.82
+No. Observations:                    85   AIC:                             1988.
+Df Residuals:                        83   BIC:                             1993.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      1.326e+05   1.17e+04     11.293      0.000    1.09e+05    1.56e+05
+thirty_year_interest_rate  1.845e+04   2661.094      6.932      0.000    1.32e+04    2.37e+04
+==============================================================================
+Omnibus:                      304.284   Durbin-Watson:                   0.041
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                8.858
+Skew:                           0.053   Prob(JB):                       0.0119
+Kurtosis:                       1.422   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

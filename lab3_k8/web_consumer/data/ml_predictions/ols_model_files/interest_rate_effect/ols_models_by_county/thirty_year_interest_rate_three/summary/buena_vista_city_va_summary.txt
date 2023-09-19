@@ -1,0 +1,31 @@
+************************************************************
+BUENA VISTA CITY VA
+************************************************************
+const	 86621.14
+thirty_year_interest_rate_three	 11739.24
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.106
+Model:                              OLS   Adj. R-squared:                  0.096
+Method:                   Least Squares   F-statistic:                     9.876
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00232
+Time:                          14:08:23   Log-Likelihood:                -1013.0
+No. Observations:                    85   AIC:                             2030.
+Df Residuals:                        83   BIC:                             2035.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            8.662e+04    1.6e+04      5.416      0.000    5.48e+04    1.18e+05
+thirty_year_interest_rate_three  1.174e+04   3735.521      3.143      0.002    4309.436    1.92e+04
+==============================================================================
+Omnibus:                        6.300   Durbin-Watson:                   0.242
+Prob(Omnibus):                  0.043   Jarque-Bera (JB):                5.072
+Skew:                           0.491   Prob(JB):                       0.0792
+Kurtosis:                       2.317   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

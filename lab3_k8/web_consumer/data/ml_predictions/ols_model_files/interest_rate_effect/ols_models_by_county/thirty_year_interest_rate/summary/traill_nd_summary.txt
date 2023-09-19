@@ -1,0 +1,31 @@
+************************************************************
+TRAILL ND
+************************************************************
+const	 80428.71
+thirty_year_interest_rate	 17458.23
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.384
+Model:                              OLS   Adj. R-squared:                  0.377
+Method:                   Least Squares   F-statistic:                     51.81
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           2.51e-10
+Time:                          14:07:24   Log-Likelihood:                -983.94
+No. Observations:                    85   AIC:                             1972.
+Df Residuals:                        83   BIC:                             1977.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      8.043e+04   1.07e+04      7.512      0.000    5.91e+04    1.02e+05
+thirty_year_interest_rate  1.746e+04   2425.476      7.198      0.000    1.26e+04    2.23e+04
+==============================================================================
+Omnibus:                        5.531   Durbin-Watson:                   0.475
+Prob(Omnibus):                  0.063   Jarque-Bera (JB):                5.104
+Skew:                          -0.429   Prob(JB):                       0.0779
+Kurtosis:                       3.840   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

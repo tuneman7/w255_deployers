@@ -1,0 +1,31 @@
+************************************************************
+ZIEBACH SD
+************************************************************
+const	 140543.15
+thirty_year_interest_rate_three	 7398.87
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.016
+Model:                              OLS   Adj. R-squared:                 -0.042
+Method:                   Least Squares   F-statistic:                    0.2714
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.609
+Time:                          14:07:55   Log-Likelihood:                -242.33
+No. Observations:                    19   AIC:                             488.7
+Df Residuals:                        17   BIC:                             490.5
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.405e+05    6.9e+04      2.037      0.058   -5004.616    2.86e+05
+thirty_year_interest_rate_three  7398.8678   1.42e+04      0.521      0.609   -2.26e+04    3.74e+04
+==============================================================================
+Omnibus:                        3.438   Durbin-Watson:                   0.611
+Prob(Omnibus):                  0.179   Jarque-Bera (JB):                2.791
+Skew:                          -0.892   Prob(JB):                        0.248
+Kurtosis:                       2.413   Cond. No.                         17.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

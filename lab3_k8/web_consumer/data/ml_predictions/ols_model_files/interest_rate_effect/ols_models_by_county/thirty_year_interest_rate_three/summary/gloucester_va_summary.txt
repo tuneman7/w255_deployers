@@ -1,0 +1,31 @@
+************************************************************
+GLOUCESTER VA
+************************************************************
+const	 226451.62
+thirty_year_interest_rate_three	 19112.32
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.241
+Model:                              OLS   Adj. R-squared:                  0.232
+Method:                   Least Squares   F-statistic:                     26.31
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           1.87e-06
+Time:                          14:08:05   Log-Likelihood:                -1012.8
+No. Observations:                    85   AIC:                             2030.
+Df Residuals:                        83   BIC:                             2034.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            2.265e+05    1.6e+04     14.194      0.000    1.95e+05    2.58e+05
+thirty_year_interest_rate_three  1.911e+04   3725.848      5.130      0.000    1.17e+04    2.65e+04
+==============================================================================
+Omnibus:                        5.698   Durbin-Watson:                   0.168
+Prob(Omnibus):                  0.058   Jarque-Bera (JB):                5.777
+Skew:                           0.609   Prob(JB):                       0.0557
+Kurtosis:                       2.616   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

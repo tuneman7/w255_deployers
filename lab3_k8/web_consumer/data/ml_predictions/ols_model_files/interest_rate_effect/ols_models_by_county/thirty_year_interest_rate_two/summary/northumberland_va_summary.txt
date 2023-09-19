@@ -1,0 +1,31 @@
+************************************************************
+NORTHUMBERLAND VA
+************************************************************
+const	 337468.80
+thirty_year_interest_rate_two	 15549.08
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.064
+Model:                              OLS   Adj. R-squared:                  0.052
+Method:                   Least Squares   F-statistic:                     5.631
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0200
+Time:                          14:07:27   Log-Likelihood:                -1063.1
+No. Observations:                    85   AIC:                             2130.
+Df Residuals:                        83   BIC:                             2135.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          3.375e+05   2.83e+04     11.915      0.000    2.81e+05    3.94e+05
+thirty_year_interest_rate_two  1.555e+04   6552.632      2.373      0.020    2516.161    2.86e+04
+==============================================================================
+Omnibus:                       27.916   Durbin-Watson:                   0.133
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               40.560
+Skew:                           1.523   Prob(JB):                     1.56e-09
+Kurtosis:                       4.473   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

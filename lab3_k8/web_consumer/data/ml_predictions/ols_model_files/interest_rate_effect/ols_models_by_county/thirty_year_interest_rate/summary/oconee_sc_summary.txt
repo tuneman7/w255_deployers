@@ -1,0 +1,31 @@
+************************************************************
+OCONEE SC
+************************************************************
+const	 219212.45
+thirty_year_interest_rate	 19131.93
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.266
+Model:                              OLS   Adj. R-squared:                  0.257
+Method:                   Least Squares   F-statistic:                     30.05
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           4.44e-07
+Time:                          14:07:52   Log-Likelihood:                -1014.9
+No. Observations:                    85   AIC:                             2034.
+Df Residuals:                        83   BIC:                             2039.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      2.192e+05   1.54e+04     14.229      0.000    1.89e+05     2.5e+05
+thirty_year_interest_rate  1.913e+04   3490.256      5.482      0.000    1.22e+04    2.61e+04
+==============================================================================
+Omnibus:                       11.594   Durbin-Watson:                   0.099
+Prob(Omnibus):                  0.003   Jarque-Bera (JB):                3.641
+Skew:                           0.059   Prob(JB):                        0.162
+Kurtosis:                       1.993   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

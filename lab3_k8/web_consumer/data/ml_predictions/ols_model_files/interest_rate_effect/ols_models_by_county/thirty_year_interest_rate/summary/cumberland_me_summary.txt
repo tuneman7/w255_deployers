@@ -1,0 +1,31 @@
+************************************************************
+CUMBERLAND ME
+************************************************************
+const	 248939.24
+thirty_year_interest_rate	 44192.95
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.320
+Model:                              OLS   Adj. R-squared:                  0.312
+Method:                   Least Squares   F-statistic:                     39.09
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           1.67e-08
+Time:                          14:07:10   Log-Likelihood:                -1074.9
+No. Observations:                    85   AIC:                             2154.
+Df Residuals:                        83   BIC:                             2159.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      2.489e+05   3.12e+04      7.979      0.000    1.87e+05    3.11e+05
+thirty_year_interest_rate  4.419e+04   7068.009      6.253      0.000    3.01e+04    5.83e+04
+==============================================================================
+Omnibus:                      122.855   Durbin-Watson:                   0.057
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                8.186
+Skew:                           0.167   Prob(JB):                       0.0167
+Kurtosis:                       1.517   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

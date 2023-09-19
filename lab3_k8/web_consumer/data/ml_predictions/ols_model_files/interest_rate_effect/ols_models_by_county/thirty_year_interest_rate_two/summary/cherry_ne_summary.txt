@@ -1,0 +1,31 @@
+************************************************************
+CHERRY NE
+************************************************************
+const	 89942.69
+thirty_year_interest_rate_two	 35377.69
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.043
+Model:                              OLS   Adj. R-squared:                  0.029
+Method:                   Least Squares   F-statistic:                     3.156
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0799
+Time:                          14:07:06   Log-Likelihood:                -993.80
+No. Observations:                    73   AIC:                             1992.
+Df Residuals:                        71   BIC:                             1996.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          8.994e+04    8.7e+04      1.034      0.305   -8.35e+04    2.63e+05
+thirty_year_interest_rate_two  3.538e+04   1.99e+04      1.776      0.080   -4332.212    7.51e+04
+==============================================================================
+Omnibus:                       69.235   Durbin-Watson:                   0.443
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              407.881
+Skew:                           2.964   Prob(JB):                     2.69e-89
+Kurtosis:                      12.948   Cond. No.                         17.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

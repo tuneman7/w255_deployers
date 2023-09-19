@@ -1,0 +1,31 @@
+************************************************************
+COLONIAL HEIGHTS CITY VA
+************************************************************
+const	 151234.69
+thirty_year_interest_rate_five	 13406.80
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.125
+Model:                              OLS   Adj. R-squared:                  0.115
+Method:                   Least Squares   F-statistic:                     11.89
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           0.000888
+Time:                          14:07:20   Log-Likelihood:                -1010.8
+No. Observations:                    85   AIC:                             2026.
+Df Residuals:                        83   BIC:                             2031.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           1.512e+05   1.63e+04      9.262      0.000    1.19e+05    1.84e+05
+thirty_year_interest_rate_five  1.341e+04   3887.732      3.448      0.001    5674.258    2.11e+04
+==============================================================================
+Omnibus:                       28.349   Durbin-Watson:                   0.125
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                6.792
+Skew:                           0.344   Prob(JB):                       0.0335
+Kurtosis:                       1.799   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

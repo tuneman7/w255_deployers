@@ -1,0 +1,31 @@
+************************************************************
+MADERA CA
+************************************************************
+const	 336035.59
+thirty_year_interest_rate_five	 10383.21
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.021
+Model:                              OLS   Adj. R-squared:                  0.009
+Method:                   Least Squares   F-statistic:                     1.753
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.189
+Time:                          14:07:14   Log-Likelihood:                -1070.5
+No. Observations:                    85   AIC:                             2145.
+Df Residuals:                        83   BIC:                             2150.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                            3.36e+05   3.29e+04     10.202      0.000    2.71e+05    4.02e+05
+thirty_year_interest_rate_five  1.038e+04   7842.302      1.324      0.189   -5214.814     2.6e+04
+==============================================================================
+Omnibus:                       95.491   Durbin-Watson:                   0.019
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               10.073
+Skew:                           0.436   Prob(JB):                      0.00650
+Kurtosis:                       1.557   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

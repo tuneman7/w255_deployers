@@ -1,0 +1,31 @@
+************************************************************
+STAFFORD KS
+************************************************************
+const	 84002.15
+thirty_year_interest_rate_two	 -3293.24
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.009
+Model:                              OLS   Adj. R-squared:                 -0.003
+Method:                   Least Squares   F-statistic:                    0.7522
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.388
+Time:                          14:07:54   Log-Likelihood:                -1016.8
+No. Observations:                    85   AIC:                             2038.
+Df Residuals:                        83   BIC:                             2042.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                            8.4e+04   1.64e+04      5.118      0.000    5.14e+04    1.17e+05
+thirty_year_interest_rate_two -3293.2399   3797.171     -0.867      0.388   -1.08e+04    4259.180
+==============================================================================
+Omnibus:                       79.984   Durbin-Watson:                   0.360
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              593.329
+Skew:                           3.027   Prob(JB):                    1.45e-129
+Kurtosis:                      14.440   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

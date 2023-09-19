@@ -1,0 +1,31 @@
+************************************************************
+DUVAL TX
+************************************************************
+const	 98728.55
+thirty_year_interest_rate_five	 2345.73
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.015
+Model:                              OLS   Adj. R-squared:                  0.003
+Method:                   Least Squares   F-statistic:                     1.236
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.269
+Time:                          14:07:35   Log-Likelihood:                -958.86
+No. Observations:                    85   AIC:                             1922.
+Df Residuals:                        83   BIC:                             1927.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           9.873e+04   8862.228     11.140      0.000    8.11e+04    1.16e+05
+thirty_year_interest_rate_five  2345.7348   2109.971      1.112      0.269   -1850.912    6542.382
+==============================================================================
+Omnibus:                        4.339   Durbin-Watson:                   0.522
+Prob(Omnibus):                  0.114   Jarque-Bera (JB):                4.199
+Skew:                           0.493   Prob(JB):                        0.123
+Kurtosis:                       2.538   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

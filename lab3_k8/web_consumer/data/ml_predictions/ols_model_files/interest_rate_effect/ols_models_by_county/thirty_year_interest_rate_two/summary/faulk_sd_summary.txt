@@ -1,0 +1,31 @@
+************************************************************
+FAULK SD
+************************************************************
+const	 135768.66
+thirty_year_interest_rate_two	 -4929.71
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.006
+Model:                              OLS   Adj. R-squared:                 -0.009
+Method:                   Least Squares   F-statistic:                    0.3893
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.535
+Time:                          14:07:52   Log-Likelihood:                -858.96
+No. Observations:                    68   AIC:                             1722.
+Df Residuals:                        66   BIC:                             1726.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          1.358e+05   3.49e+04      3.890      0.000    6.61e+04    2.05e+05
+thirty_year_interest_rate_two -4929.7053   7900.883     -0.624      0.535   -2.07e+04    1.08e+04
+==============================================================================
+Omnibus:                        9.961   Durbin-Watson:                   0.749
+Prob(Omnibus):                  0.007   Jarque-Bera (JB):               10.852
+Skew:                           0.978   Prob(JB):                      0.00440
+Kurtosis:                       2.955   Cond. No.                         17.7
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

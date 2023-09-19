@@ -1,0 +1,31 @@
+************************************************************
+NORTHWEST ARCTIC AK
+************************************************************
+const	 -327600.15
+thirty_year_interest_rate_six	 161016.05
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.090
+Model:                              OLS   Adj. R-squared:                  0.067
+Method:                   Least Squares   F-statistic:                     3.959
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):             0.0535
+Time:                          21:21:43   Log-Likelihood:                -588.82
+No. Observations:                    42   AIC:                             1182.
+Df Residuals:                        40   BIC:                             1185.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                         -3.276e+05   3.28e+05     -0.999      0.324   -9.91e+05    3.35e+05
+thirty_year_interest_rate_six   1.61e+05   8.09e+04      1.990      0.054   -2545.905    3.25e+05
+==============================================================================
+Omnibus:                        4.958   Durbin-Watson:                   0.490
+Prob(Omnibus):                  0.084   Jarque-Bera (JB):                4.727
+Skew:                           0.775   Prob(JB):                       0.0941
+Kurtosis:                       2.453   Cond. No.                         30.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

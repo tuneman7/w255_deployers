@@ -1,0 +1,31 @@
+************************************************************
+STANTON NE
+************************************************************
+const	 147549.24
+thirty_year_interest_rate_three	 8639.37
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.042
+Model:                              OLS   Adj. R-squared:                  0.031
+Method:                   Least Squares   F-statistic:                     3.664
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0591
+Time:                          14:08:10   Log-Likelihood:                -1029.1
+No. Observations:                    85   AIC:                             2062.
+Df Residuals:                        83   BIC:                             2067.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.475e+05   1.93e+04      7.635      0.000    1.09e+05    1.86e+05
+thirty_year_interest_rate_three  8639.3707   4513.623      1.914      0.059    -338.043    1.76e+04
+==============================================================================
+Omnibus:                       45.700   Durbin-Watson:                   0.412
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              128.250
+Skew:                           1.862   Prob(JB):                     1.42e-28
+Kurtosis:                       7.727   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

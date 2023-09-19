@@ -1,0 +1,31 @@
+************************************************************
+ACADIA LA
+************************************************************
+const	 138168.57
+thirty_year_interest_rate_three	 4863.17
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.082
+Model:                              OLS   Adj. R-squared:                  0.071
+Method:                   Least Squares   F-statistic:                     7.410
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00790
+Time:                          14:07:50   Log-Likelihood:                -950.32
+No. Observations:                    85   AIC:                             1905.
+Df Residuals:                        83   BIC:                             1910.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.382e+05   7649.765     18.062      0.000    1.23e+05    1.53e+05
+thirty_year_interest_rate_three  4863.1707   1786.559      2.722      0.008    1309.777    8416.565
+==============================================================================
+Omnibus:                        9.700   Durbin-Watson:                   0.224
+Prob(Omnibus):                  0.008   Jarque-Bera (JB):               10.284
+Skew:                           0.852   Prob(JB):                      0.00585
+Kurtosis:                       3.059   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

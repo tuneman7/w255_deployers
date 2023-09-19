@@ -1,0 +1,31 @@
+************************************************************
+MONTGOMERY NC
+************************************************************
+const	 81996.83
+thirty_year_interest_rate_six	 46792.87
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.248
+Model:                              OLS   Adj. R-squared:                  0.238
+Method:                   Least Squares   F-statistic:                     24.45
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           4.63e-06
+Time:                          21:22:37   Log-Likelihood:                -928.32
+No. Observations:                    76   AIC:                             1861.
+Df Residuals:                        74   BIC:                             1865.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                            8.2e+04   3.63e+04      2.256      0.027    9590.091    1.54e+05
+thirty_year_interest_rate_six  4.679e+04   9464.210      4.944      0.000    2.79e+04    6.57e+04
+==============================================================================
+Omnibus:                        2.052   Durbin-Watson:                   0.353
+Prob(Omnibus):                  0.358   Jarque-Bera (JB):                2.017
+Skew:                          -0.378   Prob(JB):                        0.365
+Kurtosis:                       2.745   Cond. No.                         26.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+ST. JOHN THE BAPTIST LA
+************************************************************
+const	 217910.17
+thirty_year_interest_rate_seven	 -11629.30
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.092
+Model:                              OLS   Adj. R-squared:                  0.080
+Method:                   Least Squares   F-statistic:                     7.484
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):            0.00779
+Time:                          21:21:59   Log-Likelihood:                -865.05
+No. Observations:                    76   AIC:                             1734.
+Df Residuals:                        74   BIC:                             1739.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            2.179e+05   1.62e+04     13.411      0.000    1.86e+05     2.5e+05
+thirty_year_interest_rate_seven -1.163e+04   4251.000     -2.736      0.008   -2.01e+04   -3159.000
+==============================================================================
+Omnibus:                       37.956   Durbin-Watson:                   0.244
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               79.807
+Skew:                           1.821   Prob(JB):                     4.68e-18
+Kurtosis:                       6.455   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

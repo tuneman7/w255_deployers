@@ -1,0 +1,31 @@
+************************************************************
+TODD SD
+************************************************************
+const	 683126.74
+thirty_year_interest_rate_six	 -71467.81
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.007
+Model:                              OLS   Adj. R-squared:                 -0.032
+Method:                   Least Squares   F-statistic:                    0.1708
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):              0.683
+Time:                          21:21:25   Log-Likelihood:                -408.22
+No. Observations:                    28   AIC:                             820.4
+Df Residuals:                        26   BIC:                             823.1
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          6.831e+05   7.08e+05      0.964      0.344   -7.73e+05    2.14e+06
+thirty_year_interest_rate_six -7.147e+04   1.73e+05     -0.413      0.683   -4.27e+05    2.84e+05
+==============================================================================
+Omnibus:                        8.656   Durbin-Watson:                   0.234
+Prob(Omnibus):                  0.013   Jarque-Bera (JB):                8.433
+Skew:                           1.344   Prob(JB):                       0.0148
+Kurtosis:                       2.912   Cond. No.                         30.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

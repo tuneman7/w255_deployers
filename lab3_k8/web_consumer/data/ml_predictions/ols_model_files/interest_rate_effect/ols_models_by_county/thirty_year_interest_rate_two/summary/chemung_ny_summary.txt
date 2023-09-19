@@ -1,0 +1,31 @@
+************************************************************
+CHEMUNG NY
+************************************************************
+const	 107240.31
+thirty_year_interest_rate_two	 4536.30
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.061
+Model:                              OLS   Adj. R-squared:                  0.050
+Method:                   Least Squares   F-statistic:                     5.431
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0222
+Time:                          14:07:14   Log-Likelihood:                -959.97
+No. Observations:                    85   AIC:                             1924.
+Df Residuals:                        83   BIC:                             1929.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          1.072e+05   8413.912     12.746      0.000    9.05e+04    1.24e+05
+thirty_year_interest_rate_two  4536.3034   1946.517      2.330      0.022     664.759    8407.848
+==============================================================================
+Omnibus:                        2.562   Durbin-Watson:                   0.157
+Prob(Omnibus):                  0.278   Jarque-Bera (JB):                2.198
+Skew:                           0.278   Prob(JB):                        0.333
+Kurtosis:                       2.442   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

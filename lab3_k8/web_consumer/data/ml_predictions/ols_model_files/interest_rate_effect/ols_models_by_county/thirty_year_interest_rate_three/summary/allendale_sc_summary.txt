@@ -1,0 +1,31 @@
+************************************************************
+ALLENDALE SC
+************************************************************
+const	 212216.16
+thirty_year_interest_rate_three	 -16074.52
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.025
+Model:                              OLS   Adj. R-squared:                  0.013
+Method:                   Least Squares   F-statistic:                     2.117
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.149
+Time:                          14:07:57   Log-Likelihood:                -1105.2
+No. Observations:                    85   AIC:                             2214.
+Df Residuals:                        83   BIC:                             2219.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            2.122e+05   4.73e+04      4.486      0.000    1.18e+05    3.06e+05
+thirty_year_interest_rate_three -1.607e+04    1.1e+04     -1.455      0.149    -3.8e+04    5899.270
+==============================================================================
+Omnibus:                       78.067   Durbin-Watson:                   0.526
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              537.477
+Skew:                           2.969   Prob(JB):                    1.94e-117
+Kurtosis:                      13.793   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

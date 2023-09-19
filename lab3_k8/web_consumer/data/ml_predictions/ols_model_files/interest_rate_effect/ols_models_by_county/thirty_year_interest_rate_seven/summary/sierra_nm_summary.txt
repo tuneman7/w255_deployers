@@ -1,0 +1,31 @@
+************************************************************
+SIERRA NM
+************************************************************
+const	 350686.81
+thirty_year_interest_rate_seven	 -41695.72
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.285
+Model:                              OLS   Adj. R-squared:                  0.275
+Method:                   Least Squares   F-statistic:                     29.48
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           6.88e-07
+Time:                          21:21:41   Log-Likelihood:                -910.00
+No. Observations:                    76   AIC:                             1824.
+Df Residuals:                        74   BIC:                             1829.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            3.507e+05   2.94e+04     11.946      0.000    2.92e+05    4.09e+05
+thirty_year_interest_rate_seven  -4.17e+04   7680.008     -5.429      0.000    -5.7e+04   -2.64e+04
+==============================================================================
+Omnibus:                       19.329   Durbin-Watson:                   0.199
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               24.779
+Skew:                           1.153   Prob(JB):                     4.16e-06
+Kurtosis:                       4.585   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

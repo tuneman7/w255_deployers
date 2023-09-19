@@ -1,0 +1,31 @@
+************************************************************
+OCHILTREE TX
+************************************************************
+const	 150582.36
+thirty_year_interest_rate_five	 707.21
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.001
+Model:                              OLS   Adj. R-squared:                 -0.011
+Method:                   Least Squares   F-statistic:                   0.07381
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.787
+Time:                          14:07:14   Log-Likelihood:                -965.15
+No. Observations:                    84   AIC:                             1934.
+Df Residuals:                        82   BIC:                             1939.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           1.506e+05   1.09e+04     13.755      0.000    1.29e+05    1.72e+05
+thirty_year_interest_rate_five   707.2136   2603.175      0.272      0.787   -4471.331    5885.758
+==============================================================================
+Omnibus:                       62.418   Durbin-Watson:                   0.736
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              347.519
+Skew:                           2.291   Prob(JB):                     3.44e-76
+Kurtosis:                      11.848   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

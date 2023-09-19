@@ -1,0 +1,31 @@
+************************************************************
+CABARRUS NC
+************************************************************
+const	 263591.15
+thirty_year_interest_rate_five	 16347.93
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.238
+Model:                              OLS   Adj. R-squared:                  0.229
+Method:                   Least Squares   F-statistic:                     25.89
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           2.21e-06
+Time:                          14:08:28   Log-Likelihood:                -994.61
+No. Observations:                    85   AIC:                             1993.
+Df Residuals:                        83   BIC:                             1998.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           2.636e+05   1.35e+04     19.533      0.000    2.37e+05     2.9e+05
+thirty_year_interest_rate_five  1.635e+04   3212.959      5.088      0.000    9957.483    2.27e+04
+==============================================================================
+Omnibus:                       10.977   Durbin-Watson:                   0.136
+Prob(Omnibus):                  0.004   Jarque-Bera (JB):               12.058
+Skew:                           0.922   Prob(JB):                      0.00241
+Kurtosis:                       3.037   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

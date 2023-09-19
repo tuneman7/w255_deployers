@@ -1,0 +1,31 @@
+************************************************************
+PRAIRIE AR
+************************************************************
+const	 119187.75
+thirty_year_interest_rate_seven	 -2500.34
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.002
+Model:                              OLS   Adj. R-squared:                 -0.011
+Method:                   Least Squares   F-statistic:                    0.1708
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):              0.681
+Time:                          21:22:36   Log-Likelihood:                -891.87
+No. Observations:                    76   AIC:                             1788.
+Df Residuals:                        74   BIC:                             1792.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.192e+05   2.31e+04      5.154      0.000    7.31e+04    1.65e+05
+thirty_year_interest_rate_seven -2500.3352   6050.313     -0.413      0.681   -1.46e+04    9555.176
+==============================================================================
+Omnibus:                       17.021   Durbin-Watson:                   0.568
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                4.387
+Skew:                           0.161   Prob(JB):                        0.112
+Kurtosis:                       1.868   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

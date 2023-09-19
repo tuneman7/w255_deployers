@@ -1,0 +1,31 @@
+************************************************************
+LAKE IL
+************************************************************
+const	 368998.72
+thirty_year_interest_rate	 7725.52
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.102
+Model:                              OLS   Adj. R-squared:                  0.092
+Method:                   Least Squares   F-statistic:                     9.474
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00282
+Time:                          14:07:23   Log-Likelihood:                -986.85
+No. Observations:                    85   AIC:                             1978.
+Df Residuals:                        83   BIC:                             1983.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                       3.69e+05   1.11e+04     33.307      0.000    3.47e+05    3.91e+05
+thirty_year_interest_rate  7725.5167   2509.918      3.078      0.003    2733.391    1.27e+04
+==============================================================================
+Omnibus:                        7.347   Durbin-Watson:                   0.226
+Prob(Omnibus):                  0.025   Jarque-Bera (JB):                7.038
+Skew:                           0.695   Prob(JB):                       0.0296
+Kurtosis:                       3.232   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

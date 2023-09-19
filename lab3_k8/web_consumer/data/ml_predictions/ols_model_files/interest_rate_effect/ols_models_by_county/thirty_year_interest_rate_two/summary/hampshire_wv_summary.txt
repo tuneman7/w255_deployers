@@ -1,0 +1,31 @@
+************************************************************
+HAMPSHIRE WV
+************************************************************
+const	 135220.75
+thirty_year_interest_rate_two	 16578.61
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.165
+Model:                              OLS   Adj. R-squared:                  0.155
+Method:                   Least Squares   F-statistic:                     16.40
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           0.000115
+Time:                          14:07:37   Log-Likelihood:                -1023.2
+No. Observations:                    85   AIC:                             2050.
+Df Residuals:                        83   BIC:                             2055.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          1.352e+05   1.77e+04      7.642      0.000       1e+05     1.7e+05
+thirty_year_interest_rate_two  1.658e+04   4093.720      4.050      0.000    8436.369    2.47e+04
+==============================================================================
+Omnibus:                       21.254   Durbin-Watson:                   0.113
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                7.694
+Skew:                           0.486   Prob(JB):                       0.0213
+Kurtosis:                       1.891   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

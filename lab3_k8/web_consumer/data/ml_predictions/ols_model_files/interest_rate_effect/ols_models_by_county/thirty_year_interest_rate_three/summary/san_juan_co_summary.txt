@@ -1,0 +1,31 @@
+************************************************************
+SAN JUAN CO
+************************************************************
+const	 176001.61
+thirty_year_interest_rate_three	 77139.91
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.123
+Model:                              OLS   Adj. R-squared:                  0.112
+Method:                   Least Squares   F-statistic:                     11.64
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00100
+Time:                          14:07:48   Log-Likelihood:                -1166.1
+No. Observations:                    85   AIC:                             2336.
+Df Residuals:                        83   BIC:                             2341.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                             1.76e+05   9.68e+04      1.818      0.073   -1.66e+04    3.69e+05
+thirty_year_interest_rate_three  7.714e+04   2.26e+04      3.411      0.001    3.22e+04    1.22e+05
+==============================================================================
+Omnibus:                       13.259   Durbin-Watson:                   0.185
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):               15.350
+Skew:                           1.041   Prob(JB):                     0.000464
+Kurtosis:                       3.050   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

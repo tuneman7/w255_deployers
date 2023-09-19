@@ -1,0 +1,31 @@
+************************************************************
+SMITH TN
+************************************************************
+const	 474895.54
+thirty_year_interest_rate_seven	 -55040.99
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.142
+Model:                              OLS   Adj. R-squared:                  0.131
+Method:                   Least Squares   F-statistic:                     12.26
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           0.000786
+Time:                          21:21:17   Log-Likelihood:                -964.42
+No. Observations:                    76   AIC:                             1933.
+Df Residuals:                        74   BIC:                             1938.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            4.749e+05   6.01e+04      7.905      0.000    3.55e+05    5.95e+05
+thirty_year_interest_rate_seven -5.504e+04   1.57e+04     -3.502      0.001   -8.64e+04   -2.37e+04
+==============================================================================
+Omnibus:                       33.823   Durbin-Watson:                   0.246
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               71.402
+Skew:                           1.578   Prob(JB):                     3.13e-16
+Kurtosis:                       6.549   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

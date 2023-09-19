@@ -1,0 +1,31 @@
+************************************************************
+YUBA CA
+************************************************************
+const	 275628.75
+thirty_year_interest_rate_three	 21836.74
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.103
+Model:                              OLS   Adj. R-squared:                  0.092
+Method:                   Least Squares   F-statistic:                     9.502
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00279
+Time:                          14:08:14   Log-Likelihood:                -1067.4
+No. Observations:                    85   AIC:                             2139.
+Df Residuals:                        83   BIC:                             2144.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            2.756e+05   3.03e+04      9.087      0.000    2.15e+05    3.36e+05
+thirty_year_interest_rate_three  2.184e+04   7083.941      3.083      0.003    7747.066    3.59e+04
+==============================================================================
+Omnibus:                       69.850   Durbin-Watson:                   0.030
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                7.983
+Skew:                           0.279   Prob(JB):                       0.0185
+Kurtosis:                       1.606   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

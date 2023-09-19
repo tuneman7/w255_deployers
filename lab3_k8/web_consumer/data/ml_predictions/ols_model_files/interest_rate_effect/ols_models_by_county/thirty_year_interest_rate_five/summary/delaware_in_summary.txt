@@ -1,0 +1,31 @@
+************************************************************
+DELAWARE IN
+************************************************************
+const	 49472.68
+thirty_year_interest_rate_five	 12428.42
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.217
+Model:                              OLS   Adj. R-squared:                  0.207
+Method:                   Least Squares   F-statistic:                     22.97
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           7.14e-06
+Time:                          14:07:03   Log-Likelihood:                -976.40
+No. Observations:                    85   AIC:                             1957.
+Df Residuals:                        83   BIC:                             1962.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           4.947e+04   1.09e+04      4.542      0.000    2.78e+04    7.11e+04
+thirty_year_interest_rate_five  1.243e+04   2593.430      4.792      0.000    7270.188    1.76e+04
+==============================================================================
+Omnibus:                       10.385   Durbin-Watson:                   0.165
+Prob(Omnibus):                  0.006   Jarque-Bera (JB):                8.868
+Skew:                           0.699   Prob(JB):                       0.0119
+Kurtosis:                       2.258   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+BOWIE TX
+************************************************************
+const	 134908.92
+thirty_year_interest_rate_three	 12305.71
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.124
+Model:                              OLS   Adj. R-squared:                  0.113
+Method:                   Least Squares   F-statistic:                     11.71
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           0.000965
+Time:                          14:07:41   Log-Likelihood:                -1009.8
+No. Observations:                    85   AIC:                             2024.
+Df Residuals:                        83   BIC:                             2028.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.349e+05   1.54e+04      8.763      0.000    1.04e+05    1.66e+05
+thirty_year_interest_rate_three  1.231e+04   3595.421      3.423      0.001    5154.567    1.95e+04
+==============================================================================
+Omnibus:                        8.660   Durbin-Watson:                   0.136
+Prob(Omnibus):                  0.013   Jarque-Bera (JB):                9.284
+Skew:                           0.806   Prob(JB):                      0.00964
+Kurtosis:                       2.845   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+PULASKI GA
+************************************************************
+const	 83632.86
+thirty_year_interest_rate_two	 19241.90
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.273
+Model:                              OLS   Adj. R-squared:                  0.264
+Method:                   Least Squares   F-statistic:                     31.12
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           2.96e-07
+Time:                          14:07:13   Log-Likelihood:                -1008.6
+No. Observations:                    85   AIC:                             2021.
+Df Residuals:                        83   BIC:                             2026.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          8.363e+04   1.49e+04      5.609      0.000     5.4e+04    1.13e+05
+thirty_year_interest_rate_two  1.924e+04   3449.232      5.579      0.000    1.24e+04    2.61e+04
+==============================================================================
+Omnibus:                       12.882   Durbin-Watson:                   0.345
+Prob(Omnibus):                  0.002   Jarque-Bera (JB):               13.853
+Skew:                           0.959   Prob(JB):                     0.000982
+Kurtosis:                       3.483   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

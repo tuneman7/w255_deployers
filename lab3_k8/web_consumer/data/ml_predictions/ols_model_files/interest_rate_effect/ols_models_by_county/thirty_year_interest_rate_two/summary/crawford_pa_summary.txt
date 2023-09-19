@@ -1,0 +1,31 @@
+************************************************************
+CRAWFORD PA
+************************************************************
+const	 85397.46
+thirty_year_interest_rate_two	 12593.00
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.348
+Model:                              OLS   Adj. R-squared:                  0.340
+Method:                   Least Squares   F-statistic:                     44.33
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           2.81e-09
+Time:                          14:07:34   Log-Likelihood:                -957.53
+No. Observations:                    85   AIC:                             1919.
+Df Residuals:                        83   BIC:                             1924.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                           8.54e+04   8175.815     10.445      0.000    6.91e+04    1.02e+05
+thirty_year_interest_rate_two  1.259e+04   1891.435      6.658      0.000    8831.012    1.64e+04
+==============================================================================
+Omnibus:                        9.182   Durbin-Watson:                   0.234
+Prob(Omnibus):                  0.010   Jarque-Bera (JB):                9.465
+Skew:                           0.815   Prob(JB):                      0.00880
+Kurtosis:                       3.133   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

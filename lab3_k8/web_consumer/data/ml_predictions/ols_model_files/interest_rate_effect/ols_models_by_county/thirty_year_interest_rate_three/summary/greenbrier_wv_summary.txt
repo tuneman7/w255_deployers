@@ -1,0 +1,31 @@
+************************************************************
+GREENBRIER WV
+************************************************************
+const	 166494.21
+thirty_year_interest_rate_three	 14803.23
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.413
+Model:                              OLS   Adj. R-squared:                  0.406
+Method:                   Least Squares   F-statistic:                     58.48
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           3.26e-11
+Time:                          14:07:50   Log-Likelihood:                -957.13
+No. Observations:                    85   AIC:                             1918.
+Df Residuals:                        83   BIC:                             1923.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.665e+05   8288.440     20.088      0.000     1.5e+05    1.83e+05
+thirty_year_interest_rate_three   1.48e+04   1935.718      7.647      0.000     1.1e+04    1.87e+04
+==============================================================================
+Omnibus:                       27.764   Durbin-Watson:                   0.448
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               78.388
+Skew:                           1.027   Prob(JB):                     9.51e-18
+Kurtosis:                       7.233   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+GREGG TX
+************************************************************
+const	 167488.64
+thirty_year_interest_rate_four	 14713.86
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.102
+Model:                              OLS   Adj. R-squared:                  0.092
+Method:                   Least Squares   F-statistic:                     9.474
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00282
+Time:                          14:07:02   Log-Likelihood:                -1031.7
+No. Observations:                    85   AIC:                             2067.
+Df Residuals:                        83   BIC:                             2072.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           1.675e+05   2.03e+04      8.255      0.000    1.27e+05    2.08e+05
+thirty_year_interest_rate_four  1.471e+04   4780.461      3.078      0.003    5205.719    2.42e+04
+==============================================================================
+Omnibus:                      277.683   Durbin-Watson:                   0.049
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                9.982
+Skew:                           0.297   Prob(JB):                      0.00680
+Kurtosis:                       1.430   Cond. No.                         18.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

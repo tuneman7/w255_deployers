@@ -1,0 +1,31 @@
+************************************************************
+OZAUKEE WI
+************************************************************
+const	 323229.69
+thirty_year_interest_rate_three	 25200.66
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.250
+Model:                              OLS   Adj. R-squared:                  0.241
+Method:                   Least Squares   F-statistic:                     27.64
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           1.12e-06
+Time:                          14:07:47   Log-Likelihood:                -1034.2
+No. Observations:                    85   AIC:                             2072.
+Df Residuals:                        83   BIC:                             2077.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            3.232e+05   2.05e+04     15.749      0.000    2.82e+05    3.64e+05
+thirty_year_interest_rate_three   2.52e+04   4793.316      5.257      0.000    1.57e+04    3.47e+04
+==============================================================================
+Omnibus:                       40.252   Durbin-Watson:                   0.132
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                6.159
+Skew:                          -0.136   Prob(JB):                       0.0460
+Kurtosis:                       1.710   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

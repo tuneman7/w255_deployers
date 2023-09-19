@@ -1,0 +1,31 @@
+************************************************************
+ATLANTIC NJ
+************************************************************
+const	 155530.97
+thirty_year_interest_rate_two	 26525.33
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.465
+Model:                              OLS   Adj. R-squared:                  0.458
+Method:                   Least Squares   F-statistic:                     72.02
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           6.95e-13
+Time:                          14:08:11   Log-Likelihood:                -1000.2
+No. Observations:                    85   AIC:                             2004.
+Df Residuals:                        83   BIC:                             2009.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          1.555e+05   1.35e+04     11.512      0.000    1.29e+05    1.82e+05
+thirty_year_interest_rate_two  2.653e+04   3125.539      8.487      0.000    2.03e+04    3.27e+04
+==============================================================================
+Omnibus:                       10.302   Durbin-Watson:                   0.066
+Prob(Omnibus):                  0.006   Jarque-Bera (JB):                6.120
+Skew:                           0.488   Prob(JB):                       0.0469
+Kurtosis:                       2.120   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

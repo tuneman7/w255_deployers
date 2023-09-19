@@ -1,0 +1,31 @@
+************************************************************
+HOWARD MO
+************************************************************
+const	 113243.90
+thirty_year_interest_rate_three	 16448.21
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.082
+Model:                              OLS   Adj. R-squared:                  0.071
+Method:                   Least Squares   F-statistic:                     7.376
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00804
+Time:                          14:06:59   Log-Likelihood:                -1054.1
+No. Observations:                    85   AIC:                             2112.
+Df Residuals:                        83   BIC:                             2117.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.132e+05   2.59e+04      4.367      0.000    6.17e+04    1.65e+05
+thirty_year_interest_rate_three  1.645e+04   6056.176      2.716      0.008    4402.724    2.85e+04
+==============================================================================
+Omnibus:                       27.917   Durbin-Watson:                   0.415
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               45.035
+Skew:                           1.360   Prob(JB):                     1.66e-10
+Kurtosis:                       5.307   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

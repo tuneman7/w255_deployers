@@ -1,0 +1,31 @@
+************************************************************
+ANTELOPE NE
+************************************************************
+const	 88474.42
+thirty_year_interest_rate	 14271.76
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.076
+Model:                              OLS   Adj. R-squared:                  0.064
+Method:                   Least Squares   F-statistic:                     6.788
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0109
+Time:                          14:07:21   Log-Likelihood:                -1053.2
+No. Observations:                    85   AIC:                             2110.
+Df Residuals:                        83   BIC:                             2115.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      8.847e+04   2.42e+04      3.659      0.000    4.04e+04    1.37e+05
+thirty_year_interest_rate  1.427e+04   5477.971      2.605      0.011    3376.299    2.52e+04
+==============================================================================
+Omnibus:                       33.579   Durbin-Watson:                   0.927
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               65.719
+Skew:                           1.503   Prob(JB):                     5.36e-15
+Kurtosis:                       6.085   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+KINGSBURY SD
+************************************************************
+const	 96070.34
+thirty_year_interest_rate_five	 14246.97
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.052
+Model:                              OLS   Adj. R-squared:                  0.040
+Method:                   Least Squares   F-statistic:                     4.460
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0377
+Time:                          14:07:45   Log-Likelihood:                -1045.0
+No. Observations:                    84   AIC:                             2094.
+Df Residuals:                        82   BIC:                             2099.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           9.607e+04   2.84e+04      3.384      0.001    3.96e+04    1.53e+05
+thirty_year_interest_rate_five  1.425e+04   6746.328      2.112      0.038     826.378    2.77e+04
+==============================================================================
+Omnibus:                        9.779   Durbin-Watson:                   0.473
+Prob(Omnibus):                  0.008   Jarque-Bera (JB):               10.729
+Skew:                           0.855   Prob(JB):                      0.00468
+Kurtosis:                       2.623   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

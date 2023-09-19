@@ -1,0 +1,31 @@
+************************************************************
+ZAVALA TX
+************************************************************
+const	 83426.27
+thirty_year_interest_rate_six	 8944.40
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.033
+Model:                              OLS   Adj. R-squared:                  0.019
+Method:                   Least Squares   F-statistic:                     2.491
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):              0.119
+Time:                          21:21:25   Log-Likelihood:                -889.35
+No. Observations:                    76   AIC:                             1783.
+Df Residuals:                        74   BIC:                             1787.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          8.343e+04   2.18e+04      3.834      0.000    4.01e+04    1.27e+05
+thirty_year_interest_rate_six  8944.3975   5667.133      1.578      0.119   -2347.611    2.02e+04
+==============================================================================
+Omnibus:                       16.148   Durbin-Watson:                   0.325
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                4.006
+Skew:                          -0.003   Prob(JB):                        0.135
+Kurtosis:                       1.875   Cond. No.                         26.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

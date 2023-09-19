@@ -1,0 +1,31 @@
+************************************************************
+BLEDSOE TN
+************************************************************
+const	 311758.45
+thirty_year_interest_rate_seven	 -23436.90
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.060
+Model:                              OLS   Adj. R-squared:                  0.047
+Method:                   Least Squares   F-statistic:                     4.704
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):             0.0333
+Time:                          21:22:11   Log-Likelihood:                -935.95
+No. Observations:                    76   AIC:                             1876.
+Df Residuals:                        74   BIC:                             1881.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            3.118e+05   4.13e+04      7.548      0.000    2.29e+05    3.94e+05
+thirty_year_interest_rate_seven -2.344e+04   1.08e+04     -2.169      0.033    -4.5e+04   -1905.989
+==============================================================================
+Omnibus:                       22.256   Durbin-Watson:                   0.424
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               29.670
+Skew:                           1.321   Prob(JB):                     3.61e-07
+Kurtosis:                       4.544   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

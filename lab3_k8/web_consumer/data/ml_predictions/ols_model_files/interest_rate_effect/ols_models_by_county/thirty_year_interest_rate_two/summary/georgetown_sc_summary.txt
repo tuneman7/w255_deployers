@@ -1,0 +1,31 @@
+************************************************************
+GEORGETOWN SC
+************************************************************
+const	 279436.44
+thirty_year_interest_rate_two	 28440.43
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.556
+Model:                              OLS   Adj. R-squared:                  0.550
+Method:                   Least Squares   F-statistic:                     103.8
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           2.75e-16
+Time:                          14:07:37   Log-Likelihood:                -990.60
+No. Observations:                    85   AIC:                             1985.
+Df Residuals:                        83   BIC:                             1990.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          2.794e+05   1.21e+04     23.163      0.000    2.55e+05    3.03e+05
+thirty_year_interest_rate_two  2.844e+04   2790.913     10.190      0.000    2.29e+04     3.4e+04
+==============================================================================
+Omnibus:                       15.080   Durbin-Watson:                   0.380
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):               17.200
+Skew:                           0.937   Prob(JB):                     0.000184
+Kurtosis:                       4.159   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

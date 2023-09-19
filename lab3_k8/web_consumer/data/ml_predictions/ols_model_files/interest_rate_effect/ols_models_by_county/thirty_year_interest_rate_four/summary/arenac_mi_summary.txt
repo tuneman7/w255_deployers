@@ -1,0 +1,31 @@
+************************************************************
+ARENAC MI
+************************************************************
+const	 135859.32
+thirty_year_interest_rate_four	 1437.53
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.002
+Model:                              OLS   Adj. R-squared:                 -0.010
+Method:                   Least Squares   F-statistic:                    0.1451
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.704
+Time:                          14:07:37   Log-Likelihood:                -1011.6
+No. Observations:                    85   AIC:                             2027.
+Df Residuals:                        83   BIC:                             2032.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           1.359e+05    1.6e+04      8.481      0.000    1.04e+05    1.68e+05
+thirty_year_interest_rate_four  1437.5315   3774.471      0.381      0.704   -6069.740    8944.802
+==============================================================================
+Omnibus:                        9.137   Durbin-Watson:                   0.171
+Prob(Omnibus):                  0.010   Jarque-Bera (JB):                9.957
+Skew:                           0.824   Prob(JB):                      0.00688
+Kurtosis:                       2.688   Cond. No.                         18.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+GRANT NM
+************************************************************
+const	 348763.41
+thirty_year_interest_rate_six	 -32040.36
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.235
+Model:                              OLS   Adj. R-squared:                  0.225
+Method:                   Least Squares   F-statistic:                     22.72
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           9.12e-06
+Time:                          21:21:59   Log-Likelihood:                -902.31
+No. Observations:                    76   AIC:                             1809.
+Df Residuals:                        74   BIC:                             1813.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          3.488e+05   2.58e+04     13.514      0.000    2.97e+05       4e+05
+thirty_year_interest_rate_six -3.204e+04   6721.231     -4.767      0.000   -4.54e+04   -1.86e+04
+==============================================================================
+Omnibus:                       11.785   Durbin-Watson:                   0.126
+Prob(Omnibus):                  0.003   Jarque-Bera (JB):               12.160
+Skew:                           0.877   Prob(JB):                      0.00229
+Kurtosis:                       3.874   Cond. No.                         26.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

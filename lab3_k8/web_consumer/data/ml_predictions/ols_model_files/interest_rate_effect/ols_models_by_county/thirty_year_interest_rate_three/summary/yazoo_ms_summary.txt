@@ -1,0 +1,31 @@
+************************************************************
+YAZOO MS
+************************************************************
+const	 111071.77
+thirty_year_interest_rate_three	 4617.10
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.045
+Model:                              OLS   Adj. R-squared:                  0.034
+Method:                   Least Squares   F-statistic:                     3.956
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0500
+Time:                          14:08:15   Log-Likelihood:                -972.58
+No. Observations:                    85   AIC:                             1949.
+Df Residuals:                        83   BIC:                             1954.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.111e+05   9940.258     11.174      0.000    9.13e+04    1.31e+05
+thirty_year_interest_rate_three  4617.1018   2321.490      1.989      0.050      -0.249    9234.453
+==============================================================================
+Omnibus:                        1.078   Durbin-Watson:                   0.584
+Prob(Omnibus):                  0.583   Jarque-Bera (JB):                1.028
+Skew:                           0.101   Prob(JB):                        0.598
+Kurtosis:                       2.501   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

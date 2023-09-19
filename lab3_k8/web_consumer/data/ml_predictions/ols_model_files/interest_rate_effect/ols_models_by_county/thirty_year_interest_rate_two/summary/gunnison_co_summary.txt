@@ -1,0 +1,31 @@
+************************************************************
+GUNNISON CO
+************************************************************
+const	 435829.21
+thirty_year_interest_rate_two	 74299.45
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.105
+Model:                              OLS   Adj. R-squared:                  0.094
+Method:                   Least Squares   F-statistic:                     9.734
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00249
+Time:                          14:07:28   Log-Likelihood:                -1172.8
+No. Observations:                    85   AIC:                             2350.
+Df Residuals:                        83   BIC:                             2355.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          4.358e+05   1.03e+05      4.234      0.000    2.31e+05    6.41e+05
+thirty_year_interest_rate_two   7.43e+04   2.38e+04      3.120      0.002    2.69e+04    1.22e+05
+==============================================================================
+Omnibus:                       42.801   Durbin-Watson:                   0.137
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               95.810
+Skew:                           1.889   Prob(JB):                     1.57e-21
+Kurtosis:                       6.574   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,29 @@
+
+<div id="prediction_calc_one"></div>
+
+<script>
+
+
+
+      function refresh_predictions(state,county,county_or_msa){
+  
+  
+            $.ajax({
+                url: '/section_five_pred',
+                type: 'post',
+                data: {state:state,county:county,county_or_msa:county_or_msa},
+                success: function(data){ 
+                    $('#prediction_calc').empty();
+                    $('#prediction_calc_one').empty();
+                    $('#prediction_calc_one').html(data); 
+                    $('#prediction_calc_one').append(data.htmlresponse); 
+                    page_not_loading();
+                }
+            });
+            
+          };
+
+  
+  </script>
+  
+  

@@ -1,0 +1,88 @@
+
+<div class="container">
+
+    <div class="container-fluid" id="data_event_detail_rendering" >
+        <div class="row">
+            <div class="col-md-1">
+                <img src="./static/images/back-button-svgrepo-com.svg" width="40" height="40" onclick="move_back_data()" id="move_back_data"/>
+            </div>
+
+                <div class="col-md-10  float-left">
+                    {% if event_text is not none %}
+                    {{event_text|safe}}
+                    {% endif %}
+                </div>
+    
+
+            <div class="col-md-1 float-right">
+                <img src="./static/images/back-button-svgrepo-com.svg" width="40" height="40" style="transform:rotate(180deg)" class="float-end" id="move_forward_data" onclick="move_forward_data()"/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div id="event_render_our_data">
+
+                    {% if image_src is not none %}
+                    <img src="{{data_image}}" id="{{data_image}}" width="{{data_image_width}}" height="{{data_image_height}}">
+                    {% endif %}
+                </div>
+
+            </div>
+        </div>
+      </div>                    
+    </div>
+
+</div>
+
+
+<script>
+
+var data_slide_no = 1;
+var current_event_name = "";
+var data_total_slides = {{data_slides_total}};
+
+function move_forward_data()
+{
+    nav_to_section("section_two");
+    data_slide_no +=1;
+    page_loading();
+    render_our_data("our_data_section",data_slide_no);
+
+
+}
+
+function move_back_data()
+{   nav_to_section("section_two");
+    if(data_slide_no==1)
+    {
+        return;
+    }
+    data_slide_no -=1;
+    page_loading();
+    render_our_data("our_data_section",data_slide_no);
+}
+
+
+  $(document).ready(function () {
+    
+    data_slide_no = {{data_slide_no}};
+
+    if(!(data_slide_no<data_total_slides))
+    {
+        $("#move_forward_data").hide();
+    }
+    else{
+        $("#move_forward_data").show();
+    }    
+
+
+    page_not_loading();
+
+    {% if tag is not none %}
+        $("#our_data_tag").text("{{tag|safe}}");
+    {% endif %}
+
+
+});
+</script>
+

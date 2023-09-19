@@ -1,0 +1,31 @@
+************************************************************
+BEDFORD VA
+************************************************************
+const	 256632.74
+thirty_year_interest_rate_two	 15580.22
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.060
+Model:                              OLS   Adj. R-squared:                  0.049
+Method:                   Least Squares   F-statistic:                     5.305
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0238
+Time:                          14:08:04   Log-Likelihood:                -1065.9
+No. Observations:                    85   AIC:                             2136.
+Df Residuals:                        83   BIC:                             2141.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          2.566e+05   2.92e+04      8.777      0.000    1.98e+05    3.15e+05
+thirty_year_interest_rate_two  1.558e+04   6764.238      2.303      0.024    2126.422     2.9e+04
+==============================================================================
+Omnibus:                        5.465   Durbin-Watson:                   0.067
+Prob(Omnibus):                  0.065   Jarque-Bera (JB):                5.175
+Skew:                          -0.544   Prob(JB):                       0.0752
+Kurtosis:                       2.471   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

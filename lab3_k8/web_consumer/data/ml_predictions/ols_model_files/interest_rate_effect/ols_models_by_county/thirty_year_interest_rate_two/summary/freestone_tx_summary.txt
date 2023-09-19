@@ -1,0 +1,31 @@
+************************************************************
+FREESTONE TX
+************************************************************
+const	 80086.63
+thirty_year_interest_rate_two	 26251.56
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.400
+Model:                              OLS   Adj. R-squared:                  0.393
+Method:                   Least Squares   F-statistic:                     55.45
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           8.15e-11
+Time:                          14:07:32   Log-Likelihood:                -1010.5
+No. Observations:                    85   AIC:                             2025.
+Df Residuals:                        83   BIC:                             2030.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          8.009e+04   1.52e+04      5.255      0.000    4.98e+04     1.1e+05
+thirty_year_interest_rate_two  2.625e+04   3525.521      7.446      0.000    1.92e+04    3.33e+04
+==============================================================================
+Omnibus:                        6.903   Durbin-Watson:                   0.186
+Prob(Omnibus):                  0.032   Jarque-Bera (JB):                7.100
+Skew:                           0.677   Prob(JB):                       0.0287
+Kurtosis:                       2.587   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

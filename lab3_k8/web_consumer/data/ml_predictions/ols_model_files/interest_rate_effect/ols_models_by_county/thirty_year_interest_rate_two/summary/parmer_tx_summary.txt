@@ -1,0 +1,31 @@
+************************************************************
+PARMER TX
+************************************************************
+const	 46760.72
+thirty_year_interest_rate_two	 31003.27
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.253
+Model:                              OLS   Adj. R-squared:                  0.244
+Method:                   Least Squares   F-statistic:                     28.14
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           9.21e-07
+Time:                          14:07:56   Log-Likelihood:                -1053.4
+No. Observations:                    85   AIC:                             2111.
+Df Residuals:                        83   BIC:                             2116.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          4.676e+04   2.53e+04      1.851      0.068   -3490.324     9.7e+04
+thirty_year_interest_rate_two    3.1e+04   5844.931      5.304      0.000    1.94e+04    4.26e+04
+==============================================================================
+Omnibus:                        1.719   Durbin-Watson:                   0.972
+Prob(Omnibus):                  0.423   Jarque-Bera (JB):                1.429
+Skew:                           0.150   Prob(JB):                        0.489
+Kurtosis:                       2.440   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

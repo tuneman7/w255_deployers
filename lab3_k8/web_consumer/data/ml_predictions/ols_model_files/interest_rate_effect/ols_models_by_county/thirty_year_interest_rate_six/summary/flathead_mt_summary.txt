@@ -1,0 +1,31 @@
+************************************************************
+FLATHEAD MT
+************************************************************
+const	 654761.69
+thirty_year_interest_rate_six	 -41443.26
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.074
+Model:                              OLS   Adj. R-squared:                  0.061
+Method:                   Least Squares   F-statistic:                     5.898
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):             0.0176
+Time:                          21:21:33   Log-Likelihood:                -973.12
+No. Observations:                    76   AIC:                             1950.
+Df Residuals:                        74   BIC:                             1955.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          6.548e+05   6.55e+04      9.993      0.000    5.24e+05    7.85e+05
+thirty_year_interest_rate_six -4.144e+04   1.71e+04     -2.429      0.018   -7.54e+04   -7440.630
+==============================================================================
+Omnibus:                       23.979   Durbin-Watson:                   0.166
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               32.713
+Skew:                           1.437   Prob(JB):                     7.88e-08
+Kurtosis:                       4.437   Cond. No.                         26.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

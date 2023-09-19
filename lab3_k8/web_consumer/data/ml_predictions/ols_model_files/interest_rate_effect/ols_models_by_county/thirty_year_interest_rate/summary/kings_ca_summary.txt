@@ -1,0 +1,31 @@
+************************************************************
+KINGS CA
+************************************************************
+const	 155865.68
+thirty_year_interest_rate	 30301.45
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.478
+Model:                              OLS   Adj. R-squared:                  0.472
+Method:                   Least Squares   F-statistic:                     76.12
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           2.32e-13
+Time:                          14:08:27   Log-Likelihood:                -1014.5
+No. Observations:                    85   AIC:                             2033.
+Df Residuals:                        83   BIC:                             2038.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      1.559e+05   1.53e+04     10.168      0.000    1.25e+05    1.86e+05
+thirty_year_interest_rate   3.03e+04   3472.983      8.725      0.000    2.34e+04    3.72e+04
+==============================================================================
+Omnibus:                       95.862   Durbin-Watson:                   0.069
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                7.805
+Skew:                           0.164   Prob(JB):                       0.0202
+Kurtosis:                       1.552   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

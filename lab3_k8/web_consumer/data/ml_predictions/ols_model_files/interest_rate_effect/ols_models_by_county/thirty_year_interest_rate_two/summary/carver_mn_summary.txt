@@ -1,0 +1,31 @@
+************************************************************
+CARVER MN
+************************************************************
+const	 353084.89
+thirty_year_interest_rate_two	 19591.92
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.355
+Model:                              OLS   Adj. R-squared:                  0.347
+Method:                   Least Squares   F-statistic:                     45.59
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           1.85e-09
+Time:                          14:06:58   Log-Likelihood:                -993.91
+No. Observations:                    85   AIC:                             1992.
+Df Residuals:                        83   BIC:                             1997.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          3.531e+05   1.25e+04     28.151      0.000    3.28e+05    3.78e+05
+thirty_year_interest_rate_two  1.959e+04   2901.666      6.752      0.000    1.38e+04    2.54e+04
+==============================================================================
+Omnibus:                        8.358   Durbin-Watson:                   0.213
+Prob(Omnibus):                  0.015   Jarque-Bera (JB):                8.750
+Skew:                           0.786   Prob(JB):                       0.0126
+Kurtosis:                       2.953   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

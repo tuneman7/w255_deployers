@@ -1,0 +1,31 @@
+************************************************************
+ELBERT CO
+************************************************************
+const	 536465.41
+thirty_year_interest_rate_two	 26493.58
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.081
+Model:                              OLS   Adj. R-squared:                  0.070
+Method:                   Least Squares   F-statistic:                     7.282
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00844
+Time:                          14:07:08   Log-Likelihood:                -1097.5
+No. Observations:                    85   AIC:                             2199.
+Df Residuals:                        83   BIC:                             2204.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          5.365e+05   4.24e+04     12.641      0.000    4.52e+05    6.21e+05
+thirty_year_interest_rate_two  2.649e+04   9818.035      2.698      0.008    6965.907     4.6e+04
+==============================================================================
+Omnibus:                       34.365   Durbin-Watson:                   0.088
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                6.925
+Skew:                           0.315   Prob(JB):                       0.0313
+Kurtosis:                       1.751   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

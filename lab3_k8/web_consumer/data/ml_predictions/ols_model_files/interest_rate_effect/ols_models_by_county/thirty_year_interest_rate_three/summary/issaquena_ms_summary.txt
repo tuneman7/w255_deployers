@@ -1,0 +1,31 @@
+************************************************************
+ISSAQUENA MS
+************************************************************
+const	 -870171.26
+thirty_year_interest_rate_three	 291725.14
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.385
+Model:                              OLS   Adj. R-squared:                  0.370
+Method:                   Least Squares   F-statistic:                     25.68
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           9.04e-06
+Time:                          14:08:14   Log-Likelihood:                -612.39
+No. Observations:                    43   AIC:                             1229.
+Df Residuals:                        41   BIC:                             1232.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                           -8.702e+05   2.46e+05     -3.530      0.001   -1.37e+06   -3.72e+05
+thirty_year_interest_rate_three  2.917e+05   5.76e+04      5.067      0.000    1.75e+05    4.08e+05
+==============================================================================
+Omnibus:                        6.837   Durbin-Watson:                   0.258
+Prob(Omnibus):                  0.033   Jarque-Bera (JB):                5.775
+Skew:                           0.864   Prob(JB):                       0.0557
+Kurtosis:                       3.487   Cond. No.                         19.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

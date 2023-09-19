@@ -1,0 +1,31 @@
+************************************************************
+BENTON AR
+************************************************************
+const	 229843.68
+thirty_year_interest_rate_three	 23650.82
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.179
+Model:                              OLS   Adj. R-squared:                  0.169
+Method:                   Least Squares   F-statistic:                     18.05
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           5.58e-05
+Time:                          14:07:11   Log-Likelihood:                -1046.9
+No. Observations:                    85   AIC:                             2098.
+Df Residuals:                        83   BIC:                             2103.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            2.298e+05   2.38e+04      9.644      0.000    1.82e+05    2.77e+05
+thirty_year_interest_rate_three  2.365e+04   5566.080      4.249      0.000    1.26e+04    3.47e+04
+==============================================================================
+Omnibus:                       15.026   Durbin-Watson:                   0.041
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):               17.465
+Skew:                           1.100   Prob(JB):                     0.000161
+Kurtosis:                       3.302   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

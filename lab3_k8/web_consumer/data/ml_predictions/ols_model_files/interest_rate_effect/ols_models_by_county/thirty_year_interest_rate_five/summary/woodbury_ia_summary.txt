@@ -1,0 +1,31 @@
+************************************************************
+WOODBURY IA
+************************************************************
+const	 126455.76
+thirty_year_interest_rate_five	 19157.03
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.263
+Model:                              OLS   Adj. R-squared:                  0.254
+Method:                   Least Squares   F-statistic:                     29.57
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           5.33e-07
+Time:                          14:07:49   Log-Likelihood:                -1002.4
+No. Observations:                    85   AIC:                             2009.
+Df Residuals:                        83   BIC:                             2014.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           1.265e+05   1.48e+04      8.545      0.000     9.7e+04    1.56e+05
+thirty_year_interest_rate_five  1.916e+04   3523.196      5.437      0.000    1.21e+04    2.62e+04
+==============================================================================
+Omnibus:                        7.535   Durbin-Watson:                   0.182
+Prob(Omnibus):                  0.023   Jarque-Bera (JB):                7.580
+Skew:                           0.731   Prob(JB):                       0.0226
+Kurtosis:                       3.044   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

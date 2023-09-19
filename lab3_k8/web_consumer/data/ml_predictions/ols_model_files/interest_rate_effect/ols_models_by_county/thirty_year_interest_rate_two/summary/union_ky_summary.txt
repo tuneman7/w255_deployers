@@ -1,0 +1,31 @@
+************************************************************
+UNION KY
+************************************************************
+const	 30573.75
+thirty_year_interest_rate_two	 17418.02
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.223
+Model:                              OLS   Adj. R-squared:                  0.213
+Method:                   Least Squares   F-statistic:                     23.79
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           5.11e-06
+Time:                          14:07:46   Log-Likelihood:                -1011.6
+No. Observations:                    85   AIC:                             2027.
+Df Residuals:                        83   BIC:                             2032.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          3.057e+04   1.54e+04      1.981      0.051    -127.043    6.13e+04
+thirty_year_interest_rate_two  1.742e+04   3570.952      4.878      0.000    1.03e+04    2.45e+04
+==============================================================================
+Omnibus:                        5.228   Durbin-Watson:                   0.651
+Prob(Omnibus):                  0.073   Jarque-Bera (JB):                5.218
+Skew:                           0.602   Prob(JB):                       0.0736
+Kurtosis:                       2.840   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

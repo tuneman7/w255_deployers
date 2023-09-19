@@ -1,0 +1,31 @@
+************************************************************
+LAKE AND PENINSULA AK
+************************************************************
+const	 -121613.36
+thirty_year_interest_rate_six	 122289.47
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.101
+Model:                              OLS   Adj. R-squared:                  0.088
+Method:                   Least Squares   F-statistic:                     8.274
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):            0.00525
+Time:                          21:21:46   Log-Likelihood:                -1042.5
+No. Observations:                    76   AIC:                             2089.
+Df Residuals:                        74   BIC:                             2094.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                         -1.216e+05   1.63e+05     -0.745      0.459   -4.47e+05    2.04e+05
+thirty_year_interest_rate_six  1.223e+05   4.25e+04      2.876      0.005    3.76e+04    2.07e+05
+==============================================================================
+Omnibus:                      127.494   Durbin-Watson:                   0.401
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             4675.590
+Skew:                           5.694   Prob(JB):                         0.00
+Kurtosis:                      39.699   Cond. No.                         26.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

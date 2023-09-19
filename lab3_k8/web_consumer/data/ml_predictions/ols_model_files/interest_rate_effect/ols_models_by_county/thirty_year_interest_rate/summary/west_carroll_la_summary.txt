@@ -1,0 +1,31 @@
+************************************************************
+WEST CARROLL LA
+************************************************************
+const	 102237.11
+thirty_year_interest_rate	 3913.20
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.019
+Model:                              OLS   Adj. R-squared:                  0.007
+Method:                   Least Squares   F-statistic:                     1.582
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.212
+Time:                          14:08:26   Log-Likelihood:                -1005.1
+No. Observations:                    85   AIC:                             2014.
+Df Residuals:                        83   BIC:                             2019.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      1.022e+05   1.37e+04      7.444      0.000    7.49e+04     1.3e+05
+thirty_year_interest_rate  3913.1967   3111.414      1.258      0.212   -2275.280    1.01e+04
+==============================================================================
+Omnibus:                        2.566   Durbin-Watson:                   0.337
+Prob(Omnibus):                  0.277   Jarque-Bera (JB):                2.554
+Skew:                           0.385   Prob(JB):                        0.279
+Kurtosis:                       2.641   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

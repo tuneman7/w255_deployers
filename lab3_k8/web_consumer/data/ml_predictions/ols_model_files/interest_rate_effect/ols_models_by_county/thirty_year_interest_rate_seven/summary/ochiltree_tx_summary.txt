@@ -1,0 +1,31 @@
+************************************************************
+OCHILTREE TX
+************************************************************
+const	 117085.92
+thirty_year_interest_rate_seven	 9843.79
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.054
+Model:                              OLS   Adj. R-squared:                  0.041
+Method:                   Least Squares   F-statistic:                     4.171
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):             0.0447
+Time:                          21:22:01   Log-Likelihood:                -862.99
+No. Observations:                    75   AIC:                             1730.
+Df Residuals:                        73   BIC:                             1735.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.171e+05   1.84e+04      6.359      0.000    8.04e+04    1.54e+05
+thirty_year_interest_rate_seven  9843.7875   4820.060      2.042      0.045     237.422    1.95e+04
+==============================================================================
+Omnibus:                       61.663   Durbin-Watson:                   0.797
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              349.233
+Skew:                           2.471   Prob(JB):                     1.46e-76
+Kurtosis:                      12.345   Cond. No.                         26.7
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+MOORE NC
+************************************************************
+const	 224792.90
+thirty_year_interest_rate	 30355.84
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.349
+Model:                              OLS   Adj. R-squared:                  0.341
+Method:                   Least Squares   F-statistic:                     44.44
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           2.71e-09
+Time:                          14:08:02   Log-Likelihood:                -1037.5
+No. Observations:                    85   AIC:                             2079.
+Df Residuals:                        83   BIC:                             2084.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      2.248e+05   2.01e+04     11.184      0.000    1.85e+05    2.65e+05
+thirty_year_interest_rate  3.036e+04   4553.797      6.666      0.000    2.13e+04    3.94e+04
+==============================================================================
+Omnibus:                       58.149   Durbin-Watson:                   0.032
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                6.922
+Skew:                           0.156   Prob(JB):                       0.0314
+Kurtosis:                       1.637   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

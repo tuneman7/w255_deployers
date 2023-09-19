@@ -1,0 +1,31 @@
+************************************************************
+PRAIRIE MT
+************************************************************
+const	 -264555.02
+thirty_year_interest_rate_three	 105885.72
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.094
+Model:                              OLS   Adj. R-squared:                  0.083
+Method:                   Least Squares   F-statistic:                     8.618
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00431
+Time:                          14:08:29   Log-Likelihood:                -1205.8
+No. Observations:                    85   AIC:                             2416.
+Df Residuals:                        83   BIC:                             2420.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                           -2.646e+05   1.54e+05     -1.713      0.090   -5.72e+05    4.26e+04
+thirty_year_interest_rate_three  1.059e+05   3.61e+04      2.936      0.004    3.41e+04    1.78e+05
+==============================================================================
+Omnibus:                      130.894   Durbin-Watson:                   1.087
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             3783.358
+Skew:                           5.419   Prob(JB):                         0.00
+Kurtosis:                      33.835   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

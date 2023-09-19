@@ -1,0 +1,31 @@
+************************************************************
+COLUMBIA AR
+************************************************************
+const	 117415.51
+thirty_year_interest_rate_three	 8431.88
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.124
+Model:                              OLS   Adj. R-squared:                  0.114
+Method:                   Least Squares   F-statistic:                     11.78
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           0.000937
+Time:                          14:07:01   Log-Likelihood:                -977.40
+No. Observations:                    85   AIC:                             1959.
+Df Residuals:                        83   BIC:                             1964.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.174e+05   1.05e+04     11.161      0.000    9.65e+04    1.38e+05
+thirty_year_interest_rate_three  8431.8830   2456.910      3.432      0.001    3545.188    1.33e+04
+==============================================================================
+Omnibus:                        7.520   Durbin-Watson:                   0.301
+Prob(Omnibus):                  0.023   Jarque-Bera (JB):                7.305
+Skew:                           0.712   Prob(JB):                       0.0259
+Kurtosis:                       3.192   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

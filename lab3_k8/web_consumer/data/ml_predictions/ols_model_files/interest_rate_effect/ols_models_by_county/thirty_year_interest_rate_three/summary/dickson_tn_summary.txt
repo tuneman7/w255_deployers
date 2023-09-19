@@ -1,0 +1,31 @@
+************************************************************
+DICKSON TN
+************************************************************
+const	 239081.82
+thirty_year_interest_rate_three	 16925.62
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.083
+Model:                              OLS   Adj. R-squared:                  0.072
+Method:                   Least Squares   F-statistic:                     7.483
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00761
+Time:                          14:07:16   Log-Likelihood:                -1055.9
+No. Observations:                    85   AIC:                             2116.
+Df Residuals:                        83   BIC:                             2121.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            2.391e+05   2.65e+04      9.024      0.000    1.86e+05    2.92e+05
+thirty_year_interest_rate_three  1.693e+04   6187.236      2.736      0.008    4619.454    2.92e+04
+==============================================================================
+Omnibus:                        6.473   Durbin-Watson:                   0.095
+Prob(Omnibus):                  0.039   Jarque-Bera (JB):                6.693
+Skew:                           0.666   Prob(JB):                       0.0352
+Kurtosis:                       2.664   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

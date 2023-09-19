@@ -1,0 +1,31 @@
+************************************************************
+LACLEDE MO
+************************************************************
+const	 239370.96
+thirty_year_interest_rate_seven	 -15005.47
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.133
+Model:                              OLS   Adj. R-squared:                  0.121
+Method:                   Least Squares   F-statistic:                     11.36
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):            0.00119
+Time:                          21:21:20   Log-Likelihood:                -868.55
+No. Observations:                    76   AIC:                             1741.
+Df Residuals:                        74   BIC:                             1746.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            2.394e+05    1.7e+04     14.067      0.000    2.05e+05    2.73e+05
+thirty_year_interest_rate_seven -1.501e+04   4451.739     -3.371      0.001   -2.39e+04   -6135.189
+==============================================================================
+Omnibus:                        0.167   Durbin-Watson:                   0.256
+Prob(Omnibus):                  0.920   Jarque-Bera (JB):                0.054
+Skew:                          -0.065   Prob(JB):                        0.973
+Kurtosis:                       2.983   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

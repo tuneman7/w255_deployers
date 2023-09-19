@@ -1,0 +1,31 @@
+************************************************************
+SAWYER WI
+************************************************************
+const	 206365.19
+thirty_year_interest_rate_four	 16737.55
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.181
+Model:                              OLS   Adj. R-squared:                  0.172
+Method:                   Least Squares   F-statistic:                     18.39
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           4.83e-05
+Time:                          14:07:15   Log-Likelihood:                -1014.4
+No. Observations:                    85   AIC:                             2033.
+Df Residuals:                        83   BIC:                             2038.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           2.064e+05   1.66e+04     12.459      0.000    1.73e+05    2.39e+05
+thirty_year_interest_rate_four  1.674e+04   3902.976      4.288      0.000    8974.692    2.45e+04
+==============================================================================
+Omnibus:                        5.535   Durbin-Watson:                   0.207
+Prob(Omnibus):                  0.063   Jarque-Bera (JB):                5.544
+Skew:                           0.621   Prob(JB):                       0.0625
+Kurtosis:                       2.854   Cond. No.                         18.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

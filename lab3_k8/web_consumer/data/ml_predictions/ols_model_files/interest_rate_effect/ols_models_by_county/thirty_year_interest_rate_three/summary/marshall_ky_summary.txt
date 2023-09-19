@@ -1,0 +1,31 @@
+************************************************************
+MARSHALL KY
+************************************************************
+const	 148357.05
+thirty_year_interest_rate_three	 19915.45
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.083
+Model:                              OLS   Adj. R-squared:                  0.072
+Method:                   Least Squares   F-statistic:                     7.471
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00766
+Time:                          14:07:11   Log-Likelihood:                -1069.8
+No. Observations:                    85   AIC:                             2144.
+Df Residuals:                        83   BIC:                             2148.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.484e+05   3.12e+04      4.755      0.000    8.63e+04     2.1e+05
+thirty_year_interest_rate_three  1.992e+04   7286.351      2.733      0.008    5423.191    3.44e+04
+==============================================================================
+Omnibus:                        8.980   Durbin-Watson:                   0.196
+Prob(Omnibus):                  0.011   Jarque-Bera (JB):                7.965
+Skew:                           0.667   Prob(JB):                       0.0186
+Kurtosis:                       2.315   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

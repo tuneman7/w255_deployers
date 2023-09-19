@@ -1,0 +1,31 @@
+************************************************************
+TAZEWELL VA
+************************************************************
+const	 135116.15
+thirty_year_interest_rate_three	 1101.09
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.007
+Model:                              OLS   Adj. R-squared:                 -0.005
+Method:                   Least Squares   F-statistic:                    0.6080
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.438
+Time:                          14:07:12   Log-Likelihood:                -930.32
+No. Observations:                    85   AIC:                             1865.
+Df Residuals:                        83   BIC:                             1870.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.351e+05   6046.337     22.347      0.000    1.23e+05    1.47e+05
+thirty_year_interest_rate_three  1101.0851   1412.088      0.780      0.438   -1707.500    3909.670
+==============================================================================
+Omnibus:                        9.794   Durbin-Watson:                   0.291
+Prob(Omnibus):                  0.007   Jarque-Bera (JB):                9.807
+Skew:                           0.809   Prob(JB):                      0.00742
+Kurtosis:                       3.391   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

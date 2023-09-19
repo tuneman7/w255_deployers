@@ -1,0 +1,31 @@
+************************************************************
+DOOLY GA
+************************************************************
+const	 32660.79
+thirty_year_interest_rate_six	 21675.48
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.166
+Model:                              OLS   Adj. R-squared:                  0.154
+Method:                   Least Squares   F-statistic:                     14.68
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           0.000265
+Time:                          21:21:26   Log-Likelihood:                -889.21
+No. Observations:                    76   AIC:                             1782.
+Df Residuals:                        74   BIC:                             1787.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          3.266e+04   2.17e+04      1.504      0.137   -1.06e+04    7.59e+04
+thirty_year_interest_rate_six  2.168e+04   5657.237      3.831      0.000    1.04e+04    3.29e+04
+==============================================================================
+Omnibus:                       21.552   Durbin-Watson:                   0.565
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               32.780
+Skew:                           1.134   Prob(JB):                     7.62e-08
+Kurtosis:                       5.282   Cond. No.                         26.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+GRAYS HARBOR WA
+************************************************************
+const	 202733.75
+thirty_year_interest_rate_five	 19212.76
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.055
+Model:                              OLS   Adj. R-squared:                  0.044
+Method:                   Least Squares   F-statistic:                     4.821
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0309
+Time:                          14:08:18   Log-Likelihood:                -1079.8
+No. Observations:                    85   AIC:                             2164.
+Df Residuals:                        83   BIC:                             2168.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           2.027e+05   3.68e+04      5.516      0.000     1.3e+05    2.76e+05
+thirty_year_interest_rate_five  1.921e+04   8750.062      2.196      0.031    1809.239    3.66e+04
+==============================================================================
+Omnibus:                       38.527   Durbin-Watson:                   0.015
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                8.956
+Skew:                           0.483   Prob(JB):                       0.0114
+Kurtosis:                       1.737   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

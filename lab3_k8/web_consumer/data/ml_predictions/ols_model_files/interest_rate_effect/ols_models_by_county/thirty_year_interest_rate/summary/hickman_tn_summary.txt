@@ -1,0 +1,31 @@
+************************************************************
+HICKMAN TN
+************************************************************
+const	 109303.24
+thirty_year_interest_rate	 35681.97
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.366
+Model:                              OLS   Adj. R-squared:                  0.358
+Method:                   Least Squares   F-statistic:                     47.83
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           8.89e-10
+Time:                          14:08:00   Log-Likelihood:                -1048.1
+No. Observations:                    85   AIC:                             2100.
+Df Residuals:                        83   BIC:                             2105.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      1.093e+05   2.28e+04      4.800      0.000     6.4e+04    1.55e+05
+thirty_year_interest_rate  3.568e+04   5159.125      6.916      0.000    2.54e+04    4.59e+04
+==============================================================================
+Omnibus:                        8.907   Durbin-Watson:                   0.164
+Prob(Omnibus):                  0.012   Jarque-Bera (JB):                5.559
+Skew:                           0.465   Prob(JB):                       0.0621
+Kurtosis:                       2.159   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

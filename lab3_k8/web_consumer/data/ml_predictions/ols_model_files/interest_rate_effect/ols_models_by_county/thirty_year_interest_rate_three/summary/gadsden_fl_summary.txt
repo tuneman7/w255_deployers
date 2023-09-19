@@ -1,0 +1,31 @@
+************************************************************
+GADSDEN FL
+************************************************************
+const	 104607.67
+thirty_year_interest_rate_three	 22523.85
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.267
+Model:                              OLS   Adj. R-squared:                  0.258
+Method:                   Least Squares   F-statistic:                     30.24
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           4.13e-07
+Time:                          14:08:10   Log-Likelihood:                -1020.8
+No. Observations:                    85   AIC:                             2046.
+Df Residuals:                        83   BIC:                             2051.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.046e+05   1.75e+04      5.964      0.000    6.97e+04    1.39e+05
+thirty_year_interest_rate_three  2.252e+04   4096.222      5.499      0.000    1.44e+04    3.07e+04
+==============================================================================
+Omnibus:                       68.522   Durbin-Watson:                   0.056
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                6.889
+Skew:                           0.029   Prob(JB):                       0.0319
+Kurtosis:                       1.607   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

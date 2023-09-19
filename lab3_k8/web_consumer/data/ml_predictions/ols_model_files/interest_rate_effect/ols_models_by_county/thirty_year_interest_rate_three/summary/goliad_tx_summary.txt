@@ -1,0 +1,31 @@
+************************************************************
+GOLIAD TX
+************************************************************
+const	 299310.26
+thirty_year_interest_rate_three	 -2959.49
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.004
+Model:                              OLS   Adj. R-squared:                 -0.008
+Method:                   Least Squares   F-statistic:                    0.3292
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.568
+Time:                          14:07:16   Log-Likelihood:                -1040.4
+No. Observations:                    85   AIC:                             2085.
+Df Residuals:                        83   BIC:                             2090.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            2.993e+05   2.21e+04     13.551      0.000    2.55e+05    3.43e+05
+thirty_year_interest_rate_three -2959.4907   5158.355     -0.574      0.568   -1.32e+04    7300.269
+==============================================================================
+Omnibus:                        8.088   Durbin-Watson:                   1.088
+Prob(Omnibus):                  0.018   Jarque-Bera (JB):               10.157
+Skew:                           0.436   Prob(JB):                      0.00623
+Kurtosis:                       4.452   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

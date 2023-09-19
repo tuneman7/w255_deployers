@@ -1,0 +1,31 @@
+************************************************************
+CRAIGHEAD AR
+************************************************************
+const	 185513.96
+thirty_year_interest_rate_three	 7107.04
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.068
+Model:                              OLS   Adj. R-squared:                  0.057
+Method:                   Least Squares   F-statistic:                     6.036
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0161
+Time:                          14:07:01   Log-Likelihood:                -991.28
+No. Observations:                    85   AIC:                             1987.
+Df Residuals:                        83   BIC:                             1991.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.855e+05   1.24e+04     14.978      0.000    1.61e+05     2.1e+05
+thirty_year_interest_rate_three  7107.0415   2892.683      2.457      0.016    1353.611    1.29e+04
+==============================================================================
+Omnibus:                       12.373   Durbin-Watson:                   0.075
+Prob(Omnibus):                  0.002   Jarque-Bera (JB):                4.339
+Skew:                           0.230   Prob(JB):                        0.114
+Kurtosis:                       1.993   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

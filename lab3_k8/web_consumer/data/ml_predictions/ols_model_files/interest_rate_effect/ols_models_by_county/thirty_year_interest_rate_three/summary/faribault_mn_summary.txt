@@ -1,0 +1,31 @@
+************************************************************
+FARIBAULT MN
+************************************************************
+const	 89768.66
+thirty_year_interest_rate_three	 4904.59
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.033
+Model:                              OLS   Adj. R-squared:                  0.021
+Method:                   Least Squares   F-statistic:                     2.833
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0961
+Time:                          14:07:53   Log-Likelihood:                -991.90
+No. Observations:                    85   AIC:                             1988.
+Df Residuals:                        83   BIC:                             1993.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            8.977e+04   1.25e+04      7.195      0.000     6.5e+04    1.15e+05
+thirty_year_interest_rate_three  4904.5876   2913.997      1.683      0.096    -891.235    1.07e+04
+==============================================================================
+Omnibus:                        9.510   Durbin-Watson:                   0.177
+Prob(Omnibus):                  0.009   Jarque-Bera (JB):                9.632
+Skew:                           0.774   Prob(JB):                      0.00810
+Kurtosis:                       2.433   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

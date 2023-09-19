@@ -1,0 +1,31 @@
+************************************************************
+YUMA AZ
+************************************************************
+const	 173019.67
+thirty_year_interest_rate_three	 16735.94
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.167
+Model:                              OLS   Adj. R-squared:                  0.157
+Method:                   Least Squares   F-statistic:                     16.67
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           0.000102
+Time:                          14:07:56   Log-Likelihood:                -1020.9
+No. Observations:                    85   AIC:                             2046.
+Df Residuals:                        83   BIC:                             2051.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                             1.73e+05   1.76e+04      9.858      0.000    1.38e+05    2.08e+05
+thirty_year_interest_rate_three  1.674e+04   4098.892      4.083      0.000    8583.412    2.49e+04
+==============================================================================
+Omnibus:                       37.615   Durbin-Watson:                   0.038
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                8.137
+Skew:                           0.420   Prob(JB):                       0.0171
+Kurtosis:                       1.738   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

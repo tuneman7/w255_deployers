@@ -1,0 +1,31 @@
+************************************************************
+CHARITON MO
+************************************************************
+const	 212911.05
+thirty_year_interest_rate_three	 -11436.83
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.032
+Model:                              OLS   Adj. R-squared:                  0.021
+Method:                   Least Squares   F-statistic:                     2.767
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.100
+Time:                          14:08:25   Log-Likelihood:                -1064.9
+No. Observations:                    85   AIC:                             2134.
+Df Residuals:                        83   BIC:                             2139.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            2.129e+05   2.94e+04      7.231      0.000    1.54e+05    2.71e+05
+thirty_year_interest_rate_three -1.144e+04   6876.064     -1.663      0.100   -2.51e+04    2239.383
+==============================================================================
+Omnibus:                       40.636   Durbin-Watson:                   0.569
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               92.293
+Skew:                           1.758   Prob(JB):                     9.09e-21
+Kurtosis:                       6.702   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

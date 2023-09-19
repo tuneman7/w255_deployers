@@ -1,0 +1,31 @@
+************************************************************
+MASON IL
+************************************************************
+const	 56273.31
+thirty_year_interest_rate_seven	 5034.80
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.114
+Model:                              OLS   Adj. R-squared:                  0.102
+Method:                   Least Squares   F-statistic:                     9.555
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):            0.00281
+Time:                          21:21:30   Log-Likelihood:                -792.14
+No. Observations:                    76   AIC:                             1588.
+Df Residuals:                        74   BIC:                             1593.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            5.627e+04   6225.990      9.038      0.000    4.39e+04    6.87e+04
+thirty_year_interest_rate_seven  5034.7967   1628.826      3.091      0.003    1789.290    8280.303
+==============================================================================
+Omnibus:                       16.087   Durbin-Watson:                   0.515
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               20.580
+Skew:                           0.942   Prob(JB):                     3.40e-05
+Kurtosis:                       4.718   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

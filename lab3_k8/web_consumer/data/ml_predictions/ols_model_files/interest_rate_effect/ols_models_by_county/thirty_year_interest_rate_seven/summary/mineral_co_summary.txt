@@ -1,0 +1,31 @@
+************************************************************
+MINERAL CO
+************************************************************
+const	 387006.66
+thirty_year_interest_rate_seven	 8605.13
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.004
+Model:                              OLS   Adj. R-squared:                 -0.010
+Method:                   Least Squares   F-statistic:                    0.2843
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):              0.596
+Time:                          21:22:02   Log-Likelihood:                -966.44
+No. Observations:                    76   AIC:                             1937.
+Df Residuals:                        74   BIC:                             1942.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                             3.87e+05   6.17e+04      6.273      0.000    2.64e+05     5.1e+05
+thirty_year_interest_rate_seven  8605.1271   1.61e+04      0.533      0.596   -2.36e+04    4.08e+04
+==============================================================================
+Omnibus:                        7.552   Durbin-Watson:                   0.222
+Prob(Omnibus):                  0.023   Jarque-Bera (JB):                2.832
+Skew:                          -0.042   Prob(JB):                        0.243
+Kurtosis:                       2.058   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+LAWRENCE SD
+************************************************************
+const	 155860.82
+thirty_year_interest_rate_two	 71347.47
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.294
+Model:                              OLS   Adj. R-squared:                  0.286
+Method:                   Least Squares   F-statistic:                     34.63
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           8.13e-08
+Time:                          14:08:27   Log-Likelihood:                -1115.4
+No. Observations:                    85   AIC:                             2235.
+Df Residuals:                        83   BIC:                             2240.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          1.559e+05   5.24e+04      2.974      0.004    5.16e+04     2.6e+05
+thirty_year_interest_rate_two  7.135e+04   1.21e+04      5.885      0.000    4.72e+04    9.55e+04
+==============================================================================
+Omnibus:                        6.554   Durbin-Watson:                   0.086
+Prob(Omnibus):                  0.038   Jarque-Bera (JB):                6.510
+Skew:                           0.632   Prob(JB):                       0.0386
+Kurtosis:                       2.512   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

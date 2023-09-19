@@ -1,0 +1,31 @@
+************************************************************
+ECHOLS GA
+************************************************************
+const	 -8125.19
+thirty_year_interest_rate_five	 35974.46
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.298
+Model:                              OLS   Adj. R-squared:                  0.288
+Method:                   Least Squares   F-statistic:                     28.49
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           1.20e-06
+Time:                          14:07:57   Log-Likelihood:                -854.64
+No. Observations:                    69   AIC:                             1713.
+Df Residuals:                        67   BIC:                             1718.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                          -8125.1922   2.92e+04     -0.278      0.782   -6.65e+04    5.02e+04
+thirty_year_interest_rate_five  3.597e+04   6739.428      5.338      0.000    2.25e+04    4.94e+04
+==============================================================================
+Omnibus:                       10.054   Durbin-Watson:                   0.976
+Prob(Omnibus):                  0.007   Jarque-Bera (JB):               10.120
+Skew:                           0.770   Prob(JB):                      0.00634
+Kurtosis:                       4.072   Cond. No.                         18.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+CASTRO TX
+************************************************************
+const	 117319.18
+thirty_year_interest_rate_three	 11253.38
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.025
+Model:                              OLS   Adj. R-squared:                  0.013
+Method:                   Least Squares   F-statistic:                     2.088
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.152
+Time:                          14:08:24   Log-Likelihood:                -1075.5
+No. Observations:                    85   AIC:                             2155.
+Df Residuals:                        83   BIC:                             2160.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.173e+05   3.33e+04      3.519      0.001     5.1e+04    1.84e+05
+thirty_year_interest_rate_three  1.125e+04   7787.032      1.445      0.152   -4234.716    2.67e+04
+==============================================================================
+Omnibus:                      147.324   Durbin-Watson:                   1.464
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             8538.049
+Skew:                           6.214   Prob(JB):                         0.00
+Kurtosis:                      50.500   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+FOUNTAIN IN
+************************************************************
+const	 24297.25
+thirty_year_interest_rate	 23146.94
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.256
+Model:                              OLS   Adj. R-squared:                  0.247
+Method:                   Least Squares   F-statistic:                     28.61
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           7.68e-07
+Time:                          14:08:10   Log-Likelihood:                -1033.2
+No. Observations:                    85   AIC:                             2070.
+Df Residuals:                        83   BIC:                             2075.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                       2.43e+04   1.91e+04      1.272      0.207   -1.37e+04    6.23e+04
+thirty_year_interest_rate  2.315e+04   4327.534      5.349      0.000    1.45e+04    3.18e+04
+==============================================================================
+Omnibus:                       25.256   Durbin-Watson:                   0.152
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                7.862
+Skew:                           0.468   Prob(JB):                       0.0196
+Kurtosis:                       1.841   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

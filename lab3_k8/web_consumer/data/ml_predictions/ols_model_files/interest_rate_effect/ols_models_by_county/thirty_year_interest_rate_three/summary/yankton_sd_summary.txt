@@ -1,0 +1,31 @@
+************************************************************
+YANKTON SD
+************************************************************
+const	 107428.05
+thirty_year_interest_rate_three	 23702.42
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.311
+Model:                              OLS   Adj. R-squared:                  0.303
+Method:                   Least Squares   F-statistic:                     37.53
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           2.88e-08
+Time:                          14:07:30   Log-Likelihood:                -1016.0
+No. Observations:                    85   AIC:                             2036.
+Df Residuals:                        83   BIC:                             2041.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.074e+05   1.66e+04      6.485      0.000    7.45e+04     1.4e+05
+thirty_year_interest_rate_three   2.37e+04   3868.873      6.126      0.000     1.6e+04    3.14e+04
+==============================================================================
+Omnibus:                       34.302   Durbin-Watson:                   0.551
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               64.554
+Skew:                           1.575   Prob(JB):                     9.60e-15
+Kurtosis:                       5.882   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

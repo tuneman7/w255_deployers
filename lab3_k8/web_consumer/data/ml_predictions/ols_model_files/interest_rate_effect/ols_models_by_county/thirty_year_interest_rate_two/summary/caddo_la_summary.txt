@@ -1,0 +1,31 @@
+************************************************************
+CADDO LA
+************************************************************
+const	 135740.67
+thirty_year_interest_rate_two	 9118.40
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.532
+Model:                              OLS   Adj. R-squared:                  0.527
+Method:                   Least Squares   F-statistic:                     94.53
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           2.35e-15
+Time:                          14:08:27   Log-Likelihood:                -897.91
+No. Observations:                    85   AIC:                             1800.
+Df Residuals:                        83   BIC:                             1805.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          1.357e+05   4053.906     33.484      0.000    1.28e+05    1.44e+05
+thirty_year_interest_rate_two  9118.4035    937.851      9.723      0.000    7253.055     1.1e+04
+==============================================================================
+Omnibus:                        5.592   Durbin-Watson:                   0.504
+Prob(Omnibus):                  0.061   Jarque-Bera (JB):                4.854
+Skew:                           0.535   Prob(JB):                       0.0883
+Kurtosis:                       3.476   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

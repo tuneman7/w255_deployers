@@ -1,0 +1,31 @@
+************************************************************
+NESHOBA MS
+************************************************************
+const	 109779.54
+thirty_year_interest_rate	 7689.49
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.066
+Model:                              OLS   Adj. R-squared:                  0.055
+Method:                   Least Squares   F-statistic:                     5.887
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0174
+Time:                          14:08:02   Log-Likelihood:                -1006.7
+No. Observations:                    85   AIC:                             2017.
+Df Residuals:                        83   BIC:                             2022.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      1.098e+05    1.4e+04      7.848      0.000     8.2e+04    1.38e+05
+thirty_year_interest_rate  7689.4853   3169.119      2.426      0.017    1386.236     1.4e+04
+==============================================================================
+Omnibus:                       24.730   Durbin-Watson:                   0.370
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               36.053
+Skew:                           1.275   Prob(JB):                     1.48e-08
+Kurtosis:                       4.918   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

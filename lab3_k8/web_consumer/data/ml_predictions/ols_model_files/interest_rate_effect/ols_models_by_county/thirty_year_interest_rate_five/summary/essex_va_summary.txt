@@ -1,0 +1,31 @@
+************************************************************
+ESSEX VA
+************************************************************
+const	 211302.75
+thirty_year_interest_rate_five	 15144.31
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.077
+Model:                              OLS   Adj. R-squared:                  0.065
+Method:                   Least Squares   F-statistic:                     6.877
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0104
+Time:                          14:07:28   Log-Likelihood:                -1044.4
+No. Observations:                    85   AIC:                             2093.
+Df Residuals:                        83   BIC:                             2098.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           2.113e+05   2.43e+04      8.712      0.000    1.63e+05     2.6e+05
+thirty_year_interest_rate_five  1.514e+04   5774.868      2.622      0.010    3658.328    2.66e+04
+==============================================================================
+Omnibus:                       18.820   Durbin-Watson:                   0.074
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                9.049
+Skew:                           0.605   Prob(JB):                       0.0108
+Kurtosis:                       1.955   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

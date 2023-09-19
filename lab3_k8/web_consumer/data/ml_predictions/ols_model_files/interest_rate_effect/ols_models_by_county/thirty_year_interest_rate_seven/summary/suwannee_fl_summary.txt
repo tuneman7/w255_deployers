@@ -1,0 +1,31 @@
+************************************************************
+SUWANNEE FL
+************************************************************
+const	 322400.24
+thirty_year_interest_rate_seven	 -25331.19
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.144
+Model:                              OLS   Adj. R-squared:                  0.133
+Method:                   Least Squares   F-statistic:                     12.48
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           0.000714
+Time:                          21:22:14   Log-Likelihood:                -904.79
+No. Observations:                    76   AIC:                             1814.
+Df Residuals:                        74   BIC:                             1818.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            3.224e+05   2.74e+04     11.761      0.000    2.68e+05    3.77e+05
+thirty_year_interest_rate_seven -2.533e+04   7171.546     -3.532      0.001   -3.96e+04    -1.1e+04
+==============================================================================
+Omnibus:                       41.649   Durbin-Watson:                   0.178
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              108.085
+Skew:                           1.859   Prob(JB):                     3.39e-24
+Kurtosis:                       7.506   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

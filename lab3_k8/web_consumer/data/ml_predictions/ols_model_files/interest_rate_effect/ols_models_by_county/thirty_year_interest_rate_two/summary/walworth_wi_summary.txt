@@ -1,0 +1,31 @@
+************************************************************
+WALWORTH WI
+************************************************************
+const	 201050.19
+thirty_year_interest_rate_two	 28106.47
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.342
+Model:                              OLS   Adj. R-squared:                  0.334
+Method:                   Least Squares   F-statistic:                     43.12
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           4.21e-09
+Time:                          14:08:14   Log-Likelihood:                -1027.0
+No. Observations:                    85   AIC:                             2058.
+Df Residuals:                        83   BIC:                             2063.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          2.011e+05   1.85e+04     10.867      0.000    1.64e+05    2.38e+05
+thirty_year_interest_rate_two  2.811e+04   4280.271      6.567      0.000    1.96e+04    3.66e+04
+==============================================================================
+Omnibus:                       35.608   Durbin-Watson:                   0.068
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                5.945
+Skew:                           0.142   Prob(JB):                       0.0512
+Kurtosis:                       1.736   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

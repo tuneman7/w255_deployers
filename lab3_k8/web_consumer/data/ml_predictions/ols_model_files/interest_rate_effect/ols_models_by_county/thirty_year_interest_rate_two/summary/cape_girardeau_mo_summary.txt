@@ -1,0 +1,31 @@
+************************************************************
+CAPE GIRARDEAU MO
+************************************************************
+const	 101778.89
+thirty_year_interest_rate_two	 24778.60
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.405
+Model:                              OLS   Adj. R-squared:                  0.398
+Method:                   Least Squares   F-statistic:                     56.52
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           5.88e-11
+Time:                          14:07:55   Log-Likelihood:                -1004.7
+No. Observations:                    85   AIC:                             2013.
+Df Residuals:                        83   BIC:                             2018.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          1.018e+05   1.42e+04      7.144      0.000    7.34e+04     1.3e+05
+thirty_year_interest_rate_two  2.478e+04   3295.947      7.518      0.000    1.82e+04    3.13e+04
+==============================================================================
+Omnibus:                       12.290   Durbin-Watson:                   0.119
+Prob(Omnibus):                  0.002   Jarque-Bera (JB):                5.759
+Skew:                           0.417   Prob(JB):                       0.0562
+Kurtosis:                       2.036   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+MARSHALL WV
+************************************************************
+const	 86117.29
+thirty_year_interest_rate_seven	 6599.49
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.067
+Model:                              OLS   Adj. R-squared:                  0.054
+Method:                   Least Squares   F-statistic:                     5.281
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):             0.0244
+Time:                          21:22:11   Log-Likelihood:                -835.24
+No. Observations:                    76   AIC:                             1674.
+Df Residuals:                        74   BIC:                             1679.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            8.612e+04    1.1e+04      7.845      0.000    6.42e+04    1.08e+05
+thirty_year_interest_rate_seven  6599.4856   2871.755      2.298      0.024     877.390    1.23e+04
+==============================================================================
+Omnibus:                       14.477   Durbin-Watson:                   0.410
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):               16.614
+Skew:                           0.935   Prob(JB):                     0.000247
+Kurtosis:                       4.322   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

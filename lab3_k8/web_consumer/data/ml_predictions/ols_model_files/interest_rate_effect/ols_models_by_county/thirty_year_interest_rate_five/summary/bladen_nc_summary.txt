@@ -1,0 +1,31 @@
+************************************************************
+BLADEN NC
+************************************************************
+const	 162943.09
+thirty_year_interest_rate_five	 8906.60
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.046
+Model:                              OLS   Adj. R-squared:                  0.034
+Method:                   Least Squares   F-statistic:                     3.957
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0500
+Time:                          14:07:26   Log-Likelihood:                -1022.8
+No. Observations:                    85   AIC:                             2050.
+Df Residuals:                        83   BIC:                             2055.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           1.629e+05   1.88e+04      8.664      0.000    1.26e+05       2e+05
+thirty_year_interest_rate_five  8906.5965   4477.542      1.989      0.050       0.945    1.78e+04
+==============================================================================
+Omnibus:                       16.817   Durbin-Watson:                   0.181
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               20.691
+Skew:                           0.966   Prob(JB):                     3.21e-05
+Kurtosis:                       4.453   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

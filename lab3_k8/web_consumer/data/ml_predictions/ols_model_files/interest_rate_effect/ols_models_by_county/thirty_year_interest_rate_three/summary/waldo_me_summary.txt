@@ -1,0 +1,31 @@
+************************************************************
+WALDO ME
+************************************************************
+const	 196389.55
+thirty_year_interest_rate_three	 26705.92
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.155
+Model:                              OLS   Adj. R-squared:                  0.145
+Method:                   Least Squares   F-statistic:                     15.21
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           0.000195
+Time:                          14:07:31   Log-Likelihood:                -1064.5
+No. Observations:                    85   AIC:                             2133.
+Df Residuals:                        83   BIC:                             2138.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.964e+05   2.93e+04      6.698      0.000    1.38e+05    2.55e+05
+thirty_year_interest_rate_three  2.671e+04   6848.127      3.900      0.000    1.31e+04    4.03e+04
+==============================================================================
+Omnibus:                       21.870   Durbin-Watson:                   0.096
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                6.868
+Skew:                           0.408   Prob(JB):                       0.0323
+Kurtosis:                       1.871   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

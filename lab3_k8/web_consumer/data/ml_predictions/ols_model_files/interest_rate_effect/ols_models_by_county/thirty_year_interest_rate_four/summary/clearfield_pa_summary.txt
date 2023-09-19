@@ -1,0 +1,31 @@
+************************************************************
+CLEARFIELD PA
+************************************************************
+const	 101646.06
+thirty_year_interest_rate_four	 6069.04
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.196
+Model:                              OLS   Adj. R-squared:                  0.186
+Method:                   Least Squares   F-statistic:                     20.17
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           2.27e-05
+Time:                          14:07:08   Log-Likelihood:                -924.26
+No. Observations:                    85   AIC:                             1853.
+Df Residuals:                        83   BIC:                             1857.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           1.016e+05   5734.684     17.725      0.000    9.02e+04    1.13e+05
+thirty_year_interest_rate_four  6069.0429   1351.248      4.491      0.000    3381.465    8756.621
+==============================================================================
+Omnibus:                        1.761   Durbin-Watson:                   0.271
+Prob(Omnibus):                  0.415   Jarque-Bera (JB):                1.283
+Skew:                           0.290   Prob(JB):                        0.526
+Kurtosis:                       3.162   Cond. No.                         18.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

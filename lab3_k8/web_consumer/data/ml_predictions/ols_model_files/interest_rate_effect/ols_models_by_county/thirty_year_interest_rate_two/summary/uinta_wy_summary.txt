@@ -1,0 +1,31 @@
+************************************************************
+UINTA WY
+************************************************************
+const	 81676.32
+thirty_year_interest_rate_two	 39295.62
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.277
+Model:                              OLS   Adj. R-squared:                  0.268
+Method:                   Least Squares   F-statistic:                     31.75
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           2.34e-07
+Time:                          14:08:01   Log-Likelihood:                -1068.4
+No. Observations:                    85   AIC:                             2141.
+Df Residuals:                        83   BIC:                             2146.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          8.168e+04   3.01e+04      2.709      0.008    2.17e+04    1.42e+05
+thirty_year_interest_rate_two   3.93e+04   6973.969      5.635      0.000    2.54e+04    5.32e+04
+==============================================================================
+Omnibus:                       11.679   Durbin-Watson:                   0.077
+Prob(Omnibus):                  0.003   Jarque-Bera (JB):               12.624
+Skew:                           0.937   Prob(JB):                      0.00181
+Kurtosis:                       3.230   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

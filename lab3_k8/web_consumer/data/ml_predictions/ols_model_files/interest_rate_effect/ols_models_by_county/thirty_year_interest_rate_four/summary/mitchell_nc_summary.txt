@@ -1,0 +1,31 @@
+************************************************************
+MITCHELL NC
+************************************************************
+const	 223738.99
+thirty_year_interest_rate_four	 13130.41
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.047
+Model:                              OLS   Adj. R-squared:                  0.036
+Method:                   Least Squares   F-statistic:                     4.127
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0454
+Time:                          14:08:04   Log-Likelihood:                -1057.3
+No. Observations:                    85   AIC:                             2119.
+Df Residuals:                        83   BIC:                             2123.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           2.237e+05   2.74e+04      8.156      0.000    1.69e+05    2.78e+05
+thirty_year_interest_rate_four  1.313e+04   6463.668      2.031      0.045     274.435     2.6e+04
+==============================================================================
+Omnibus:                       44.716   Durbin-Watson:                   0.131
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                7.867
+Skew:                           0.361   Prob(JB):                       0.0196
+Kurtosis:                       1.696   Cond. No.                         18.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

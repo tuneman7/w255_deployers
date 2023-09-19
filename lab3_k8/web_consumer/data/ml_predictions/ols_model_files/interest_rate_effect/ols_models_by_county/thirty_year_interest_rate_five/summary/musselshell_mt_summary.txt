@@ -1,0 +1,31 @@
+************************************************************
+MUSSELSHELL MT
+************************************************************
+const	 105411.53
+thirty_year_interest_rate_five	 34874.39
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.078
+Model:                              OLS   Adj. R-squared:                  0.067
+Method:                   Least Squares   F-statistic:                     6.992
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00979
+Time:                          14:07:31   Log-Likelihood:                -1114.6
+No. Observations:                    85   AIC:                             2233.
+Df Residuals:                        83   BIC:                             2238.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           1.054e+05   5.54e+04      1.903      0.061   -4763.452    2.16e+05
+thirty_year_interest_rate_five  3.487e+04   1.32e+04      2.644      0.010    8643.290    6.11e+04
+==============================================================================
+Omnibus:                       12.376   Durbin-Watson:                   0.149
+Prob(Omnibus):                  0.002   Jarque-Bera (JB):               14.103
+Skew:                           0.972   Prob(JB):                     0.000866
+Kurtosis:                       2.550   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

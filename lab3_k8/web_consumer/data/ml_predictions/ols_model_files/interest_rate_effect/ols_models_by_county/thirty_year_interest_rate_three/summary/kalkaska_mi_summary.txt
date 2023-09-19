@@ -1,0 +1,31 @@
+************************************************************
+KALKASKA MI
+************************************************************
+const	 135931.90
+thirty_year_interest_rate_three	 17182.36
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.087
+Model:                              OLS   Adj. R-squared:                  0.076
+Method:                   Least Squares   F-statistic:                     7.946
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00602
+Time:                          14:08:18   Log-Likelihood:                -1054.6
+No. Observations:                    85   AIC:                             2113.
+Df Residuals:                        83   BIC:                             2118.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.359e+05   2.61e+04      5.208      0.000     8.4e+04    1.88e+05
+thirty_year_interest_rate_three  1.718e+04   6095.407      2.819      0.006    5058.842    2.93e+04
+==============================================================================
+Omnibus:                       75.818   Durbin-Watson:                   0.077
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                8.318
+Skew:                           0.303   Prob(JB):                       0.0156
+Kurtosis:                       1.592   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

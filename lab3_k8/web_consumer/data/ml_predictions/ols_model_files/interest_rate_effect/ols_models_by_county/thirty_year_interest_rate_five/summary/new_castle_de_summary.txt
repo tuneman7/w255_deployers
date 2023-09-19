@@ -1,0 +1,31 @@
+************************************************************
+NEW CASTLE DE
+************************************************************
+const	 189261.16
+thirty_year_interest_rate_five	 28371.73
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.221
+Model:                              OLS   Adj. R-squared:                  0.212
+Method:                   Least Squares   F-statistic:                     23.61
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           5.49e-06
+Time:                          14:08:12   Log-Likelihood:                -1045.4
+No. Observations:                    85   AIC:                             2095.
+Df Residuals:                        83   BIC:                             2100.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           1.893e+05   2.45e+04      7.718      0.000     1.4e+05    2.38e+05
+thirty_year_interest_rate_five  2.837e+04   5838.396      4.860      0.000    1.68e+04       4e+04
+==============================================================================
+Omnibus:                       19.097   Durbin-Watson:                   0.040
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                5.846
+Skew:                           0.328   Prob(JB):                       0.0538
+Kurtosis:                       1.895   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

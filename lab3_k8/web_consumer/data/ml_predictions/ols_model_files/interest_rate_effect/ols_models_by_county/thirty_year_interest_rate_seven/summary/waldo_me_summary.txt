@@ -1,0 +1,31 @@
+************************************************************
+WALDO ME
+************************************************************
+const	 509648.86
+thirty_year_interest_rate_seven	 -58260.27
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.371
+Model:                              OLS   Adj. R-squared:                  0.363
+Method:                   Least Squares   F-statistic:                     43.71
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           5.16e-09
+Time:                          21:22:45   Log-Likelihood:                -920.44
+No. Observations:                    76   AIC:                             1845.
+Df Residuals:                        74   BIC:                             1850.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            5.096e+05   3.37e+04     15.131      0.000    4.43e+05    5.77e+05
+thirty_year_interest_rate_seven -5.826e+04   8811.674     -6.612      0.000   -7.58e+04   -4.07e+04
+==============================================================================
+Omnibus:                       12.616   Durbin-Watson:                   0.190
+Prob(Omnibus):                  0.002   Jarque-Bera (JB):               16.855
+Skew:                           0.707   Prob(JB):                     0.000219
+Kurtosis:                       4.822   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

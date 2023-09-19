@@ -1,0 +1,31 @@
+************************************************************
+STEPHENS TX
+************************************************************
+const	 45622.97
+thirty_year_interest_rate_two	 24310.71
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.527
+Model:                              OLS   Adj. R-squared:                  0.521
+Method:                   Least Squares   F-statistic:                     92.42
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           3.88e-15
+Time:                          14:07:52   Log-Likelihood:                -982.22
+No. Observations:                    85   AIC:                             1968.
+Df Residuals:                        83   BIC:                             1973.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          4.562e+04   1.09e+04      4.174      0.000    2.39e+04    6.74e+04
+thirty_year_interest_rate_two  2.431e+04   2528.835      9.613      0.000    1.93e+04    2.93e+04
+==============================================================================
+Omnibus:                        2.728   Durbin-Watson:                   0.414
+Prob(Omnibus):                  0.256   Jarque-Bera (JB):                2.196
+Skew:                           0.385   Prob(JB):                        0.334
+Kurtosis:                       3.163   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

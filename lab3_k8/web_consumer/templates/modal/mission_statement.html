@@ -1,0 +1,135 @@
+
+<div class="container">
+
+    <div class="container-fluid" id="mission_event_detail_rendering" >
+        <div class="row">
+            <div class="col-md-1">
+                <img src="./static/images/back-button-svgrepo-com.svg" width="40" height="40" onclick="move_back_mission()" id="move_back_mission"/>
+            </div>
+
+                <div class="col-md-10  float-left">
+
+                        {% if event_text is not none %}
+                        {{event_text|safe}}
+                        {% endif %}
+
+                </div>
+    
+
+            <div class="col-md-1 float-right">
+                <img src="./static/images/back-button-svgrepo-com.svg" width="40" height="40" style="transform:rotate(180deg)" class="float-end" id="move_forward_mission" onclick="move_forward_mission()"/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <br/>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+        {% if mission_image is not none %}
+        <div class="row">
+            <div class="col-md-12">
+                <div id="event_render_mission_statement">
+
+                    {% if image_src is not none %}
+                    <img src="{{mission_image}}" id="{{mission_image}}" width="{{mission_image_width}}" height="{{mission_image_height}}">
+                    {% endif %}
+                </div>
+
+            </div>
+        </div>
+        {% endif %}
+
+        {% if mission_image is none and event_texta is not none %}
+        <div class="row">
+            <div class="col-md-12">
+                <div id="event_render_mission_statement">
+
+                    {% if event_texta is not none %}
+                    {{event_texta|safe}}
+                    {% endif %}
+
+
+                </div>
+
+            </div>
+        </div>
+        {% endif %}
+
+        {% if event_textb is not none %}
+        <div class="row">
+            <div class="col-md-12">
+                <div id="event_render_mission_statement">
+
+                    {% if event_textb is not none %}
+                    {{event_textb|safe}}
+                    {% endif %}
+
+
+                </div>
+
+            </div>
+        </div>
+        {% endif %}
+        
+
+      </div>                    
+    </div>
+
+</div>
+
+
+<script>
+
+var mission_slide_no = 1;
+var current_event_name = "";
+var mission_total_slides = {{mission_slides_total}};
+
+function move_forward_mission()
+{
+    nav_to_section("section_one");
+    mission_slide_no +=1;
+    page_loading();
+    render_mission_statement("mission_statement_section",mission_slide_no);
+
+
+}
+
+function move_back_mission()
+{   nav_to_section("section_one");
+    if(mission_slide_no==1)
+    {
+        return;
+    }
+    mission_slide_no -=1;
+    page_loading();
+    render_mission_statement("mission_statement_section",mission_slide_no);
+}
+
+
+  $(document).ready(function () {
+    
+    mission_slide_no = {{mission_slide_no}};
+
+    if(!(mission_slide_no<mission_total_slides))
+    {
+        $("#move_forward_mission").hide();
+    }
+    else{
+        $("#move_forward_mission").show();
+    }    
+
+
+    page_not_loading();
+
+    
+    {% if tag is not none %}
+        $("#mission_statement_tag").text("{{tag|safe}}");
+    {% endif %}
+
+
+
+});
+</script>
+

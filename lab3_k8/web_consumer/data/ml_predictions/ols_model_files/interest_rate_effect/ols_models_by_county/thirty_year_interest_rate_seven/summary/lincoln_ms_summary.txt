@@ -1,0 +1,31 @@
+************************************************************
+LINCOLN MS
+************************************************************
+const	 240161.93
+thirty_year_interest_rate_seven	 -19306.98
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.153
+Model:                              OLS   Adj. R-squared:                  0.141
+Method:                   Least Squares   F-statistic:                     13.34
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           0.000482
+Time:                          21:22:55   Log-Likelihood:                -881.60
+No. Observations:                    76   AIC:                             1767.
+Df Residuals:                        74   BIC:                             1772.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            2.402e+05   2.02e+04     11.887      0.000       2e+05     2.8e+05
+thirty_year_interest_rate_seven -1.931e+04   5285.574     -3.653      0.000   -2.98e+04   -8775.242
+==============================================================================
+Omnibus:                       32.061   Durbin-Watson:                   0.139
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               56.926
+Skew:                           1.626   Prob(JB):                     4.35e-13
+Kurtosis:                       5.721   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

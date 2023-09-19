@@ -1,0 +1,31 @@
+************************************************************
+PRINCE GEORGE VA
+************************************************************
+const	 187802.02
+thirty_year_interest_rate_three	 21352.16
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.250
+Model:                              OLS   Adj. R-squared:                  0.240
+Method:                   Least Squares   F-statistic:                     27.59
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           1.14e-06
+Time:                          14:07:55   Log-Likelihood:                -1020.2
+No. Observations:                    85   AIC:                             2044.
+Df Residuals:                        83   BIC:                             2049.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.878e+05   1.74e+04     10.791      0.000    1.53e+05    2.22e+05
+thirty_year_interest_rate_three  2.135e+04   4064.694      5.253      0.000    1.33e+04    2.94e+04
+==============================================================================
+Omnibus:                       10.035   Durbin-Watson:                   0.092
+Prob(Omnibus):                  0.007   Jarque-Bera (JB):                5.491
+Skew:                           0.433   Prob(JB):                       0.0642
+Kurtosis:                       2.105   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

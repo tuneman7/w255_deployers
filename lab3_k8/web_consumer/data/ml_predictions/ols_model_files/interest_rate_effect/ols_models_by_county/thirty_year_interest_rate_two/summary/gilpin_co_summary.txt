@@ -1,0 +1,31 @@
+************************************************************
+GILPIN CO
+************************************************************
+const	 457527.28
+thirty_year_interest_rate_two	 26278.59
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.095
+Model:                              OLS   Adj. R-squared:                  0.084
+Method:                   Least Squares   F-statistic:                     8.730
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00407
+Time:                          14:07:24   Log-Likelihood:                -1089.1
+No. Observations:                    85   AIC:                             2182.
+Df Residuals:                        83   BIC:                             2187.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          4.575e+05   3.84e+04     11.901      0.000    3.81e+05    5.34e+05
+thirty_year_interest_rate_two  2.628e+04   8893.772      2.955      0.004    8589.239     4.4e+04
+==============================================================================
+Omnibus:                        1.327   Durbin-Watson:                   0.582
+Prob(Omnibus):                  0.515   Jarque-Bera (JB):                1.132
+Skew:                           0.073   Prob(JB):                        0.568
+Kurtosis:                       2.454   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

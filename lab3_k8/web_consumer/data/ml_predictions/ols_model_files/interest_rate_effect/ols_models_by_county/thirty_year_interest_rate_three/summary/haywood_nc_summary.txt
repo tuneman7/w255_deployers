@@ -1,0 +1,31 @@
+************************************************************
+HAYWOOD NC
+************************************************************
+const	 272609.83
+thirty_year_interest_rate_three	 19509.96
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.104
+Model:                              OLS   Adj. R-squared:                  0.094
+Method:                   Least Squares   F-statistic:                     9.669
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00257
+Time:                          14:07:20   Log-Likelihood:                -1057.1
+No. Observations:                    85   AIC:                             2118.
+Df Residuals:                        83   BIC:                             2123.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            2.726e+05   2.69e+04     10.147      0.000    2.19e+05    3.26e+05
+thirty_year_interest_rate_three  1.951e+04   6274.309      3.109      0.003    7030.608     3.2e+04
+==============================================================================
+Omnibus:                      176.514   Durbin-Watson:                   0.047
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                8.376
+Skew:                           0.088   Prob(JB):                       0.0152
+Kurtosis:                       1.472   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

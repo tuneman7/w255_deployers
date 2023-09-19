@@ -1,0 +1,31 @@
+************************************************************
+CLARKE IA
+************************************************************
+const	 65616.33
+thirty_year_interest_rate_five	 19076.73
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.239
+Model:                              OLS   Adj. R-squared:                  0.230
+Method:                   Least Squares   F-statistic:                     26.03
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           2.09e-06
+Time:                          14:07:00   Log-Likelihood:                -1007.5
+No. Observations:                    85   AIC:                             2019.
+Df Residuals:                        83   BIC:                             2024.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           6.562e+04   1.57e+04      4.178      0.000    3.44e+04    9.69e+04
+thirty_year_interest_rate_five  1.908e+04   3739.107      5.102      0.000    1.16e+04    2.65e+04
+==============================================================================
+Omnibus:                        7.668   Durbin-Watson:                   0.261
+Prob(Omnibus):                  0.022   Jarque-Bera (JB):                7.690
+Skew:                           0.736   Prob(JB):                       0.0214
+Kurtosis:                       3.073   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

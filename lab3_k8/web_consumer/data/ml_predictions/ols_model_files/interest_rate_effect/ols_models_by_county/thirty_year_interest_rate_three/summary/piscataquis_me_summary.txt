@@ -1,0 +1,31 @@
+************************************************************
+PISCATAQUIS ME
+************************************************************
+const	 95886.90
+thirty_year_interest_rate_three	 18227.32
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.214
+Model:                              OLS   Adj. R-squared:                  0.205
+Method:                   Least Squares   F-statistic:                     22.61
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           8.25e-06
+Time:                          14:07:46   Log-Likelihood:                -1015.2
+No. Observations:                    85   AIC:                             2034.
+Df Residuals:                        83   BIC:                             2039.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            9.589e+04   1.64e+04      5.842      0.000    6.32e+04    1.29e+05
+thirty_year_interest_rate_three  1.823e+04   3833.100      4.755      0.000    1.06e+04    2.59e+04
+==============================================================================
+Omnibus:                       11.309   Durbin-Watson:                   0.096
+Prob(Omnibus):                  0.004   Jarque-Bera (JB):               12.911
+Skew:                           0.946   Prob(JB):                      0.00157
+Kurtosis:                       2.743   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+LANGLADE WI
+************************************************************
+const	 43616.84
+thirty_year_interest_rate	 28519.51
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.508
+Model:                              OLS   Adj. R-squared:                  0.502
+Method:                   Least Squares   F-statistic:                     85.61
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           2.04e-14
+Time:                          14:07:55   Log-Likelihood:                -1004.3
+No. Observations:                    85   AIC:                             2013.
+Df Residuals:                        83   BIC:                             2018.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      4.362e+04   1.36e+04      3.206      0.002    1.66e+04    7.07e+04
+thirty_year_interest_rate  2.852e+04   3082.367      9.252      0.000    2.24e+04    3.47e+04
+==============================================================================
+Omnibus:                        8.718   Durbin-Watson:                   0.217
+Prob(Omnibus):                  0.013   Jarque-Bera (JB):                3.136
+Skew:                          -0.009   Prob(JB):                        0.208
+Kurtosis:                       2.059   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

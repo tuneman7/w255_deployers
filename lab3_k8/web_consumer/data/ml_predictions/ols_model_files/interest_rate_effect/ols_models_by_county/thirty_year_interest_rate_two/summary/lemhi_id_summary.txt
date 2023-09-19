@@ -1,0 +1,31 @@
+************************************************************
+LEMHI ID
+************************************************************
+const	 111046.03
+thirty_year_interest_rate_two	 69292.71
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.245
+Model:                              OLS   Adj. R-squared:                  0.235
+Method:                   Least Squares   F-statistic:                     26.87
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           1.50e-06
+Time:                          14:07:29   Log-Likelihood:                -1123.7
+No. Observations:                    85   AIC:                             2251.
+Df Residuals:                        83   BIC:                             2256.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                           1.11e+05   5.78e+04      1.922      0.058   -3871.288    2.26e+05
+thirty_year_interest_rate_two  6.929e+04   1.34e+04      5.184      0.000    4.27e+04    9.59e+04
+==============================================================================
+Omnibus:                       11.559   Durbin-Watson:                   0.112
+Prob(Omnibus):                  0.003   Jarque-Bera (JB):                8.951
+Skew:                           0.682   Prob(JB):                       0.0114
+Kurtosis:                       2.185   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

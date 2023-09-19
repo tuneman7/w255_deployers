@@ -1,0 +1,31 @@
+************************************************************
+MARLBORO SC
+************************************************************
+const	 216332.41
+thirty_year_interest_rate_seven	 -30387.68
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.471
+Model:                              OLS   Adj. R-squared:                  0.464
+Method:                   Least Squares   F-statistic:                     65.95
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           7.65e-12
+Time:                          21:20:51   Log-Likelihood:                -855.35
+No. Observations:                    76   AIC:                             1715.
+Df Residuals:                        74   BIC:                             1719.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            2.163e+05   1.43e+04     15.125      0.000    1.88e+05    2.45e+05
+thirty_year_interest_rate_seven -3.039e+04   3741.958     -8.121      0.000   -3.78e+04   -2.29e+04
+==============================================================================
+Omnibus:                       23.039   Durbin-Watson:                   0.417
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               40.526
+Skew:                           1.119   Prob(JB):                     1.58e-09
+Kurtosis:                       5.790   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+OCEAN NJ
+************************************************************
+const	 266666.34
+thirty_year_interest_rate_four	 28388.45
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.141
+Model:                              OLS   Adj. R-squared:                  0.130
+Method:                   Least Squares   F-statistic:                     13.58
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           0.000407
+Time:                          14:08:00   Log-Likelihood:                -1072.2
+No. Observations:                    85   AIC:                             2148.
+Df Residuals:                        83   BIC:                             2153.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           2.667e+05   3.27e+04      8.156      0.000    2.02e+05    3.32e+05
+thirty_year_interest_rate_four  2.839e+04   7704.161      3.685      0.000    1.31e+04    4.37e+04
+==============================================================================
+Omnibus:                       64.409   Durbin-Watson:                   0.030
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                9.201
+Skew:                           0.421   Prob(JB):                       0.0100
+Kurtosis:                       1.625   Cond. No.                         18.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

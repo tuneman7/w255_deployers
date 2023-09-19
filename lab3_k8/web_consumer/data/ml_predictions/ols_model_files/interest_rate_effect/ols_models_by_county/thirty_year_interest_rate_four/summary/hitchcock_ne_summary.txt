@@ -1,0 +1,31 @@
+************************************************************
+HITCHCOCK NE
+************************************************************
+const	 21991.72
+thirty_year_interest_rate_four	 18761.94
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.153
+Model:                              OLS   Adj. R-squared:                  0.143
+Method:                   Least Squares   F-statistic:                     15.04
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           0.000210
+Time:                          14:07:51   Log-Likelihood:                -1032.7
+No. Observations:                    85   AIC:                             2069.
+Df Residuals:                        83   BIC:                             2074.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           2.199e+04   2.05e+04      1.071      0.287   -1.88e+04    6.28e+04
+thirty_year_interest_rate_four  1.876e+04   4837.842      3.878      0.000    9139.666    2.84e+04
+==============================================================================
+Omnibus:                       19.570   Durbin-Watson:                   0.338
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               24.061
+Skew:                           1.176   Prob(JB):                     5.96e-06
+Kurtosis:                       4.125   Cond. No.                         18.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

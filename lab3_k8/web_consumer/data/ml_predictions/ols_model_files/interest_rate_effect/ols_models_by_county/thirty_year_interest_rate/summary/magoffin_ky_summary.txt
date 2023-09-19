@@ -1,0 +1,31 @@
+************************************************************
+MAGOFFIN KY
+************************************************************
+const	 72525.34
+thirty_year_interest_rate	 17390.62
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.254
+Model:                              OLS   Adj. R-squared:                  0.245
+Method:                   Least Squares   F-statistic:                     28.28
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           8.72e-07
+Time:                          14:07:16   Log-Likelihood:                -1009.3
+No. Observations:                    85   AIC:                             2023.
+Df Residuals:                        83   BIC:                             2028.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      7.253e+04   1.44e+04      5.024      0.000    4.38e+04    1.01e+05
+thirty_year_interest_rate  1.739e+04   3270.386      5.318      0.000    1.09e+04    2.39e+04
+==============================================================================
+Omnibus:                       15.494   Durbin-Watson:                   0.424
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               18.705
+Skew:                           0.902   Prob(JB):                     8.68e-05
+Kurtosis:                       4.424   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+WELD CO
+************************************************************
+const	 379877.17
+thirty_year_interest_rate_five	 14572.27
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.066
+Model:                              OLS   Adj. R-squared:                  0.054
+Method:                   Least Squares   F-statistic:                     5.819
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0181
+Time:                          14:08:27   Log-Likelihood:                -1048.3
+No. Observations:                    85   AIC:                             2101.
+Df Residuals:                        83   BIC:                             2105.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           3.799e+05   2.54e+04     14.972      0.000    3.29e+05     4.3e+05
+thirty_year_interest_rate_five  1.457e+04   6040.733      2.412      0.018    2557.495    2.66e+04
+==============================================================================
+Omnibus:                       19.523   Durbin-Watson:                   0.035
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                7.790
+Skew:                           0.508   Prob(JB):                       0.0203
+Kurtosis:                       1.920   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

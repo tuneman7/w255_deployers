@@ -1,0 +1,31 @@
+************************************************************
+DES MOINES IA
+************************************************************
+const	 111608.45
+thirty_year_interest_rate_two	 4942.76
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.217
+Model:                              OLS   Adj. R-squared:                  0.207
+Method:                   Least Squares   F-statistic:                     22.96
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           7.15e-06
+Time:                          14:07:59   Log-Likelihood:                -905.99
+No. Observations:                    85   AIC:                             1816.
+Df Residuals:                        83   BIC:                             1821.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          1.116e+05   4458.599     25.032      0.000    1.03e+05     1.2e+05
+thirty_year_interest_rate_two  4942.7649   1031.475      4.792      0.000    2891.202    6994.328
+==============================================================================
+Omnibus:                        6.819   Durbin-Watson:                   0.349
+Prob(Omnibus):                  0.033   Jarque-Bera (JB):                3.260
+Skew:                          -0.216   Prob(JB):                        0.196
+Kurtosis:                       2.143   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

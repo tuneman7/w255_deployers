@@ -1,0 +1,31 @@
+************************************************************
+BELL KY
+************************************************************
+const	 91418.75
+thirty_year_interest_rate	 4579.30
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.092
+Model:                              OLS   Adj. R-squared:                  0.081
+Method:                   Least Squares   F-statistic:                     8.417
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00476
+Time:                          14:08:23   Log-Likelihood:                -947.42
+No. Observations:                    85   AIC:                             1899.
+Df Residuals:                        83   BIC:                             1904.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      9.142e+04   6966.907     13.122      0.000    7.76e+04    1.05e+05
+thirty_year_interest_rate  4579.3023   1578.372      2.901      0.005    1439.983    7718.621
+==============================================================================
+Omnibus:                       46.525   Durbin-Watson:                   0.188
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                6.206
+Skew:                           0.043   Prob(JB):                       0.0449
+Kurtosis:                       1.679   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+DAUPHIN PA
+************************************************************
+const	 150814.94
+thirty_year_interest_rate_three	 10531.67
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.144
+Model:                              OLS   Adj. R-squared:                  0.134
+Method:                   Least Squares   F-statistic:                     14.00
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           0.000336
+Time:                          14:07:41   Log-Likelihood:                -988.96
+No. Observations:                    85   AIC:                             1982.
+Df Residuals:                        83   BIC:                             1987.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.508e+05   1.21e+04     12.513      0.000    1.27e+05    1.75e+05
+thirty_year_interest_rate_three  1.053e+04   2814.834      3.741      0.000    4933.078    1.61e+04
+==============================================================================
+Omnibus:                       38.888   Durbin-Watson:                   0.127
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                6.024
+Skew:                           0.116   Prob(JB):                       0.0492
+Kurtosis:                       1.717   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

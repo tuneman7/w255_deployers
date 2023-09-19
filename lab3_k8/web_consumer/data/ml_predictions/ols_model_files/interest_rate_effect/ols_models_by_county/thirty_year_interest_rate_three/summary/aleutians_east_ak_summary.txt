@@ -1,0 +1,31 @@
+************************************************************
+ALEUTIANS EAST AK
+************************************************************
+const	 357303.19
+thirty_year_interest_rate_three	 -33006.14
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.116
+Model:                              OLS   Adj. R-squared:                  0.102
+Method:                   Least Squares   F-statistic:                     8.150
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00585
+Time:                          14:07:05   Log-Likelihood:                -813.80
+No. Observations:                    64   AIC:                             1632.
+Df Residuals:                        62   BIC:                             1636.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            3.573e+05   4.84e+04      7.379      0.000    2.61e+05    4.54e+05
+thirty_year_interest_rate_three -3.301e+04   1.16e+04     -2.855      0.006   -5.61e+04   -9894.524
+==============================================================================
+Omnibus:                        2.244   Durbin-Watson:                   0.459
+Prob(Omnibus):                  0.326   Jarque-Bera (JB):                1.598
+Skew:                           0.104   Prob(JB):                        0.450
+Kurtosis:                       3.746   Cond. No.                         20.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

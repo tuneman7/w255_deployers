@@ -1,0 +1,31 @@
+************************************************************
+PALO ALTO IA
+************************************************************
+const	 116281.23
+thirty_year_interest_rate_three	 6957.21
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.050
+Model:                              OLS   Adj. R-squared:                  0.038
+Method:                   Least Squares   F-statistic:                     4.323
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0407
+Time:                          14:07:53   Log-Likelihood:                -1003.7
+No. Observations:                    85   AIC:                             2011.
+Df Residuals:                        83   BIC:                             2016.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.163e+05   1.43e+04      8.116      0.000    8.78e+04    1.45e+05
+thirty_year_interest_rate_three  6957.2135   3346.125      2.079      0.041     301.906    1.36e+04
+==============================================================================
+Omnibus:                        2.832   Durbin-Watson:                   0.357
+Prob(Omnibus):                  0.243   Jarque-Bera (JB):                2.488
+Skew:                          -0.318   Prob(JB):                        0.288
+Kurtosis:                       2.454   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

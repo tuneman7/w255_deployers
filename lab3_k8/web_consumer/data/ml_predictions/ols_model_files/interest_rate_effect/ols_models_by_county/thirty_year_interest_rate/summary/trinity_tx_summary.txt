@@ -1,0 +1,31 @@
+************************************************************
+TRINITY TX
+************************************************************
+const	 62106.47
+thirty_year_interest_rate	 25748.69
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.373
+Model:                              OLS   Adj. R-squared:                  0.365
+Method:                   Least Squares   F-statistic:                     49.32
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           5.52e-10
+Time:                          14:08:14   Log-Likelihood:                -1019.1
+No. Observations:                    85   AIC:                             2042.
+Df Residuals:                        83   BIC:                             2047.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      6.211e+04   1.62e+04      3.838      0.000    2.99e+04    9.43e+04
+thirty_year_interest_rate  2.575e+04   3666.504      7.023      0.000    1.85e+04     3.3e+04
+==============================================================================
+Omnibus:                       35.883   Durbin-Watson:                   0.108
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                6.223
+Skew:                           0.200   Prob(JB):                       0.0445
+Kurtosis:                       1.736   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

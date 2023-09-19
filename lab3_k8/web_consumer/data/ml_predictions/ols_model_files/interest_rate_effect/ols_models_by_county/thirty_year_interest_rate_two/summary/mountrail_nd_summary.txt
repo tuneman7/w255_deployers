@@ -1,0 +1,31 @@
+************************************************************
+MOUNTRAIL ND
+************************************************************
+const	 208651.64
+thirty_year_interest_rate_two	 -2493.11
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.006
+Model:                              OLS   Adj. R-squared:                 -0.006
+Method:                   Least Squares   F-statistic:                    0.5357
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.466
+Time:                          14:07:37   Log-Likelihood:                -1007.5
+No. Observations:                    85   AIC:                             2019.
+Df Residuals:                        83   BIC:                             2024.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          2.087e+05   1.47e+04     14.171      0.000    1.79e+05    2.38e+05
+thirty_year_interest_rate_two -2493.1141   3406.224     -0.732      0.466   -9267.957    4281.729
+==============================================================================
+Omnibus:                        2.352   Durbin-Watson:                   0.317
+Prob(Omnibus):                  0.309   Jarque-Bera (JB):                1.745
+Skew:                           0.326   Prob(JB):                        0.418
+Kurtosis:                       3.258   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

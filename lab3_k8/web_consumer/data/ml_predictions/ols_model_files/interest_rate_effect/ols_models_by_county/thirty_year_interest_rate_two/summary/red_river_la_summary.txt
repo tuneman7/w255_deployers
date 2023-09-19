@@ -1,0 +1,31 @@
+************************************************************
+RED RIVER LA
+************************************************************
+const	 112180.60
+thirty_year_interest_rate_two	 10532.88
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.047
+Model:                              OLS   Adj. R-squared:                  0.036
+Method:                   Least Squares   F-statistic:                     4.100
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0461
+Time:                          14:07:10   Log-Likelihood:                -1043.5
+No. Observations:                    85   AIC:                             2091.
+Df Residuals:                        83   BIC:                             2096.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          1.122e+05   2.25e+04      4.989      0.000    6.75e+04    1.57e+05
+thirty_year_interest_rate_two  1.053e+04   5202.120      2.025      0.046     186.071    2.09e+04
+==============================================================================
+Omnibus:                       19.442   Durbin-Watson:                   0.365
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               24.197
+Skew:                           1.271   Prob(JB):                     5.57e-06
+Kurtosis:                       3.610   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

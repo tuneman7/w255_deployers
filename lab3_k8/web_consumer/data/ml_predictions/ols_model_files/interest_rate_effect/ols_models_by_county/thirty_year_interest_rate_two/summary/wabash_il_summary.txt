@@ -1,0 +1,31 @@
+************************************************************
+WABASH IL
+************************************************************
+const	 79401.05
+thirty_year_interest_rate_two	 5946.99
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.076
+Model:                              OLS   Adj. R-squared:                  0.065
+Method:                   Least Squares   F-statistic:                     6.702
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0114
+Time:                          14:08:22   Log-Likelihood:                -951.11
+No. Observations:                    83   AIC:                             1906.
+Df Residuals:                        81   BIC:                             1911.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                           7.94e+04   9936.738      7.991      0.000    5.96e+04    9.92e+04
+thirty_year_interest_rate_two  5946.9920   2297.207      2.589      0.011    1376.270    1.05e+04
+==============================================================================
+Omnibus:                       13.538   Durbin-Watson:                   0.524
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):               43.203
+Skew:                           0.252   Prob(JB):                     4.16e-10
+Kurtosis:                       6.498   Cond. No.                         17.7
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

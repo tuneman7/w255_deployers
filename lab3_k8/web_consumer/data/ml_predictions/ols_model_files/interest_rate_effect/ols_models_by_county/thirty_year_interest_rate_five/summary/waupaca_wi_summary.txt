@@ -1,0 +1,31 @@
+************************************************************
+WAUPACA WI
+************************************************************
+const	 110509.91
+thirty_year_interest_rate_five	 20002.78
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.123
+Model:                              OLS   Adj. R-squared:                  0.113
+Method:                   Least Squares   F-statistic:                     11.67
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           0.000986
+Time:                          14:07:19   Log-Likelihood:                -1045.6
+No. Observations:                    85   AIC:                             2095.
+Df Residuals:                        83   BIC:                             2100.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           1.105e+05   2.46e+04      4.493      0.000    6.16e+04    1.59e+05
+thirty_year_interest_rate_five      2e+04   5855.768      3.416      0.001    8355.889    3.16e+04
+==============================================================================
+Omnibus:                       10.906   Durbin-Watson:                   0.090
+Prob(Omnibus):                  0.004   Jarque-Bera (JB):                7.400
+Skew:                           0.584   Prob(JB):                       0.0247
+Kurtosis:                       2.147   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

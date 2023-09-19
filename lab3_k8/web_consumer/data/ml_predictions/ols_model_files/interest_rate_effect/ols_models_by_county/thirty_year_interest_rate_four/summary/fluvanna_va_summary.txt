@@ -1,0 +1,31 @@
+************************************************************
+FLUVANNA VA
+************************************************************
+const	 229313.52
+thirty_year_interest_rate_four	 17584.73
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.121
+Model:                              OLS   Adj. R-squared:                  0.111
+Method:                   Least Squares   F-statistic:                     11.44
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00110
+Time:                          14:07:21   Log-Likelihood:                -1038.8
+No. Observations:                    85   AIC:                             2082.
+Df Residuals:                        83   BIC:                             2086.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           2.293e+05   2.21e+04     10.393      0.000    1.85e+05    2.73e+05
+thirty_year_interest_rate_four  1.758e+04   5199.060      3.382      0.001    7244.005    2.79e+04
+==============================================================================
+Omnibus:                       59.614   Durbin-Watson:                   0.057
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                9.027
+Skew:                           0.418   Prob(JB):                       0.0110
+Kurtosis:                       1.640   Cond. No.                         18.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

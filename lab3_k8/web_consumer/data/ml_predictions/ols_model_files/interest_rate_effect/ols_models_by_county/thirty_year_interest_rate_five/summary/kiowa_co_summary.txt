@@ -1,0 +1,31 @@
+************************************************************
+KIOWA CO
+************************************************************
+const	 53927.73
+thirty_year_interest_rate_five	 12831.19
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.065
+Model:                              OLS   Adj. R-squared:                  0.050
+Method:                   Least Squares   F-statistic:                     4.430
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0392
+Time:                          14:08:20   Log-Likelihood:                -812.43
+No. Observations:                    66   AIC:                             1629.
+Df Residuals:                        64   BIC:                             1633.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           5.393e+04   2.57e+04      2.098      0.040    2579.449    1.05e+05
+thirty_year_interest_rate_five  1.283e+04   6096.203      2.105      0.039     652.625     2.5e+04
+==============================================================================
+Omnibus:                       17.660   Durbin-Watson:                   0.669
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               23.536
+Skew:                           1.080   Prob(JB):                     7.75e-06
+Kurtosis:                       4.973   Cond. No.                         17.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

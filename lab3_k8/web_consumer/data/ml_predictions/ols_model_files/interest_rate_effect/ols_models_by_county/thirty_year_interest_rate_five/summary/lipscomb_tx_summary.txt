@@ -1,0 +1,31 @@
+************************************************************
+LIPSCOMB TX
+************************************************************
+const	 61620.89
+thirty_year_interest_rate_five	 10320.59
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.163
+Model:                              OLS   Adj. R-squared:                  0.150
+Method:                   Least Squares   F-statistic:                     12.82
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           0.000650
+Time:                          14:07:39   Log-Likelihood:                -785.04
+No. Observations:                    68   AIC:                             1574.
+Df Residuals:                        66   BIC:                             1579.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           6.162e+04   1.25e+04      4.911      0.000    3.66e+04    8.67e+04
+thirty_year_interest_rate_five  1.032e+04   2882.601      3.580      0.001    4565.293    1.61e+04
+==============================================================================
+Omnibus:                       11.385   Durbin-Watson:                   0.977
+Prob(Omnibus):                  0.003   Jarque-Bera (JB):               11.776
+Skew:                           0.859   Prob(JB):                      0.00277
+Kurtosis:                       4.098   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

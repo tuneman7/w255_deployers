@@ -1,0 +1,31 @@
+************************************************************
+RIPLEY MO
+************************************************************
+const	 47369.10
+thirty_year_interest_rate_two	 19485.40
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.515
+Model:                              OLS   Adj. R-squared:                  0.509
+Method:                   Least Squares   F-statistic:                     88.20
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           1.08e-14
+Time:                          14:07:11   Log-Likelihood:                -965.40
+No. Observations:                    85   AIC:                             1935.
+Df Residuals:                        83   BIC:                             1940.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          4.737e+04   8968.328      5.282      0.000    2.95e+04    6.52e+04
+thirty_year_interest_rate_two  1.949e+04   2074.779      9.392      0.000    1.54e+04    2.36e+04
+==============================================================================
+Omnibus:                       12.581   Durbin-Watson:                   0.207
+Prob(Omnibus):                  0.002   Jarque-Bera (JB):               14.024
+Skew:                           0.991   Prob(JB):                     0.000901
+Kurtosis:                       3.183   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+BATES MO
+************************************************************
+const	 132041.29
+thirty_year_interest_rate_three	 4946.39
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.023
+Model:                              OLS   Adj. R-squared:                  0.012
+Method:                   Least Squares   F-statistic:                     1.991
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.162
+Time:                          14:07:43   Log-Likelihood:                -1007.6
+No. Observations:                    85   AIC:                             2019.
+Df Residuals:                        83   BIC:                             2024.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                             1.32e+05    1.5e+04      8.797      0.000    1.02e+05    1.62e+05
+thirty_year_interest_rate_three  4946.3903   3505.327      1.411      0.162   -2025.565    1.19e+04
+==============================================================================
+Omnibus:                        2.533   Durbin-Watson:                   0.244
+Prob(Omnibus):                  0.282   Jarque-Bera (JB):                2.006
+Skew:                           0.228   Prob(JB):                        0.367
+Kurtosis:                       2.402   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

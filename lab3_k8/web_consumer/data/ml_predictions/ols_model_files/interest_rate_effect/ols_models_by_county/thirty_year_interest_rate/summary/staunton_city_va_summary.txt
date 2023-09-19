@@ -1,0 +1,31 @@
+************************************************************
+STAUNTON CITY VA
+************************************************************
+const	 145142.35
+thirty_year_interest_rate	 21256.43
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.224
+Model:                              OLS   Adj. R-squared:                  0.215
+Method:                   Least Squares   F-statistic:                     23.99
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           4.72e-06
+Time:                          14:07:38   Log-Likelihood:                -1033.4
+No. Observations:                    85   AIC:                             2071.
+Df Residuals:                        83   BIC:                             2076.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      1.451e+05   1.92e+04      7.576      0.000    1.07e+05    1.83e+05
+thirty_year_interest_rate  2.126e+04   4340.099      4.898      0.000    1.26e+04    2.99e+04
+==============================================================================
+Omnibus:                        7.670   Durbin-Watson:                   0.098
+Prob(Omnibus):                  0.022   Jarque-Bera (JB):                2.972
+Skew:                           0.055   Prob(JB):                        0.226
+Kurtosis:                       2.091   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

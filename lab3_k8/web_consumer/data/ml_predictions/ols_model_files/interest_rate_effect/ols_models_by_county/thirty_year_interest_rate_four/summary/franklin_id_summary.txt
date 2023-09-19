@@ -1,0 +1,31 @@
+************************************************************
+FRANKLIN ID
+************************************************************
+const	 437671.41
+thirty_year_interest_rate_four	 -12475.52
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.008
+Model:                              OLS   Adj. R-squared:                 -0.004
+Method:                   Least Squares   F-statistic:                    0.6907
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.408
+Time:                          14:08:16   Log-Likelihood:                -1128.9
+No. Observations:                    85   AIC:                             2262.
+Df Residuals:                        83   BIC:                             2267.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           4.377e+05   6.37e+04      6.870      0.000    3.11e+05    5.64e+05
+thirty_year_interest_rate_four -1.248e+04    1.5e+04     -0.831      0.408   -4.23e+04    1.74e+04
+==============================================================================
+Omnibus:                       17.762   Durbin-Watson:                   0.157
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               21.055
+Skew:                           1.093   Prob(JB):                     2.68e-05
+Kurtosis:                       4.080   Cond. No.                         18.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+NELSON VA
+************************************************************
+const	 255850.62
+thirty_year_interest_rate	 21656.54
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.113
+Model:                              OLS   Adj. R-squared:                  0.102
+Method:                   Least Squares   F-statistic:                     10.56
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00167
+Time:                          14:07:08   Log-Likelihood:                -1069.8
+No. Observations:                    85   AIC:                             2144.
+Df Residuals:                        83   BIC:                             2149.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      2.559e+05   2.94e+04      8.698      0.000    1.97e+05    3.14e+05
+thirty_year_interest_rate  2.166e+04   6663.838      3.250      0.002    8402.439    3.49e+04
+==============================================================================
+Omnibus:                        9.456   Durbin-Watson:                   0.131
+Prob(Omnibus):                  0.009   Jarque-Bera (JB):                7.626
+Skew:                           0.630   Prob(JB):                       0.0221
+Kurtosis:                       2.246   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+MCCRACKEN KY
+************************************************************
+const	 137483.60
+thirty_year_interest_rate_three	 13993.78
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.158
+Model:                              OLS   Adj. R-squared:                  0.148
+Method:                   Least Squares   F-statistic:                     15.62
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           0.000162
+Time:                          14:07:48   Log-Likelihood:                -1008.5
+No. Observations:                    85   AIC:                             2021.
+Df Residuals:                        83   BIC:                             2026.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.375e+05   1.52e+04      9.068      0.000    1.07e+05    1.68e+05
+thirty_year_interest_rate_three  1.399e+04   3540.691      3.952      0.000    6951.491     2.1e+04
+==============================================================================
+Omnibus:                       22.821   Durbin-Watson:                   0.145
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                6.640
+Skew:                           0.376   Prob(JB):                       0.0362
+Kurtosis:                       1.856   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

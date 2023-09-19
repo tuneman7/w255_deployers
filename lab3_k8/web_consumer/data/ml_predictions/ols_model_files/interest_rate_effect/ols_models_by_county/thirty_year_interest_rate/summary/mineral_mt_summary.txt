@@ -1,0 +1,31 @@
+************************************************************
+MINERAL MT
+************************************************************
+const	 211809.64
+thirty_year_interest_rate	 47126.80
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.083
+Model:                              OLS   Adj. R-squared:                  0.072
+Method:                   Least Squares   F-statistic:                     7.534
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00742
+Time:                          14:08:16   Log-Likelihood:                -1150.3
+No. Observations:                    85   AIC:                             2305.
+Df Residuals:                        83   BIC:                             2309.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      2.118e+05   7.58e+04      2.795      0.006    6.11e+04    3.63e+05
+thirty_year_interest_rate  4.713e+04   1.72e+04      2.745      0.007     1.3e+04    8.13e+04
+==============================================================================
+Omnibus:                       43.953   Durbin-Watson:                   0.137
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               99.293
+Skew:                           1.946   Prob(JB):                     2.75e-22
+Kurtosis:                       6.589   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

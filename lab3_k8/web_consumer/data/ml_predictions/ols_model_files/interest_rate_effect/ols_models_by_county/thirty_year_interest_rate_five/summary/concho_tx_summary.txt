@@ -1,0 +1,31 @@
+************************************************************
+CONCHO TX
+************************************************************
+const	 207152.05
+thirty_year_interest_rate_five	 -11177.42
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.017
+Model:                              OLS   Adj. R-squared:                  0.005
+Method:                   Least Squares   F-statistic:                     1.444
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.233
+Time:                          14:07:29   Log-Likelihood:                -1085.0
+No. Observations:                    85   AIC:                             2174.
+Df Residuals:                        83   BIC:                             2179.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           2.072e+05   3.91e+04      5.303      0.000    1.29e+05    2.85e+05
+thirty_year_interest_rate_five -1.118e+04   9300.147     -1.202      0.233   -2.97e+04    7320.198
+==============================================================================
+Omnibus:                       99.426   Durbin-Watson:                   1.606
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1425.993
+Skew:                           3.740   Prob(JB):                    2.24e-310
+Kurtosis:                      21.620   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+LA SALLE TX
+************************************************************
+const	 154886.89
+thirty_year_interest_rate_three	 18202.84
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.046
+Model:                              OLS   Adj. R-squared:                  0.035
+Method:                   Least Squares   F-statistic:                     4.015
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0484
+Time:                          14:07:11   Log-Likelihood:                -1088.6
+No. Observations:                    85   AIC:                             2181.
+Df Residuals:                        83   BIC:                             2186.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.549e+05   3.89e+04      3.982      0.000    7.75e+04    2.32e+05
+thirty_year_interest_rate_three   1.82e+04   9084.831      2.004      0.048     133.481    3.63e+04
+==============================================================================
+Omnibus:                       10.412   Durbin-Watson:                   0.535
+Prob(Omnibus):                  0.005   Jarque-Bera (JB):               10.576
+Skew:                           0.737   Prob(JB):                      0.00505
+Kurtosis:                       3.903   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

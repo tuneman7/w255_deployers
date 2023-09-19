@@ -1,0 +1,31 @@
+************************************************************
+UVALDE TX
+************************************************************
+const	 209701.21
+thirty_year_interest_rate	 12217.17
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.079
+Model:                              OLS   Adj. R-squared:                  0.068
+Method:                   Least Squares   F-statistic:                     7.156
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00900
+Time:                          14:07:06   Log-Likelihood:                -1037.7
+No. Observations:                    85   AIC:                             2079.
+Df Residuals:                        83   BIC:                             2084.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      2.097e+05   2.02e+04     10.403      0.000     1.7e+05     2.5e+05
+thirty_year_interest_rate  1.222e+04   4566.965      2.675      0.009    3133.656    2.13e+04
+==============================================================================
+Omnibus:                       87.193   Durbin-Watson:                   0.131
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                7.784
+Skew:                           0.191   Prob(JB):                       0.0204
+Kurtosis:                       1.567   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

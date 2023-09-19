@@ -1,0 +1,31 @@
+************************************************************
+WASHOE NV
+************************************************************
+const	 437491.73
+thirty_year_interest_rate_three	 21118.74
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.068
+Model:                              OLS   Adj. R-squared:                  0.057
+Method:                   Least Squares   F-statistic:                     6.063
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0159
+Time:                          14:08:09   Log-Likelihood:                -1083.7
+No. Observations:                    85   AIC:                             2171.
+Df Residuals:                        83   BIC:                             2176.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            4.375e+05   3.67e+04     11.912      0.000    3.64e+05    5.11e+05
+thirty_year_interest_rate_three  2.112e+04   8577.070      2.462      0.016    4059.291    3.82e+04
+==============================================================================
+Omnibus:                       18.822   Durbin-Watson:                   0.043
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                5.886
+Skew:                           0.336   Prob(JB):                       0.0527
+Kurtosis:                       1.900   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+PAWNEE NE
+************************************************************
+const	 272822.72
+thirty_year_interest_rate_three	 -20930.75
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.009
+Model:                              OLS   Adj. R-squared:                 -0.003
+Method:                   Least Squares   F-statistic:                    0.7346
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.394
+Time:                          14:08:16   Log-Likelihood:                -1102.3
+No. Observations:                    80   AIC:                             2209.
+Df Residuals:                        78   BIC:                             2213.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            2.728e+05   1.05e+05      2.601      0.011     6.4e+04    4.82e+05
+thirty_year_interest_rate_three -2.093e+04   2.44e+04     -0.857      0.394   -6.96e+04    2.77e+04
+==============================================================================
+Omnibus:                       73.807   Durbin-Watson:                   0.479
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              399.583
+Skew:                           3.067   Prob(JB):                     1.71e-87
+Kurtosis:                      12.069   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

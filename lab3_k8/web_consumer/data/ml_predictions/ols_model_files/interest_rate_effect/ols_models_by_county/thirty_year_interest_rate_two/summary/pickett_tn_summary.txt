@@ -1,0 +1,31 @@
+************************************************************
+PICKETT TN
+************************************************************
+const	 180968.02
+thirty_year_interest_rate_two	 20552.47
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.079
+Model:                              OLS   Adj. R-squared:                  0.068
+Method:                   Least Squares   F-statistic:                     7.097
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00927
+Time:                          14:08:10   Log-Likelihood:                -1077.0
+No. Observations:                    85   AIC:                             2158.
+Df Residuals:                        83   BIC:                             2163.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                           1.81e+05   3.33e+04      5.427      0.000    1.15e+05    2.47e+05
+thirty_year_interest_rate_two  2.055e+04   7714.750      2.664      0.009    5208.140    3.59e+04
+==============================================================================
+Omnibus:                       10.186   Durbin-Watson:                   0.205
+Prob(Omnibus):                  0.006   Jarque-Bera (JB):                8.091
+Skew:                           0.648   Prob(JB):                       0.0175
+Kurtosis:                       2.224   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

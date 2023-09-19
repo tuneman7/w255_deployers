@@ -1,0 +1,31 @@
+************************************************************
+SUMMERS WV
+************************************************************
+const	 250925.22
+thirty_year_interest_rate_seven	 -25444.67
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.301
+Model:                              OLS   Adj. R-squared:                  0.292
+Method:                   Least Squares   F-statistic:                     31.92
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           2.83e-07
+Time:                          21:22:25   Log-Likelihood:                -869.43
+No. Observations:                    76   AIC:                             1743.
+Df Residuals:                        74   BIC:                             1748.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            2.509e+05   1.72e+04     14.576      0.000    2.17e+05    2.85e+05
+thirty_year_interest_rate_seven -2.544e+04   4503.648     -5.650      0.000   -3.44e+04   -1.65e+04
+==============================================================================
+Omnibus:                        6.700   Durbin-Watson:                   0.351
+Prob(Omnibus):                  0.035   Jarque-Bera (JB):                6.117
+Skew:                           0.559   Prob(JB):                       0.0470
+Kurtosis:                       3.827   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

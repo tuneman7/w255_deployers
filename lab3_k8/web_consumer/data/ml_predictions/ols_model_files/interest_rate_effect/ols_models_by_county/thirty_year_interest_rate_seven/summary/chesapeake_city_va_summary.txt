@@ -1,0 +1,31 @@
+************************************************************
+CHESAPEAKE CITY VA
+************************************************************
+const	 414176.10
+thirty_year_interest_rate_seven	 -19299.80
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.161
+Model:                              OLS   Adj. R-squared:                  0.150
+Method:                   Least Squares   F-statistic:                     14.22
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           0.000325
+Time:                          21:21:34   Log-Likelihood:                -879.15
+No. Observations:                    76   AIC:                             1762.
+Df Residuals:                        74   BIC:                             1767.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            4.142e+05   1.96e+04     21.174      0.000    3.75e+05    4.53e+05
+thirty_year_interest_rate_seven  -1.93e+04   5117.495     -3.771      0.000   -2.95e+04   -9102.968
+==============================================================================
+Omnibus:                       11.674   Durbin-Watson:                   0.110
+Prob(Omnibus):                  0.003   Jarque-Bera (JB):               12.300
+Skew:                           0.824   Prob(JB):                      0.00213
+Kurtosis:                       4.082   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

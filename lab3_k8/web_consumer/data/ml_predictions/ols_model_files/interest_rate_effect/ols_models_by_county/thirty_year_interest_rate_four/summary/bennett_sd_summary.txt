@@ -1,0 +1,31 @@
+************************************************************
+BENNETT SD
+************************************************************
+const	 696056.32
+thirty_year_interest_rate_four	 -77968.05
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.088
+Model:                              OLS   Adj. R-squared:                  0.065
+Method:                   Least Squares   F-statistic:                     3.838
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0571
+Time:                          14:07:55   Log-Likelihood:                -580.27
+No. Observations:                    42   AIC:                             1165.
+Df Residuals:                        40   BIC:                             1168.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           6.961e+05   1.74e+05      3.991      0.000    3.44e+05    1.05e+06
+thirty_year_interest_rate_four -7.797e+04   3.98e+04     -1.959      0.057   -1.58e+05    2466.267
+==============================================================================
+Omnibus:                        4.973   Durbin-Watson:                   0.448
+Prob(Omnibus):                  0.083   Jarque-Bera (JB):                3.761
+Skew:                           0.601   Prob(JB):                        0.153
+Kurtosis:                       2.160   Cond. No.                         21.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+YOLO CA
+************************************************************
+const	 415858.12
+thirty_year_interest_rate	 30859.71
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.226
+Model:                              OLS   Adj. R-squared:                  0.217
+Method:                   Least Squares   F-statistic:                     24.29
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           4.18e-06
+Time:                          14:08:03   Log-Likelihood:                -1064.6
+No. Observations:                    85   AIC:                             2133.
+Df Residuals:                        83   BIC:                             2138.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      4.159e+05   2.76e+04     15.046      0.000    3.61e+05    4.71e+05
+thirty_year_interest_rate  3.086e+04   6261.575      4.928      0.000    1.84e+04    4.33e+04
+==============================================================================
+Omnibus:                       15.509   Durbin-Watson:                   0.075
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                5.422
+Skew:                           0.327   Prob(JB):                       0.0665
+Kurtosis:                       1.950   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

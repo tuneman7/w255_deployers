@@ -1,0 +1,31 @@
+************************************************************
+CHICOT AR
+************************************************************
+const	 144170.95
+thirty_year_interest_rate	 5895.98
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.028
+Model:                              OLS   Adj. R-squared:                  0.017
+Method:                   Least Squares   F-statistic:                     2.415
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.124
+Time:                          14:07:51   Log-Likelihood:                -1022.0
+No. Observations:                    85   AIC:                             2048.
+Df Residuals:                        83   BIC:                             2053.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      1.442e+05   1.67e+04      8.610      0.000    1.11e+05    1.77e+05
+thirty_year_interest_rate  5895.9821   3793.623      1.554      0.124   -1649.381    1.34e+04
+==============================================================================
+Omnibus:                        3.057   Durbin-Watson:                   0.475
+Prob(Omnibus):                  0.217   Jarque-Bera (JB):                2.432
+Skew:                          -0.396   Prob(JB):                        0.296
+Kurtosis:                       3.241   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

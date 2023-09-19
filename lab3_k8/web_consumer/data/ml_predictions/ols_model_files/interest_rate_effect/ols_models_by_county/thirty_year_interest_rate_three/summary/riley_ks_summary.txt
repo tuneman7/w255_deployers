@@ -1,0 +1,31 @@
+************************************************************
+RILEY KS
+************************************************************
+const	 136381.81
+thirty_year_interest_rate_three	 19540.60
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.446
+Model:                              OLS   Adj. R-squared:                  0.439
+Method:                   Least Squares   F-statistic:                     66.83
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           2.92e-12
+Time:                          14:07:41   Log-Likelihood:                -975.06
+No. Observations:                    85   AIC:                             1954.
+Df Residuals:                        83   BIC:                             1959.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.364e+05   1.02e+04     13.325      0.000    1.16e+05    1.57e+05
+thirty_year_interest_rate_three  1.954e+04   2390.305      8.175      0.000    1.48e+04    2.43e+04
+==============================================================================
+Omnibus:                        8.642   Durbin-Watson:                   0.237
+Prob(Omnibus):                  0.013   Jarque-Bera (JB):                8.363
+Skew:                           0.742   Prob(JB):                       0.0153
+Kurtosis:                       3.398   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

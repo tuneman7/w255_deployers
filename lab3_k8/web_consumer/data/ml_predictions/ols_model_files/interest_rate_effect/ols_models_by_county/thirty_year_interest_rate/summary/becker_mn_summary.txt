@@ -1,0 +1,31 @@
+************************************************************
+BECKER MN
+************************************************************
+const	 242128.08
+thirty_year_interest_rate	 20931.69
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.226
+Model:                              OLS   Adj. R-squared:                  0.217
+Method:                   Least Squares   F-statistic:                     24.29
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           4.17e-06
+Time:                          14:07:51   Log-Likelihood:                -1031.6
+No. Observations:                    85   AIC:                             2067.
+Df Residuals:                        83   BIC:                             2072.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      2.421e+05   1.87e+04     12.917      0.000    2.05e+05    2.79e+05
+thirty_year_interest_rate  2.093e+04   4246.698      4.929      0.000    1.25e+04    2.94e+04
+==============================================================================
+Omnibus:                       10.736   Durbin-Watson:                   0.182
+Prob(Omnibus):                  0.005   Jarque-Bera (JB):                7.212
+Skew:                           0.572   Prob(JB):                       0.0272
+Kurtosis:                       2.147   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

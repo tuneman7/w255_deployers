@@ -1,0 +1,31 @@
+************************************************************
+CATOOSA GA
+************************************************************
+const	 166283.80
+thirty_year_interest_rate_three	 22685.03
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.130
+Model:                              OLS   Adj. R-squared:                  0.119
+Method:                   Least Squares   F-statistic:                     12.35
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           0.000716
+Time:                          14:08:29   Log-Likelihood:                -1059.5
+No. Observations:                    85   AIC:                             2123.
+Df Residuals:                        83   BIC:                             2128.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.663e+05   2.76e+04      6.017      0.000    1.11e+05    2.21e+05
+thirty_year_interest_rate_three  2.269e+04   6454.475      3.515      0.001    9847.341    3.55e+04
+==============================================================================
+Omnibus:                       11.356   Durbin-Watson:                   0.062
+Prob(Omnibus):                  0.003   Jarque-Bera (JB):                4.745
+Skew:                           0.318   Prob(JB):                       0.0932
+Kurtosis:                       2.032   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

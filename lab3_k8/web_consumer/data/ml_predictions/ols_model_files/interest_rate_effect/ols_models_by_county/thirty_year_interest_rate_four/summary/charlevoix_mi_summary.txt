@@ -1,0 +1,31 @@
+************************************************************
+CHARLEVOIX MI
+************************************************************
+const	 253849.06
+thirty_year_interest_rate_four	 17625.06
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.218
+Model:                              OLS   Adj. R-squared:                  0.208
+Method:                   Least Squares   F-statistic:                     23.12
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           6.71e-06
+Time:                          14:07:13   Log-Likelihood:                -1009.1
+No. Observations:                    85   AIC:                             2022.
+Df Residuals:                        83   BIC:                             2027.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           2.538e+05   1.56e+04     16.318      0.000    2.23e+05    2.85e+05
+thirty_year_interest_rate_four  1.763e+04   3665.597      4.808      0.000    1.03e+04    2.49e+04
+==============================================================================
+Omnibus:                        1.608   Durbin-Watson:                   0.111
+Prob(Omnibus):                  0.448   Jarque-Bera (JB):                1.348
+Skew:                           0.308   Prob(JB):                        0.510
+Kurtosis:                       2.993   Cond. No.                         18.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

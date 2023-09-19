@@ -1,0 +1,31 @@
+************************************************************
+CROW WING MN
+************************************************************
+const	 239708.56
+thirty_year_interest_rate_five	 20146.81
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.117
+Model:                              OLS   Adj. R-squared:                  0.107
+Method:                   Least Squares   F-statistic:                     11.03
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00133
+Time:                          14:08:16   Log-Likelihood:                -1048.6
+No. Observations:                    85   AIC:                             2101.
+Df Residuals:                        83   BIC:                             2106.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           2.397e+05   2.55e+04      9.409      0.000    1.89e+05     2.9e+05
+thirty_year_interest_rate_five  2.015e+04   6065.720      3.321      0.001    8082.336    3.22e+04
+==============================================================================
+Omnibus:                        9.496   Durbin-Watson:                   0.060
+Prob(Omnibus):                  0.009   Jarque-Bera (JB):               10.413
+Skew:                           0.841   Prob(JB):                      0.00548
+Kurtosis:                       2.671   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

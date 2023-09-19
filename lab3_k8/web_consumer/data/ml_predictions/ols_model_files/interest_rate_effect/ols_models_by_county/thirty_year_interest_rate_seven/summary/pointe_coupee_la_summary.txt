@@ -1,0 +1,31 @@
+************************************************************
+POINTE COUPEE LA
+************************************************************
+const	 336712.17
+thirty_year_interest_rate_seven	 -10993.33
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.032
+Model:                              OLS   Adj. R-squared:                  0.019
+Method:                   Least Squares   F-statistic:                     2.431
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):              0.123
+Time:                          21:21:52   Log-Likelihood:                -903.50
+No. Observations:                    76   AIC:                             1811.
+Df Residuals:                        74   BIC:                             1816.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            3.367e+05   2.69e+04     12.494      0.000    2.83e+05     3.9e+05
+thirty_year_interest_rate_seven -1.099e+04   7050.448     -1.559      0.123    -2.5e+04    3054.997
+==============================================================================
+Omnibus:                        3.254   Durbin-Watson:                   0.305
+Prob(Omnibus):                  0.196   Jarque-Bera (JB):                2.818
+Skew:                           0.471   Prob(JB):                        0.244
+Kurtosis:                       3.055   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

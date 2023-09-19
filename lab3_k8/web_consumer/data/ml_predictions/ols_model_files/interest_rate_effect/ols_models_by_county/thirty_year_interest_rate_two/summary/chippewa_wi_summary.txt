@@ -1,0 +1,31 @@
+************************************************************
+CHIPPEWA WI
+************************************************************
+const	 120050.25
+thirty_year_interest_rate_two	 34657.67
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.363
+Model:                              OLS   Adj. R-squared:                  0.355
+Method:                   Least Squares   F-statistic:                     47.24
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           1.08e-09
+Time:                          14:07:21   Log-Likelihood:                -1040.9
+No. Observations:                    85   AIC:                             2086.
+Df Residuals:                        83   BIC:                             2091.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          1.201e+05   2.18e+04      5.508      0.000    7.67e+04    1.63e+05
+thirty_year_interest_rate_two  3.466e+04   5042.744      6.873      0.000    2.46e+04    4.47e+04
+==============================================================================
+Omnibus:                        7.648   Durbin-Watson:                   0.125
+Prob(Omnibus):                  0.022   Jarque-Bera (JB):                8.093
+Skew:                           0.740   Prob(JB):                       0.0175
+Kurtosis:                       2.689   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

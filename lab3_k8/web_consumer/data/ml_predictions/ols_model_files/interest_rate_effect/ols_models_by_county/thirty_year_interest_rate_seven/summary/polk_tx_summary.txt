@@ -1,0 +1,31 @@
+************************************************************
+POLK TX
+************************************************************
+const	 270877.62
+thirty_year_interest_rate_seven	 -17065.54
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.232
+Model:                              OLS   Adj. R-squared:                  0.222
+Method:                   Least Squares   F-statistic:                     22.41
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           1.03e-05
+Time:                          21:22:20   Log-Likelihood:                -852.52
+No. Observations:                    76   AIC:                             1709.
+Df Residuals:                        74   BIC:                             1714.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            2.709e+05   1.38e+04     19.659      0.000    2.43e+05    2.98e+05
+thirty_year_interest_rate_seven -1.707e+04   3604.805     -4.734      0.000   -2.42e+04   -9882.806
+==============================================================================
+Omnibus:                        1.964   Durbin-Watson:                   0.387
+Prob(Omnibus):                  0.375   Jarque-Bera (JB):                1.971
+Skew:                          -0.350   Prob(JB):                        0.373
+Kurtosis:                       2.637   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+CHILDRESS TX
+************************************************************
+const	 87255.72
+thirty_year_interest_rate	 4608.02
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.015
+Model:                              OLS   Adj. R-squared:                  0.003
+Method:                   Least Squares   F-statistic:                     1.201
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.277
+Time:                          14:07:05   Log-Likelihood:                -969.90
+No. Observations:                    80   AIC:                             1944.
+Df Residuals:                        78   BIC:                             1949.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      8.726e+04   1.87e+04      4.677      0.000    5.01e+04    1.24e+05
+thirty_year_interest_rate  4608.0236   4205.222      1.096      0.277   -3763.931     1.3e+04
+==============================================================================
+Omnibus:                        8.712   Durbin-Watson:                   1.067
+Prob(Omnibus):                  0.013   Jarque-Bera (JB):                8.292
+Skew:                           0.732   Prob(JB):                       0.0158
+Kurtosis:                       3.586   Cond. No.                         17.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

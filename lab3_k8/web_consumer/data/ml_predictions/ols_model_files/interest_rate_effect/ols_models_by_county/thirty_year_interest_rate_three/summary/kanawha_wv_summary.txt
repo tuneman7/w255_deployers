@@ -1,0 +1,31 @@
+************************************************************
+KANAWHA WV
+************************************************************
+const	 146363.71
+thirty_year_interest_rate_three	 487.78
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.004
+Model:                              OLS   Adj. R-squared:                 -0.008
+Method:                   Least Squares   F-statistic:                    0.3362
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.564
+Time:                          14:08:18   Log-Likelihood:                -886.30
+No. Observations:                    85   AIC:                             1777.
+Df Residuals:                        83   BIC:                             1781.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.464e+05   3602.328     40.630      0.000    1.39e+05    1.54e+05
+thirty_year_interest_rate_three   487.7806    841.303      0.580      0.564   -1185.537    2161.099
+==============================================================================
+Omnibus:                       13.924   Durbin-Watson:                   0.285
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):               15.211
+Skew:                           0.992   Prob(JB):                     0.000498
+Kurtosis:                       3.597   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

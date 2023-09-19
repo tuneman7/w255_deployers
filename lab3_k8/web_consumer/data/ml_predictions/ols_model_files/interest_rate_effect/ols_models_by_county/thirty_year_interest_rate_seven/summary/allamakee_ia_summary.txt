@@ -1,0 +1,31 @@
+************************************************************
+ALLAMAKEE IA
+************************************************************
+const	 359337.02
+thirty_year_interest_rate_seven	 -49028.51
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.379
+Model:                              OLS   Adj. R-squared:                  0.371
+Method:                   Least Squares   F-statistic:                     45.25
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           3.16e-09
+Time:                          21:21:57   Log-Likelihood:                -906.02
+No. Observations:                    76   AIC:                             1816.
+Df Residuals:                        74   BIC:                             1821.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            3.593e+05   2.79e+04     12.898      0.000    3.04e+05    4.15e+05
+thirty_year_interest_rate_seven -4.903e+04   7288.400     -6.727      0.000   -6.36e+04   -3.45e+04
+==============================================================================
+Omnibus:                       28.534   Durbin-Watson:                   0.371
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               48.765
+Skew:                           1.445   Prob(JB):                     2.58e-11
+Kurtosis:                       5.654   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

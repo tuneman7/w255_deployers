@@ -1,0 +1,31 @@
+************************************************************
+DENT MO
+************************************************************
+const	 -8805.82
+thirty_year_interest_rate	 31840.71
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.604
+Model:                              OLS   Adj. R-squared:                  0.599
+Method:                   Least Squares   F-statistic:                     126.7
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           2.20e-18
+Time:                          14:08:25   Log-Likelihood:                -997.01
+No. Observations:                    85   AIC:                             1998.
+Df Residuals:                        83   BIC:                             2003.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                     -8805.8224   1.25e+04     -0.705      0.483   -3.36e+04     1.6e+04
+thirty_year_interest_rate  3.184e+04   2828.706     11.256      0.000    2.62e+04    3.75e+04
+==============================================================================
+Omnibus:                        4.105   Durbin-Watson:                   0.338
+Prob(Omnibus):                  0.128   Jarque-Bera (JB):                3.603
+Skew:                           0.500   Prob(JB):                        0.165
+Kurtosis:                       3.136   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+VALLEY NE
+************************************************************
+const	 325420.38
+thirty_year_interest_rate_seven	 -45855.56
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.161
+Model:                              OLS   Adj. R-squared:                  0.148
+Method:                   Least Squares   F-statistic:                     12.08
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           0.000928
+Time:                          21:21:32   Log-Likelihood:                -812.46
+No. Observations:                    65   AIC:                             1629.
+Df Residuals:                        63   BIC:                             1633.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            3.254e+05   5.04e+04      6.460      0.000    2.25e+05    4.26e+05
+thirty_year_interest_rate_seven -4.586e+04   1.32e+04     -3.476      0.001   -7.22e+04   -1.95e+04
+==============================================================================
+Omnibus:                        2.927   Durbin-Watson:                   0.922
+Prob(Omnibus):                  0.231   Jarque-Bera (JB):                1.658
+Skew:                          -0.054   Prob(JB):                        0.436
+Kurtosis:                       2.225   Cond. No.                         25.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+BROADWATER MT
+************************************************************
+const	 909931.05
+thirty_year_interest_rate_six	 -133643.93
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.286
+Model:                              OLS   Adj. R-squared:                  0.276
+Method:                   Least Squares   F-statistic:                     29.66
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           6.43e-07
+Time:                          21:21:12   Log-Likelihood:                -1000.7
+No. Observations:                    76   AIC:                             2005.
+Df Residuals:                        74   BIC:                             2010.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          9.099e+05   9.42e+04      9.657      0.000    7.22e+05     1.1e+06
+thirty_year_interest_rate_six -1.336e+05   2.45e+04     -5.446      0.000   -1.83e+05   -8.47e+04
+==============================================================================
+Omnibus:                       14.173   Durbin-Watson:                   0.107
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):               17.605
+Skew:                           0.846   Prob(JB):                     0.000150
+Kurtosis:                       4.642   Cond. No.                         26.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

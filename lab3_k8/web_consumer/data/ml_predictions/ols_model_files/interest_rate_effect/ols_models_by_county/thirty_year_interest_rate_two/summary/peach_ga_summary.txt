@@ -1,0 +1,31 @@
+************************************************************
+PEACH GA
+************************************************************
+const	 113263.40
+thirty_year_interest_rate_two	 18735.25
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.268
+Model:                              OLS   Adj. R-squared:                  0.260
+Method:                   Least Squares   F-statistic:                     30.45
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           3.81e-07
+Time:                          14:07:24   Log-Likelihood:                -1007.3
+No. Observations:                    85   AIC:                             2019.
+Df Residuals:                        83   BIC:                             2023.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          1.133e+05   1.47e+04      7.718      0.000    8.41e+04    1.42e+05
+thirty_year_interest_rate_two  1.874e+04   3395.210      5.518      0.000     1.2e+04    2.55e+04
+==============================================================================
+Omnibus:                       11.297   Durbin-Watson:                   0.156
+Prob(Omnibus):                  0.004   Jarque-Bera (JB):               12.504
+Skew:                           0.939   Prob(JB):                      0.00193
+Kurtosis:                       3.038   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

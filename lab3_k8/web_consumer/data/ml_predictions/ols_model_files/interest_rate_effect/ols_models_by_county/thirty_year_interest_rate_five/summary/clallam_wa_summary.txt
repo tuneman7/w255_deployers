@@ -1,0 +1,31 @@
+************************************************************
+CLALLAM WA
+************************************************************
+const	 332670.76
+thirty_year_interest_rate_five	 27283.07
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.062
+Model:                              OLS   Adj. R-squared:                  0.051
+Method:                   Least Squares   F-statistic:                     5.501
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0214
+Time:                          14:07:05   Log-Likelihood:                -1104.0
+No. Observations:                    85   AIC:                             2212.
+Df Residuals:                        83   BIC:                             2217.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           3.327e+05   4.89e+04      6.809      0.000    2.35e+05     4.3e+05
+thirty_year_interest_rate_five  2.728e+04   1.16e+04      2.345      0.021    4147.250    5.04e+04
+==============================================================================
+Omnibus:                       15.790   Durbin-Watson:                   0.029
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                5.971
+Skew:                           0.386   Prob(JB):                       0.0505
+Kurtosis:                       1.956   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

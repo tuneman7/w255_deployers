@@ -1,0 +1,31 @@
+************************************************************
+RUSK TX
+************************************************************
+const	 70402.96
+thirty_year_interest_rate	 29331.34
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.502
+Model:                              OLS   Adj. R-squared:                  0.496
+Method:                   Least Squares   F-statistic:                     83.67
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           3.32e-14
+Time:                          14:07:06   Log-Likelihood:                -1007.7
+No. Observations:                    85   AIC:                             2019.
+Df Residuals:                        83   BIC:                             2024.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                       7.04e+04   1.42e+04      4.974      0.000    4.23e+04    9.86e+04
+thirty_year_interest_rate  2.933e+04   3206.694      9.147      0.000     2.3e+04    3.57e+04
+==============================================================================
+Omnibus:                        5.621   Durbin-Watson:                   0.163
+Prob(Omnibus):                  0.060   Jarque-Bera (JB):                4.989
+Skew:                           0.512   Prob(JB):                       0.0825
+Kurtosis:                       2.400   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

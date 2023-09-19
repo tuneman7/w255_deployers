@@ -1,0 +1,31 @@
+************************************************************
+SITKA AK
+************************************************************
+const	 88057.42
+thirty_year_interest_rate	 110480.10
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.219
+Model:                              OLS   Adj. R-squared:                  0.209
+Method:                   Least Squares   F-statistic:                     23.23
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           6.41e-06
+Time:                          14:07:24   Log-Likelihood:                -1174.9
+No. Observations:                    85   AIC:                             2354.
+Df Residuals:                        83   BIC:                             2359.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      8.806e+04   1.01e+05      0.870      0.387   -1.13e+05    2.89e+05
+thirty_year_interest_rate  1.105e+05   2.29e+04      4.820      0.000    6.49e+04    1.56e+05
+==============================================================================
+Omnibus:                       91.379   Durbin-Watson:                   1.488
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              913.634
+Skew:                           3.492   Prob(JB):                    4.05e-199
+Kurtosis:                      17.464   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

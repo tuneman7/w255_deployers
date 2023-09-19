@@ -1,0 +1,31 @@
+************************************************************
+LAPEER MI
+************************************************************
+const	 209699.83
+thirty_year_interest_rate	 16304.28
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.128
+Model:                              OLS   Adj. R-squared:                  0.117
+Method:                   Least Squares   F-statistic:                     12.18
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           0.000777
+Time:                          14:08:16   Log-Likelihood:                -1039.7
+No. Observations:                    85   AIC:                             2083.
+Df Residuals:                        83   BIC:                             2088.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      2.097e+05   2.06e+04     10.168      0.000    1.69e+05    2.51e+05
+thirty_year_interest_rate   1.63e+04   4672.396      3.489      0.001    7011.069    2.56e+04
+==============================================================================
+Omnibus:                        8.420   Durbin-Watson:                   0.060
+Prob(Omnibus):                  0.015   Jarque-Bera (JB):                5.625
+Skew:                           0.483   Prob(JB):                       0.0601
+Kurtosis:                       2.190   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

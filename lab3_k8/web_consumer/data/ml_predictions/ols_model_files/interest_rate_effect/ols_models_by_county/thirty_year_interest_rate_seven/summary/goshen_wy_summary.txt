@@ -1,0 +1,31 @@
+************************************************************
+GOSHEN WY
+************************************************************
+const	 231729.21
+thirty_year_interest_rate_seven	 -13946.46
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.117
+Model:                              OLS   Adj. R-squared:                  0.105
+Method:                   Least Squares   F-statistic:                     9.782
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):            0.00252
+Time:                          21:22:09   Log-Likelihood:                -868.68
+No. Observations:                    76   AIC:                             1741.
+Df Residuals:                        74   BIC:                             1746.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            2.317e+05    1.7e+04     13.596      0.000    1.98e+05    2.66e+05
+thirty_year_interest_rate_seven -1.395e+04   4459.088     -3.128      0.003   -2.28e+04   -5061.529
+==============================================================================
+Omnibus:                       17.493   Durbin-Watson:                   0.468
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               25.192
+Skew:                           0.942   Prob(JB):                     3.38e-06
+Kurtosis:                       5.099   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

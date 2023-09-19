@@ -1,0 +1,31 @@
+************************************************************
+FULTON IL
+************************************************************
+const	 63997.43
+thirty_year_interest_rate_two	 3690.67
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.321
+Model:                              OLS   Adj. R-squared:                  0.313
+Method:                   Least Squares   F-statistic:                     39.22
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           1.59e-08
+Time:                          14:08:21   Log-Likelihood:                -858.41
+No. Observations:                    85   AIC:                             1721.
+Df Residuals:                        83   BIC:                             1726.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                            6.4e+04   2547.253     25.124      0.000    5.89e+04    6.91e+04
+thirty_year_interest_rate_two  3690.6678    589.295      6.263      0.000    2518.585    4862.751
+==============================================================================
+Omnibus:                        7.705   Durbin-Watson:                   0.475
+Prob(Omnibus):                  0.021   Jarque-Bera (JB):                7.155
+Skew:                           0.641   Prob(JB):                       0.0279
+Kurtosis:                       3.612   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

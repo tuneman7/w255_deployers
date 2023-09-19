@@ -1,0 +1,31 @@
+************************************************************
+SHELBY OH
+************************************************************
+const	 45411.02
+thirty_year_interest_rate_five	 26050.26
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.324
+Model:                              OLS   Adj. R-squared:                  0.316
+Method:                   Least Squares   F-statistic:                     39.83
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           1.29e-08
+Time:                          14:07:54   Log-Likelihood:                -1015.9
+No. Observations:                    85   AIC:                             2036.
+Df Residuals:                        83   BIC:                             2041.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           4.541e+04   1.73e+04      2.619      0.010    1.09e+04    7.99e+04
+thirty_year_interest_rate_five  2.605e+04   4127.449      6.311      0.000    1.78e+04    3.43e+04
+==============================================================================
+Omnibus:                       33.995   Durbin-Watson:                   0.121
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                9.047
+Skew:                           0.510   Prob(JB):                       0.0109
+Kurtosis:                       1.770   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

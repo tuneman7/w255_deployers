@@ -1,0 +1,31 @@
+************************************************************
+TUOLUMNE CA
+************************************************************
+const	 306318.83
+thirty_year_interest_rate	 18042.92
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.109
+Model:                              OLS   Adj. R-squared:                  0.098
+Method:                   Least Squares   F-statistic:                     10.15
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00204
+Time:                          14:07:08   Log-Likelihood:                -1056.0
+No. Observations:                    85   AIC:                             2116.
+Df Residuals:                        83   BIC:                             2121.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      3.063e+05    2.5e+04     12.252      0.000    2.57e+05    3.56e+05
+thirty_year_interest_rate  1.804e+04   5664.361      3.185      0.002    6776.732    2.93e+04
+==============================================================================
+Omnibus:                       24.079   Durbin-Watson:                   0.034
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                9.268
+Skew:                           0.580   Prob(JB):                      0.00972
+Kurtosis:                       1.873   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

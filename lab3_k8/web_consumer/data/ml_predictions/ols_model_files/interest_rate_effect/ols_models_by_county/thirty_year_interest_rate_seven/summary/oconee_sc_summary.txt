@@ -1,0 +1,31 @@
+************************************************************
+OCONEE SC
+************************************************************
+const	 372139.95
+thirty_year_interest_rate_seven	 -21693.93
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.143
+Model:                              OLS   Adj. R-squared:                  0.132
+Method:                   Least Squares   F-statistic:                     12.37
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           0.000749
+Time:                          21:22:23   Log-Likelihood:                -893.33
+No. Observations:                    76   AIC:                             1791.
+Df Residuals:                        74   BIC:                             1795.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            3.721e+05   2.36e+04     15.785      0.000    3.25e+05    4.19e+05
+thirty_year_interest_rate_seven -2.169e+04   6167.884     -3.517      0.001    -3.4e+04   -9404.157
+==============================================================================
+Omnibus:                        1.385   Durbin-Watson:                   0.112
+Prob(Omnibus):                  0.500   Jarque-Bera (JB):                1.109
+Skew:                          -0.004   Prob(JB):                        0.574
+Kurtosis:                       2.408   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

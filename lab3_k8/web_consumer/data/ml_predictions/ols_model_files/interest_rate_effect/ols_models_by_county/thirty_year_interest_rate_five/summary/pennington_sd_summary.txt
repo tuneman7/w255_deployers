@@ -1,0 +1,31 @@
+************************************************************
+PENNINGTON SD
+************************************************************
+const	 233673.32
+thirty_year_interest_rate_five	 15335.89
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.081
+Model:                              OLS   Adj. R-squared:                  0.070
+Method:                   Least Squares   F-statistic:                     7.286
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00842
+Time:                          14:07:46   Log-Likelihood:                -1043.1
+No. Observations:                    85   AIC:                             2090.
+Df Residuals:                        83   BIC:                             2095.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           2.337e+05   2.39e+04      9.792      0.000    1.86e+05    2.81e+05
+thirty_year_interest_rate_five  1.534e+04   5681.577      2.699      0.008    4035.466    2.66e+04
+==============================================================================
+Omnibus:                       35.797   Durbin-Watson:                   0.066
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                9.723
+Skew:                           0.550   Prob(JB):                      0.00774
+Kurtosis:                       1.761   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

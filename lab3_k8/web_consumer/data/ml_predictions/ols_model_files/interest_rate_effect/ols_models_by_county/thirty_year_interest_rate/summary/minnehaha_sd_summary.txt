@@ -1,0 +1,31 @@
+************************************************************
+MINNEHAHA SD
+************************************************************
+const	 135528.03
+thirty_year_interest_rate	 28099.15
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.435
+Model:                              OLS   Adj. R-squared:                  0.429
+Method:                   Least Squares   F-statistic:                     64.02
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           6.46e-12
+Time:                          14:07:34   Log-Likelihood:                -1015.4
+No. Observations:                    85   AIC:                             2035.
+Df Residuals:                        83   BIC:                             2040.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      1.355e+05   1.55e+04      8.743      0.000    1.05e+05    1.66e+05
+thirty_year_interest_rate   2.81e+04   3511.764      8.001      0.000    2.11e+04    3.51e+04
+==============================================================================
+Omnibus:                      100.113   Durbin-Watson:                   0.031
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                7.497
+Skew:                          -0.009   Prob(JB):                       0.0236
+Kurtosis:                       1.545   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

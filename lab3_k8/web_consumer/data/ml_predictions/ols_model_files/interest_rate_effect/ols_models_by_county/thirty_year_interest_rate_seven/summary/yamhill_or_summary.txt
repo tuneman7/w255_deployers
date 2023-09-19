@@ -1,0 +1,31 @@
+************************************************************
+YAMHILL OR
+************************************************************
+const	 563516.25
+thirty_year_interest_rate_seven	 -24943.51
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.144
+Model:                              OLS   Adj. R-squared:                  0.132
+Method:                   Least Squares   F-statistic:                     12.42
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           0.000732
+Time:                          21:21:35   Log-Likelihood:                -903.79
+No. Observations:                    76   AIC:                             1812.
+Df Residuals:                        74   BIC:                             1816.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            5.635e+05   2.71e+04     20.830      0.000     5.1e+05    6.17e+05
+thirty_year_interest_rate_seven -2.494e+04   7077.612     -3.524      0.001    -3.9e+04   -1.08e+04
+==============================================================================
+Omnibus:                       10.124   Durbin-Watson:                   0.136
+Prob(Omnibus):                  0.006   Jarque-Bera (JB):               17.026
+Skew:                           0.436   Prob(JB):                     0.000201
+Kurtosis:                       5.149   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

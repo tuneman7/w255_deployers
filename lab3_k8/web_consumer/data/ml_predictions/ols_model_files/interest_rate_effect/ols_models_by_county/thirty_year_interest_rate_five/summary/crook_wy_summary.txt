@@ -1,0 +1,31 @@
+************************************************************
+CROOK WY
+************************************************************
+const	 97044.85
+thirty_year_interest_rate_five	 64801.22
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.153
+Model:                              OLS   Adj. R-squared:                  0.143
+Method:                   Least Squares   F-statistic:                     15.02
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           0.000212
+Time:                          14:08:12   Log-Likelihood:                -1134.8
+No. Observations:                    85   AIC:                             2274.
+Df Residuals:                        83   BIC:                             2279.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           9.704e+04   7.02e+04      1.382      0.171   -4.27e+04    2.37e+05
+thirty_year_interest_rate_five   6.48e+04   1.67e+04      3.875      0.000    3.15e+04    9.81e+04
+==============================================================================
+Omnibus:                       12.588   Durbin-Watson:                   0.080
+Prob(Omnibus):                  0.002   Jarque-Bera (JB):               14.766
+Skew:                           1.014   Prob(JB):                     0.000622
+Kurtosis:                       2.768   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

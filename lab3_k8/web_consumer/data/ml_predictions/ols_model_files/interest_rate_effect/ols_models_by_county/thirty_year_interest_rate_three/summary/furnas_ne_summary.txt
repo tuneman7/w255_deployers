@@ -1,0 +1,31 @@
+************************************************************
+FURNAS NE
+************************************************************
+const	 78591.90
+thirty_year_interest_rate_three	 6584.14
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.054
+Model:                              OLS   Adj. R-squared:                  0.043
+Method:                   Least Squares   F-statistic:                     4.761
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0319
+Time:                          14:07:29   Log-Likelihood:                -994.87
+No. Observations:                    85   AIC:                             1994.
+Df Residuals:                        83   BIC:                             1999.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            7.859e+04   1.29e+04      6.083      0.000    5.29e+04    1.04e+05
+thirty_year_interest_rate_three  6584.1405   3017.551      2.182      0.032     582.353    1.26e+04
+==============================================================================
+Omnibus:                       18.468   Durbin-Watson:                   0.295
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                9.018
+Skew:                           0.606   Prob(JB):                       0.0110
+Kurtosis:                       1.961   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

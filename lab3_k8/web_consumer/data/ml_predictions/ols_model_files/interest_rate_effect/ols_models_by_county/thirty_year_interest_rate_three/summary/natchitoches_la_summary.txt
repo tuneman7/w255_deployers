@@ -1,0 +1,31 @@
+************************************************************
+NATCHITOCHES LA
+************************************************************
+const	 170138.22
+thirty_year_interest_rate_three	 11598.60
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.156
+Model:                              OLS   Adj. R-squared:                  0.146
+Method:                   Least Squares   F-statistic:                     15.40
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           0.000179
+Time:                          14:07:07   Log-Likelihood:                -993.11
+No. Observations:                    85   AIC:                             1990.
+Df Residuals:                        83   BIC:                             1995.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.701e+05   1.27e+04     13.443      0.000    1.45e+05    1.95e+05
+thirty_year_interest_rate_three   1.16e+04   2955.690      3.924      0.000    5719.851    1.75e+04
+==============================================================================
+Omnibus:                        2.454   Durbin-Watson:                   0.246
+Prob(Omnibus):                  0.293   Jarque-Bera (JB):                2.446
+Skew:                           0.374   Prob(JB):                        0.294
+Kurtosis:                       2.639   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

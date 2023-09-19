@@ -1,0 +1,31 @@
+************************************************************
+NOXUBEE MS
+************************************************************
+const	 51137.07
+thirty_year_interest_rate_two	 13889.74
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.120
+Model:                              OLS   Adj. R-squared:                  0.109
+Method:                   Least Squares   F-statistic:                     11.31
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00117
+Time:                          14:07:08   Log-Likelihood:                -1023.9
+No. Observations:                    85   AIC:                             2052.
+Df Residuals:                        83   BIC:                             2057.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          5.114e+04   1.79e+04      2.864      0.005    1.56e+04    8.66e+04
+thirty_year_interest_rate_two  1.389e+04   4130.654      3.363      0.001    5674.035    2.21e+04
+==============================================================================
+Omnibus:                       66.591   Durbin-Watson:                   0.641
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              372.851
+Skew:                           2.479   Prob(JB):                     1.09e-81
+Kurtosis:                      11.983   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+WHEELER TX
+************************************************************
+const	 84388.90
+thirty_year_interest_rate_three	 6262.48
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.066
+Model:                              OLS   Adj. R-squared:                  0.055
+Method:                   Least Squares   F-statistic:                     5.858
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0177
+Time:                          14:07:28   Log-Likelihood:                -981.80
+No. Observations:                    85   AIC:                             1968.
+Df Residuals:                        83   BIC:                             1972.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            8.439e+04   1.11e+04      7.617      0.000    6.24e+04    1.06e+05
+thirty_year_interest_rate_three  6262.4768   2587.538      2.420      0.018    1115.967    1.14e+04
+==============================================================================
+Omnibus:                       10.315   Durbin-Watson:                   0.296
+Prob(Omnibus):                  0.006   Jarque-Bera (JB):                4.956
+Skew:                           0.368   Prob(JB):                       0.0839
+Kurtosis:                       2.073   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

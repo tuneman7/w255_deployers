@@ -1,0 +1,31 @@
+************************************************************
+REDWOOD MN
+************************************************************
+const	 59434.56
+thirty_year_interest_rate_three	 14111.22
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.194
+Model:                              OLS   Adj. R-squared:                  0.184
+Method:                   Least Squares   F-statistic:                     19.99
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           2.45e-05
+Time:                          14:08:08   Log-Likelihood:                -998.68
+No. Observations:                    85   AIC:                             2001.
+Df Residuals:                        83   BIC:                             2006.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            5.943e+04   1.35e+04      4.398      0.000    3.26e+04    8.63e+04
+thirty_year_interest_rate_three  1.411e+04   3156.028      4.471      0.000    7834.011    2.04e+04
+==============================================================================
+Omnibus:                        7.999   Durbin-Watson:                   0.243
+Prob(Omnibus):                  0.018   Jarque-Bera (JB):                6.266
+Skew:                           0.554   Prob(JB):                       0.0436
+Kurtosis:                       2.263   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+RACINE WI
+************************************************************
+const	 127432.48
+thirty_year_interest_rate_five	 26078.58
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.363
+Model:                              OLS   Adj. R-squared:                  0.356
+Method:                   Least Squares   F-statistic:                     47.34
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           1.04e-09
+Time:                          14:07:02   Log-Likelihood:                -1008.7
+No. Observations:                    85   AIC:                             2021.
+Df Residuals:                        83   BIC:                             2026.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           1.274e+05   1.59e+04      8.004      0.000    9.58e+04    1.59e+05
+thirty_year_interest_rate_five  2.608e+04   3790.419      6.880      0.000    1.85e+04    3.36e+04
+==============================================================================
+Omnibus:                       18.760   Durbin-Watson:                   0.127
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                4.649
+Skew:                           0.123   Prob(JB):                       0.0978
+Kurtosis:                       1.881   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

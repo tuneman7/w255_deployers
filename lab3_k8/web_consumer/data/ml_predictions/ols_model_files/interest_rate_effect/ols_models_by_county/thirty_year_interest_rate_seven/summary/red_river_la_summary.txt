@@ -1,0 +1,31 @@
+************************************************************
+RED RIVER LA
+************************************************************
+const	 278732.03
+thirty_year_interest_rate_seven	 -33231.18
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.125
+Model:                              OLS   Adj. R-squared:                  0.113
+Method:                   Least Squares   F-statistic:                     10.55
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):            0.00175
+Time:                          21:22:16   Log-Likelihood:                -931.79
+No. Observations:                    76   AIC:                             1868.
+Df Residuals:                        74   BIC:                             1872.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            2.787e+05   3.91e+04      7.128      0.000    2.01e+05    3.57e+05
+thirty_year_interest_rate_seven -3.323e+04   1.02e+04     -3.249      0.002   -5.36e+04   -1.28e+04
+==============================================================================
+Omnibus:                       10.995   Durbin-Watson:                   0.374
+Prob(Omnibus):                  0.004   Jarque-Bera (JB):               11.497
+Skew:                           0.938   Prob(JB):                      0.00319
+Kurtosis:                       3.335   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

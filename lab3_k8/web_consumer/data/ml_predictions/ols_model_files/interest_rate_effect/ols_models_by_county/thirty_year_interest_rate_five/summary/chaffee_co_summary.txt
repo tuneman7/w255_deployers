@@ -1,0 +1,31 @@
+************************************************************
+CHAFFEE CO
+************************************************************
+const	 556081.19
+thirty_year_interest_rate_five	 4796.51
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.002
+Model:                              OLS   Adj. R-squared:                 -0.010
+Method:                   Least Squares   F-statistic:                    0.1460
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.703
+Time:                          14:07:34   Log-Likelihood:                -1110.5
+No. Observations:                    85   AIC:                             2225.
+Df Residuals:                        83   BIC:                             2230.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           5.561e+05   5.27e+04     10.545      0.000    4.51e+05    6.61e+05
+thirty_year_interest_rate_five  4796.5053   1.26e+04      0.382      0.703   -2.02e+04    2.98e+04
+==============================================================================
+Omnibus:                       45.009   Durbin-Watson:                   0.071
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                6.742
+Skew:                           0.215   Prob(JB):                       0.0344
+Kurtosis:                       1.689   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

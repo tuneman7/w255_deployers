@@ -1,0 +1,31 @@
+************************************************************
+BASTROP TX
+************************************************************
+const	 258608.87
+thirty_year_interest_rate_three	 21661.28
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.071
+Model:                              OLS   Adj. R-squared:                  0.060
+Method:                   Least Squares   F-statistic:                     6.345
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0137
+Time:                          14:07:31   Log-Likelihood:                -1083.9
+No. Observations:                    85   AIC:                             2172.
+Df Residuals:                        83   BIC:                             2177.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            2.586e+05   3.68e+04      7.023      0.000    1.85e+05    3.32e+05
+thirty_year_interest_rate_three  2.166e+04   8599.549      2.519      0.014    4557.125    3.88e+04
+==============================================================================
+Omnibus:                       12.003   Durbin-Watson:                   0.029
+Prob(Omnibus):                  0.002   Jarque-Bera (JB):               12.243
+Skew:                           0.873   Prob(JB):                      0.00220
+Kurtosis:                       2.362   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

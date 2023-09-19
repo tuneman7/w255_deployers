@@ -1,0 +1,31 @@
+************************************************************
+ALLEGHANY NC
+************************************************************
+const	 154769.19
+thirty_year_interest_rate_three	 29550.43
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.093
+Model:                              OLS   Adj. R-squared:                  0.083
+Method:                   Least Squares   F-statistic:                     8.557
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00444
+Time:                          14:08:25   Log-Likelihood:                -1097.6
+No. Observations:                    85   AIC:                             2199.
+Df Residuals:                        83   BIC:                             2204.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.548e+05   4.33e+04      3.578      0.001    6.87e+04    2.41e+05
+thirty_year_interest_rate_three  2.955e+04   1.01e+04      2.925      0.004    9457.988    4.96e+04
+==============================================================================
+Omnibus:                        1.313   Durbin-Watson:                   0.104
+Prob(Omnibus):                  0.519   Jarque-Bera (JB):                1.365
+Skew:                          -0.277   Prob(JB):                        0.505
+Kurtosis:                       2.719   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

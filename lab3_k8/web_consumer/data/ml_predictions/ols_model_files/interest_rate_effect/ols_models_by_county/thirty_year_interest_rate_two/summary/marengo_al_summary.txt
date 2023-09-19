@@ -1,0 +1,31 @@
+************************************************************
+MARENGO AL
+************************************************************
+const	 148406.25
+thirty_year_interest_rate_two	 1432.65
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.007
+Model:                              OLS   Adj. R-squared:                 -0.005
+Method:                   Least Squares   F-statistic:                    0.6027
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.440
+Time:                          14:07:35   Log-Likelihood:                -955.44
+No. Observations:                    85   AIC:                             1915.
+Df Residuals:                        83   BIC:                             1920.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          1.484e+05   7976.508     18.605      0.000    1.33e+05    1.64e+05
+thirty_year_interest_rate_two  1432.6513   1845.326      0.776      0.440   -2237.628    5102.931
+==============================================================================
+Omnibus:                       18.094   Durbin-Watson:                   0.567
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               34.209
+Skew:                           0.776   Prob(JB):                     3.73e-08
+Kurtosis:                       5.692   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

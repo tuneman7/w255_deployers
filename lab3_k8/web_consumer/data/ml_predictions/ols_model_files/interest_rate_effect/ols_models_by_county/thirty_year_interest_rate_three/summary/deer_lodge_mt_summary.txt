@@ -1,0 +1,31 @@
+************************************************************
+DEER LODGE MT
+************************************************************
+const	 -11985.90
+thirty_year_interest_rate_three	 54812.64
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.442
+Model:                              OLS   Adj. R-squared:                  0.435
+Method:                   Least Squares   F-statistic:                     65.66
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           4.06e-12
+Time:                          14:08:06   Log-Likelihood:                -1063.5
+No. Observations:                    85   AIC:                             2131.
+Df Residuals:                        83   BIC:                             2136.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                           -1.199e+04    2.9e+04     -0.414      0.680   -6.96e+04    4.56e+04
+thirty_year_interest_rate_three  5.481e+04   6764.467      8.103      0.000    4.14e+04    6.83e+04
+==============================================================================
+Omnibus:                       17.320   Durbin-Watson:                   0.108
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               20.438
+Skew:                           1.156   Prob(JB):                     3.65e-05
+Kurtosis:                       3.653   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

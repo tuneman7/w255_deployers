@@ -1,0 +1,31 @@
+************************************************************
+AURORA SD
+************************************************************
+const	 52540.76
+thirty_year_interest_rate_two	 19574.50
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.110
+Model:                              OLS   Adj. R-squared:                  0.099
+Method:                   Least Squares   F-statistic:                     10.15
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00204
+Time:                          14:08:05   Log-Likelihood:                -1045.1
+No. Observations:                    84   AIC:                             2094.
+Df Residuals:                        82   BIC:                             2099.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          5.254e+04   2.65e+04      1.980      0.051    -243.140    1.05e+05
+thirty_year_interest_rate_two  1.957e+04   6144.369      3.186      0.002    7351.391    3.18e+04
+==============================================================================
+Omnibus:                        4.814   Durbin-Watson:                   0.793
+Prob(Omnibus):                  0.090   Jarque-Bera (JB):                4.060
+Skew:                           0.452   Prob(JB):                        0.131
+Kurtosis:                       3.586   Cond. No.                         17.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

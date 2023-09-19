@@ -1,0 +1,31 @@
+************************************************************
+PANOLA TX
+************************************************************
+const	 151557.22
+thirty_year_interest_rate_two	 17980.89
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.160
+Model:                              OLS   Adj. R-squared:                  0.149
+Method:                   Least Squares   F-statistic:                     15.76
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           0.000152
+Time:                          14:07:02   Log-Likelihood:                -1031.8
+No. Observations:                    85   AIC:                             2068.
+Df Residuals:                        83   BIC:                             2072.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          1.516e+05   1.96e+04      7.742      0.000    1.13e+05     1.9e+05
+thirty_year_interest_rate_two  1.798e+04   4529.040      3.970      0.000    8972.813     2.7e+04
+==============================================================================
+Omnibus:                       11.765   Durbin-Watson:                   0.170
+Prob(Omnibus):                  0.003   Jarque-Bera (JB):                8.663
+Skew:                           0.660   Prob(JB):                       0.0131
+Kurtosis:                       2.161   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+NEWPORT NEWS CITY VA
+************************************************************
+const	 145466.45
+thirty_year_interest_rate_five	 17101.60
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.210
+Model:                              OLS   Adj. R-squared:                  0.201
+Method:                   Least Squares   F-statistic:                     22.11
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           1.01e-05
+Time:                          14:07:13   Log-Likelihood:                -1005.2
+No. Observations:                    85   AIC:                             2014.
+Df Residuals:                        83   BIC:                             2019.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           1.455e+05   1.53e+04      9.522      0.000    1.15e+05    1.76e+05
+thirty_year_interest_rate_five   1.71e+04   3637.200      4.702      0.000    9867.360    2.43e+04
+==============================================================================
+Omnibus:                      107.546   Durbin-Watson:                   0.038
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                8.214
+Skew:                           0.209   Prob(JB):                       0.0165
+Kurtosis:                       1.536   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

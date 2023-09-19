@@ -1,0 +1,31 @@
+************************************************************
+WASHINGTON MS
+************************************************************
+const	 105184.62
+thirty_year_interest_rate_four	 3983.75
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.094
+Model:                              OLS   Adj. R-squared:                  0.084
+Method:                   Least Squares   F-statistic:                     8.654
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00423
+Time:                          14:08:19   Log-Likelihood:                -924.45
+No. Observations:                    85   AIC:                             1853.
+Df Residuals:                        83   BIC:                             1858.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           1.052e+05   5747.166     18.302      0.000    9.38e+04    1.17e+05
+thirty_year_interest_rate_four  3983.7458   1354.189      2.942      0.004    1290.318    6677.174
+==============================================================================
+Omnibus:                        2.405   Durbin-Watson:                   0.427
+Prob(Omnibus):                  0.300   Jarque-Bera (JB):                2.404
+Skew:                          -0.380   Prob(JB):                        0.301
+Kurtosis:                       2.684   Cond. No.                         18.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

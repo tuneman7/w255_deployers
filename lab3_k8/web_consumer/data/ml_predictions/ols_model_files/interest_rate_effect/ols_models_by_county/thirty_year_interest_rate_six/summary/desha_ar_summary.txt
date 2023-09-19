@@ -1,0 +1,31 @@
+************************************************************
+DESHA AR
+************************************************************
+const	 139352.57
+thirty_year_interest_rate_six	 -16293.70
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.128
+Model:                              OLS   Adj. R-squared:                  0.116
+Method:                   Least Squares   F-statistic:                     10.83
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):            0.00153
+Time:                          21:20:51   Log-Likelihood:                -879.09
+No. Observations:                    76   AIC:                             1762.
+Df Residuals:                        74   BIC:                             1767.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          1.394e+05    1.9e+04      7.330      0.000    1.01e+05    1.77e+05
+thirty_year_interest_rate_six -1.629e+04   4951.446     -3.291      0.002   -2.62e+04   -6427.733
+==============================================================================
+Omnibus:                       11.752   Durbin-Watson:                   0.423
+Prob(Omnibus):                  0.003   Jarque-Bera (JB):               13.048
+Skew:                           0.775   Prob(JB):                      0.00147
+Kurtosis:                       4.310   Cond. No.                         26.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

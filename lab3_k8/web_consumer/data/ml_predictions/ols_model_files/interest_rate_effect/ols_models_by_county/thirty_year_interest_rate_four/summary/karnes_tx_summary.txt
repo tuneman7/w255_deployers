@@ -1,0 +1,31 @@
+************************************************************
+KARNES TX
+************************************************************
+const	 97561.80
+thirty_year_interest_rate_four	 15208.95
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.300
+Model:                              OLS   Adj. R-squared:                  0.292
+Method:                   Least Squares   F-statistic:                     35.62
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           5.70e-08
+Time:                          14:08:03   Log-Likelihood:                -978.19
+No. Observations:                    85   AIC:                             1960.
+Df Residuals:                        83   BIC:                             1965.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           9.756e+04   1.08e+04      9.020      0.000    7.61e+04    1.19e+05
+thirty_year_interest_rate_four  1.521e+04   2548.447      5.968      0.000    1.01e+04    2.03e+04
+==============================================================================
+Omnibus:                        4.851   Durbin-Watson:                   0.569
+Prob(Omnibus):                  0.088   Jarque-Bera (JB):                4.255
+Skew:                          -0.405   Prob(JB):                        0.119
+Kurtosis:                       3.738   Cond. No.                         18.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

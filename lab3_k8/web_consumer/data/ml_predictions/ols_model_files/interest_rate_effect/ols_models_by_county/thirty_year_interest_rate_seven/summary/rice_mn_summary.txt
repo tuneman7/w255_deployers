@@ -1,0 +1,31 @@
+************************************************************
+RICE MN
+************************************************************
+const	 466321.99
+thirty_year_interest_rate_seven	 -41824.37
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.290
+Model:                              OLS   Adj. R-squared:                  0.281
+Method:                   Least Squares   F-statistic:                     30.28
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           5.12e-07
+Time:                          21:22:50   Log-Likelihood:                -909.20
+No. Observations:                    76   AIC:                             1822.
+Df Residuals:                        74   BIC:                             1827.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            4.663e+05   2.91e+04     16.052      0.000    4.08e+05    5.24e+05
+thirty_year_interest_rate_seven -4.182e+04   7600.219     -5.503      0.000    -5.7e+04   -2.67e+04
+==============================================================================
+Omnibus:                       13.381   Durbin-Watson:                   0.074
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):               14.480
+Skew:                           0.933   Prob(JB):                     0.000717
+Kurtosis:                       4.045   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

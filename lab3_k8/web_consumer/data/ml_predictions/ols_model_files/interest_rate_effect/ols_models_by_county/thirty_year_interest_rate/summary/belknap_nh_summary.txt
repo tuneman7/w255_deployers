@@ -1,0 +1,31 @@
+************************************************************
+BELKNAP NH
+************************************************************
+const	 120305.89
+thirty_year_interest_rate	 60943.11
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.425
+Model:                              OLS   Adj. R-squared:                  0.418
+Method:                   Least Squares   F-statistic:                     61.32
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           1.41e-11
+Time:                          14:08:12   Log-Likelihood:                -1083.0
+No. Observations:                    85   AIC:                             2170.
+Df Residuals:                        83   BIC:                             2175.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      1.203e+05   3.44e+04      3.502      0.001     5.2e+04    1.89e+05
+thirty_year_interest_rate  6.094e+04   7782.813      7.830      0.000    4.55e+04    7.64e+04
+==============================================================================
+Omnibus:                       71.051   Durbin-Watson:                   0.067
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                8.021
+Skew:                           0.280   Prob(JB):                       0.0181
+Kurtosis:                       1.603   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

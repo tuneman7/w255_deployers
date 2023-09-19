@@ -1,0 +1,31 @@
+************************************************************
+EAU CLAIRE WI
+************************************************************
+const	 208254.02
+thirty_year_interest_rate_five	 16845.06
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.188
+Model:                              OLS   Adj. R-squared:                  0.178
+Method:                   Least Squares   F-statistic:                     19.17
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           3.47e-05
+Time:                          14:07:44   Log-Likelihood:                -1009.9
+No. Observations:                    85   AIC:                             2024.
+Df Residuals:                        83   BIC:                             2029.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           2.083e+05   1.62e+04     12.886      0.000    1.76e+05     2.4e+05
+thirty_year_interest_rate_five  1.685e+04   3847.725      4.378      0.000    9192.091    2.45e+04
+==============================================================================
+Omnibus:                       16.263   Durbin-Watson:                   0.166
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                5.681
+Skew:                           0.347   Prob(JB):                       0.0584
+Kurtosis:                       1.941   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

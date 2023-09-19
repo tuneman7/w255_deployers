@@ -1,0 +1,31 @@
+************************************************************
+NEOSHO KS
+************************************************************
+const	 59306.85
+thirty_year_interest_rate_five	 8748.68
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.112
+Model:                              OLS   Adj. R-squared:                  0.101
+Method:                   Least Squares   F-statistic:                     10.42
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00178
+Time:                          14:07:04   Log-Likelihood:                -980.14
+No. Observations:                    85   AIC:                             1964.
+Df Residuals:                        83   BIC:                             1969.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           5.931e+04   1.14e+04      5.210      0.000    3.67e+04    8.19e+04
+thirty_year_interest_rate_five  8748.6782   2710.085      3.228      0.002    3358.427    1.41e+04
+==============================================================================
+Omnibus:                       14.151   Durbin-Watson:                   0.282
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):               15.764
+Skew:                           1.030   Prob(JB):                     0.000377
+Kurtosis:                       3.455   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

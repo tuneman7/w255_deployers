@@ -1,0 +1,31 @@
+************************************************************
+ULSTER NY
+************************************************************
+const	 248947.19
+thirty_year_interest_rate_five	 26971.02
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.090
+Model:                              OLS   Adj. R-squared:                  0.079
+Method:                   Least Squares   F-statistic:                     8.202
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00530
+Time:                          14:06:57   Log-Likelihood:                -1086.0
+No. Observations:                    85   AIC:                             2176.
+Df Residuals:                        83   BIC:                             2181.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           2.489e+05   3.96e+04      6.294      0.000     1.7e+05    3.28e+05
+thirty_year_interest_rate_five  2.697e+04   9417.734      2.864      0.005    8239.526    4.57e+04
+==============================================================================
+Omnibus:                      153.195   Durbin-Watson:                   0.025
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                8.814
+Skew:                           0.226   Prob(JB):                       0.0122
+Kurtosis:                       1.489   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

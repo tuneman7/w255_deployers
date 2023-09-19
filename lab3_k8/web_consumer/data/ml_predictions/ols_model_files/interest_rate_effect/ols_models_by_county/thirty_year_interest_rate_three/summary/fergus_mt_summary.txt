@@ -1,0 +1,31 @@
+************************************************************
+FERGUS MT
+************************************************************
+const	 97206.76
+thirty_year_interest_rate_three	 33229.68
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.225
+Model:                              OLS   Adj. R-squared:                  0.216
+Method:                   Least Squares   F-statistic:                     24.08
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           4.55e-06
+Time:                          14:08:07   Log-Likelihood:                -1063.6
+No. Observations:                    85   AIC:                             2131.
+Df Residuals:                        83   BIC:                             2136.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            9.721e+04    2.9e+04      3.352      0.001    3.95e+04    1.55e+05
+thirty_year_interest_rate_three  3.323e+04   6771.894      4.907      0.000    1.98e+04    4.67e+04
+==============================================================================
+Omnibus:                       40.636   Durbin-Watson:                   0.253
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                6.985
+Skew:                           0.281   Prob(JB):                       0.0304
+Kurtosis:                       1.713   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

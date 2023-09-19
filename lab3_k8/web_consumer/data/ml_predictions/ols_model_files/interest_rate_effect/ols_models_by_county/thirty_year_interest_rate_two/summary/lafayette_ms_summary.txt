@@ -1,0 +1,31 @@
+************************************************************
+LAFAYETTE MS
+************************************************************
+const	 207675.00
+thirty_year_interest_rate_two	 32108.75
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.215
+Model:                              OLS   Adj. R-squared:                  0.206
+Method:                   Least Squares   F-statistic:                     22.73
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           7.85e-06
+Time:                          14:07:12   Log-Likelihood:                -1065.5
+No. Observations:                    85   AIC:                             2135.
+Df Residuals:                        83   BIC:                             2140.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          2.077e+05   2.91e+04      7.134      0.000     1.5e+05    2.66e+05
+thirty_year_interest_rate_two  3.211e+04   6734.168      4.768      0.000    1.87e+04    4.55e+04
+==============================================================================
+Omnibus:                        5.489   Durbin-Watson:                   0.077
+Prob(Omnibus):                  0.064   Jarque-Bera (JB):                5.416
+Skew:                           0.617   Prob(JB):                       0.0667
+Kurtosis:                       2.914   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

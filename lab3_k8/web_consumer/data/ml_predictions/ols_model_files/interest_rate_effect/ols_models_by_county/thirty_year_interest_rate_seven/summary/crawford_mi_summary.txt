@@ -1,0 +1,31 @@
+************************************************************
+CRAWFORD MI
+************************************************************
+const	 258502.91
+thirty_year_interest_rate_seven	 -28627.36
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.235
+Model:                              OLS   Adj. R-squared:                  0.225
+Method:                   Least Squares   F-statistic:                     22.71
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           9.17e-06
+Time:                          21:22:03   Log-Likelihood:                -891.32
+No. Observations:                    76   AIC:                             1787.
+Df Residuals:                        74   BIC:                             1791.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            2.585e+05    2.3e+04     11.258      0.000    2.13e+05    3.04e+05
+thirty_year_interest_rate_seven -2.863e+04   6006.966     -4.766      0.000   -4.06e+04   -1.67e+04
+==============================================================================
+Omnibus:                       13.370   Durbin-Watson:                   0.263
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):               14.560
+Skew:                           0.920   Prob(JB):                     0.000689
+Kurtosis:                       4.103   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+TAYLOR GA
+************************************************************
+const	 152064.66
+thirty_year_interest_rate	 -3641.93
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.014
+Model:                              OLS   Adj. R-squared:                  0.003
+Method:                   Least Squares   F-statistic:                     1.214
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.274
+Time:                          14:07:04   Log-Likelihood:                -1010.3
+No. Observations:                    85   AIC:                             2025.
+Df Residuals:                        83   BIC:                             2029.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      1.521e+05   1.46e+04     10.421      0.000    1.23e+05    1.81e+05
+thirty_year_interest_rate -3641.9341   3305.911     -1.102      0.274   -1.02e+04    2933.390
+==============================================================================
+Omnibus:                       30.509   Durbin-Watson:                   0.600
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               54.701
+Skew:                           1.411   Prob(JB):                     1.32e-12
+Kurtosis:                       5.736   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

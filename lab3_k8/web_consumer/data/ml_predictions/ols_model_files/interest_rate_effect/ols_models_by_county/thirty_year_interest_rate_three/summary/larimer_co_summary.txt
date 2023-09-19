@@ -1,0 +1,31 @@
+************************************************************
+LARIMER CO
+************************************************************
+const	 381152.64
+thirty_year_interest_rate_three	 28629.51
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.195
+Model:                              OLS   Adj. R-squared:                  0.186
+Method:                   Least Squares   F-statistic:                     20.15
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           2.29e-05
+Time:                          14:07:42   Log-Likelihood:                -1058.5
+No. Observations:                    85   AIC:                             2121.
+Df Residuals:                        83   BIC:                             2126.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            3.812e+05   2.73e+04     13.958      0.000    3.27e+05    4.35e+05
+thirty_year_interest_rate_three  2.863e+04   6377.406      4.489      0.000    1.59e+04    4.13e+04
+==============================================================================
+Omnibus:                       11.601   Durbin-Watson:                   0.072
+Prob(Omnibus):                  0.003   Jarque-Bera (JB):                9.213
+Skew:                           0.699   Prob(JB):                      0.00999
+Kurtosis:                       2.196   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

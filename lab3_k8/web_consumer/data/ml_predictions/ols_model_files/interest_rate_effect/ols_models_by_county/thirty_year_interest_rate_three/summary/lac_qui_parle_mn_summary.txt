@@ -1,0 +1,31 @@
+************************************************************
+LAC QUI PARLE MN
+************************************************************
+const	 109730.54
+thirty_year_interest_rate_three	 2504.48
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.007
+Model:                              OLS   Adj. R-squared:                 -0.005
+Method:                   Least Squares   F-statistic:                    0.5855
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.446
+Time:                          14:07:55   Log-Likelihood:                -1001.8
+No. Observations:                    85   AIC:                             2008.
+Df Residuals:                        83   BIC:                             2012.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.097e+05    1.4e+04      7.830      0.000    8.19e+04    1.38e+05
+thirty_year_interest_rate_three  2504.4764   3273.016      0.765      0.446   -4005.421    9014.374
+==============================================================================
+Omnibus:                       23.073   Durbin-Watson:                   0.481
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               37.689
+Skew:                           1.094   Prob(JB):                     6.55e-09
+Kurtosis:                       5.419   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

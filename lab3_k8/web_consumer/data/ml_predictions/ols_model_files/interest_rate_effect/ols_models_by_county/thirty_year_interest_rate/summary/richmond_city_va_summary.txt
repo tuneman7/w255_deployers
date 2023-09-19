@@ -1,0 +1,31 @@
+************************************************************
+RICHMOND CITY VA
+************************************************************
+const	 237242.82
+thirty_year_interest_rate	 14229.35
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.097
+Model:                              OLS   Adj. R-squared:                  0.086
+Method:                   Least Squares   F-statistic:                     8.939
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00367
+Time:                          14:08:14   Log-Likelihood:                -1041.2
+No. Observations:                    85   AIC:                             2086.
+Df Residuals:                        83   BIC:                             2091.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      2.372e+05    2.1e+04     11.293      0.000    1.95e+05    2.79e+05
+thirty_year_interest_rate  1.423e+04   4759.214      2.990      0.004    4763.465    2.37e+04
+==============================================================================
+Omnibus:                       39.538   Durbin-Watson:                   0.060
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                7.360
+Skew:                          -0.333   Prob(JB):                       0.0252
+Kurtosis:                       1.721   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

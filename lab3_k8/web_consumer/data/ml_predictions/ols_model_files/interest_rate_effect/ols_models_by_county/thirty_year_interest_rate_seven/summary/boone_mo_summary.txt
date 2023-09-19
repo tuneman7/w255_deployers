@@ -1,0 +1,31 @@
+************************************************************
+BOONE MO
+************************************************************
+const	 377630.08
+thirty_year_interest_rate_seven	 -29538.00
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.215
+Model:                              OLS   Adj. R-squared:                  0.204
+Method:                   Least Squares   F-statistic:                     20.23
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           2.50e-05
+Time:                          21:22:56   Log-Likelihood:                -898.10
+No. Observations:                    76   AIC:                             1800.
+Df Residuals:                        74   BIC:                             1805.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            3.776e+05   2.51e+04     15.044      0.000    3.28e+05    4.28e+05
+thirty_year_interest_rate_seven -2.954e+04   6567.099     -4.498      0.000   -4.26e+04   -1.65e+04
+==============================================================================
+Omnibus:                       29.888   Durbin-Watson:                   0.127
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               52.217
+Skew:                           1.507   Prob(JB):                     4.58e-12
+Kurtosis:                       5.722   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

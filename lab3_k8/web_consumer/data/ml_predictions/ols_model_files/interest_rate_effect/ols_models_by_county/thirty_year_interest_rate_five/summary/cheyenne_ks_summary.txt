@@ -1,0 +1,31 @@
+************************************************************
+CHEYENNE KS
+************************************************************
+const	 240171.04
+thirty_year_interest_rate_five	 -23320.14
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.114
+Model:                              OLS   Adj. R-squared:                  0.103
+Method:                   Least Squares   F-statistic:                     10.03
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00220
+Time:                          14:07:00   Log-Likelihood:                -1002.0
+No. Observations:                    80   AIC:                             2008.
+Df Residuals:                        78   BIC:                             2013.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           2.402e+05   3.12e+04      7.708      0.000    1.78e+05    3.02e+05
+thirty_year_interest_rate_five -2.332e+04   7365.188     -3.166      0.002    -3.8e+04   -8657.173
+==============================================================================
+Omnibus:                       84.344   Durbin-Watson:                   0.325
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              832.243
+Skew:                           3.276   Prob(JB):                    1.91e-181
+Kurtosis:                      17.379   Cond. No.                         18.4
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+WILLIAMSON TN
+************************************************************
+const	 602783.10
+thirty_year_interest_rate_five	 39986.08
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.035
+Model:                              OLS   Adj. R-squared:                  0.023
+Method:                   Least Squares   F-statistic:                     2.992
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0874
+Time:                          14:08:21   Log-Likelihood:                -1162.3
+No. Observations:                    85   AIC:                             2329.
+Df Residuals:                        83   BIC:                             2334.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           6.028e+05   9.71e+04      6.209      0.000     4.1e+05    7.96e+05
+thirty_year_interest_rate_five  3.999e+04   2.31e+04      1.730      0.087   -5990.015     8.6e+04
+==============================================================================
+Omnibus:                       13.771   Durbin-Watson:                   0.053
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):               16.150
+Skew:                           1.067   Prob(JB):                     0.000311
+Kurtosis:                       3.044   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

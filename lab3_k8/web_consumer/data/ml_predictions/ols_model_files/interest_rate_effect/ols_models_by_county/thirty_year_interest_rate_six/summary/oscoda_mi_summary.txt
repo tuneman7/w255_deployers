@@ -1,0 +1,31 @@
+************************************************************
+OSCODA MI
+************************************************************
+const	 167452.71
+thirty_year_interest_rate_six	 -17570.88
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.141
+Model:                              OLS   Adj. R-squared:                  0.129
+Method:                   Least Squares   F-statistic:                     12.14
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           0.000832
+Time:                          21:21:35   Log-Likelihood:                -880.47
+No. Observations:                    76   AIC:                             1765.
+Df Residuals:                        74   BIC:                             1770.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          1.675e+05   1.94e+04      8.649      0.000    1.29e+05    2.06e+05
+thirty_year_interest_rate_six -1.757e+04   5042.421     -3.485      0.001   -2.76e+04   -7523.638
+==============================================================================
+Omnibus:                       30.857   Durbin-Watson:                   0.203
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               55.614
+Skew:                           1.536   Prob(JB):                     8.39e-13
+Kurtosis:                       5.850   Cond. No.                         26.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

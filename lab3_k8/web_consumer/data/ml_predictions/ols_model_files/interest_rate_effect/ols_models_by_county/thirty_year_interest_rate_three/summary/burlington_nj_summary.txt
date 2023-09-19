@@ -1,0 +1,31 @@
+************************************************************
+BURLINGTON NJ
+************************************************************
+const	 209153.27
+thirty_year_interest_rate_three	 15967.95
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.118
+Model:                              OLS   Adj. R-squared:                  0.107
+Method:                   Least Squares   F-statistic:                     11.07
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00131
+Time:                          14:07:13   Log-Likelihood:                -1034.3
+No. Observations:                    85   AIC:                             2073.
+Df Residuals:                        83   BIC:                             2077.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            2.092e+05   2.05e+04     10.179      0.000    1.68e+05     2.5e+05
+thirty_year_interest_rate_three  1.597e+04   4798.713      3.328      0.001    6423.502    2.55e+04
+==============================================================================
+Omnibus:                      169.057   Durbin-Watson:                   0.031
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                8.451
+Skew:                          -0.129   Prob(JB):                       0.0146
+Kurtosis:                       1.477   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

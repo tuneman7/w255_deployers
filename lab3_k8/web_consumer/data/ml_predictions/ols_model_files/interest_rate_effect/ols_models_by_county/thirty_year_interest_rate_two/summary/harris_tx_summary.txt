@@ -1,0 +1,31 @@
+************************************************************
+HARRIS TX
+************************************************************
+const	 309566.43
+thirty_year_interest_rate_two	 4629.37
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.040
+Model:                              OLS   Adj. R-squared:                  0.029
+Method:                   Least Squares   F-statistic:                     3.501
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0649
+Time:                          14:07:41   Log-Likelihood:                -980.37
+No. Observations:                    85   AIC:                             1965.
+Df Residuals:                        83   BIC:                             1970.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          3.096e+05   1.07e+04     28.945      0.000    2.88e+05    3.31e+05
+thirty_year_interest_rate_two  4629.3682   2474.248      1.871      0.065    -291.812    9550.549
+==============================================================================
+Omnibus:                       33.817   Durbin-Watson:                   0.046
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                7.527
+Skew:                           0.383   Prob(JB):                       0.0232
+Kurtosis:                       1.760   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+TRAVIS TX
+************************************************************
+const	 402490.28
+thirty_year_interest_rate_two	 26695.73
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.097
+Model:                              OLS   Adj. R-squared:                  0.086
+Method:                   Least Squares   F-statistic:                     8.887
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00377
+Time:                          14:07:17   Log-Likelihood:                -1089.7
+No. Observations:                    85   AIC:                             2183.
+Df Residuals:                        83   BIC:                             2188.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          4.025e+05   3.87e+04     10.398      0.000    3.26e+05    4.79e+05
+thirty_year_interest_rate_two   2.67e+04   8954.971      2.981      0.004    8884.657    4.45e+04
+==============================================================================
+Omnibus:                       24.104   Durbin-Watson:                   0.031
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                7.333
+Skew:                           0.432   Prob(JB):                       0.0256
+Kurtosis:                       1.849   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+LETCHER KY
+************************************************************
+const	 85214.09
+thirty_year_interest_rate_four	 4484.20
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.056
+Model:                              OLS   Adj. R-squared:                  0.044
+Method:                   Least Squares   F-statistic:                     4.879
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0299
+Time:                          14:08:12   Log-Likelihood:                -958.87
+No. Observations:                    85   AIC:                             1922.
+Df Residuals:                        83   BIC:                             1927.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           8.521e+04   8616.177      9.890      0.000    6.81e+04    1.02e+05
+thirty_year_interest_rate_four  4484.1998   2030.207      2.209      0.030     446.200    8522.199
+==============================================================================
+Omnibus:                       47.854   Durbin-Watson:                   0.802
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              141.509
+Skew:                           1.936   Prob(JB):                     1.87e-31
+Kurtosis:                       7.997   Cond. No.                         18.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

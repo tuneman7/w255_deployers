@@ -1,0 +1,31 @@
+************************************************************
+ELKO NV
+************************************************************
+const	 221124.59
+thirty_year_interest_rate_three	 31279.29
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.128
+Model:                              OLS   Adj. R-squared:                  0.118
+Method:                   Least Squares   F-statistic:                     12.21
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           0.000764
+Time:                          14:07:41   Log-Likelihood:                -1087.3
+No. Observations:                    85   AIC:                             2179.
+Df Residuals:                        83   BIC:                             2183.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            2.211e+05   3.83e+04      5.770      0.000    1.45e+05    2.97e+05
+thirty_year_interest_rate_three  3.128e+04   8949.783      3.495      0.001    1.35e+04    4.91e+04
+==============================================================================
+Omnibus:                       57.994   Durbin-Watson:                   0.040
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                8.814
+Skew:                           0.404   Prob(JB):                       0.0122
+Kurtosis:                       1.645   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

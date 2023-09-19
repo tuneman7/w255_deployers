@@ -1,0 +1,31 @@
+************************************************************
+LLANO TX
+************************************************************
+const	 522852.72
+thirty_year_interest_rate_three	 19735.27
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.031
+Model:                              OLS   Adj. R-squared:                  0.019
+Method:                   Least Squares   F-statistic:                     2.631
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.109
+Time:                          14:07:48   Log-Likelihood:                -1113.4
+No. Observations:                    85   AIC:                             2231.
+Df Residuals:                        83   BIC:                             2236.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            5.229e+05   5.21e+04     10.036      0.000    4.19e+05    6.26e+05
+thirty_year_interest_rate_three  1.974e+04   1.22e+04      1.622      0.109   -4465.126    4.39e+04
+==============================================================================
+Omnibus:                       15.509   Durbin-Watson:                   0.065
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                6.055
+Skew:                           0.399   Prob(JB):                       0.0484
+Kurtosis:                       1.963   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+SANILAC MI
+************************************************************
+const	 122704.91
+thirty_year_interest_rate	 9769.19
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.109
+Model:                              OLS   Adj. R-squared:                  0.099
+Method:                   Least Squares   F-statistic:                     10.21
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00198
+Time:                          14:07:41   Log-Likelihood:                -1003.6
+No. Observations:                    85   AIC:                             2011.
+Df Residuals:                        83   BIC:                             2016.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      1.227e+05   1.35e+04      9.090      0.000    9.59e+04     1.5e+05
+thirty_year_interest_rate  9769.1886   3058.053      3.195      0.002    3686.844    1.59e+04
+==============================================================================
+Omnibus:                       42.076   Durbin-Watson:                   0.070
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                6.034
+Skew:                          -0.055   Prob(JB):                       0.0490
+Kurtosis:                       1.699   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

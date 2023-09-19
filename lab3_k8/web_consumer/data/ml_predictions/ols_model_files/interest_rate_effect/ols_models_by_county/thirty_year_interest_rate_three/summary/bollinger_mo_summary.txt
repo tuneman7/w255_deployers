@@ -1,0 +1,31 @@
+************************************************************
+BOLLINGER MO
+************************************************************
+const	 68631.95
+thirty_year_interest_rate_three	 20900.52
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.270
+Model:                              OLS   Adj. R-squared:                  0.261
+Method:                   Least Squares   F-statistic:                     30.66
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           3.52e-07
+Time:                          14:07:47   Log-Likelihood:                -1013.9
+No. Observations:                    85   AIC:                             2032.
+Df Residuals:                        83   BIC:                             2037.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            6.863e+04   1.62e+04      4.247      0.000    3.65e+04    1.01e+05
+thirty_year_interest_rate_three   2.09e+04   3774.486      5.537      0.000    1.34e+04    2.84e+04
+==============================================================================
+Omnibus:                       11.945   Durbin-Watson:                   0.483
+Prob(Omnibus):                  0.003   Jarque-Bera (JB):               12.794
+Skew:                           0.936   Prob(JB):                      0.00167
+Kurtosis:                       3.328   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

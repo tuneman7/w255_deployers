@@ -1,0 +1,31 @@
+************************************************************
+CARTERET NC
+************************************************************
+const	 217615.88
+thirty_year_interest_rate	 42377.17
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.307
+Model:                              OLS   Adj. R-squared:                  0.299
+Method:                   Least Squares   F-statistic:                     36.79
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           3.75e-08
+Time:                          14:07:22   Log-Likelihood:                -1073.9
+No. Observations:                    85   AIC:                             2152.
+Df Residuals:                        83   BIC:                             2157.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      2.176e+05   3.08e+04      7.056      0.000    1.56e+05    2.79e+05
+thirty_year_interest_rate  4.238e+04   6986.867      6.065      0.000    2.85e+04    5.63e+04
+==============================================================================
+Omnibus:                       91.863   Durbin-Watson:                   0.050
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                7.368
+Skew:                           0.021   Prob(JB):                       0.0251
+Kurtosis:                       1.558   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

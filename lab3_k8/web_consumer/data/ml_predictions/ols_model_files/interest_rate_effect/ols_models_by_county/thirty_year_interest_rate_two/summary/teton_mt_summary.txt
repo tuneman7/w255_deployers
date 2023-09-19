@@ -1,0 +1,31 @@
+************************************************************
+TETON MT
+************************************************************
+const	 105835.88
+thirty_year_interest_rate_two	 43747.91
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.121
+Model:                              OLS   Adj. R-squared:                  0.110
+Method:                   Least Squares   F-statistic:                     11.38
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00113
+Time:                          14:07:46   Log-Likelihood:                -1121.2
+No. Observations:                    85   AIC:                             2246.
+Df Residuals:                        83   BIC:                             2251.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          1.058e+05   5.61e+04      1.888      0.063   -5680.256    2.17e+05
+thirty_year_interest_rate_two  4.375e+04    1.3e+04      3.373      0.001    1.79e+04    6.95e+04
+==============================================================================
+Omnibus:                       22.932   Durbin-Watson:                   0.296
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               30.345
+Skew:                           1.299   Prob(JB):                     2.57e-07
+Kurtosis:                       4.348   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

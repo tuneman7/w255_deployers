@@ -1,0 +1,31 @@
+************************************************************
+ALPINE CA
+************************************************************
+const	 448728.52
+thirty_year_interest_rate	 -27852.51
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.074
+Model:                              OLS   Adj. R-squared:                  0.063
+Method:                   Least Squares   F-statistic:                     6.660
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0116
+Time:                          14:07:59   Log-Likelihood:                -1110.8
+No. Observations:                    85   AIC:                             2226.
+Df Residuals:                        83   BIC:                             2231.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      4.487e+05   4.76e+04      9.420      0.000    3.54e+05    5.43e+05
+thirty_year_interest_rate -2.785e+04   1.08e+04     -2.581      0.012   -4.93e+04   -6387.129
+==============================================================================
+Omnibus:                        7.159   Durbin-Watson:                   0.284
+Prob(Omnibus):                  0.028   Jarque-Bera (JB):                7.280
+Skew:                          -0.716   Prob(JB):                       0.0263
+Kurtosis:                       2.954   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+FALLS CHURCH CITY VA
+************************************************************
+const	 627492.62
+thirty_year_interest_rate_seven	 77612.05
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.078
+Model:                              OLS   Adj. R-squared:                  0.066
+Method:                   Least Squares   F-statistic:                     6.260
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):             0.0146
+Time:                          21:22:19   Log-Likelihood:                -1016.1
+No. Observations:                    76   AIC:                             2036.
+Df Residuals:                        74   BIC:                             2041.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            6.275e+05   1.19e+05      5.292      0.000    3.91e+05    8.64e+05
+thirty_year_interest_rate_seven  7.761e+04    3.1e+04      2.502      0.015    1.58e+04    1.39e+05
+==============================================================================
+Omnibus:                        5.050   Durbin-Watson:                   0.818
+Prob(Omnibus):                  0.080   Jarque-Bera (JB):                4.723
+Skew:                           0.610   Prob(JB):                       0.0943
+Kurtosis:                       3.030   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+MORGAN MO
+************************************************************
+const	 147917.90
+thirty_year_interest_rate_three	 25080.74
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.155
+Model:                              OLS   Adj. R-squared:                  0.145
+Method:                   Least Squares   F-statistic:                     15.24
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           0.000192
+Time:                          14:08:23   Log-Likelihood:                -1059.1
+No. Observations:                    85   AIC:                             2122.
+Df Residuals:                        83   BIC:                             2127.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.479e+05   2.75e+04      5.377      0.000    9.32e+04    2.03e+05
+thirty_year_interest_rate_three  2.508e+04   6424.764      3.904      0.000    1.23e+04    3.79e+04
+==============================================================================
+Omnibus:                       29.278   Durbin-Watson:                   0.133
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               11.057
+Skew:                           0.662   Prob(JB):                      0.00397
+Kurtosis:                       1.830   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

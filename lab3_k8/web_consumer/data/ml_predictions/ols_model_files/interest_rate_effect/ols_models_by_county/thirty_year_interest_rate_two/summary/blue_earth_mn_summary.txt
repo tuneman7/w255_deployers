@@ -1,0 +1,31 @@
+************************************************************
+BLUE EARTH MN
+************************************************************
+const	 161625.29
+thirty_year_interest_rate_two	 25637.39
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.328
+Model:                              OLS   Adj. R-squared:                  0.320
+Method:                   Least Squares   F-statistic:                     40.58
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           9.98e-09
+Time:                          14:07:55   Log-Likelihood:                -1021.7
+No. Observations:                    85   AIC:                             2047.
+Df Residuals:                        83   BIC:                             2052.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          1.616e+05   1.74e+04      9.291      0.000    1.27e+05    1.96e+05
+thirty_year_interest_rate_two  2.564e+04   4024.643      6.370      0.000    1.76e+04    3.36e+04
+==============================================================================
+Omnibus:                        6.032   Durbin-Watson:                   0.138
+Prob(Omnibus):                  0.049   Jarque-Bera (JB):                2.623
+Skew:                          -0.054   Prob(JB):                        0.269
+Kurtosis:                       2.146   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

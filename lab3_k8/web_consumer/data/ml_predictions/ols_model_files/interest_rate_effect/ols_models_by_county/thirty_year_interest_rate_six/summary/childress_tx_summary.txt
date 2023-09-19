@@ -1,0 +1,31 @@
+************************************************************
+CHILDRESS TX
+************************************************************
+const	 169009.65
+thirty_year_interest_rate_six	 -17932.44
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.062
+Model:                              OLS   Adj. R-squared:                  0.049
+Method:                   Least Squares   F-statistic:                     4.581
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):             0.0359
+Time:                          21:22:17   Log-Likelihood:                -857.47
+No. Observations:                    71   AIC:                             1719.
+Df Residuals:                        69   BIC:                             1723.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                           1.69e+05   3.21e+04      5.264      0.000    1.05e+05    2.33e+05
+thirty_year_interest_rate_six -1.793e+04   8378.174     -2.140      0.036   -3.46e+04   -1218.443
+==============================================================================
+Omnibus:                       15.793   Durbin-Watson:                   1.230
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               19.540
+Skew:                           0.982   Prob(JB):                     5.71e-05
+Kurtosis:                       4.657   Cond. No.                         25.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

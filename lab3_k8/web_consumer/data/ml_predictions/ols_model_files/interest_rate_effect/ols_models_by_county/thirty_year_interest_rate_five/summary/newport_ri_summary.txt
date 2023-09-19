@@ -1,0 +1,31 @@
+************************************************************
+NEWPORT RI
+************************************************************
+const	 501247.39
+thirty_year_interest_rate_five	 46888.84
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.106
+Model:                              OLS   Adj. R-squared:                  0.095
+Method:                   Least Squares   F-statistic:                     9.821
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00239
+Time:                          14:07:47   Log-Likelihood:                -1125.4
+No. Observations:                    85   AIC:                             2255.
+Df Residuals:                        83   BIC:                             2260.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           5.012e+05   6.28e+04      7.976      0.000    3.76e+05    6.26e+05
+thirty_year_interest_rate_five  4.689e+04    1.5e+04      3.134      0.002    1.71e+04    7.66e+04
+==============================================================================
+Omnibus:                      314.311   Durbin-Watson:                   0.036
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                9.912
+Skew:                           0.275   Prob(JB):                      0.00704
+Kurtosis:                       1.420   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

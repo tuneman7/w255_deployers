@@ -1,0 +1,31 @@
+************************************************************
+EL PASO CO
+************************************************************
+const	 359549.34
+thirty_year_interest_rate_three	 16936.65
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.092
+Model:                              OLS   Adj. R-squared:                  0.081
+Method:                   Least Squares   F-statistic:                     8.432
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00472
+Time:                          14:08:19   Log-Likelihood:                -1050.9
+No. Observations:                    85   AIC:                             2106.
+Df Residuals:                        83   BIC:                             2111.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            3.595e+05    2.5e+04     14.396      0.000     3.1e+05    4.09e+05
+thirty_year_interest_rate_three  1.694e+04   5832.755      2.904      0.005    5335.535    2.85e+04
+==============================================================================
+Omnibus:                       73.039   Durbin-Watson:                   0.033
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                7.015
+Skew:                          -0.045   Prob(JB):                       0.0300
+Kurtosis:                       1.596   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

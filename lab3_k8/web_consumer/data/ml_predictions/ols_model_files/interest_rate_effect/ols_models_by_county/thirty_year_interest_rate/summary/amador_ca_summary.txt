@@ -1,0 +1,31 @@
+************************************************************
+AMADOR CA
+************************************************************
+const	 366197.65
+thirty_year_interest_rate	 16414.88
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.113
+Model:                              OLS   Adj. R-squared:                  0.103
+Method:                   Least Squares   F-statistic:                     10.60
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00164
+Time:                          14:08:07   Log-Likelihood:                -1046.1
+No. Observations:                    85   AIC:                             2096.
+Df Residuals:                        83   BIC:                             2101.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      3.662e+05   2.23e+04     16.453      0.000    3.22e+05     4.1e+05
+thirty_year_interest_rate  1.641e+04   5042.463      3.255      0.002    6385.629    2.64e+04
+==============================================================================
+Omnibus:                       20.975   Durbin-Watson:                   0.098
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                6.020
+Skew:                           0.326   Prob(JB):                       0.0493
+Kurtosis:                       1.871   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

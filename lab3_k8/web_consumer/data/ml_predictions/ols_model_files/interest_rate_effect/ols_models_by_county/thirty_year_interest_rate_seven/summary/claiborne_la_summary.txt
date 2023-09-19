@@ -1,0 +1,31 @@
+************************************************************
+CLAIBORNE LA
+************************************************************
+const	 54559.80
+thirty_year_interest_rate_seven	 20569.02
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.104
+Model:                              OLS   Adj. R-squared:                  0.092
+Method:                   Least Squares   F-statistic:                     8.627
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):            0.00441
+Time:                          21:22:03   Log-Likelihood:                -902.99
+No. Observations:                    76   AIC:                             1810.
+Df Residuals:                        74   BIC:                             1815.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            5.456e+04   2.68e+04      2.038      0.045    1222.249    1.08e+05
+thirty_year_interest_rate_seven  2.057e+04   7003.118      2.937      0.004    6615.004    3.45e+04
+==============================================================================
+Omnibus:                       52.825   Durbin-Watson:                   0.746
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              293.430
+Skew:                           1.980   Prob(JB):                     1.92e-64
+Kurtosis:                      11.774   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

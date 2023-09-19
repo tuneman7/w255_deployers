@@ -1,0 +1,31 @@
+************************************************************
+SPALDING GA
+************************************************************
+const	 127235.82
+thirty_year_interest_rate_three	 20522.19
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.095
+Model:                              OLS   Adj. R-squared:                  0.084
+Method:                   Least Squares   F-statistic:                     8.663
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00421
+Time:                          14:07:37   Log-Likelihood:                -1066.1
+No. Observations:                    85   AIC:                             2136.
+Df Residuals:                        83   BIC:                             2141.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.272e+05   2.99e+04      4.262      0.000    6.79e+04    1.87e+05
+thirty_year_interest_rate_three  2.052e+04   6972.405      2.943      0.004    6654.361    3.44e+04
+==============================================================================
+Omnibus:                      351.885   Durbin-Watson:                   0.027
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                8.952
+Skew:                           0.035   Prob(JB):                       0.0114
+Kurtosis:                       1.412   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

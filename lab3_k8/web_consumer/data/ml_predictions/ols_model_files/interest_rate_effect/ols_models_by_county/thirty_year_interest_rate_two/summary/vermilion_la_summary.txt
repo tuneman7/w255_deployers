@@ -1,0 +1,31 @@
+************************************************************
+VERMILION LA
+************************************************************
+const	 161247.77
+thirty_year_interest_rate_two	 2626.33
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.035
+Model:                              OLS   Adj. R-squared:                  0.023
+Method:                   Least Squares   F-statistic:                     2.986
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0877
+Time:                          14:08:17   Log-Likelihood:                -938.94
+No. Observations:                    85   AIC:                             1882.
+Df Residuals:                        83   BIC:                             1887.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          1.612e+05   6569.622     24.544      0.000    1.48e+05    1.74e+05
+thirty_year_interest_rate_two  2626.3270   1519.850      1.728      0.088    -396.593    5649.247
+==============================================================================
+Omnibus:                        3.381   Durbin-Watson:                   0.241
+Prob(Omnibus):                  0.184   Jarque-Bera (JB):                3.265
+Skew:                           0.474   Prob(JB):                        0.195
+Kurtosis:                       2.842   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

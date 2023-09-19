@@ -1,0 +1,31 @@
+************************************************************
+BLACK HAWK IA
+************************************************************
+const	 188200.36
+thirty_year_interest_rate_seven	 -7643.94
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.028
+Model:                              OLS   Adj. R-squared:                  0.015
+Method:                   Least Squares   F-statistic:                     2.116
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):              0.150
+Time:                          21:22:15   Log-Likelihood:                -881.16
+No. Observations:                    76   AIC:                             1766.
+Df Residuals:                        74   BIC:                             1771.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.882e+05   2.01e+04      9.369      0.000    1.48e+05    2.28e+05
+thirty_year_interest_rate_seven -7643.9372   5255.241     -1.455      0.150   -1.81e+04    2827.359
+==============================================================================
+Omnibus:                       28.093   Durbin-Watson:                   0.228
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               45.773
+Skew:                           1.465   Prob(JB):                     1.15e-10
+Kurtosis:                       5.424   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

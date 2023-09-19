@@ -1,0 +1,31 @@
+************************************************************
+NEWBERRY SC
+************************************************************
+const	 125332.96
+thirty_year_interest_rate_two	 24841.05
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.234
+Model:                              OLS   Adj. R-squared:                  0.224
+Method:                   Least Squares   F-statistic:                     25.30
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           2.79e-06
+Time:                          14:08:22   Log-Likelihood:                -1039.1
+No. Observations:                    85   AIC:                             2082.
+Df Residuals:                        83   BIC:                             2087.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          1.253e+05   2.13e+04      5.871      0.000    8.29e+04    1.68e+05
+thirty_year_interest_rate_two  2.484e+04   4938.766      5.030      0.000     1.5e+04    3.47e+04
+==============================================================================
+Omnibus:                        6.806   Durbin-Watson:                   0.219
+Prob(Omnibus):                  0.033   Jarque-Bera (JB):                5.252
+Skew:                           0.492   Prob(JB):                       0.0724
+Kurtosis:                       2.283   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

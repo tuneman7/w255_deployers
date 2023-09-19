@@ -1,0 +1,31 @@
+************************************************************
+TALBOT GA
+************************************************************
+const	 97644.41
+thirty_year_interest_rate_three	 26809.85
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.125
+Model:                              OLS   Adj. R-squared:                  0.115
+Method:                   Least Squares   F-statistic:                     11.89
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           0.000888
+Time:                          14:07:17   Log-Likelihood:                -1075.3
+No. Observations:                    85   AIC:                             2155.
+Df Residuals:                        83   BIC:                             2160.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            9.764e+04   3.33e+04      2.933      0.004    3.14e+04    1.64e+05
+thirty_year_interest_rate_three  2.681e+04   7774.036      3.449      0.001    1.13e+04    4.23e+04
+==============================================================================
+Omnibus:                       43.531   Durbin-Watson:                   0.563
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              114.025
+Skew:                           1.800   Prob(JB):                     1.74e-25
+Kurtosis:                       7.385   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

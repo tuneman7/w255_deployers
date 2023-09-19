@@ -1,0 +1,31 @@
+************************************************************
+TILLAMOOK OR
+************************************************************
+const	 282839.80
+thirty_year_interest_rate_three	 40863.89
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.311
+Model:                              OLS   Adj. R-squared:                  0.302
+Method:                   Least Squares   F-statistic:                     37.41
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           3.01e-08
+Time:                          14:07:51   Log-Likelihood:                -1062.4
+No. Observations:                    85   AIC:                             2129.
+Df Residuals:                        83   BIC:                             2134.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            2.828e+05   2.86e+04      9.887      0.000    2.26e+05     3.4e+05
+thirty_year_interest_rate_three  4.086e+04   6680.929      6.116      0.000    2.76e+04    5.42e+04
+==============================================================================
+Omnibus:                       20.724   Durbin-Watson:                   0.086
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                8.254
+Skew:                           0.533   Prob(JB):                       0.0161
+Kurtosis:                       1.908   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

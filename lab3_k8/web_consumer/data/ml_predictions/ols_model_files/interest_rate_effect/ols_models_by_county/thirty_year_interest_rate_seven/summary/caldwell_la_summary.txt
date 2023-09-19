@@ -1,0 +1,31 @@
+************************************************************
+CALDWELL LA
+************************************************************
+const	 562214.16
+thirty_year_interest_rate_seven	 -100222.40
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.507
+Model:                              OLS   Adj. R-squared:                  0.500
+Method:                   Least Squares   F-statistic:                     76.12
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           5.51e-13
+Time:                          21:22:28   Log-Likelihood:                -940.60
+No. Observations:                    76   AIC:                             1885.
+Df Residuals:                        74   BIC:                             1890.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            5.622e+05   4.39e+04     12.804      0.000    4.75e+05     6.5e+05
+thirty_year_interest_rate_seven -1.002e+05   1.15e+04     -8.725      0.000   -1.23e+05   -7.73e+04
+==============================================================================
+Omnibus:                       10.532   Durbin-Watson:                   0.429
+Prob(Omnibus):                  0.005   Jarque-Bera (JB):               10.542
+Skew:                           0.864   Prob(JB):                      0.00514
+Kurtosis:                       3.585   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

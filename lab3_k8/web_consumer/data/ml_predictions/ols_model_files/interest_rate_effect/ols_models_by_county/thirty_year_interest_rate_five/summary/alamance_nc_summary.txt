@@ -1,0 +1,31 @@
+************************************************************
+ALAMANCE NC
+************************************************************
+const	 186500.01
+thirty_year_interest_rate_five	 18744.59
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.081
+Model:                              OLS   Adj. R-squared:                  0.070
+Method:                   Least Squares   F-statistic:                     7.287
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00841
+Time:                          14:07:04   Log-Likelihood:                -1060.1
+No. Observations:                    85   AIC:                             2124.
+Df Residuals:                        83   BIC:                             2129.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           1.865e+05   2.92e+04      6.395      0.000    1.28e+05    2.45e+05
+thirty_year_interest_rate_five  1.874e+04   6943.759      2.699      0.008    4933.734    3.26e+04
+==============================================================================
+Omnibus:                       19.722   Durbin-Watson:                   0.028
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                5.048
+Skew:                           0.198   Prob(JB):                       0.0802
+Kurtosis:                       1.874   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+ONTONAGON MI
+************************************************************
+const	 141293.80
+thirty_year_interest_rate_five	 -8641.54
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.105
+Model:                              OLS   Adj. R-squared:                  0.094
+Method:                   Least Squares   F-statistic:                     9.706
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00252
+Time:                          14:07:20   Log-Likelihood:                -982.11
+No. Observations:                    85   AIC:                             1968.
+Df Residuals:                        83   BIC:                             1973.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           1.413e+05   1.17e+04     12.128      0.000    1.18e+05    1.64e+05
+thirty_year_interest_rate_five -8641.5353   2773.707     -3.116      0.003   -1.42e+04   -3124.743
+==============================================================================
+Omnibus:                       23.431   Durbin-Watson:                   0.219
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               38.270
+Skew:                           1.112   Prob(JB):                     4.90e-09
+Kurtosis:                       5.420   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

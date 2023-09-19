@@ -1,0 +1,31 @@
+************************************************************
+GREENE IA
+************************************************************
+const	 67937.32
+thirty_year_interest_rate_two	 8415.58
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.071
+Model:                              OLS   Adj. R-squared:                  0.060
+Method:                   Least Squares   F-statistic:                     6.367
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0135
+Time:                          14:07:09   Log-Likelihood:                -1005.7
+No. Observations:                    85   AIC:                             2015.
+Df Residuals:                        83   BIC:                             2020.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          6.794e+04   1.44e+04      4.713      0.000    3.93e+04    9.66e+04
+thirty_year_interest_rate_two  8415.5779   3335.107      2.523      0.014    1782.184     1.5e+04
+==============================================================================
+Omnibus:                        8.463   Durbin-Watson:                   0.305
+Prob(Omnibus):                  0.015   Jarque-Bera (JB):                8.933
+Skew:                           0.764   Prob(JB):                       0.0115
+Kurtosis:                       2.570   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+CALLAWAY MO
+************************************************************
+const	 133172.78
+thirty_year_interest_rate_two	 12678.59
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.143
+Model:                              OLS   Adj. R-squared:                  0.133
+Method:                   Least Squares   F-statistic:                     13.88
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           0.000354
+Time:                          14:07:36   Log-Likelihood:                -1007.4
+No. Observations:                    85   AIC:                             2019.
+Df Residuals:                        83   BIC:                             2024.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          1.332e+05   1.47e+04      9.054      0.000    1.04e+05    1.62e+05
+thirty_year_interest_rate_two  1.268e+04   3402.617      3.726      0.000    5910.918    1.94e+04
+==============================================================================
+Omnibus:                        7.523   Durbin-Watson:                   0.354
+Prob(Omnibus):                  0.023   Jarque-Bera (JB):                4.822
+Skew:                           0.423   Prob(JB):                       0.0897
+Kurtosis:                       2.196   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

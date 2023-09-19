@@ -1,0 +1,31 @@
+************************************************************
+MONROE WI
+************************************************************
+const	 127392.17
+thirty_year_interest_rate_three	 17834.86
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.117
+Model:                              OLS   Adj. R-squared:                  0.107
+Method:                   Least Squares   F-statistic:                     11.04
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00133
+Time:                          14:08:16   Log-Likelihood:                -1043.8
+No. Observations:                    85   AIC:                             2092.
+Df Residuals:                        83   BIC:                             2097.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.274e+05    2.3e+04      5.543      0.000    8.17e+04    1.73e+05
+thirty_year_interest_rate_three  1.783e+04   5366.989      3.323      0.001    7160.139    2.85e+04
+==============================================================================
+Omnibus:                        8.547   Durbin-Watson:                   0.094
+Prob(Omnibus):                  0.014   Jarque-Bera (JB):                9.214
+Skew:                           0.794   Prob(JB):                      0.00998
+Kurtosis:                       2.723   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

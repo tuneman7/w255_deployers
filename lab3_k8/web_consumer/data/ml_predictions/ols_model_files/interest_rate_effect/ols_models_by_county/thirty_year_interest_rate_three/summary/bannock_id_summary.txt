@@ -1,0 +1,31 @@
+************************************************************
+BANNOCK ID
+************************************************************
+const	 169813.80
+thirty_year_interest_rate_three	 25744.53
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.082
+Model:                              OLS   Adj. R-squared:                  0.071
+Method:                   Least Squares   F-statistic:                     7.402
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00794
+Time:                          14:07:38   Log-Likelihood:                -1092.0
+No. Observations:                    85   AIC:                             2188.
+Df Residuals:                        83   BIC:                             2193.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.698e+05   4.05e+04      4.191      0.000    8.92e+04     2.5e+05
+thirty_year_interest_rate_three  2.574e+04   9462.646      2.721      0.008    6923.705    4.46e+04
+==============================================================================
+Omnibus:                       19.875   Durbin-Watson:                   0.054
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                5.923
+Skew:                           0.328   Prob(JB):                       0.0517
+Kurtosis:                       1.885   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

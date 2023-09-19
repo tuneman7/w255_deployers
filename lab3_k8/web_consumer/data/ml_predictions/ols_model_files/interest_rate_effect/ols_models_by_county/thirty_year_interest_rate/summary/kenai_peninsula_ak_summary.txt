@@ -1,0 +1,31 @@
+************************************************************
+KENAI PENINSULA AK
+************************************************************
+const	 163971.38
+thirty_year_interest_rate	 31381.69
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.379
+Model:                              OLS   Adj. R-squared:                  0.371
+Method:                   Least Squares   F-statistic:                     50.56
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           3.71e-10
+Time:                          14:07:49   Log-Likelihood:                -1034.8
+No. Observations:                    85   AIC:                             2074.
+Df Residuals:                        83   BIC:                             2079.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                       1.64e+05   1.95e+04      8.417      0.000    1.25e+05    2.03e+05
+thirty_year_interest_rate  3.138e+04   4413.275      7.111      0.000    2.26e+04    4.02e+04
+==============================================================================
+Omnibus:                      116.465   Durbin-Watson:                   0.070
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                8.239
+Skew:                           0.193   Prob(JB):                       0.0163
+Kurtosis:                       1.524   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

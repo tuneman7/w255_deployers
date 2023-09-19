@@ -1,0 +1,31 @@
+************************************************************
+STARR TX
+************************************************************
+const	 48262.76
+thirty_year_interest_rate_three	 24559.03
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.391
+Model:                              OLS   Adj. R-squared:                  0.384
+Method:                   Least Squares   F-statistic:                     53.27
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           1.59e-10
+Time:                          14:07:30   Log-Likelihood:                -1004.1
+No. Observations:                    85   AIC:                             2012.
+Df Residuals:                        83   BIC:                             2017.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            4.826e+04   1.44e+04      3.350      0.001    1.96e+04    7.69e+04
+thirty_year_interest_rate_three  2.456e+04   3364.826      7.299      0.000    1.79e+04    3.13e+04
+==============================================================================
+Omnibus:                       21.655   Durbin-Watson:                   0.078
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                8.590
+Skew:                           0.550   Prob(JB):                       0.0136
+Kurtosis:                       1.898   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

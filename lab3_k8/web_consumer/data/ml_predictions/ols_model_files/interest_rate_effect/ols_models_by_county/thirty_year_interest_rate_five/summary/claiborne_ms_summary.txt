@@ -1,0 +1,31 @@
+************************************************************
+CLAIBORNE MS
+************************************************************
+const	 184797.67
+thirty_year_interest_rate_five	 -7988.13
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.036
+Model:                              OLS   Adj. R-squared:                  0.024
+Method:                   Least Squares   F-statistic:                     3.085
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0827
+Time:                          14:07:12   Log-Likelihood:                -1024.1
+No. Observations:                    85   AIC:                             2052.
+Df Residuals:                        83   BIC:                             2057.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           1.848e+05   1.91e+04      9.674      0.000    1.47e+05    2.23e+05
+thirty_year_interest_rate_five -7988.1339   4548.075     -1.756      0.083    -1.7e+04    1057.804
+==============================================================================
+Omnibus:                       49.355   Durbin-Watson:                   0.662
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              150.687
+Skew:                           1.990   Prob(JB):                     1.90e-33
+Kurtosis:                       8.168   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

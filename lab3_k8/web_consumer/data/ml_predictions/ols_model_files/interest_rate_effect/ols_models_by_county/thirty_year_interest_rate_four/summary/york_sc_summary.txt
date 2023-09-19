@@ -1,0 +1,31 @@
+************************************************************
+YORK SC
+************************************************************
+const	 319520.63
+thirty_year_interest_rate_four	 10249.11
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.102
+Model:                              OLS   Adj. R-squared:                  0.091
+Method:                   Least Squares   F-statistic:                     9.415
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00291
+Time:                          14:08:13   Log-Likelihood:                -1001.2
+No. Observations:                    85   AIC:                             2006.
+Df Residuals:                        83   BIC:                             2011.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           3.195e+05   1.42e+04     22.540      0.000    2.91e+05    3.48e+05
+thirty_year_interest_rate_four  1.025e+04   3340.219      3.068      0.003    3605.554    1.69e+04
+==============================================================================
+Omnibus:                       26.310   Durbin-Watson:                   0.102
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                6.735
+Skew:                           0.355   Prob(JB):                       0.0345
+Kurtosis:                       1.818   Cond. No.                         18.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

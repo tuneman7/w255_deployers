@@ -1,0 +1,31 @@
+************************************************************
+BLAINE NE
+************************************************************
+const	 329561.65
+thirty_year_interest_rate_five	 53606.42
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.007
+Model:                              OLS   Adj. R-squared:                 -0.014
+Method:                   Least Squares   F-statistic:                    0.3305
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.568
+Time:                          14:07:50   Log-Likelihood:                -712.97
+No. Observations:                    48   AIC:                             1430.
+Df Residuals:                        46   BIC:                             1434.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           3.296e+05   4.16e+05      0.792      0.432   -5.08e+05    1.17e+06
+thirty_year_interest_rate_five  5.361e+04   9.32e+04      0.575      0.568   -1.34e+05    2.41e+05
+==============================================================================
+Omnibus:                       11.310   Durbin-Watson:                   0.197
+Prob(Omnibus):                  0.003   Jarque-Bera (JB):               12.298
+Skew:                           1.237   Prob(JB):                      0.00214
+Kurtosis:                       3.168   Cond. No.                         19.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

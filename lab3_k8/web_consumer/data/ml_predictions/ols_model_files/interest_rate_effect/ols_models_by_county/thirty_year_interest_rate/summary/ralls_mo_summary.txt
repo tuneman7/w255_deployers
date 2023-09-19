@@ -1,0 +1,31 @@
+************************************************************
+RALLS MO
+************************************************************
+const	 91375.04
+thirty_year_interest_rate	 25189.34
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.221
+Model:                              OLS   Adj. R-squared:                  0.212
+Method:                   Least Squares   F-statistic:                     23.54
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           5.66e-06
+Time:                          14:07:44   Log-Likelihood:                -1048.6
+No. Observations:                    85   AIC:                             2101.
+Df Residuals:                        83   BIC:                             2106.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      9.138e+04   2.29e+04      3.987      0.000    4.58e+04    1.37e+05
+thirty_year_interest_rate  2.519e+04   5191.954      4.852      0.000    1.49e+04    3.55e+04
+==============================================================================
+Omnibus:                       17.677   Durbin-Watson:                   0.360
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               21.334
+Skew:                           1.047   Prob(JB):                     2.33e-05
+Kurtosis:                       4.281   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

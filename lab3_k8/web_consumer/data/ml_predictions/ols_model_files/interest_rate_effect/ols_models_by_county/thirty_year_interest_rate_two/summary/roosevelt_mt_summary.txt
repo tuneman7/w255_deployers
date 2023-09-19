@@ -1,0 +1,31 @@
+************************************************************
+ROOSEVELT MT
+************************************************************
+const	 93775.81
+thirty_year_interest_rate_two	 15987.75
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.143
+Model:                              OLS   Adj. R-squared:                  0.132
+Method:                   Least Squares   F-statistic:                     13.03
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           0.000540
+Time:                          14:08:05   Log-Likelihood:                -969.01
+No. Observations:                    80   AIC:                             1942.
+Df Residuals:                        78   BIC:                             1947.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          9.378e+04   1.92e+04      4.873      0.000    5.55e+04    1.32e+05
+thirty_year_interest_rate_two  1.599e+04   4429.436      3.609      0.001    7169.421    2.48e+04
+==============================================================================
+Omnibus:                        0.255   Durbin-Watson:                   0.471
+Prob(Omnibus):                  0.880   Jarque-Bera (JB):                0.109
+Skew:                          -0.090   Prob(JB):                        0.947
+Kurtosis:                       3.004   Cond. No.                         17.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

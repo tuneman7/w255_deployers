@@ -1,0 +1,31 @@
+************************************************************
+CALHOUN WV
+************************************************************
+const	 33534.85
+thirty_year_interest_rate_five	 20944.88
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.338
+Model:                              OLS   Adj. R-squared:                  0.330
+Method:                   Least Squares   F-statistic:                     42.36
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           5.43e-09
+Time:                          14:07:19   Log-Likelihood:                -994.74
+No. Observations:                    85   AIC:                             1993.
+Df Residuals:                        83   BIC:                             1998.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           3.353e+04   1.35e+04      2.481      0.015    6652.472    6.04e+04
+thirty_year_interest_rate_five  2.094e+04   3217.920      6.509      0.000    1.45e+04    2.73e+04
+==============================================================================
+Omnibus:                        3.128   Durbin-Watson:                   0.193
+Prob(Omnibus):                  0.209   Jarque-Bera (JB):                1.995
+Skew:                           0.148   Prob(JB):                        0.369
+Kurtosis:                       2.310   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

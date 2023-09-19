@@ -1,0 +1,31 @@
+************************************************************
+CLARK KS
+************************************************************
+const	 -45087.33
+thirty_year_interest_rate_two	 36713.64
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.065
+Model:                              OLS   Adj. R-squared:                  0.054
+Method:                   Least Squares   F-statistic:                     5.802
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0182
+Time:                          14:07:14   Log-Likelihood:                -1134.9
+No. Observations:                    85   AIC:                             2274.
+Df Residuals:                        83   BIC:                             2279.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                         -4.509e+04   6.59e+04     -0.684      0.496   -1.76e+05    8.59e+04
+thirty_year_interest_rate_two  3.671e+04   1.52e+04      2.409      0.018    6399.150     6.7e+04
+==============================================================================
+Omnibus:                      171.659   Durbin-Watson:                   1.929
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            16803.999
+Skew:                           8.012   Prob(JB):                         0.00
+Kurtosis:                      69.992   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

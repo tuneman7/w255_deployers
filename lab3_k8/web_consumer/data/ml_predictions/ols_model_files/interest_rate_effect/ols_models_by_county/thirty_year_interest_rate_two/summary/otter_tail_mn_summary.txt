@@ -1,0 +1,31 @@
+************************************************************
+OTTER TAIL MN
+************************************************************
+const	 140629.47
+thirty_year_interest_rate_two	 30425.95
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.444
+Model:                              OLS   Adj. R-squared:                  0.438
+Method:                   Least Squares   F-statistic:                     66.41
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           3.28e-12
+Time:                          14:07:32   Log-Likelihood:                -1015.3
+No. Observations:                    85   AIC:                             2035.
+Df Residuals:                        83   BIC:                             2040.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          1.406e+05   1.61e+04      8.714      0.000    1.09e+05    1.73e+05
+thirty_year_interest_rate_two  3.043e+04   3733.639      8.149      0.000     2.3e+04    3.79e+04
+==============================================================================
+Omnibus:                        4.749   Durbin-Watson:                   0.178
+Prob(Omnibus):                  0.093   Jarque-Bera (JB):                3.542
+Skew:                           0.366   Prob(JB):                        0.170
+Kurtosis:                       2.318   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

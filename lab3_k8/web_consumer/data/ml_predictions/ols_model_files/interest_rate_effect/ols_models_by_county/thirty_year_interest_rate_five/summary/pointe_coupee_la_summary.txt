@@ -1,0 +1,31 @@
+************************************************************
+POINTE COUPEE LA
+************************************************************
+const	 201635.70
+thirty_year_interest_rate_five	 25490.91
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.302
+Model:                              OLS   Adj. R-squared:                  0.293
+Method:                   Least Squares   F-statistic:                     35.89
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           5.16e-08
+Time:                          14:08:05   Log-Likelihood:                -1018.5
+No. Observations:                    85   AIC:                             2041.
+Df Residuals:                        83   BIC:                             2046.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           2.016e+05   1.79e+04     11.283      0.000    1.66e+05    2.37e+05
+thirty_year_interest_rate_five  2.549e+04   4254.892      5.991      0.000     1.7e+04     3.4e+04
+==============================================================================
+Omnibus:                        6.707   Durbin-Watson:                   0.262
+Prob(Omnibus):                  0.035   Jarque-Bera (JB):                3.927
+Skew:                           0.336   Prob(JB):                        0.140
+Kurtosis:                       2.189   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

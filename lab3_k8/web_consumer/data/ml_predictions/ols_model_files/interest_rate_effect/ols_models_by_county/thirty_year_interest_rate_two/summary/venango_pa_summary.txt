@@ -1,0 +1,31 @@
+************************************************************
+VENANGO PA
+************************************************************
+const	 59400.51
+thirty_year_interest_rate_two	 9782.93
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.392
+Model:                              OLS   Adj. R-squared:                  0.385
+Method:                   Least Squares   F-statistic:                     53.49
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           1.48e-10
+Time:                          14:07:09   Log-Likelihood:                -928.08
+No. Observations:                    85   AIC:                             1860.
+Df Residuals:                        83   BIC:                             1865.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                           5.94e+04   5781.687     10.274      0.000    4.79e+04    7.09e+04
+thirty_year_interest_rate_two  9782.9254   1337.565      7.314      0.000    7122.562    1.24e+04
+==============================================================================
+Omnibus:                        7.464   Durbin-Watson:                   0.156
+Prob(Omnibus):                  0.024   Jarque-Bera (JB):                7.814
+Skew:                           0.738   Prob(JB):                       0.0201
+Kurtosis:                       2.830   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

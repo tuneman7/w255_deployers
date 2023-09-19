@@ -1,0 +1,31 @@
+************************************************************
+SNOHOMISH WA
+************************************************************
+const	 374113.79
+thirty_year_interest_rate_two	 50578.64
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.198
+Model:                              OLS   Adj. R-squared:                  0.188
+Method:                   Least Squares   F-statistic:                     20.46
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           2.01e-05
+Time:                          14:07:00   Log-Likelihood:                -1108.6
+No. Observations:                    85   AIC:                             2221.
+Df Residuals:                        83   BIC:                             2226.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          3.741e+05   4.83e+04      7.740      0.000    2.78e+05     4.7e+05
+thirty_year_interest_rate_two  5.058e+04   1.12e+04      4.523      0.000    2.83e+04    7.28e+04
+==============================================================================
+Omnibus:                       16.734   Durbin-Watson:                   0.033
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                5.729
+Skew:                           0.346   Prob(JB):                       0.0570
+Kurtosis:                       1.933   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

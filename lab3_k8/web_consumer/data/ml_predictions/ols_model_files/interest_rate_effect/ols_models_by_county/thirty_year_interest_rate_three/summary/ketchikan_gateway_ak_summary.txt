@@ -1,0 +1,31 @@
+************************************************************
+KETCHIKAN GATEWAY AK
+************************************************************
+const	 210441.99
+thirty_year_interest_rate_three	 25748.28
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.172
+Model:                              OLS   Adj. R-squared:                  0.162
+Method:                   Least Squares   F-statistic:                     17.26
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           7.89e-05
+Time:                          14:08:21   Log-Likelihood:                -1056.1
+No. Observations:                    85   AIC:                             2116.
+Df Residuals:                        83   BIC:                             2121.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            2.104e+05   2.65e+04      7.929      0.000    1.58e+05    2.63e+05
+thirty_year_interest_rate_three  2.575e+04   6198.557      4.154      0.000    1.34e+04    3.81e+04
+==============================================================================
+Omnibus:                        6.570   Durbin-Watson:                   0.248
+Prob(Omnibus):                  0.037   Jarque-Bera (JB):                6.386
+Skew:                           0.670   Prob(JB):                       0.0410
+Kurtosis:                       3.076   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

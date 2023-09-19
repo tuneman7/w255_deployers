@@ -1,0 +1,31 @@
+************************************************************
+HASKELL KS
+************************************************************
+const	 83677.77
+thirty_year_interest_rate_six	 12214.30
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.035
+Model:                              OLS   Adj. R-squared:                  0.022
+Method:                   Least Squares   F-statistic:                     2.657
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):              0.107
+Time:                          21:22:13   Log-Likelihood:                -910.58
+No. Observations:                    76   AIC:                             1825.
+Df Residuals:                        74   BIC:                             1830.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          8.368e+04   2.88e+04      2.908      0.005    2.63e+04    1.41e+05
+thirty_year_interest_rate_six  1.221e+04   7493.296      1.630      0.107   -2716.414    2.71e+04
+==============================================================================
+Omnibus:                       49.247   Durbin-Watson:                   0.928
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              187.368
+Skew:                           2.014   Prob(JB):                     2.06e-41
+Kurtosis:                       9.553   Cond. No.                         26.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+KODIAK ISLAND AK
+************************************************************
+const	 366062.93
+thirty_year_interest_rate_three	 -8094.56
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.080
+Model:                              OLS   Adj. R-squared:                  0.069
+Method:                   Least Squares   F-statistic:                     7.229
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00867
+Time:                          14:07:07   Log-Likelihood:                -994.67
+No. Observations:                    85   AIC:                             1993.
+Df Residuals:                        83   BIC:                             1998.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            3.661e+05   1.29e+04     28.397      0.000     3.4e+05    3.92e+05
+thirty_year_interest_rate_three -8094.5621   3010.607     -2.689      0.009   -1.41e+04   -2106.586
+==============================================================================
+Omnibus:                        8.943   Durbin-Watson:                   0.933
+Prob(Omnibus):                  0.011   Jarque-Bera (JB):               10.483
+Skew:                           0.528   Prob(JB):                      0.00529
+Kurtosis:                       4.358   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

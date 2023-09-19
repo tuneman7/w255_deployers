@@ -1,0 +1,31 @@
+************************************************************
+TISHOMINGO MS
+************************************************************
+const	 155962.86
+thirty_year_interest_rate_two	 10899.74
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.090
+Model:                              OLS   Adj. R-squared:                  0.079
+Method:                   Least Squares   F-statistic:                     8.190
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00533
+Time:                          14:07:50   Log-Likelihood:                -1017.0
+No. Observations:                    85   AIC:                             2038.
+Df Residuals:                        83   BIC:                             2043.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                           1.56e+05   1.65e+04      9.473      0.000    1.23e+05    1.89e+05
+thirty_year_interest_rate_two   1.09e+04   3808.699      2.862      0.005    3324.390    1.85e+04
+==============================================================================
+Omnibus:                        7.444   Durbin-Watson:                   0.174
+Prob(Omnibus):                  0.024   Jarque-Bera (JB):                2.995
+Skew:                           0.097   Prob(JB):                        0.224
+Kurtosis:                       2.101   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

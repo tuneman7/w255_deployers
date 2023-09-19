@@ -1,0 +1,31 @@
+************************************************************
+NOLAN TX
+************************************************************
+const	 130802.53
+thirty_year_interest_rate_five	 -1006.02
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.004
+Model:                              OLS   Adj. R-squared:                 -0.008
+Method:                   Least Squares   F-statistic:                    0.3200
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.573
+Time:                          14:07:22   Log-Likelihood:                -944.33
+No. Observations:                    85   AIC:                             1893.
+Df Residuals:                        83   BIC:                             1898.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           1.308e+05   7469.167     17.512      0.000    1.16e+05    1.46e+05
+thirty_year_interest_rate_five -1006.0177   1778.303     -0.566      0.573   -4542.990    2530.955
+==============================================================================
+Omnibus:                        1.266   Durbin-Watson:                   0.541
+Prob(Omnibus):                  0.531   Jarque-Bera (JB):                1.337
+Skew:                           0.260   Prob(JB):                        0.513
+Kurtosis:                       2.673   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

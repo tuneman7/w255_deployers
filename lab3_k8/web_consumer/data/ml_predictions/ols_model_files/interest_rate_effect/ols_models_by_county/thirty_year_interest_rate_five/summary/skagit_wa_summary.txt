@@ -1,0 +1,31 @@
+************************************************************
+SKAGIT WA
+************************************************************
+const	 390632.71
+thirty_year_interest_rate_five	 25471.42
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.077
+Model:                              OLS   Adj. R-squared:                  0.066
+Method:                   Least Squares   F-statistic:                     6.961
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00995
+Time:                          14:07:00   Log-Likelihood:                -1088.1
+No. Observations:                    85   AIC:                             2180.
+Df Residuals:                        83   BIC:                             2185.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           3.906e+05   4.06e+04      9.633      0.000     3.1e+05    4.71e+05
+thirty_year_interest_rate_five  2.547e+04   9654.450      2.638      0.010    6269.104    4.47e+04
+==============================================================================
+Omnibus:                       41.822   Durbin-Watson:                   0.045
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                6.451
+Skew:                           0.187   Prob(JB):                       0.0397
+Kurtosis:                       1.703   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

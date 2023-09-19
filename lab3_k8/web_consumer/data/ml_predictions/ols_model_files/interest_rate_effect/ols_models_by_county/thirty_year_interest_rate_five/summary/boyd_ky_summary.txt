@@ -1,0 +1,31 @@
+************************************************************
+BOYD KY
+************************************************************
+const	 103446.30
+thirty_year_interest_rate_five	 6782.66
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.106
+Model:                              OLS   Adj. R-squared:                  0.096
+Method:                   Least Squares   F-statistic:                     9.875
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00232
+Time:                          14:07:40   Log-Likelihood:                -960.79
+No. Observations:                    85   AIC:                             1926.
+Df Residuals:                        83   BIC:                             1930.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           1.034e+05   9065.756     11.411      0.000    8.54e+04    1.21e+05
+thirty_year_interest_rate_five  6782.6572   2158.428      3.142      0.002    2489.631    1.11e+04
+==============================================================================
+Omnibus:                       26.076   Durbin-Watson:                   0.271
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               36.681
+Skew:                           1.433   Prob(JB):                     1.08e-08
+Kurtosis:                       4.464   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

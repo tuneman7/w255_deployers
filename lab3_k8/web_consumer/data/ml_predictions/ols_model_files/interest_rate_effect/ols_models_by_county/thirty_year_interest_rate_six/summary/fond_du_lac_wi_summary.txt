@@ -1,0 +1,31 @@
+************************************************************
+FOND DU LAC WI
+************************************************************
+const	 271403.34
+thirty_year_interest_rate_six	 -23299.97
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.096
+Model:                              OLS   Adj. R-squared:                  0.083
+Method:                   Least Squares   F-statistic:                     7.819
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):            0.00658
+Time:                          21:22:00   Log-Likelihood:                -918.64
+No. Observations:                    76   AIC:                             1841.
+Df Residuals:                        74   BIC:                             1846.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          2.714e+05    3.2e+04      8.483      0.000    2.08e+05    3.35e+05
+thirty_year_interest_rate_six  -2.33e+04   8332.513     -2.796      0.007   -3.99e+04   -6697.073
+==============================================================================
+Omnibus:                       19.266   Durbin-Watson:                   0.130
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               23.875
+Skew:                           1.206   Prob(JB):                     6.54e-06
+Kurtosis:                       4.310   Cond. No.                         26.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

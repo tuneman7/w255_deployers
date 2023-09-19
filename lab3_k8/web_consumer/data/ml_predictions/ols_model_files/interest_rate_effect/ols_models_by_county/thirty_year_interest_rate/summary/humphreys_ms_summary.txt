@@ -1,0 +1,31 @@
+************************************************************
+HUMPHREYS MS
+************************************************************
+const	 72755.19
+thirty_year_interest_rate	 3830.08
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.015
+Model:                              OLS   Adj. R-squared:                  0.003
+Method:                   Least Squares   F-statistic:                     1.238
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.269
+Time:                          14:08:05   Log-Likelihood:                -1013.7
+No. Observations:                    85   AIC:                             2031.
+Df Residuals:                        83   BIC:                             2036.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      7.276e+04   1.52e+04      4.789      0.000    4.25e+04    1.03e+05
+thirty_year_interest_rate  3830.0783   3441.682      1.113      0.269   -3015.290    1.07e+04
+==============================================================================
+Omnibus:                       59.626   Durbin-Watson:                   0.781
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              385.199
+Skew:                           2.048   Prob(JB):                     2.26e-84
+Kurtosis:                      12.591   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

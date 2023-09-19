@@ -1,0 +1,31 @@
+************************************************************
+CALEDONIA VT
+************************************************************
+const	 356804.66
+thirty_year_interest_rate_seven	 -35434.61
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.149
+Model:                              OLS   Adj. R-squared:                  0.138
+Method:                   Least Squares   F-statistic:                     12.98
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           0.000567
+Time:                          21:21:03   Log-Likelihood:                -928.80
+No. Observations:                    76   AIC:                             1862.
+Df Residuals:                        74   BIC:                             1866.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            3.568e+05   3.76e+04      9.491      0.000    2.82e+05    4.32e+05
+thirty_year_interest_rate_seven -3.543e+04   9835.194     -3.603      0.001    -5.5e+04   -1.58e+04
+==============================================================================
+Omnibus:                       39.391   Durbin-Watson:                   0.124
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               99.396
+Skew:                           1.755   Prob(JB):                     2.61e-22
+Kurtosis:                       7.367   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

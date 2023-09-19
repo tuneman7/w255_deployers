@@ -1,0 +1,31 @@
+************************************************************
+LITTLE RIVER AR
+************************************************************
+const	 82610.29
+thirty_year_interest_rate_three	 13715.33
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.237
+Model:                              OLS   Adj. R-squared:                  0.228
+Method:                   Least Squares   F-statistic:                     25.83
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           2.27e-06
+Time:                          14:06:57   Log-Likelihood:                -985.38
+No. Observations:                    85   AIC:                             1975.
+Df Residuals:                        83   BIC:                             1980.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            8.261e+04   1.16e+04      7.149      0.000    5.96e+04    1.06e+05
+thirty_year_interest_rate_three  1.372e+04   2698.847      5.082      0.000    8347.432    1.91e+04
+==============================================================================
+Omnibus:                        4.192   Durbin-Watson:                   0.207
+Prob(Omnibus):                  0.123   Jarque-Bera (JB):                4.187
+Skew:                           0.515   Prob(JB):                        0.123
+Kurtosis:                       2.649   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

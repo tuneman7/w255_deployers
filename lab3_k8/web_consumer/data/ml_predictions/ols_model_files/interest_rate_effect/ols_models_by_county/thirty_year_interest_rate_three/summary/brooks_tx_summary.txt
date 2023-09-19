@@ -1,0 +1,31 @@
+************************************************************
+BROOKS TX
+************************************************************
+const	 163702.36
+thirty_year_interest_rate_three	 -9721.34
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.075
+Model:                              OLS   Adj. R-squared:                  0.064
+Method:                   Least Squares   F-statistic:                     6.749
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0111
+Time:                          14:07:49   Log-Likelihood:                -1013.2
+No. Observations:                    85   AIC:                             2030.
+Df Residuals:                        83   BIC:                             2035.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.637e+05    1.6e+04     10.217      0.000    1.32e+05    1.96e+05
+thirty_year_interest_rate_three -9721.3416   3742.110     -2.598      0.011   -1.72e+04   -2278.435
+==============================================================================
+Omnibus:                        8.529   Durbin-Watson:                   0.512
+Prob(Omnibus):                  0.014   Jarque-Bera (JB):                9.069
+Skew:                           0.774   Prob(JB):                       0.0107
+Kurtosis:                       2.595   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+CHOCTAW MS
+************************************************************
+const	 43087.63
+thirty_year_interest_rate_three	 17829.10
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.338
+Model:                              OLS   Adj. R-squared:                  0.330
+Method:                   Least Squares   F-statistic:                     42.31
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           5.54e-09
+Time:                          14:08:16   Log-Likelihood:                -986.70
+No. Observations:                    85   AIC:                             1977.
+Df Residuals:                        83   BIC:                             1982.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            4.309e+04   1.17e+04      3.671      0.000    1.97e+04    6.64e+04
+thirty_year_interest_rate_three  1.783e+04   2741.146      6.504      0.000    1.24e+04    2.33e+04
+==============================================================================
+Omnibus:                        2.600   Durbin-Watson:                   0.477
+Prob(Omnibus):                  0.273   Jarque-Bera (JB):                1.909
+Skew:                           0.313   Prob(JB):                        0.385
+Kurtosis:                       3.382   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

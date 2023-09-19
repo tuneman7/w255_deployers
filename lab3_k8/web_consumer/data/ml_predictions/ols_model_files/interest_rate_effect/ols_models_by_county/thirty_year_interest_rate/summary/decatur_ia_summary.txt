@@ -1,0 +1,31 @@
+************************************************************
+DECATUR IA
+************************************************************
+const	 53105.41
+thirty_year_interest_rate	 11926.92
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.250
+Model:                              OLS   Adj. R-squared:                  0.241
+Method:                   Least Squares   F-statistic:                     27.72
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           1.08e-06
+Time:                          14:08:10   Log-Likelihood:                -978.14
+No. Observations:                    85   AIC:                             1960.
+Df Residuals:                        83   BIC:                             1965.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      5.311e+04   9999.797      5.311      0.000    3.32e+04     7.3e+04
+thirty_year_interest_rate  1.193e+04   2265.482      5.265      0.000    7420.970    1.64e+04
+==============================================================================
+Omnibus:                        8.898   Durbin-Watson:                   0.634
+Prob(Omnibus):                  0.012   Jarque-Bera (JB):                8.809
+Skew:                           0.774   Prob(JB):                       0.0122
+Kurtosis:                       3.300   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

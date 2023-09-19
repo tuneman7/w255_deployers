@@ -1,0 +1,31 @@
+************************************************************
+STEPHENSON IL
+************************************************************
+const	 92593.39
+thirty_year_interest_rate	 2352.04
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.021
+Model:                              OLS   Adj. R-squared:                  0.010
+Method:                   Least Squares   F-statistic:                     1.808
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.182
+Time:                          14:08:14   Log-Likelihood:                -956.16
+No. Observations:                    85   AIC:                             1916.
+Df Residuals:                        83   BIC:                             1921.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      9.259e+04   7721.664     11.991      0.000    7.72e+04    1.08e+05
+thirty_year_interest_rate  2352.0355   1749.365      1.345      0.182   -1127.380    5831.451
+==============================================================================
+Omnibus:                        8.905   Durbin-Watson:                   0.420
+Prob(Omnibus):                  0.012   Jarque-Bera (JB):                9.138
+Skew:                           0.801   Prob(JB):                       0.0104
+Kurtosis:                       3.119   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

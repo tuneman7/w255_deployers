@@ -1,0 +1,31 @@
+************************************************************
+JERSEY IL
+************************************************************
+const	 127853.05
+thirty_year_interest_rate	 5910.78
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.133
+Model:                              OLS   Adj. R-squared:                  0.122
+Method:                   Least Squares   F-statistic:                     12.71
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           0.000606
+Time:                          14:08:14   Log-Likelihood:                -951.60
+No. Observations:                    85   AIC:                             1907.
+Df Residuals:                        83   BIC:                             1912.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      1.279e+05   7318.015     17.471      0.000    1.13e+05    1.42e+05
+thirty_year_interest_rate  5910.7786   1657.917      3.565      0.001    2613.249    9208.308
+==============================================================================
+Omnibus:                       30.074   Durbin-Watson:                   0.520
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               48.895
+Skew:                           1.478   Prob(JB):                     2.41e-11
+Kurtosis:                       5.251   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

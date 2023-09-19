@@ -1,0 +1,31 @@
+************************************************************
+COKE TX
+************************************************************
+const	 78679.88
+thirty_year_interest_rate_two	 8469.06
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.076
+Model:                              OLS   Adj. R-squared:                  0.065
+Method:                   Least Squares   F-statistic:                     6.857
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0105
+Time:                          14:08:01   Log-Likelihood:                -1003.1
+No. Observations:                    85   AIC:                             2010.
+Df Residuals:                        83   BIC:                             2015.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          7.868e+04    1.4e+04      5.628      0.000    5.09e+04    1.06e+05
+thirty_year_interest_rate_two  8469.0566   3234.318      2.618      0.010    2036.128    1.49e+04
+==============================================================================
+Omnibus:                       13.392   Durbin-Watson:                   0.257
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):               15.632
+Skew:                           1.050   Prob(JB):                     0.000403
+Kurtosis:                       3.016   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

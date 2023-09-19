@@ -1,0 +1,31 @@
+************************************************************
+SEVIER TN
+************************************************************
+const	 192336.32
+thirty_year_interest_rate_two	 60169.05
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.109
+Model:                              OLS   Adj. R-squared:                  0.099
+Method:                   Least Squares   F-statistic:                     10.18
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00200
+Time:                          14:06:56   Log-Likelihood:                -1153.0
+No. Observations:                    85   AIC:                             2310.
+Df Residuals:                        83   BIC:                             2315.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          1.923e+05   8.15e+04      2.360      0.021    3.02e+04    3.54e+05
+thirty_year_interest_rate_two  6.017e+04   1.89e+04      3.191      0.002    2.27e+04    9.77e+04
+==============================================================================
+Omnibus:                       84.883   Durbin-Watson:                   0.023
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                9.165
+Skew:                           0.373   Prob(JB):                       0.0102
+Kurtosis:                       1.575   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

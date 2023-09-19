@@ -1,0 +1,31 @@
+************************************************************
+SULLIVAN MO
+************************************************************
+const	 26004.85
+thirty_year_interest_rate_four	 17709.51
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.362
+Model:                              OLS   Adj. R-squared:                  0.355
+Method:                   Least Squares   F-statistic:                     47.17
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           1.10e-09
+Time:                          14:08:03   Log-Likelihood:                -979.19
+No. Observations:                    85   AIC:                             1962.
+Df Residuals:                        83   BIC:                             1967.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                             2.6e+04   1.09e+04      2.376      0.020    4238.618    4.78e+04
+thirty_year_interest_rate_four  1.771e+04   2578.593      6.868      0.000    1.26e+04    2.28e+04
+==============================================================================
+Omnibus:                       33.250   Durbin-Watson:                   0.503
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               61.326
+Skew:                           1.535   Prob(JB):                     4.82e-14
+Kurtosis:                       5.809   Cond. No.                         18.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+VENANGO PA
+************************************************************
+const	 60703.41
+thirty_year_interest_rate_three	 9549.51
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.353
+Model:                              OLS   Adj. R-squared:                  0.345
+Method:                   Least Squares   F-statistic:                     45.32
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           2.02e-09
+Time:                          14:07:09   Log-Likelihood:                -930.71
+No. Observations:                    85   AIC:                             1865.
+Df Residuals:                        83   BIC:                             1870.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                             6.07e+04   6073.652      9.995      0.000    4.86e+04    7.28e+04
+thirty_year_interest_rate_three  9549.5115   1418.467      6.732      0.000    6728.238    1.24e+04
+==============================================================================
+Omnibus:                        8.496   Durbin-Watson:                   0.153
+Prob(Omnibus):                  0.014   Jarque-Bera (JB):                9.132
+Skew:                           0.795   Prob(JB):                       0.0104
+Kurtosis:                       2.780   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

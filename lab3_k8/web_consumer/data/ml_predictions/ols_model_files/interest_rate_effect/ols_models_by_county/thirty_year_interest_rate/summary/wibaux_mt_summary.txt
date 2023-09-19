@@ -1,0 +1,31 @@
+************************************************************
+WIBAUX MT
+************************************************************
+const	 175557.92
+thirty_year_interest_rate	 -18822.62
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.122
+Model:                              OLS   Adj. R-squared:                  0.110
+Method:                   Least Squares   F-statistic:                     10.54
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00174
+Time:                          14:08:13   Log-Likelihood:                -966.55
+No. Observations:                    78   AIC:                             1937.
+Df Residuals:                        76   BIC:                             1942.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      1.756e+05   2.61e+04      6.733      0.000    1.24e+05    2.27e+05
+thirty_year_interest_rate -1.882e+04   5797.378     -3.247      0.002   -3.04e+04   -7276.138
+==============================================================================
+Omnibus:                       37.895   Durbin-Watson:                   0.543
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               84.430
+Skew:                           1.733   Prob(JB):                     4.64e-19
+Kurtosis:                       6.737   Cond. No.                         18.4
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

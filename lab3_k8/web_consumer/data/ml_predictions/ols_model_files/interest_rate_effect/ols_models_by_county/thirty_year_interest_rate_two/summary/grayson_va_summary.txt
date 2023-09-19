@@ -1,0 +1,31 @@
+************************************************************
+GRAYSON VA
+************************************************************
+const	 107048.32
+thirty_year_interest_rate_two	 24634.76
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.431
+Model:                              OLS   Adj. R-squared:                  0.424
+Method:                   Least Squares   F-statistic:                     62.87
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           9.00e-12
+Time:                          14:07:49   Log-Likelihood:                -999.72
+No. Observations:                    85   AIC:                             2003.
+Df Residuals:                        83   BIC:                             2008.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                           1.07e+05   1.34e+04      7.971      0.000    8.03e+04    1.34e+05
+thirty_year_interest_rate_two  2.463e+04   3106.839      7.929      0.000    1.85e+04    3.08e+04
+==============================================================================
+Omnibus:                        8.696   Durbin-Watson:                   0.356
+Prob(Omnibus):                  0.013   Jarque-Bera (JB):                8.336
+Skew:                           0.725   Prob(JB):                       0.0155
+Kurtosis:                       3.504   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+CLEARWATER ID
+************************************************************
+const	 131607.61
+thirty_year_interest_rate	 32220.20
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.105
+Model:                              OLS   Adj. R-squared:                  0.094
+Method:                   Least Squares   F-statistic:                     9.711
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00252
+Time:                          14:07:45   Log-Likelihood:                -1107.2
+No. Observations:                    85   AIC:                             2218.
+Df Residuals:                        83   BIC:                             2223.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      1.316e+05   4.56e+04      2.884      0.005    4.08e+04    2.22e+05
+thirty_year_interest_rate  3.222e+04   1.03e+04      3.116      0.003    1.17e+04    5.28e+04
+==============================================================================
+Omnibus:                       14.378   Durbin-Watson:                   0.167
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):               15.978
+Skew:                           1.029   Prob(JB):                     0.000339
+Kurtosis:                       3.529   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+HAYWOOD TN
+************************************************************
+const	 -88159.27
+thirty_year_interest_rate_two	 51355.92
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.551
+Model:                              OLS   Adj. R-squared:                  0.546
+Method:                   Least Squares   F-statistic:                     101.9
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           4.25e-16
+Time:                          14:07:05   Log-Likelihood:                -1041.6
+No. Observations:                    85   AIC:                             2087.
+Df Residuals:                        83   BIC:                             2092.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                         -8.816e+04    2.2e+04     -4.009      0.000   -1.32e+05   -4.44e+04
+thirty_year_interest_rate_two  5.136e+04   5086.953     10.096      0.000    4.12e+04    6.15e+04
+==============================================================================
+Omnibus:                        8.016   Durbin-Watson:                   0.232
+Prob(Omnibus):                  0.018   Jarque-Bera (JB):                7.638
+Skew:                           0.617   Prob(JB):                       0.0219
+Kurtosis:                       3.796   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

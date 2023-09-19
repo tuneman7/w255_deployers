@@ -1,0 +1,31 @@
+************************************************************
+ROSCOMMON MI
+************************************************************
+const	 120670.25
+thirty_year_interest_rate_five	 6092.40
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.027
+Model:                              OLS   Adj. R-squared:                  0.015
+Method:                   Least Squares   F-statistic:                     2.292
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.134
+Time:                          14:07:15   Log-Likelihood:                -1013.7
+No. Observations:                    85   AIC:                             2031.
+Df Residuals:                        83   BIC:                             2036.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           1.207e+05   1.69e+04      7.140      0.000    8.71e+04    1.54e+05
+thirty_year_interest_rate_five  6092.4027   4024.012      1.514      0.134   -1911.195    1.41e+04
+==============================================================================
+Omnibus:                        9.675   Durbin-Watson:                   0.055
+Prob(Omnibus):                  0.008   Jarque-Bera (JB):               10.674
+Skew:                           0.857   Prob(JB):                      0.00481
+Kurtosis:                       2.727   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

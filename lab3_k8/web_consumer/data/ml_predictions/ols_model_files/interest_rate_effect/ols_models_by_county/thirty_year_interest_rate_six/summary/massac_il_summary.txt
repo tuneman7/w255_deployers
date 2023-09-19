@@ -1,0 +1,31 @@
+************************************************************
+MASSAC IL
+************************************************************
+const	 75451.39
+thirty_year_interest_rate_six	 3403.05
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.047
+Model:                              OLS   Adj. R-squared:                  0.034
+Method:                   Least Squares   F-statistic:                     3.651
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):             0.0599
+Time:                          21:22:47   Log-Likelihood:                -801.37
+No. Observations:                    76   AIC:                             1607.
+Df Residuals:                        74   BIC:                             1611.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          7.545e+04   6838.142     11.034      0.000    6.18e+04    8.91e+04
+thirty_year_interest_rate_six  3403.0496   1780.948      1.911      0.060    -145.567    6951.667
+==============================================================================
+Omnibus:                       26.854   Durbin-Watson:                   0.197
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               40.580
+Skew:                           1.472   Prob(JB):                     1.54e-09
+Kurtosis:                       5.035   Cond. No.                         26.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

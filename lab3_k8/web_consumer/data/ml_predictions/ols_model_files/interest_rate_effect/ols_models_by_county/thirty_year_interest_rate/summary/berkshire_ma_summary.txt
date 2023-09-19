@@ -1,0 +1,31 @@
+************************************************************
+BERKSHIRE MA
+************************************************************
+const	 356571.01
+thirty_year_interest_rate	 11575.17
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.053
+Model:                              OLS   Adj. R-squared:                  0.042
+Method:                   Least Squares   F-statistic:                     4.666
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0336
+Time:                          14:07:25   Log-Likelihood:                -1051.3
+No. Observations:                    85   AIC:                             2107.
+Df Residuals:                        83   BIC:                             2112.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      3.566e+05   2.37e+04     15.075      0.000     3.1e+05    4.04e+05
+thirty_year_interest_rate  1.158e+04   5358.605      2.160      0.034     917.118    2.22e+04
+==============================================================================
+Omnibus:                        4.226   Durbin-Watson:                   0.077
+Prob(Omnibus):                  0.121   Jarque-Bera (JB):                3.030
+Skew:                           0.311   Prob(JB):                        0.220
+Kurtosis:                       2.316   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

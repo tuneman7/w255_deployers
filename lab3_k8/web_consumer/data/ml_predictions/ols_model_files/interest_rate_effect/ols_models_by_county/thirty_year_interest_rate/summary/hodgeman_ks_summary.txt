@@ -1,0 +1,31 @@
+************************************************************
+HODGEMAN KS
+************************************************************
+const	 -76047.40
+thirty_year_interest_rate	 42139.46
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.193
+Model:                              OLS   Adj. R-squared:                  0.183
+Method:                   Least Squares   F-statistic:                     19.11
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           3.68e-05
+Time:                          14:08:22   Log-Likelihood:                -1061.8
+No. Observations:                    82   AIC:                             2128.
+Df Residuals:                        80   BIC:                             2132.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                     -7.605e+04   4.27e+04     -1.781      0.079   -1.61e+05    8936.544
+thirty_year_interest_rate  4.214e+04   9639.989      4.371      0.000     2.3e+04    6.13e+04
+==============================================================================
+Omnibus:                      113.580   Durbin-Watson:                   0.763
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             2202.342
+Skew:                           4.638   Prob(JB):                         0.00
+Kurtosis:                      26.634   Cond. No.                         17.4
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

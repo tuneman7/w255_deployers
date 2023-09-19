@@ -1,0 +1,31 @@
+************************************************************
+BRUNSWICK VA
+************************************************************
+const	 340865.94
+thirty_year_interest_rate_seven	 -26604.79
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.069
+Model:                              OLS   Adj. R-squared:                  0.057
+Method:                   Least Squares   F-statistic:                     5.519
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):             0.0215
+Time:                          21:22:30   Log-Likelihood:                -939.52
+No. Observations:                    76   AIC:                             1883.
+Df Residuals:                        74   BIC:                             1888.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            3.409e+05   4.33e+04      7.874      0.000    2.55e+05    4.27e+05
+thirty_year_interest_rate_seven  -2.66e+04   1.13e+04     -2.349      0.021   -4.92e+04   -4039.198
+==============================================================================
+Omnibus:                        4.577   Durbin-Watson:                   0.519
+Prob(Omnibus):                  0.101   Jarque-Bera (JB):                2.297
+Skew:                          -0.120   Prob(JB):                        0.317
+Kurtosis:                       2.183   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

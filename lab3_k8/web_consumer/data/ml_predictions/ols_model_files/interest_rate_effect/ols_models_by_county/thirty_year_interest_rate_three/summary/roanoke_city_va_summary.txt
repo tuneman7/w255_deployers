@@ -1,0 +1,31 @@
+************************************************************
+ROANOKE CITY VA
+************************************************************
+const	 113962.75
+thirty_year_interest_rate_three	 12603.99
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.140
+Model:                              OLS   Adj. R-squared:                  0.130
+Method:                   Least Squares   F-statistic:                     13.55
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           0.000411
+Time:                          14:08:01   Log-Likelihood:                -1005.6
+No. Observations:                    85   AIC:                             2015.
+Df Residuals:                        83   BIC:                             2020.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                             1.14e+05   1.47e+04      7.774      0.000    8.48e+04    1.43e+05
+thirty_year_interest_rate_three   1.26e+04   3423.454      3.682      0.000    5794.875    1.94e+04
+==============================================================================
+Omnibus:                     1633.773   Durbin-Watson:                   0.065
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               10.759
+Skew:                           0.122   Prob(JB):                      0.00461
+Kurtosis:                       1.274   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

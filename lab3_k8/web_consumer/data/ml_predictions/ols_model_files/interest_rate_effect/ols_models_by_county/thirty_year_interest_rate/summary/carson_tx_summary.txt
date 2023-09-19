@@ -1,0 +1,31 @@
+************************************************************
+CARSON TX
+************************************************************
+const	 62178.28
+thirty_year_interest_rate	 15837.71
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.395
+Model:                              OLS   Adj. R-squared:                  0.387
+Method:                   Least Squares   F-statistic:                     54.12
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           1.22e-10
+Time:                          14:07:53   Log-Likelihood:                -973.80
+No. Observations:                    85   AIC:                             1952.
+Df Residuals:                        83   BIC:                             1956.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      6.218e+04   9502.325      6.543      0.000    4.33e+04    8.11e+04
+thirty_year_interest_rate  1.584e+04   2152.778      7.357      0.000    1.16e+04    2.01e+04
+==============================================================================
+Omnibus:                       12.292   Durbin-Watson:                   0.531
+Prob(Omnibus):                  0.002   Jarque-Bera (JB):               12.855
+Skew:                           0.866   Prob(JB):                      0.00162
+Kurtosis:                       3.795   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+VERNON WI
+************************************************************
+const	 156251.37
+thirty_year_interest_rate_two	 13453.97
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.131
+Model:                              OLS   Adj. R-squared:                  0.121
+Method:                   Least Squares   F-statistic:                     12.56
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           0.000649
+Time:                          14:08:14   Log-Likelihood:                -1016.7
+No. Observations:                    85   AIC:                             2037.
+Df Residuals:                        83   BIC:                             2042.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          1.563e+05   1.64e+04      9.524      0.000    1.24e+05    1.89e+05
+thirty_year_interest_rate_two  1.345e+04   3795.509      3.545      0.001    5904.857     2.1e+04
+==============================================================================
+Omnibus:                        4.545   Durbin-Watson:                   0.120
+Prob(Omnibus):                  0.103   Jarque-Bera (JB):                4.528
+Skew:                           0.555   Prob(JB):                        0.104
+Kurtosis:                       2.788   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

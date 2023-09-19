@@ -1,0 +1,31 @@
+************************************************************
+ROCKDALE GA
+************************************************************
+const	 209246.78
+thirty_year_interest_rate_five	 12421.52
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.044
+Model:                              OLS   Adj. R-squared:                  0.033
+Method:                   Least Squares   F-statistic:                     3.857
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0529
+Time:                          14:08:12   Log-Likelihood:                -1052.2
+No. Observations:                    85   AIC:                             2108.
+Df Residuals:                        83   BIC:                             2113.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           2.092e+05   2.66e+04      7.876      0.000    1.56e+05    2.62e+05
+thirty_year_interest_rate_five  1.242e+04   6325.218      1.964      0.053    -159.081     2.5e+04
+==============================================================================
+Omnibus:                       13.989   Durbin-Watson:                   0.044
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):                4.946
+Skew:                           0.291   Prob(JB):                       0.0843
+Kurtosis:                       1.971   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

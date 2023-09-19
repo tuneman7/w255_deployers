@@ -1,0 +1,31 @@
+************************************************************
+GLADES FL
+************************************************************
+const	 101225.50
+thirty_year_interest_rate_four	 29941.05
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.245
+Model:                              OLS   Adj. R-squared:                  0.236
+Method:                   Least Squares   F-statistic:                     26.89
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           1.50e-06
+Time:                          14:07:25   Log-Likelihood:                -1047.7
+No. Observations:                    85   AIC:                             2099.
+Df Residuals:                        83   BIC:                             2104.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           1.012e+05   2.45e+04      4.131      0.000    5.25e+04     1.5e+05
+thirty_year_interest_rate_four  2.994e+04   5774.372      5.185      0.000    1.85e+04    4.14e+04
+==============================================================================
+Omnibus:                        9.062   Durbin-Watson:                   0.090
+Prob(Omnibus):                  0.011   Jarque-Bera (JB):                9.860
+Skew:                           0.819   Prob(JB):                      0.00723
+Kurtosis:                       2.687   Cond. No.                         18.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

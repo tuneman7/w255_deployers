@@ -1,0 +1,31 @@
+************************************************************
+LYNCHBURG CITY VA
+************************************************************
+const	 263508.28
+thirty_year_interest_rate_six	 -22844.39
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.187
+Model:                              OLS   Adj. R-squared:                  0.176
+Method:                   Least Squares   F-statistic:                     17.03
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           9.53e-05
+Time:                          21:21:02   Log-Likelihood:                -887.56
+No. Observations:                    76   AIC:                             1779.
+Df Residuals:                        74   BIC:                             1784.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          2.635e+05   2.13e+04     12.399      0.000    2.21e+05    3.06e+05
+thirty_year_interest_rate_six -2.284e+04   5535.260     -4.127      0.000   -3.39e+04   -1.18e+04
+==============================================================================
+Omnibus:                       23.125   Durbin-Watson:                   0.169
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               35.938
+Skew:                           1.208   Prob(JB):                     1.57e-08
+Kurtosis:                       5.348   Cond. No.                         26.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

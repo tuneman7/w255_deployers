@@ -1,0 +1,31 @@
+************************************************************
+FAYETTE PA
+************************************************************
+const	 125049.04
+thirty_year_interest_rate	 3191.13
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.065
+Model:                              OLS   Adj. R-squared:                  0.053
+Method:                   Least Squares   F-statistic:                     5.741
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0188
+Time:                          14:07:36   Log-Likelihood:                -932.98
+No. Observations:                    85   AIC:                             1870.
+Df Residuals:                        83   BIC:                             1875.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                       1.25e+05   5878.600     21.272      0.000    1.13e+05    1.37e+05
+thirty_year_interest_rate  3191.1278   1331.813      2.396      0.019     542.205    5840.051
+==============================================================================
+Omnibus:                        7.049   Durbin-Watson:                   0.126
+Prob(Omnibus):                  0.029   Jarque-Bera (JB):                6.463
+Skew:                           0.603   Prob(JB):                       0.0395
+Kurtosis:                       2.391   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

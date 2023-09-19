@@ -1,0 +1,31 @@
+************************************************************
+WINNEBAGO IA
+************************************************************
+const	 53910.93
+thirty_year_interest_rate_three	 15551.69
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.492
+Model:                              OLS   Adj. R-squared:                  0.486
+Method:                   Least Squares   F-statistic:                     80.30
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           7.82e-14
+Time:                          14:07:32   Log-Likelihood:                -947.85
+No. Observations:                    85   AIC:                             1900.
+Df Residuals:                        83   BIC:                             1905.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            5.391e+04   7431.215      7.255      0.000    3.91e+04    6.87e+04
+thirty_year_interest_rate_three  1.555e+04   1735.518      8.961      0.000    1.21e+04     1.9e+04
+==============================================================================
+Omnibus:                        2.050   Durbin-Watson:                   0.451
+Prob(Omnibus):                  0.359   Jarque-Bera (JB):                2.060
+Skew:                           0.351   Prob(JB):                        0.357
+Kurtosis:                       2.704   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

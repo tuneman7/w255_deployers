@@ -1,0 +1,31 @@
+************************************************************
+HOLT NE
+************************************************************
+const	 251708.35
+thirty_year_interest_rate_two	 -12347.75
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.006
+Model:                              OLS   Adj. R-squared:                 -0.007
+Method:                   Least Squares   F-statistic:                    0.4754
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.492
+Time:                          14:07:01   Log-Likelihood:                -1107.8
+No. Observations:                    82   AIC:                             2220.
+Df Residuals:                        80   BIC:                             2224.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          2.517e+05   7.76e+04      3.244      0.002    9.73e+04    4.06e+05
+thirty_year_interest_rate_two -1.235e+04   1.79e+04     -0.690      0.492    -4.8e+04    2.33e+04
+==============================================================================
+Omnibus:                       65.318   Durbin-Watson:                   0.294
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              258.241
+Skew:                           2.749   Prob(JB):                     8.39e-57
+Kurtosis:                       9.735   Cond. No.                         17.7
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

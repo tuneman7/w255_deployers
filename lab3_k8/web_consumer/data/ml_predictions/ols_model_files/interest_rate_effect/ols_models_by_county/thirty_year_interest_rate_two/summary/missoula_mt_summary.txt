@@ -1,0 +1,31 @@
+************************************************************
+MISSOULA MT
+************************************************************
+const	 321280.94
+thirty_year_interest_rate_two	 46300.14
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.103
+Model:                              OLS   Adj. R-squared:                  0.093
+Method:                   Least Squares   F-statistic:                     9.577
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00269
+Time:                          14:07:27   Log-Likelihood:                -1133.3
+No. Observations:                    85   AIC:                             2271.
+Df Residuals:                        83   BIC:                             2276.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          3.213e+05   6.47e+04      4.968      0.000    1.93e+05     4.5e+05
+thirty_year_interest_rate_two   4.63e+04    1.5e+04      3.095      0.003    1.65e+04    7.61e+04
+==============================================================================
+Omnibus:                       15.592   Durbin-Watson:                   0.042
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                8.190
+Skew:                           0.577   Prob(JB):                       0.0167
+Kurtosis:                       2.010   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

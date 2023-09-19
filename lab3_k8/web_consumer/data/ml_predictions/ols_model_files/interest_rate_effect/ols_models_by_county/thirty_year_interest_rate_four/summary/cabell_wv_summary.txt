@@ -1,0 +1,31 @@
+************************************************************
+CABELL WV
+************************************************************
+const	 87673.80
+thirty_year_interest_rate_four	 10707.86
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.508
+Model:                              OLS   Adj. R-squared:                  0.502
+Method:                   Least Squares   F-statistic:                     85.63
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           2.03e-14
+Time:                          14:07:18   Log-Likelihood:                -911.08
+No. Observations:                    85   AIC:                             1826.
+Df Residuals:                        83   BIC:                             1831.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           8.767e+04   4910.974     17.853      0.000    7.79e+04    9.74e+04
+thirty_year_interest_rate_four  1.071e+04   1157.160      9.254      0.000    8406.314     1.3e+04
+==============================================================================
+Omnibus:                       24.907   Durbin-Watson:                   0.401
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               39.488
+Skew:                           1.210   Prob(JB):                     2.66e-09
+Kurtosis:                       5.302   Cond. No.                         18.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

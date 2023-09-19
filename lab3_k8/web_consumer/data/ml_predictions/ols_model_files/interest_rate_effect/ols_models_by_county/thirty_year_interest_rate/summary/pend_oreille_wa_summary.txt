@@ -1,0 +1,31 @@
+************************************************************
+PEND OREILLE WA
+************************************************************
+const	 288208.10
+thirty_year_interest_rate	 19791.30
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.040
+Model:                              OLS   Adj. R-squared:                  0.028
+Method:                   Least Squares   F-statistic:                     3.463
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0663
+Time:                          14:07:15   Log-Likelihood:                -1109.6
+No. Observations:                    85   AIC:                             2223.
+Df Residuals:                        83   BIC:                             2228.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      2.882e+05   4.69e+04      6.140      0.000    1.95e+05    3.82e+05
+thirty_year_interest_rate  1.979e+04   1.06e+04      1.861      0.066   -1361.486    4.09e+04
+==============================================================================
+Omnibus:                        9.390   Durbin-Watson:                   0.126
+Prob(Omnibus):                  0.009   Jarque-Bera (JB):               10.277
+Skew:                           0.845   Prob(JB):                      0.00587
+Kurtosis:                       2.791   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

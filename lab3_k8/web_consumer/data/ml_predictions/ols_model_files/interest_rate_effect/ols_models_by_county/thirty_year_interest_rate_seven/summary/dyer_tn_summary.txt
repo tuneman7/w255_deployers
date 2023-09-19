@@ -1,0 +1,31 @@
+************************************************************
+DYER TN
+************************************************************
+const	 95438.72
+thirty_year_interest_rate_seven	 11273.77
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.069
+Model:                              OLS   Adj. R-squared:                  0.057
+Method:                   Least Squares   F-statistic:                     5.497
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):             0.0217
+Time:                          21:21:57   Log-Likelihood:                -874.41
+No. Observations:                    76   AIC:                             1753.
+Df Residuals:                        74   BIC:                             1757.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            9.544e+04   1.84e+04      5.192      0.000    5.88e+04    1.32e+05
+thirty_year_interest_rate_seven  1.127e+04   4808.592      2.345      0.022    1692.436    2.09e+04
+==============================================================================
+Omnibus:                       33.829   Durbin-Watson:                   0.304
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               82.833
+Skew:                           1.479   Prob(JB):                     1.03e-18
+Kurtosis:                       7.172   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

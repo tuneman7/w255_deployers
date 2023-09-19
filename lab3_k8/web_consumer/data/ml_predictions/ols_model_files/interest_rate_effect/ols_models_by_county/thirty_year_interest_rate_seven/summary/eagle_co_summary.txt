@@ -1,0 +1,31 @@
+************************************************************
+EAGLE CO
+************************************************************
+const	 760732.17
+thirty_year_interest_rate_seven	 23684.44
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.006
+Model:                              OLS   Adj. R-squared:                 -0.007
+Method:                   Least Squares   F-statistic:                    0.4693
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):              0.495
+Time:                          21:21:58   Log-Likelihood:                -1024.3
+No. Observations:                    76   AIC:                             2053.
+Df Residuals:                        74   BIC:                             2057.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            7.607e+05   1.32e+05      5.756      0.000    4.97e+05    1.02e+06
+thirty_year_interest_rate_seven  2.368e+04   3.46e+04      0.685      0.495   -4.52e+04    9.26e+04
+==============================================================================
+Omnibus:                       15.047   Durbin-Watson:                   0.317
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):               50.074
+Skew:                           0.362   Prob(JB):                     1.34e-11
+Kurtosis:                       6.910   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

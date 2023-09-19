@@ -1,0 +1,31 @@
+************************************************************
+HILL TX
+************************************************************
+const	 234650.73
+thirty_year_interest_rate_six	 -12230.75
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.029
+Model:                              OLS   Adj. R-squared:                  0.016
+Method:                   Least Squares   F-statistic:                     2.241
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):              0.139
+Time:                          21:20:59   Log-Likelihood:                -917.15
+No. Observations:                    76   AIC:                             1838.
+Df Residuals:                        74   BIC:                             1843.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          2.347e+05   3.14e+04      7.480      0.000    1.72e+05    2.97e+05
+thirty_year_interest_rate_six -1.223e+04   8170.086     -1.497      0.139   -2.85e+04    4048.502
+==============================================================================
+Omnibus:                       33.548   Durbin-Watson:                   0.086
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               58.971
+Skew:                           1.738   Prob(JB):                     1.57e-13
+Kurtosis:                       5.556   Cond. No.                         26.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

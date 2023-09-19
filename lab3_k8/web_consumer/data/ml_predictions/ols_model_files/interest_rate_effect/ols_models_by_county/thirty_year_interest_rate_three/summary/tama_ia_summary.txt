@@ -1,0 +1,31 @@
+************************************************************
+TAMA IA
+************************************************************
+const	 71975.08
+thirty_year_interest_rate_three	 11579.66
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.305
+Model:                              OLS   Adj. R-squared:                  0.297
+Method:                   Least Squares   F-statistic:                     36.41
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           4.29e-08
+Time:                          14:07:20   Log-Likelihood:                -956.40
+No. Observations:                    85   AIC:                             1917.
+Df Residuals:                        83   BIC:                             1922.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            7.198e+04   8217.130      8.759      0.000    5.56e+04    8.83e+04
+thirty_year_interest_rate_three  1.158e+04   1919.064      6.034      0.000    7762.715    1.54e+04
+==============================================================================
+Omnibus:                        4.271   Durbin-Watson:                   0.335
+Prob(Omnibus):                  0.118   Jarque-Bera (JB):                3.562
+Skew:                           0.391   Prob(JB):                        0.169
+Kurtosis:                       3.627   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

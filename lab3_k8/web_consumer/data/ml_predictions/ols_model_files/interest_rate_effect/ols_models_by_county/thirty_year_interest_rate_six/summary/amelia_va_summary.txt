@@ -1,0 +1,31 @@
+************************************************************
+AMELIA VA
+************************************************************
+const	 356858.06
+thirty_year_interest_rate_six	 -16183.52
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.076
+Model:                              OLS   Adj. R-squared:                  0.063
+Method:                   Least Squares   F-statistic:                     6.068
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):             0.0161
+Time:                          21:22:25   Log-Likelihood:                -900.58
+No. Observations:                    76   AIC:                             1805.
+Df Residuals:                        74   BIC:                             1810.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          3.569e+05   2.52e+04     14.147      0.000    3.07e+05    4.07e+05
+thirty_year_interest_rate_six -1.618e+04   6569.785     -2.463      0.016   -2.93e+04   -3092.942
+==============================================================================
+Omnibus:                        6.848   Durbin-Watson:                   0.214
+Prob(Omnibus):                  0.033   Jarque-Bera (JB):                6.851
+Skew:                          -0.735   Prob(JB):                       0.0325
+Kurtosis:                       2.975   Cond. No.                         26.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

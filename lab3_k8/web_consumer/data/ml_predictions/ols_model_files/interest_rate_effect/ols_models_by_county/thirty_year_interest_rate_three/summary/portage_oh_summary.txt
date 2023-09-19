@@ -1,0 +1,31 @@
+************************************************************
+PORTAGE OH
+************************************************************
+const	 144414.55
+thirty_year_interest_rate_three	 20786.91
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.385
+Model:                              OLS   Adj. R-squared:                  0.377
+Method:                   Least Squares   F-statistic:                     51.91
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           2.43e-10
+Time:                          14:08:06   Log-Likelihood:                -991.06
+No. Observations:                    85   AIC:                             1986.
+Df Residuals:                        83   BIC:                             1991.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.444e+05   1.24e+04     11.690      0.000     1.2e+05    1.69e+05
+thirty_year_interest_rate_three  2.079e+04   2885.184      7.205      0.000     1.5e+04    2.65e+04
+==============================================================================
+Omnibus:                       34.175   Durbin-Watson:                   0.158
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                5.933
+Skew:                           0.159   Prob(JB):                       0.0515
+Kurtosis:                       1.745   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

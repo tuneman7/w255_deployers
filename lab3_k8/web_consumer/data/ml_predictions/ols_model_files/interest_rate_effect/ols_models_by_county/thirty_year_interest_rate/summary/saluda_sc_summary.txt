@@ -1,0 +1,31 @@
+************************************************************
+SALUDA SC
+************************************************************
+const	 65386.68
+thirty_year_interest_rate	 57696.10
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.381
+Model:                              OLS   Adj. R-squared:                  0.374
+Method:                   Least Squares   F-statistic:                     51.17
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           3.06e-10
+Time:                          14:08:01   Log-Likelihood:                -1086.1
+No. Observations:                    85   AIC:                             2176.
+Df Residuals:                        83   BIC:                             2181.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      6.539e+04   3.56e+04      1.837      0.070   -5421.535    1.36e+05
+thirty_year_interest_rate   5.77e+04   8065.422      7.154      0.000    4.17e+04    7.37e+04
+==============================================================================
+Omnibus:                       12.386   Durbin-Watson:                   0.348
+Prob(Omnibus):                  0.002   Jarque-Bera (JB):               12.978
+Skew:                           0.873   Prob(JB):                      0.00152
+Kurtosis:                       3.786   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

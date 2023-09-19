@@ -1,0 +1,31 @@
+************************************************************
+FOSTER ND
+************************************************************
+const	 162272.33
+thirty_year_interest_rate_two	 5346.77
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.010
+Model:                              OLS   Adj. R-squared:                 -0.002
+Method:                   Least Squares   F-statistic:                    0.8370
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.363
+Time:                          14:07:22   Log-Likelihood:                -1053.4
+No. Observations:                    85   AIC:                             2111.
+Df Residuals:                        83   BIC:                             2116.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          1.623e+05   2.53e+04      6.424      0.000    1.12e+05    2.13e+05
+thirty_year_interest_rate_two  5346.7683   5844.261      0.915      0.363   -6277.231     1.7e+04
+==============================================================================
+Omnibus:                       16.716   Durbin-Watson:                   0.191
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                5.658
+Skew:                           0.338   Prob(JB):                       0.0591
+Kurtosis:                       1.932   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

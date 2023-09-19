@@ -1,0 +1,31 @@
+************************************************************
+PUTNAM MO
+************************************************************
+const	 76210.79
+thirty_year_interest_rate_three	 17902.91
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.075
+Model:                              OLS   Adj. R-squared:                  0.064
+Method:                   Least Squares   F-statistic:                     6.770
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0110
+Time:                          14:07:16   Log-Likelihood:                -1064.9
+No. Observations:                    85   AIC:                             2134.
+Df Residuals:                        83   BIC:                             2139.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            7.621e+04   2.95e+04      2.587      0.011    1.76e+04    1.35e+05
+thirty_year_interest_rate_three   1.79e+04   6880.817      2.602      0.011    4217.242    3.16e+04
+==============================================================================
+Omnibus:                        8.223   Durbin-Watson:                   0.127
+Prob(Omnibus):                  0.016   Jarque-Bera (JB):                8.758
+Skew:                           0.765   Prob(JB):                       0.0125
+Kurtosis:                       2.638   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

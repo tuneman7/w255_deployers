@@ -1,0 +1,31 @@
+************************************************************
+OCEANA MI
+************************************************************
+const	 228800.69
+thirty_year_interest_rate_two	 7400.33
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.020
+Model:                              OLS   Adj. R-squared:                  0.009
+Method:                   Least Squares   F-statistic:                     1.724
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.193
+Time:                          14:08:10   Log-Likelihood:                -1050.4
+No. Observations:                    85   AIC:                             2105.
+Df Residuals:                        83   BIC:                             2110.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          2.288e+05   2.44e+04      9.390      0.000     1.8e+05    2.77e+05
+thirty_year_interest_rate_two  7400.3270   5636.832      1.313      0.193   -3811.105    1.86e+04
+==============================================================================
+Omnibus:                       11.613   Durbin-Watson:                   0.199
+Prob(Omnibus):                  0.003   Jarque-Bera (JB):               12.908
+Skew:                           0.954   Prob(JB):                      0.00157
+Kurtosis:                       3.058   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

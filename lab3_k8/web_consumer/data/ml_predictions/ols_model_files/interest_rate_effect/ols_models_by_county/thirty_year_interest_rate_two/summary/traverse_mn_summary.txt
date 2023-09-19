@@ -1,0 +1,31 @@
+************************************************************
+TRAVERSE MN
+************************************************************
+const	 11654.36
+thirty_year_interest_rate_two	 19595.79
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.421
+Model:                              OLS   Adj. R-squared:                  0.414
+Method:                   Least Squares   F-statistic:                     60.34
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           1.88e-11
+Time:                          14:08:06   Log-Likelihood:                -982.01
+No. Observations:                    85   AIC:                             1968.
+Df Residuals:                        83   BIC:                             1973.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          1.165e+04   1.09e+04      1.069      0.288      -1e+04    3.33e+04
+thirty_year_interest_rate_two   1.96e+04   2522.600      7.768      0.000    1.46e+04    2.46e+04
+==============================================================================
+Omnibus:                        1.916   Durbin-Watson:                   0.714
+Prob(Omnibus):                  0.384   Jarque-Bera (JB):                1.511
+Skew:                           0.323   Prob(JB):                        0.470
+Kurtosis:                       3.090   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+BAY FL
+************************************************************
+const	 215227.24
+thirty_year_interest_rate_four	 29302.85
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.174
+Model:                              OLS   Adj. R-squared:                  0.164
+Method:                   Least Squares   F-statistic:                     17.47
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           7.20e-05
+Time:                          14:08:00   Log-Likelihood:                -1064.2
+No. Observations:                    85   AIC:                             2132.
+Df Residuals:                        83   BIC:                             2137.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           2.152e+05   2.98e+04      7.233      0.000    1.56e+05    2.74e+05
+thirty_year_interest_rate_four   2.93e+04   7011.683      4.179      0.000    1.54e+04    4.32e+04
+==============================================================================
+Omnibus:                       11.600   Durbin-Watson:                   0.036
+Prob(Omnibus):                  0.003   Jarque-Bera (JB):               13.229
+Skew:                           0.964   Prob(JB):                      0.00134
+Kurtosis:                       2.874   Cond. No.                         18.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

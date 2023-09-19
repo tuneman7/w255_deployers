@@ -1,0 +1,31 @@
+************************************************************
+MONTROSE CO
+************************************************************
+const	 350060.22
+thirty_year_interest_rate_four	 15555.58
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.029
+Model:                              OLS   Adj. R-squared:                  0.017
+Method:                   Least Squares   F-statistic:                     2.445
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.122
+Time:                          14:07:06   Log-Likelihood:                -1094.0
+No. Observations:                    85   AIC:                             2192.
+Df Residuals:                        83   BIC:                             2197.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           3.501e+05   4.22e+04      8.291      0.000    2.66e+05    4.34e+05
+thirty_year_interest_rate_four  1.556e+04   9948.789      1.564      0.122   -4232.161    3.53e+04
+==============================================================================
+Omnibus:                      174.643   Durbin-Watson:                   0.032
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                9.627
+Skew:                           0.312   Prob(JB):                      0.00812
+Kurtosis:                       1.474   Cond. No.                         18.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+POINSETT AR
+************************************************************
+const	 73098.88
+thirty_year_interest_rate	 6477.14
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.253
+Model:                              OLS   Adj. R-squared:                  0.244
+Method:                   Least Squares   F-statistic:                     28.11
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           9.30e-07
+Time:                          14:07:30   Log-Likelihood:                -925.65
+No. Observations:                    85   AIC:                             1855.
+Df Residuals:                        83   BIC:                             1860.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                       7.31e+04   5392.391     13.556      0.000    6.24e+04    8.38e+04
+thirty_year_interest_rate  6477.1404   1221.661      5.302      0.000    4047.305    8906.975
+==============================================================================
+Omnibus:                        3.760   Durbin-Watson:                   0.351
+Prob(Omnibus):                  0.153   Jarque-Bera (JB):                3.382
+Skew:                           0.488   Prob(JB):                        0.184
+Kurtosis:                       3.042   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

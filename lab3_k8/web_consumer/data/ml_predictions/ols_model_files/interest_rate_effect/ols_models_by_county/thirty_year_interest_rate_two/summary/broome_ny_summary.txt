@@ -1,0 +1,31 @@
+************************************************************
+BROOME NY
+************************************************************
+const	 83686.14
+thirty_year_interest_rate_two	 15137.25
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.286
+Model:                              OLS   Adj. R-squared:                  0.277
+Method:                   Least Squares   F-statistic:                     33.20
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           1.37e-07
+Time:                          14:08:12   Log-Likelihood:                -985.46
+No. Observations:                    85   AIC:                             1975.
+Df Residuals:                        83   BIC:                             1980.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          8.369e+04   1.14e+04      7.370      0.000    6.11e+04    1.06e+05
+thirty_year_interest_rate_two  1.514e+04   2626.961      5.762      0.000    9912.328    2.04e+04
+==============================================================================
+Omnibus:                       20.244   Durbin-Watson:                   0.109
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                6.100
+Skew:                           0.344   Prob(JB):                       0.0474
+Kurtosis:                       1.882   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

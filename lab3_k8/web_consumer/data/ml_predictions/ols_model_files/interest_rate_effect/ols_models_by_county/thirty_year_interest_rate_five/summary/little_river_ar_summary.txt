@@ -1,0 +1,31 @@
+************************************************************
+LITTLE RIVER AR
+************************************************************
+const	 92039.83
+thirty_year_interest_rate_five	 11629.93
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.150
+Model:                              OLS   Adj. R-squared:                  0.139
+Method:                   Least Squares   F-statistic:                     14.60
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           0.000256
+Time:                          14:06:57   Log-Likelihood:                -990.01
+No. Observations:                    85   AIC:                             1984.
+Df Residuals:                        83   BIC:                             1989.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           9.204e+04   1.28e+04      7.200      0.000    6.66e+04    1.17e+05
+thirty_year_interest_rate_five  1.163e+04   3043.720      3.821      0.000    5576.090    1.77e+04
+==============================================================================
+Omnibus:                        4.166   Durbin-Watson:                   0.190
+Prob(Omnibus):                  0.125   Jarque-Bera (JB):                4.168
+Skew:                           0.518   Prob(JB):                        0.124
+Kurtosis:                       2.678   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

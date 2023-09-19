@@ -1,0 +1,31 @@
+************************************************************
+SCHLEICHER TX
+************************************************************
+const	 164062.97
+thirty_year_interest_rate_three	 33936.88
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.008
+Model:                              OLS   Adj. R-squared:                 -0.004
+Method:                   Least Squares   F-statistic:                    0.6741
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.414
+Time:                          14:07:04   Log-Likelihood:                -1186.9
+No. Observations:                    83   AIC:                             2378.
+Df Residuals:                        81   BIC:                             2383.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.641e+05   1.78e+05      0.921      0.360   -1.91e+05    5.19e+05
+thirty_year_interest_rate_three  3.394e+04   4.13e+04      0.821      0.414   -4.83e+04    1.16e+05
+==============================================================================
+Omnibus:                       52.941   Durbin-Watson:                   0.719
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              155.011
+Skew:                           2.260   Prob(JB):                     2.19e-34
+Kurtosis:                       7.939   Cond. No.                         18.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

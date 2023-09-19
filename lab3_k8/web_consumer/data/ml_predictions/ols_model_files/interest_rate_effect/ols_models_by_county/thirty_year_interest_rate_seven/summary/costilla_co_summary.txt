@@ -1,0 +1,31 @@
+************************************************************
+COSTILLA CO
+************************************************************
+const	 370678.25
+thirty_year_interest_rate_seven	 -40231.89
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.114
+Model:                              OLS   Adj. R-squared:                  0.102
+Method:                   Least Squares   F-statistic:                     9.517
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):            0.00286
+Time:                          21:22:31   Log-Likelihood:                -950.24
+No. Observations:                    76   AIC:                             1904.
+Df Residuals:                        74   BIC:                             1909.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            3.707e+05   4.98e+04      7.436      0.000    2.71e+05     4.7e+05
+thirty_year_interest_rate_seven -4.023e+04    1.3e+04     -3.085      0.003   -6.62e+04   -1.42e+04
+==============================================================================
+Omnibus:                       40.403   Durbin-Watson:                   0.225
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               89.429
+Skew:                           1.922   Prob(JB):                     3.81e-20
+Kurtosis:                       6.670   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

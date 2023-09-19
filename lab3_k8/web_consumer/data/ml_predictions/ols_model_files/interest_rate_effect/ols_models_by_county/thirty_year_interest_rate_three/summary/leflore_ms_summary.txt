@@ -1,0 +1,31 @@
+************************************************************
+LEFLORE MS
+************************************************************
+const	 91580.20
+thirty_year_interest_rate_three	 4256.76
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.065
+Model:                              OLS   Adj. R-squared:                  0.054
+Method:                   Least Squares   F-statistic:                     5.810
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0181
+Time:                          14:07:02   Log-Likelihood:                -949.33
+No. Observations:                    85   AIC:                             1903.
+Df Residuals:                        83   BIC:                             1908.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            9.158e+04   7561.538     12.111      0.000    7.65e+04    1.07e+05
+thirty_year_interest_rate_three  4256.7553   1765.954      2.410      0.018     744.344    7769.167
+==============================================================================
+Omnibus:                       13.984   Durbin-Watson:                   0.274
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):                7.854
+Skew:                           0.572   Prob(JB):                       0.0197
+Kurtosis:                       2.046   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

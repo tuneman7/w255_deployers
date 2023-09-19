@@ -1,0 +1,31 @@
+************************************************************
+ADAMS WA
+************************************************************
+const	 87231.58
+thirty_year_interest_rate	 31942.73
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.215
+Model:                              OLS   Adj. R-squared:                  0.205
+Method:                   Least Squares   F-statistic:                     22.67
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           8.06e-06
+Time:                          14:08:01   Log-Likelihood:                -1070.4
+No. Observations:                    85   AIC:                             2145.
+Df Residuals:                        83   BIC:                             2150.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      8.723e+04   2.96e+04      2.946      0.004    2.83e+04    1.46e+05
+thirty_year_interest_rate  3.194e+04   6709.176      4.761      0.000    1.86e+04    4.53e+04
+==============================================================================
+Omnibus:                       32.502   Durbin-Watson:                   0.052
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                5.979
+Skew:                           0.190   Prob(JB):                       0.0503
+Kurtosis:                       1.757   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

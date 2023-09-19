@@ -1,0 +1,31 @@
+************************************************************
+GREGORY SD
+************************************************************
+const	 750005.92
+thirty_year_interest_rate_seven	 -146494.50
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.113
+Model:                              OLS   Adj. R-squared:                  0.099
+Method:                   Least Squares   F-statistic:                     8.143
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):            0.00582
+Time:                          21:23:01   Log-Likelihood:                -914.96
+No. Observations:                    66   AIC:                             1834.
+Df Residuals:                        64   BIC:                             1838.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                              7.5e+05   1.97e+05      3.804      0.000    3.56e+05    1.14e+06
+thirty_year_interest_rate_seven -1.465e+05   5.13e+04     -2.854      0.006   -2.49e+05   -4.39e+04
+==============================================================================
+Omnibus:                       51.265   Durbin-Watson:                   0.242
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              182.180
+Skew:                           2.423   Prob(JB):                     2.75e-40
+Kurtosis:                       9.539   Cond. No.                         25.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+ONONDAGA NY
+************************************************************
+const	 168767.29
+thirty_year_interest_rate_five	 8473.69
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.106
+Model:                              OLS   Adj. R-squared:                  0.096
+Method:                   Least Squares   F-statistic:                     9.869
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00233
+Time:                          14:07:35   Log-Likelihood:                -979.74
+No. Observations:                    85   AIC:                             1963.
+Df Residuals:                        83   BIC:                             1968.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           1.688e+05   1.13e+04     14.897      0.000    1.46e+05    1.91e+05
+thirty_year_interest_rate_five  8473.6862   2697.328      3.142      0.002    3108.809    1.38e+04
+==============================================================================
+Omnibus:                        1.549   Durbin-Watson:                   0.208
+Prob(Omnibus):                  0.461   Jarque-Bera (JB):                1.596
+Skew:                           0.295   Prob(JB):                        0.450
+Kurtosis:                       2.682   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

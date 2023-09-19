@@ -1,0 +1,31 @@
+************************************************************
+GARFIELD NE
+************************************************************
+const	 359876.47
+thirty_year_interest_rate	 -22321.13
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.037
+Model:                              OLS   Adj. R-squared:                  0.024
+Method:                   Least Squares   F-statistic:                     2.760
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.101
+Time:                          14:07:10   Log-Likelihood:                -982.81
+No. Observations:                    74   AIC:                             1970.
+Df Residuals:                        72   BIC:                             1974.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      3.599e+05   5.91e+04      6.086      0.000    2.42e+05    4.78e+05
+thirty_year_interest_rate -2.232e+04   1.34e+04     -1.661      0.101   -4.91e+04    4460.185
+==============================================================================
+Omnibus:                       33.782   Durbin-Watson:                   0.627
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               64.151
+Skew:                           1.696   Prob(JB):                     1.17e-14
+Kurtosis:                       6.050   Cond. No.                         16.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

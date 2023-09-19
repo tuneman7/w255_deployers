@@ -1,0 +1,31 @@
+************************************************************
+KINGSBURY SD
+************************************************************
+const	 274812.42
+thirty_year_interest_rate_seven	 -29880.65
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.096
+Model:                              OLS   Adj. R-squared:                  0.084
+Method:                   Least Squares   F-statistic:                     7.901
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):            0.00632
+Time:                          21:21:13   Log-Likelihood:                -934.70
+No. Observations:                    76   AIC:                             1873.
+Df Residuals:                        74   BIC:                             1878.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            2.748e+05   4.06e+04      6.763      0.000    1.94e+05    3.56e+05
+thirty_year_interest_rate_seven -2.988e+04   1.06e+04     -2.811      0.006   -5.11e+04   -8699.685
+==============================================================================
+Omnibus:                        8.754   Durbin-Watson:                   0.595
+Prob(Omnibus):                  0.013   Jarque-Bera (JB):                3.596
+Skew:                          -0.237   Prob(JB):                        0.166
+Kurtosis:                       2.045   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

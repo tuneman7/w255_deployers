@@ -1,0 +1,31 @@
+************************************************************
+MEIGS TN
+************************************************************
+const	 316676.69
+thirty_year_interest_rate_two	 4571.74
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.003
+Model:                              OLS   Adj. R-squared:                 -0.009
+Method:                   Least Squares   F-statistic:                    0.2912
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.591
+Time:                          14:07:22   Log-Likelihood:                -1085.0
+No. Observations:                    85   AIC:                             2174.
+Df Residuals:                        83   BIC:                             2179.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          3.167e+05   3.66e+04      8.648      0.000    2.44e+05     3.9e+05
+thirty_year_interest_rate_two  4571.7441   8471.744      0.540      0.591   -1.23e+04    2.14e+04
+==============================================================================
+Omnibus:                        6.043   Durbin-Watson:                   0.262
+Prob(Omnibus):                  0.049   Jarque-Bera (JB):                5.714
+Skew:                           0.632   Prob(JB):                       0.0574
+Kurtosis:                       3.120   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

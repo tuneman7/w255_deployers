@@ -1,0 +1,31 @@
+************************************************************
+LUNA NM
+************************************************************
+const	 112614.51
+thirty_year_interest_rate_five	 8726.46
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.131
+Model:                              OLS   Adj. R-squared:                  0.121
+Method:                   Least Squares   F-statistic:                     12.52
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           0.000662
+Time:                          14:08:23   Log-Likelihood:                -972.12
+No. Observations:                    85   AIC:                             1948.
+Df Residuals:                        83   BIC:                             1953.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           1.126e+05   1.04e+04     10.873      0.000     9.2e+04    1.33e+05
+thirty_year_interest_rate_five  8726.4645   2465.959      3.539      0.001    3821.772    1.36e+04
+==============================================================================
+Omnibus:                       11.082   Durbin-Watson:                   0.137
+Prob(Omnibus):                  0.004   Jarque-Bera (JB):                5.768
+Skew:                           0.440   Prob(JB):                       0.0559
+Kurtosis:                       2.075   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+NORFOLK CITY VA
+************************************************************
+const	 183664.98
+thirty_year_interest_rate_two	 15598.12
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.225
+Model:                              OLS   Adj. R-squared:                  0.216
+Method:                   Least Squares   F-statistic:                     24.12
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           4.48e-06
+Time:                          14:08:20   Log-Likelihood:                -1001.6
+No. Observations:                    85   AIC:                             2007.
+Df Residuals:                        83   BIC:                             2012.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          1.837e+05   1.37e+04     13.378      0.000    1.56e+05    2.11e+05
+thirty_year_interest_rate_two   1.56e+04   3176.065      4.911      0.000    9281.053    2.19e+04
+==============================================================================
+Omnibus:                      490.628   Durbin-Watson:                   0.043
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                9.511
+Skew:                           0.158   Prob(JB):                      0.00860
+Kurtosis:                       1.392   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

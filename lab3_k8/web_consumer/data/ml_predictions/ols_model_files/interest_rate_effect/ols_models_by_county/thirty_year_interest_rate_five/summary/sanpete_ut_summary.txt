@@ -1,0 +1,31 @@
+************************************************************
+SANPETE UT
+************************************************************
+const	 262143.46
+thirty_year_interest_rate_five	 15361.95
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.025
+Model:                              OLS   Adj. R-squared:                  0.013
+Method:                   Least Squares   F-statistic:                     2.088
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.152
+Time:                          14:07:06   Log-Likelihood:                -1096.3
+No. Observations:                    85   AIC:                             2197.
+Df Residuals:                        83   BIC:                             2202.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           2.621e+05   4.47e+04      5.870      0.000    1.73e+05    3.51e+05
+thirty_year_interest_rate_five  1.536e+04   1.06e+04      1.445      0.152   -5785.248    3.65e+04
+==============================================================================
+Omnibus:                       41.742   Durbin-Watson:                   0.046
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                7.957
+Skew:                           0.384   Prob(JB):                       0.0187
+Kurtosis:                       1.712   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

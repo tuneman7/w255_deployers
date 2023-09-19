@@ -1,0 +1,31 @@
+************************************************************
+HOUGHTON MI
+************************************************************
+const	 87698.39
+thirty_year_interest_rate_three	 14754.03
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.194
+Model:                              OLS   Adj. R-squared:                  0.184
+Method:                   Least Squares   F-statistic:                     19.94
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           2.50e-05
+Time:                          14:06:59   Log-Likelihood:                -1002.6
+No. Observations:                    85   AIC:                             2009.
+Df Residuals:                        83   BIC:                             2014.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                             8.77e+04   1.41e+04      6.199      0.000    5.96e+04    1.16e+05
+thirty_year_interest_rate_three  1.475e+04   3304.122      4.465      0.000    8182.265    2.13e+04
+==============================================================================
+Omnibus:                       32.932   Durbin-Watson:                   0.641
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               61.263
+Skew:                           1.510   Prob(JB):                     4.98e-14
+Kurtosis:                       5.860   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

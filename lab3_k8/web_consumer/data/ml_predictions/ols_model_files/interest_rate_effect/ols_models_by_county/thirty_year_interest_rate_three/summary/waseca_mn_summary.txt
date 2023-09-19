@@ -1,0 +1,31 @@
+************************************************************
+WASECA MN
+************************************************************
+const	 116663.55
+thirty_year_interest_rate_three	 16867.10
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.128
+Model:                              OLS   Adj. R-squared:                  0.117
+Method:                   Least Squares   F-statistic:                     12.13
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           0.000794
+Time:                          14:07:37   Log-Likelihood:                -1035.1
+No. Observations:                    85   AIC:                             2074.
+Df Residuals:                        83   BIC:                             2079.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.167e+05   2.07e+04      5.626      0.000    7.54e+04    1.58e+05
+thirty_year_interest_rate_three  1.687e+04   4842.735      3.483      0.001    7235.096    2.65e+04
+==============================================================================
+Omnibus:                       17.443   Durbin-Watson:                   0.151
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                7.922
+Skew:                           0.538   Prob(JB):                       0.0190
+Kurtosis:                       1.962   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

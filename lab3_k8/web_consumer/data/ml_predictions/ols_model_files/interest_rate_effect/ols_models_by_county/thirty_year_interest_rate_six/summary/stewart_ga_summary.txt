@@ -1,0 +1,31 @@
+************************************************************
+STEWART GA
+************************************************************
+const	 833501.90
+thirty_year_interest_rate_six	 -172788.55
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.388
+Model:                              OLS   Adj. R-squared:                  0.380
+Method:                   Least Squares   F-statistic:                     46.99
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           1.83e-09
+Time:                          21:21:35   Log-Likelihood:                -1002.8
+No. Observations:                    76   AIC:                             2010.
+Df Residuals:                        74   BIC:                             2014.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          8.335e+05   9.68e+04      8.612      0.000    6.41e+05    1.03e+06
+thirty_year_interest_rate_six -1.728e+05   2.52e+04     -6.855      0.000   -2.23e+05   -1.23e+05
+==============================================================================
+Omnibus:                       26.481   Durbin-Watson:                   0.291
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               39.563
+Skew:                           1.462   Prob(JB):                     2.56e-09
+Kurtosis:                       4.986   Cond. No.                         26.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

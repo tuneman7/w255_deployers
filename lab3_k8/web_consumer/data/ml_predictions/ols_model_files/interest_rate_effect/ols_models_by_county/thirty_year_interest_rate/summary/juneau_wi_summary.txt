@@ -1,0 +1,31 @@
+************************************************************
+JUNEAU WI
+************************************************************
+const	 -16032.84
+thirty_year_interest_rate	 61252.28
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.556
+Model:                              OLS   Adj. R-squared:                  0.551
+Method:                   Least Squares   F-statistic:                     104.1
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           2.62e-16
+Time:                          14:07:21   Log-Likelihood:                -1061.0
+No. Observations:                    85   AIC:                             2126.
+Df Residuals:                        83   BIC:                             2131.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                     -1.603e+04   2.65e+04     -0.605      0.547   -6.87e+04    3.67e+04
+thirty_year_interest_rate  6.125e+04   6004.415     10.201      0.000    4.93e+04    7.32e+04
+==============================================================================
+Omnibus:                       16.556   Durbin-Watson:                   0.224
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                4.474
+Skew:                          -0.141   Prob(JB):                        0.107
+Kurtosis:                       1.912   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

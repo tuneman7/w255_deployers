@@ -1,0 +1,31 @@
+************************************************************
+ST. JOSEPH IN
+************************************************************
+const	 111785.19
+thirty_year_interest_rate_five	 18548.14
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.079
+Model:                              OLS   Adj. R-squared:                  0.067
+Method:                   Least Squares   F-statistic:                     7.076
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00938
+Time:                          14:07:35   Log-Likelihood:                -1060.5
+No. Observations:                    85   AIC:                             2125.
+Df Residuals:                        83   BIC:                             2130.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           1.118e+05   2.93e+04      3.817      0.000    5.35e+04     1.7e+05
+thirty_year_interest_rate_five  1.855e+04   6972.894      2.660      0.009    4679.331    3.24e+04
+==============================================================================
+Omnibus:                       56.785   Durbin-Watson:                   0.067
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                6.579
+Skew:                           0.049   Prob(JB):                       0.0373
+Kurtosis:                       1.641   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+CHICKASAW MS
+************************************************************
+const	 68859.68
+thirty_year_interest_rate_two	 8234.82
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.083
+Model:                              OLS   Adj. R-squared:                  0.072
+Method:                   Least Squares   F-statistic:                     7.537
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00741
+Time:                          14:07:16   Log-Likelihood:                -996.73
+No. Observations:                    85   AIC:                             1997.
+Df Residuals:                        83   BIC:                             2002.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          6.886e+04    1.3e+04      5.311      0.000    4.31e+04    9.46e+04
+thirty_year_interest_rate_two  8234.8221   2999.612      2.745      0.007    2268.714    1.42e+04
+==============================================================================
+Omnibus:                       95.090   Durbin-Watson:                   0.115
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                9.431
+Skew:                           0.381   Prob(JB):                      0.00895
+Kurtosis:                       1.557   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

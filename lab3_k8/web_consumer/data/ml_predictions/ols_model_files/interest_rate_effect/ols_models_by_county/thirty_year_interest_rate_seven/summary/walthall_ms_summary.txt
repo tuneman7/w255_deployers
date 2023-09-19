@@ -1,0 +1,31 @@
+************************************************************
+WALTHALL MS
+************************************************************
+const	 216440.37
+thirty_year_interest_rate_seven	 -15779.99
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.048
+Model:                              OLS   Adj. R-squared:                  0.035
+Method:                   Least Squares   F-statistic:                     3.759
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):             0.0563
+Time:                          21:23:06   Log-Likelihood:                -914.40
+No. Observations:                    76   AIC:                             1833.
+Df Residuals:                        74   BIC:                             1837.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            2.164e+05   3.11e+04      6.958      0.000    1.54e+05    2.78e+05
+thirty_year_interest_rate_seven -1.578e+04   8138.453     -1.939      0.056    -3.2e+04     436.230
+==============================================================================
+Omnibus:                       95.752   Durbin-Watson:                   0.995
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1608.838
+Skew:                           3.836   Prob(JB):                         0.00
+Kurtosis:                      24.194   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

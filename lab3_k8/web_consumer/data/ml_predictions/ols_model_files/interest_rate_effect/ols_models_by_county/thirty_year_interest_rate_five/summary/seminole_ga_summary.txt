@@ -1,0 +1,31 @@
+************************************************************
+SEMINOLE GA
+************************************************************
+const	 159246.40
+thirty_year_interest_rate_five	 2326.51
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.007
+Model:                              OLS   Adj. R-squared:                 -0.005
+Method:                   Least Squares   F-statistic:                    0.5916
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.444
+Time:                          14:08:07   Log-Likelihood:                -989.48
+No. Observations:                    85   AIC:                             1983.
+Df Residuals:                        83   BIC:                             1988.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           1.592e+05   1.27e+04     12.535      0.000    1.34e+05    1.85e+05
+thirty_year_interest_rate_five  2326.5090   3024.653      0.769      0.444   -3689.403    8342.421
+==============================================================================
+Omnibus:                       43.325   Durbin-Watson:                   0.237
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              101.283
+Skew:                           1.879   Prob(JB):                     1.02e-22
+Kurtosis:                       6.805   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

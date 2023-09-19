@@ -1,0 +1,31 @@
+************************************************************
+WILLIAMSBURG CITY VA
+************************************************************
+const	 348292.99
+thirty_year_interest_rate_four	 18594.10
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.058
+Model:                              OLS   Adj. R-squared:                  0.047
+Method:                   Least Squares   F-statistic:                     5.112
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0264
+Time:                          14:08:06   Log-Likelihood:                -1077.8
+No. Observations:                    85   AIC:                             2160.
+Df Residuals:                        83   BIC:                             2164.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           3.483e+05   3.49e+04      9.979      0.000    2.79e+05    4.18e+05
+thirty_year_interest_rate_four  1.859e+04   8223.954      2.261      0.026    2236.988     3.5e+04
+==============================================================================
+Omnibus:                       16.834   Durbin-Watson:                   0.580
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               19.766
+Skew:                           1.028   Prob(JB):                     5.10e-05
+Kurtosis:                       4.164   Cond. No.                         18.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+SIOUX ND
+************************************************************
+const	 1862330.32
+thirty_year_interest_rate_seven	 -351398.34
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.472
+Model:                              OLS   Adj. R-squared:                  0.452
+Method:                   Least Squares   F-statistic:                     23.24
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           5.40e-05
+Time:                          21:21:57   Log-Likelihood:                -381.85
+No. Observations:                    28   AIC:                             767.7
+Df Residuals:                        26   BIC:                             770.4
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.862e+06   2.96e+05      6.301      0.000    1.25e+06    2.47e+06
+thirty_year_interest_rate_seven -3.514e+05   7.29e+04     -4.820      0.000   -5.01e+05   -2.02e+05
+==============================================================================
+Omnibus:                        1.688   Durbin-Watson:                   0.502
+Prob(Omnibus):                  0.430   Jarque-Bera (JB):                1.353
+Skew:                          -0.523   Prob(JB):                        0.508
+Kurtosis:                       2.742   Cond. No.                         32.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

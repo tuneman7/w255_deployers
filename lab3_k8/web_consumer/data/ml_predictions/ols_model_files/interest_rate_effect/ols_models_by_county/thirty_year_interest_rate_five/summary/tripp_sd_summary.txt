@@ -1,0 +1,31 @@
+************************************************************
+TRIPP SD
+************************************************************
+const	 81173.62
+thirty_year_interest_rate_five	 23708.76
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.174
+Model:                              OLS   Adj. R-squared:                  0.163
+Method:                   Least Squares   F-statistic:                     16.63
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           0.000108
+Time:                          14:08:02   Log-Likelihood:                -995.46
+No. Observations:                    81   AIC:                             1995.
+Df Residuals:                        79   BIC:                             2000.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           8.117e+04   2.45e+04      3.311      0.001    3.24e+04     1.3e+05
+thirty_year_interest_rate_five  2.371e+04   5814.552      4.077      0.000    1.21e+04    3.53e+04
+==============================================================================
+Omnibus:                       10.991   Durbin-Watson:                   0.284
+Prob(Omnibus):                  0.004   Jarque-Bera (JB):               11.111
+Skew:                          -0.841   Prob(JB):                      0.00387
+Kurtosis:                       3.680   Cond. No.                         18.4
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

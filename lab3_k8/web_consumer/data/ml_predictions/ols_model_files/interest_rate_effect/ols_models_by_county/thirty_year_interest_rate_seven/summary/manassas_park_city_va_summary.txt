@@ -1,0 +1,31 @@
+************************************************************
+MANASSAS PARK CITY VA
+************************************************************
+const	 435270.12
+thirty_year_interest_rate_seven	 -26164.54
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.109
+Model:                              OLS   Adj. R-squared:                  0.097
+Method:                   Least Squares   F-statistic:                     9.080
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):            0.00354
+Time:                          21:22:31   Log-Likelihood:                -919.33
+No. Observations:                    76   AIC:                             1843.
+Df Residuals:                        74   BIC:                             1847.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            4.353e+05   3.32e+04     13.115      0.000    3.69e+05    5.01e+05
+thirty_year_interest_rate_seven -2.616e+04   8682.936     -3.013      0.004   -4.35e+04   -8863.414
+==============================================================================
+Omnibus:                        2.151   Durbin-Watson:                   0.330
+Prob(Omnibus):                  0.341   Jarque-Bera (JB):                1.527
+Skew:                           0.323   Prob(JB):                        0.466
+Kurtosis:                       3.257   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

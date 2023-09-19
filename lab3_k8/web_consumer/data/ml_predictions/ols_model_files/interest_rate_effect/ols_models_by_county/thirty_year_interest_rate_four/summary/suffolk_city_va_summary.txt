@@ -1,0 +1,31 @@
+************************************************************
+SUFFOLK CITY VA
+************************************************************
+const	 285751.21
+thirty_year_interest_rate_four	 11931.38
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.074
+Model:                              OLS   Adj. R-squared:                  0.063
+Method:                   Least Squares   F-statistic:                     6.641
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0117
+Time:                          14:08:17   Log-Likelihood:                -1028.9
+No. Observations:                    85   AIC:                             2062.
+Df Residuals:                        83   BIC:                             2067.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           2.858e+05   1.96e+04     14.542      0.000    2.47e+05    3.25e+05
+thirty_year_interest_rate_four  1.193e+04   4630.005      2.577      0.012    2722.482    2.11e+04
+==============================================================================
+Omnibus:                      104.633   Durbin-Watson:                   0.036
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                9.077
+Skew:                           0.330   Prob(JB):                       0.0107
+Kurtosis:                       1.541   Cond. No.                         18.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

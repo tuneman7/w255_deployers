@@ -1,0 +1,31 @@
+************************************************************
+SCHUYLER IL
+************************************************************
+const	 105622.18
+thirty_year_interest_rate	 6541.33
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.055
+Model:                              OLS   Adj. R-squared:                  0.043
+Method:                   Least Squares   F-statistic:                     4.797
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0313
+Time:                          14:08:15   Log-Likelihood:                -1001.6
+No. Observations:                    85   AIC:                             2007.
+Df Residuals:                        83   BIC:                             2012.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      1.056e+05   1.32e+04      8.012      0.000    7.94e+04    1.32e+05
+thirty_year_interest_rate  6541.3334   2986.758      2.190      0.031     600.792    1.25e+04
+==============================================================================
+Omnibus:                       25.198   Durbin-Watson:                   0.412
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               44.111
+Skew:                           1.157   Prob(JB):                     2.64e-10
+Kurtosis:                       5.665   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

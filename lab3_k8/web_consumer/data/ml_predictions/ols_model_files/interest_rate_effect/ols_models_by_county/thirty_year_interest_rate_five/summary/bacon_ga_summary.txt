@@ -1,0 +1,31 @@
+************************************************************
+BACON GA
+************************************************************
+const	 241535.79
+thirty_year_interest_rate_five	 -16372.86
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.055
+Model:                              OLS   Adj. R-squared:                  0.044
+Method:                   Least Squares   F-statistic:                     4.870
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0301
+Time:                          14:07:40   Log-Likelihood:                -1065.7
+No. Observations:                    85   AIC:                             2135.
+Df Residuals:                        83   BIC:                             2140.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           2.415e+05   3.12e+04      7.751      0.000     1.8e+05    3.04e+05
+thirty_year_interest_rate_five -1.637e+04   7419.010     -2.207      0.030   -3.11e+04   -1616.744
+==============================================================================
+Omnibus:                       75.579   Durbin-Watson:                   0.619
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              496.645
+Skew:                           2.861   Prob(JB):                    1.43e-108
+Kurtosis:                      13.368   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

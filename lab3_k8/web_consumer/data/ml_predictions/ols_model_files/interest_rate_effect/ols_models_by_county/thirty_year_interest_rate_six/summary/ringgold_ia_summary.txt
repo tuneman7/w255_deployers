@@ -1,0 +1,31 @@
+************************************************************
+RINGGOLD IA
+************************************************************
+const	 192028.18
+thirty_year_interest_rate_six	 -1800.27
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.000
+Model:                              OLS   Adj. R-squared:                 -0.013
+Method:                   Least Squares   F-statistic:                   0.02744
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):              0.869
+Time:                          21:20:53   Log-Likelihood:                -938.83
+No. Observations:                    76   AIC:                             1882.
+Df Residuals:                        74   BIC:                             1886.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                           1.92e+05   4.17e+04      4.602      0.000    1.09e+05    2.75e+05
+thirty_year_interest_rate_six -1800.2701   1.09e+04     -0.166      0.869   -2.35e+04    1.99e+04
+==============================================================================
+Omnibus:                       44.217   Durbin-Watson:                   0.372
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              109.147
+Skew:                           2.051   Prob(JB):                     1.99e-24
+Kurtosis:                       7.199   Cond. No.                         26.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

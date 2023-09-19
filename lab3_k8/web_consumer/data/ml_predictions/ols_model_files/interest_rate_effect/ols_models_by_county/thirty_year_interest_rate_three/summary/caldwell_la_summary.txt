@@ -1,0 +1,31 @@
+************************************************************
+CALDWELL LA
+************************************************************
+const	 292071.37
+thirty_year_interest_rate_three	 -25900.21
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.126
+Model:                              OLS   Adj. R-squared:                  0.116
+Method:                   Least Squares   F-statistic:                     11.99
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           0.000847
+Time:                          14:08:28   Log-Likelihood:                -1072.0
+No. Observations:                    85   AIC:                             2148.
+Df Residuals:                        83   BIC:                             2153.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            2.921e+05    3.2e+04      9.121      0.000    2.28e+05    3.56e+05
+thirty_year_interest_rate_three  -2.59e+04   7478.743     -3.463      0.001   -4.08e+04    -1.1e+04
+==============================================================================
+Omnibus:                       15.407   Durbin-Watson:                   0.189
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               18.474
+Skew:                           1.139   Prob(JB):                     9.74e-05
+Kurtosis:                       3.156   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

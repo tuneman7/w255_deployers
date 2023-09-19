@@ -1,0 +1,31 @@
+************************************************************
+CROSBY TX
+************************************************************
+const	 47497.19
+thirty_year_interest_rate_three	 8537.47
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.078
+Model:                              OLS   Adj. R-squared:                  0.067
+Method:                   Least Squares   F-statistic:                     7.005
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00972
+Time:                          14:07:28   Log-Likelihood:                -1000.5
+No. Observations:                    85   AIC:                             2005.
+Df Residuals:                        83   BIC:                             2010.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                             4.75e+04   1.38e+04      3.439      0.001       2e+04     7.5e+04
+thirty_year_interest_rate_three  8537.4693   3225.766      2.647      0.010    2121.550     1.5e+04
+==============================================================================
+Omnibus:                       30.161   Durbin-Watson:                   0.936
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               50.278
+Skew:                           1.456   Prob(JB):                     1.21e-11
+Kurtosis:                       5.390   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

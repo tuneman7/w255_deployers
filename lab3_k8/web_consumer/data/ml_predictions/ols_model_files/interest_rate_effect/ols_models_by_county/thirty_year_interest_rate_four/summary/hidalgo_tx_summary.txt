@@ -1,0 +1,31 @@
+************************************************************
+HIDALGO TX
+************************************************************
+const	 174678.98
+thirty_year_interest_rate_four	 11310.42
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.106
+Model:                              OLS   Adj. R-squared:                  0.095
+Method:                   Least Squares   F-statistic:                     9.826
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00238
+Time:                          14:06:59   Log-Likelihood:                -1007.7
+No. Observations:                    85   AIC:                             2019.
+Df Residuals:                        83   BIC:                             2024.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           1.747e+05   1.53e+04     11.407      0.000    1.44e+05    2.05e+05
+thirty_year_interest_rate_four  1.131e+04   3608.242      3.135      0.002    4133.773    1.85e+04
+==============================================================================
+Omnibus:                      213.254   Durbin-Watson:                   0.016
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               11.080
+Skew:                           0.430   Prob(JB):                      0.00393
+Kurtosis:                       1.454   Cond. No.                         18.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

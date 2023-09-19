@@ -1,0 +1,31 @@
+************************************************************
+ST. FRANCOIS MO
+************************************************************
+const	 110678.45
+thirty_year_interest_rate_three	 12299.81
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.199
+Model:                              OLS   Adj. R-squared:                  0.189
+Method:                   Least Squares   F-statistic:                     20.60
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           1.89e-05
+Time:                          14:08:25   Log-Likelihood:                -985.72
+No. Observations:                    85   AIC:                             1975.
+Df Residuals:                        83   BIC:                             1980.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.107e+05   1.16e+04      9.539      0.000    8.76e+04    1.34e+05
+thirty_year_interest_rate_three   1.23e+04   2709.665      4.539      0.000    6910.397    1.77e+04
+==============================================================================
+Omnibus:                       49.711   Durbin-Watson:                   0.115
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                7.001
+Skew:                           0.227   Prob(JB):                       0.0302
+Kurtosis:                       1.669   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+VAL VERDE TX
+************************************************************
+const	 106648.70
+thirty_year_interest_rate_three	 22709.86
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.432
+Model:                              OLS   Adj. R-squared:                  0.425
+Method:                   Least Squares   F-statistic:                     63.19
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           8.21e-12
+Time:                          14:07:37   Log-Likelihood:                -990.22
+No. Observations:                    85   AIC:                             1984.
+Df Residuals:                        83   BIC:                             1989.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.066e+05   1.22e+04      8.718      0.000    8.23e+04    1.31e+05
+thirty_year_interest_rate_three  2.271e+04   2856.839      7.949      0.000     1.7e+04    2.84e+04
+==============================================================================
+Omnibus:                       11.358   Durbin-Watson:                   0.162
+Prob(Omnibus):                  0.003   Jarque-Bera (JB):               12.513
+Skew:                           0.939   Prob(JB):                      0.00192
+Kurtosis:                       3.074   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

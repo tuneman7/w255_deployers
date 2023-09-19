@@ -1,0 +1,31 @@
+************************************************************
+RENVILLE ND
+************************************************************
+const	 125176.82
+thirty_year_interest_rate_three	 781.56
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.001
+Model:                              OLS   Adj. R-squared:                 -0.011
+Method:                   Least Squares   F-statistic:                   0.05580
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.814
+Time:                          14:07:11   Log-Likelihood:                -1002.7
+No. Observations:                    85   AIC:                             2009.
+Df Residuals:                        83   BIC:                             2014.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.252e+05   1.42e+04      8.836      0.000     9.7e+04    1.53e+05
+thirty_year_interest_rate_three   781.5640   3308.492      0.236      0.814   -5798.893    7362.021
+==============================================================================
+Omnibus:                        1.043   Durbin-Watson:                   0.591
+Prob(Omnibus):                  0.594   Jarque-Bera (JB):                0.960
+Skew:                          -0.033   Prob(JB):                        0.619
+Kurtosis:                       2.484   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

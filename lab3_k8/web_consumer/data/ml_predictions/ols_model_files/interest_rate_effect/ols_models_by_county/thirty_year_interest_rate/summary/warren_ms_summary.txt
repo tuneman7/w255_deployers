@@ -1,0 +1,31 @@
+************************************************************
+WARREN MS
+************************************************************
+const	 121414.72
+thirty_year_interest_rate	 7623.39
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.169
+Model:                              OLS   Adj. R-squared:                  0.159
+Method:                   Least Squares   F-statistic:                     16.94
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           9.07e-05
+Time:                          14:08:17   Log-Likelihood:                -961.03
+No. Observations:                    85   AIC:                             1926.
+Df Residuals:                        83   BIC:                             1931.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      1.214e+05   8176.325     14.850      0.000    1.05e+05    1.38e+05
+thirty_year_interest_rate  7623.3902   1852.369      4.115      0.000    3939.102    1.13e+04
+==============================================================================
+Omnibus:                       13.824   Durbin-Watson:                   0.280
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):               15.162
+Skew:                           1.001   Prob(JB):                     0.000510
+Kurtosis:                       3.522   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

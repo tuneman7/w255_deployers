@@ -1,0 +1,31 @@
+************************************************************
+SABINE TX
+************************************************************
+const	 198769.12
+thirty_year_interest_rate_two	 8367.92
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.030
+Model:                              OLS   Adj. R-squared:                  0.018
+Method:                   Least Squares   F-statistic:                     2.524
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.116
+Time:                          14:07:24   Log-Likelihood:                -1044.6
+No. Observations:                    85   AIC:                             2093.
+Df Residuals:                        83   BIC:                             2098.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          1.988e+05   2.28e+04      8.731      0.000    1.53e+05    2.44e+05
+thirty_year_interest_rate_two  8367.9245   5266.774      1.589      0.116   -2107.478    1.88e+04
+==============================================================================
+Omnibus:                        8.113   Durbin-Watson:                   0.136
+Prob(Omnibus):                  0.017   Jarque-Bera (JB):                5.374
+Skew:                           0.466   Prob(JB):                       0.0681
+Kurtosis:                       2.194   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

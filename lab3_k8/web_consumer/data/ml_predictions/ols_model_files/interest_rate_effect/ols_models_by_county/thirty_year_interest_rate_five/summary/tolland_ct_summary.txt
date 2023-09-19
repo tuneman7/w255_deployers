@@ -1,0 +1,31 @@
+************************************************************
+TOLLAND CT
+************************************************************
+const	 245294.66
+thirty_year_interest_rate_five	 17051.07
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.136
+Model:                              OLS   Adj. R-squared:                  0.125
+Method:                   Least Squares   F-statistic:                     13.01
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           0.000528
+Time:                          14:07:34   Log-Likelihood:                -1027.4
+No. Observations:                    85   AIC:                             2059.
+Df Residuals:                        83   BIC:                             2064.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           2.453e+05   1.99e+04     12.354      0.000    2.06e+05    2.85e+05
+thirty_year_interest_rate_five  1.705e+04   4727.430      3.607      0.001    7648.406    2.65e+04
+==============================================================================
+Omnibus:                       38.866   Durbin-Watson:                   0.059
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                9.067
+Skew:                           0.491   Prob(JB):                       0.0107
+Kurtosis:                       1.736   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

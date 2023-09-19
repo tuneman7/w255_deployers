@@ -1,0 +1,31 @@
+************************************************************
+IRION TX
+************************************************************
+const	 325590.27
+thirty_year_interest_rate_six	 -19839.92
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.056
+Model:                              OLS   Adj. R-squared:                  0.044
+Method:                   Least Squares   F-statistic:                     4.422
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):             0.0389
+Time:                          21:22:32   Log-Likelihood:                -928.08
+No. Observations:                    76   AIC:                             1860.
+Df Residuals:                        74   BIC:                             1865.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          3.256e+05   3.62e+04      8.988      0.000    2.53e+05    3.98e+05
+thirty_year_interest_rate_six -1.984e+04   9434.309     -2.103      0.039   -3.86e+04   -1041.650
+==============================================================================
+Omnibus:                        2.522   Durbin-Watson:                   0.819
+Prob(Omnibus):                  0.283   Jarque-Bera (JB):                1.663
+Skew:                           0.118   Prob(JB):                        0.435
+Kurtosis:                       2.315   Cond. No.                         26.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

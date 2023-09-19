@@ -1,0 +1,31 @@
+************************************************************
+HARRISON IN
+************************************************************
+const	 71661.86
+thirty_year_interest_rate_two	 33509.47
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.454
+Model:                              OLS   Adj. R-squared:                  0.447
+Method:                   Least Squares   F-statistic:                     69.03
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           1.58e-12
+Time:                          14:07:34   Log-Likelihood:                -1021.9
+No. Observations:                    85   AIC:                             2048.
+Df Residuals:                        83   BIC:                             2053.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          7.166e+04   1.74e+04      4.111      0.000     3.7e+04    1.06e+05
+thirty_year_interest_rate_two  3.351e+04   4033.175      8.308      0.000    2.55e+04    4.15e+04
+==============================================================================
+Omnibus:                        6.779   Durbin-Watson:                   0.209
+Prob(Omnibus):                  0.034   Jarque-Bera (JB):                6.145
+Skew:                           0.583   Prob(JB):                       0.0463
+Kurtosis:                       2.388   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

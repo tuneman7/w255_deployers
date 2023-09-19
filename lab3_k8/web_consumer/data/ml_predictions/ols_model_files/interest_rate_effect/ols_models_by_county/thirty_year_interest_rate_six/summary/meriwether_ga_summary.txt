@@ -1,0 +1,31 @@
+************************************************************
+MERIWETHER GA
+************************************************************
+const	 330082.91
+thirty_year_interest_rate_six	 -40583.26
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.161
+Model:                              OLS   Adj. R-squared:                  0.149
+Method:                   Least Squares   F-statistic:                     14.17
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           0.000333
+Time:                          21:22:13   Log-Likelihood:                -938.23
+No. Observations:                    76   AIC:                             1880.
+Df Residuals:                        74   BIC:                             1885.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          3.301e+05   4.14e+04      7.973      0.000    2.48e+05    4.13e+05
+thirty_year_interest_rate_six -4.058e+04   1.08e+04     -3.764      0.000   -6.21e+04   -1.91e+04
+==============================================================================
+Omnibus:                       23.504   Durbin-Watson:                   0.136
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               32.921
+Skew:                           1.337   Prob(JB):                     7.10e-08
+Kurtosis:                       4.803   Cond. No.                         26.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

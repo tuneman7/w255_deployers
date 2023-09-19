@@ -1,0 +1,31 @@
+************************************************************
+HALE TX
+************************************************************
+const	 91867.46
+thirty_year_interest_rate_five	 11541.24
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.265
+Model:                              OLS   Adj. R-squared:                  0.256
+Method:                   Least Squares   F-statistic:                     29.86
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           4.77e-07
+Time:                          14:06:59   Log-Likelihood:                -958.95
+No. Observations:                    85   AIC:                             1922.
+Df Residuals:                        83   BIC:                             1927.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           9.187e+04   8871.293     10.356      0.000    7.42e+04     1.1e+05
+thirty_year_interest_rate_five  1.154e+04   2112.129      5.464      0.000    7340.297    1.57e+04
+==============================================================================
+Omnibus:                       14.664   Durbin-Watson:                   0.594
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):               16.173
+Skew:                           0.992   Prob(JB):                     0.000308
+Kurtosis:                       3.796   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+ESCAMBIA AL
+************************************************************
+const	 98826.19
+thirty_year_interest_rate_two	 13214.24
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.232
+Model:                              OLS   Adj. R-squared:                  0.223
+Method:                   Least Squares   F-statistic:                     25.04
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           3.10e-06
+Time:                          14:07:10   Log-Likelihood:                -985.90
+No. Observations:                    85   AIC:                             1976.
+Df Residuals:                        83   BIC:                             1981.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          9.883e+04   1.14e+04      8.658      0.000    7.61e+04    1.22e+05
+thirty_year_interest_rate_two  1.321e+04   2640.684      5.004      0.000    7962.024    1.85e+04
+==============================================================================
+Omnibus:                       44.063   Durbin-Watson:                   0.131
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                7.737
+Skew:                           0.351   Prob(JB):                       0.0209
+Kurtosis:                       1.699   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

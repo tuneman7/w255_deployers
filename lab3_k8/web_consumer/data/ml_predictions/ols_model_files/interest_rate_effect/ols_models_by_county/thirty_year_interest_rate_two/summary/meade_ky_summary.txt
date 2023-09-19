@@ -1,0 +1,31 @@
+************************************************************
+MEADE KY
+************************************************************
+const	 176799.04
+thirty_year_interest_rate_two	 13809.44
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.056
+Model:                              OLS   Adj. R-squared:                  0.045
+Method:                   Least Squares   F-statistic:                     4.955
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0287
+Time:                          14:07:11   Log-Likelihood:                -1058.5
+No. Observations:                    85   AIC:                             2121.
+Df Residuals:                        83   BIC:                             2126.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          1.768e+05   2.68e+04      6.593      0.000    1.23e+05     2.3e+05
+thirty_year_interest_rate_two  1.381e+04   6203.976      2.226      0.029    1469.986    2.61e+04
+==============================================================================
+Omnibus:                       53.355   Durbin-Watson:                   0.087
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                8.793
+Skew:                           0.416   Prob(JB):                       0.0123
+Kurtosis:                       1.662   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+PERQUIMANS NC
+************************************************************
+const	 428130.16
+thirty_year_interest_rate_seven	 -33259.05
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.143
+Model:                              OLS   Adj. R-squared:                  0.131
+Method:                   Least Squares   F-statistic:                     12.31
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           0.000770
+Time:                          21:22:54   Log-Likelihood:                -925.99
+No. Observations:                    76   AIC:                             1856.
+Df Residuals:                        74   BIC:                             1861.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            4.281e+05   3.62e+04     11.816      0.000    3.56e+05       5e+05
+thirty_year_interest_rate_seven -3.326e+04   9478.848     -3.509      0.001   -5.21e+04   -1.44e+04
+==============================================================================
+Omnibus:                       73.519   Durbin-Watson:                   1.192
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              632.793
+Skew:                          -2.862   Prob(JB):                    3.90e-138
+Kurtosis:                      15.925   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+BALTIMORE CITY MD
+************************************************************
+const	 166058.35
+thirty_year_interest_rate	 1700.08
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.007
+Model:                              OLS   Adj. R-squared:                 -0.005
+Method:                   Least Squares   F-statistic:                    0.6009
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.440
+Time:                          14:07:30   Log-Likelihood:                -975.38
+No. Observations:                    85   AIC:                             1955.
+Df Residuals:                        83   BIC:                             1960.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      1.661e+05   9680.438     17.154      0.000    1.47e+05    1.85e+05
+thirty_year_interest_rate  1700.0761   2193.130      0.775      0.440   -2661.972    6062.124
+==============================================================================
+Omnibus:                        5.615   Durbin-Watson:                   0.064
+Prob(Omnibus):                  0.060   Jarque-Bera (JB):                4.835
+Skew:                          -0.494   Prob(JB):                       0.0891
+Kurtosis:                       2.376   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

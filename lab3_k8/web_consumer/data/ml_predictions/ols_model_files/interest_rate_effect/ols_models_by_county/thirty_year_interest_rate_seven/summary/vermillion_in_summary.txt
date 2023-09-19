@@ -1,0 +1,31 @@
+************************************************************
+VERMILLION IN
+************************************************************
+const	 105305.18
+thirty_year_interest_rate_seven	 -6522.38
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.067
+Model:                              OLS   Adj. R-squared:                  0.054
+Method:                   Least Squares   F-statistic:                     5.319
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):             0.0239
+Time:                          21:22:37   Log-Likelihood:                -834.07
+No. Observations:                    76   AIC:                             1672.
+Df Residuals:                        74   BIC:                             1677.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.053e+05   1.08e+04      9.741      0.000    8.38e+04    1.27e+05
+thirty_year_interest_rate_seven -6522.3756   2828.094     -2.306      0.024   -1.22e+04    -887.276
+==============================================================================
+Omnibus:                       17.557   Durbin-Watson:                   0.591
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               26.033
+Skew:                           0.927   Prob(JB):                     2.22e-06
+Kurtosis:                       5.187   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

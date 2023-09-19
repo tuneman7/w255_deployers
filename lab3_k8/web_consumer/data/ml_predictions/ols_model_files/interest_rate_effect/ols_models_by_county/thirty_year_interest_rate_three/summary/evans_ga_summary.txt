@@ -1,0 +1,31 @@
+************************************************************
+EVANS GA
+************************************************************
+const	 5412.03
+thirty_year_interest_rate_three	 44128.70
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.319
+Model:                              OLS   Adj. R-squared:                  0.311
+Method:                   Least Squares   F-statistic:                     38.91
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           1.78e-08
+Time:                          14:07:00   Log-Likelihood:                -1067.3
+No. Observations:                    85   AIC:                             2139.
+Df Residuals:                        83   BIC:                             2143.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            5412.0276   3.03e+04      0.179      0.859   -5.48e+04    6.57e+04
+thirty_year_interest_rate_three  4.413e+04   7074.360      6.238      0.000    3.01e+04    5.82e+04
+==============================================================================
+Omnibus:                       10.381   Durbin-Watson:                   0.366
+Prob(Omnibus):                  0.006   Jarque-Bera (JB):               10.502
+Skew:                           0.833   Prob(JB):                      0.00524
+Kurtosis:                       3.439   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

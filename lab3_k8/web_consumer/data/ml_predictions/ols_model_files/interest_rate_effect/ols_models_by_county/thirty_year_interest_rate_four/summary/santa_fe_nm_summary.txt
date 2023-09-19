@@ -1,0 +1,31 @@
+************************************************************
+SANTA FE NM
+************************************************************
+const	 487751.70
+thirty_year_interest_rate_four	 37549.12
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.126
+Model:                              OLS   Adj. R-squared:                  0.115
+Method:                   Least Squares   F-statistic:                     11.95
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           0.000863
+Time:                          14:07:10   Log-Likelihood:                -1101.4
+No. Observations:                    85   AIC:                             2207.
+Df Residuals:                        83   BIC:                             2212.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           4.878e+05   4.61e+04     10.582      0.000    3.96e+05    5.79e+05
+thirty_year_interest_rate_four  3.755e+04   1.09e+04      3.457      0.001    1.59e+04    5.91e+04
+==============================================================================
+Omnibus:                        8.172   Durbin-Watson:                   0.105
+Prob(Omnibus):                  0.017   Jarque-Bera (JB):                8.713
+Skew:                           0.765   Prob(JB):                       0.0128
+Kurtosis:                       2.653   Cond. No.                         18.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

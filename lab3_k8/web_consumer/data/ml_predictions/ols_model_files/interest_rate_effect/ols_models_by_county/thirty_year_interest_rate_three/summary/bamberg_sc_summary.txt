@@ -1,0 +1,31 @@
+************************************************************
+BAMBERG SC
+************************************************************
+const	 51688.21
+thirty_year_interest_rate_three	 18241.05
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.230
+Model:                              OLS   Adj. R-squared:                  0.221
+Method:                   Least Squares   F-statistic:                     24.81
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           3.39e-06
+Time:                          14:07:09   Log-Likelihood:                -1011.3
+No. Observations:                    85   AIC:                             2027.
+Df Residuals:                        83   BIC:                             2032.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            5.169e+04   1.57e+04      3.296      0.001    2.05e+04    8.29e+04
+thirty_year_interest_rate_three  1.824e+04   3662.151      4.981      0.000     1.1e+04    2.55e+04
+==============================================================================
+Omnibus:                       19.264   Durbin-Watson:                   0.273
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               23.619
+Skew:                           1.236   Prob(JB):                     7.43e-06
+Kurtosis:                       3.745   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

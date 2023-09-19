@@ -1,0 +1,31 @@
+************************************************************
+BULLOCH GA
+************************************************************
+const	 108085.82
+thirty_year_interest_rate_five	 25852.17
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.172
+Model:                              OLS   Adj. R-squared:                  0.162
+Method:                   Least Squares   F-statistic:                     17.19
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           8.13e-05
+Time:                          14:07:02   Log-Likelihood:                -1051.0
+No. Observations:                    85   AIC:                             2106.
+Df Residuals:                        83   BIC:                             2111.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           1.081e+05   2.62e+04      4.127      0.000     5.6e+04     1.6e+05
+thirty_year_interest_rate_five  2.585e+04   6235.983      4.146      0.000    1.34e+04    3.83e+04
+==============================================================================
+Omnibus:                       47.060   Durbin-Watson:                   0.030
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                9.564
+Skew:                           0.498   Prob(JB):                      0.00838
+Kurtosis:                       1.693   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

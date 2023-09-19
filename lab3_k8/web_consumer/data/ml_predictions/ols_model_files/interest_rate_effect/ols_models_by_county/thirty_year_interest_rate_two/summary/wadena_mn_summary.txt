@@ -1,0 +1,31 @@
+************************************************************
+WADENA MN
+************************************************************
+const	 131245.24
+thirty_year_interest_rate_two	 10373.28
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.042
+Model:                              OLS   Adj. R-squared:                  0.030
+Method:                   Least Squares   F-statistic:                     3.642
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0598
+Time:                          14:08:21   Log-Likelihood:                -1047.3
+No. Observations:                    85   AIC:                             2099.
+Df Residuals:                        83   BIC:                             2103.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          1.312e+05   2.35e+04      5.586      0.000    8.45e+04    1.78e+05
+thirty_year_interest_rate_two  1.037e+04   5435.929      1.908      0.060    -438.568    2.12e+04
+==============================================================================
+Omnibus:                       23.088   Durbin-Watson:                   0.236
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               31.055
+Skew:                           1.275   Prob(JB):                     1.80e-07
+Kurtosis:                       4.505   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

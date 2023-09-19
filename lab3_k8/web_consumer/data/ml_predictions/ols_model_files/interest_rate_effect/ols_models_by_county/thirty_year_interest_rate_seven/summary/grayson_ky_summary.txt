@@ -1,0 +1,31 @@
+************************************************************
+GRAYSON KY
+************************************************************
+const	 314642.85
+thirty_year_interest_rate_seven	 -36561.25
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.339
+Model:                              OLS   Adj. R-squared:                  0.330
+Method:                   Least Squares   F-statistic:                     37.87
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           3.55e-08
+Time:                          21:22:24   Log-Likelihood:                -890.49
+No. Observations:                    76   AIC:                             1785.
+Df Residuals:                        74   BIC:                             1790.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            3.146e+05   2.27e+04     13.855      0.000    2.69e+05     3.6e+05
+thirty_year_interest_rate_seven -3.656e+04   5941.237     -6.154      0.000   -4.84e+04   -2.47e+04
+==============================================================================
+Omnibus:                       24.200   Durbin-Watson:                   0.216
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               35.644
+Skew:                           1.322   Prob(JB):                     1.82e-08
+Kurtosis:                       5.066   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

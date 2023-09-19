@@ -1,0 +1,31 @@
+************************************************************
+SUNFLOWER MS
+************************************************************
+const	 170002.06
+thirty_year_interest_rate_seven	 -20995.80
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.172
+Model:                              OLS   Adj. R-squared:                  0.161
+Method:                   Least Squares   F-statistic:                     15.37
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           0.000196
+Time:                          21:22:25   Log-Likelihood:                -882.60
+No. Observations:                    76   AIC:                             1769.
+Df Residuals:                        74   BIC:                             1774.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                              1.7e+05   2.05e+04      8.305      0.000    1.29e+05    2.11e+05
+thirty_year_interest_rate_seven   -2.1e+04   5355.381     -3.921      0.000   -3.17e+04   -1.03e+04
+==============================================================================
+Omnibus:                        0.935   Durbin-Watson:                   0.391
+Prob(Omnibus):                  0.626   Jarque-Bera (JB):                1.026
+Skew:                           0.199   Prob(JB):                        0.599
+Kurtosis:                       2.593   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

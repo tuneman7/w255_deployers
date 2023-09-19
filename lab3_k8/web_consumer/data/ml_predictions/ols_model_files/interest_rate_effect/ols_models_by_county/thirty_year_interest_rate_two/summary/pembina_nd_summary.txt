@@ -1,0 +1,31 @@
+************************************************************
+PEMBINA ND
+************************************************************
+const	 116491.42
+thirty_year_interest_rate_two	 -1822.18
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.007
+Model:                              OLS   Adj. R-squared:                 -0.005
+Method:                   Least Squares   F-statistic:                    0.6038
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.439
+Time:                          14:07:15   Log-Likelihood:                -975.81
+No. Observations:                    85   AIC:                             1956.
+Df Residuals:                        83   BIC:                             1961.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          1.165e+05   1.01e+04     11.492      0.000    9.63e+04    1.37e+05
+thirty_year_interest_rate_two -1822.1826   2345.100     -0.777      0.439   -6486.492    2842.127
+==============================================================================
+Omnibus:                        4.178   Durbin-Watson:                   0.569
+Prob(Omnibus):                  0.124   Jarque-Bera (JB):                3.977
+Skew:                           0.471   Prob(JB):                        0.137
+Kurtosis:                       2.513   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

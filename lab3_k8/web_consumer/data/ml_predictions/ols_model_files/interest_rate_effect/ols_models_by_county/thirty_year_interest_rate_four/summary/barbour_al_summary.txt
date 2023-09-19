@@ -1,0 +1,31 @@
+************************************************************
+BARBOUR AL
+************************************************************
+const	 171767.29
+thirty_year_interest_rate_four	 6992.07
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.053
+Model:                              OLS   Adj. R-squared:                  0.042
+Method:                   Least Squares   F-statistic:                     4.682
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0334
+Time:                          14:07:29   Log-Likelihood:                -998.37
+No. Observations:                    85   AIC:                             2001.
+Df Residuals:                        83   BIC:                             2006.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           1.718e+05   1.37e+04     12.525      0.000    1.44e+05    1.99e+05
+thirty_year_interest_rate_four  6992.0726   3231.430      2.164      0.033     564.887    1.34e+04
+==============================================================================
+Omnibus:                       17.798   Durbin-Watson:                   0.176
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               21.988
+Skew:                           1.234   Prob(JB):                     1.68e-05
+Kurtosis:                       3.344   Cond. No.                         18.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

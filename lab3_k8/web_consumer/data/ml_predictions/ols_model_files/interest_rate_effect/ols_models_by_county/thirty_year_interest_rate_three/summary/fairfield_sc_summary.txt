@@ -1,0 +1,31 @@
+************************************************************
+FAIRFIELD SC
+************************************************************
+const	 166320.18
+thirty_year_interest_rate_three	 25755.81
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.099
+Model:                              OLS   Adj. R-squared:                  0.088
+Method:                   Least Squares   F-statistic:                     9.154
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00330
+Time:                          14:07:55   Log-Likelihood:                -1083.0
+No. Observations:                    85   AIC:                             2170.
+Df Residuals:                        83   BIC:                             2175.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.663e+05   3.65e+04      4.563      0.000    9.38e+04    2.39e+05
+thirty_year_interest_rate_three  2.576e+04   8512.944      3.025      0.003    8823.908    4.27e+04
+==============================================================================
+Omnibus:                       14.856   Durbin-Watson:                   0.452
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):               17.610
+Skew:                           1.113   Prob(JB):                     0.000150
+Kurtosis:                       3.145   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+MARTINSVILLE CITY VA
+************************************************************
+const	 166904.30
+thirty_year_interest_rate_six	 -16029.31
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.111
+Model:                              OLS   Adj. R-squared:                  0.099
+Method:                   Least Squares   F-statistic:                     9.260
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):            0.00324
+Time:                          21:21:00   Log-Likelihood:                -883.79
+No. Observations:                    76   AIC:                             1772.
+Df Residuals:                        74   BIC:                             1776.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          1.669e+05   2.02e+04      8.252      0.000    1.27e+05    2.07e+05
+thirty_year_interest_rate_six -1.603e+04   5267.664     -3.043      0.003   -2.65e+04   -5533.260
+==============================================================================
+Omnibus:                       42.797   Durbin-Watson:                   0.254
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              101.234
+Skew:                           2.005   Prob(JB):                     1.04e-22
+Kurtosis:                       6.986   Cond. No.                         26.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

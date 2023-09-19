@@ -1,0 +1,31 @@
+************************************************************
+CHARLES MIX SD
+************************************************************
+const	 286672.37
+thirty_year_interest_rate_seven	 -33258.10
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.132
+Model:                              OLS   Adj. R-squared:                  0.120
+Method:                   Least Squares   F-statistic:                     11.21
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):            0.00128
+Time:                          21:21:05   Log-Likelihood:                -929.54
+No. Observations:                    76   AIC:                             1863.
+Df Residuals:                        74   BIC:                             1868.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            2.867e+05    3.8e+04      7.551      0.000    2.11e+05    3.62e+05
+thirty_year_interest_rate_seven -3.326e+04   9932.468     -3.348      0.001    -5.3e+04   -1.35e+04
+==============================================================================
+Omnibus:                       19.172   Durbin-Watson:                   0.358
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               26.657
+Skew:                           1.063   Prob(JB):                     1.63e-06
+Kurtosis:                       4.974   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+PUEBLO CO
+************************************************************
+const	 215255.53
+thirty_year_interest_rate_two	 17161.78
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.099
+Model:                              OLS   Adj. R-squared:                  0.088
+Method:                   Least Squares   F-statistic:                     9.084
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00342
+Time:                          14:08:24   Log-Likelihood:                -1051.2
+No. Observations:                    85   AIC:                             2106.
+Df Residuals:                        83   BIC:                             2111.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          2.153e+05   2.46e+04      8.746      0.000    1.66e+05    2.64e+05
+thirty_year_interest_rate_two  1.716e+04   5694.003      3.014      0.003    5836.632    2.85e+04
+==============================================================================
+Omnibus:                       64.312   Durbin-Watson:                   0.032
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                7.316
+Skew:                           0.200   Prob(JB):                       0.0258
+Kurtosis:                       1.620   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

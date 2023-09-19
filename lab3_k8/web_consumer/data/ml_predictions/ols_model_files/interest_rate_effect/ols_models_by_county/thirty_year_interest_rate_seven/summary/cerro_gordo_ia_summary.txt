@@ -1,0 +1,31 @@
+************************************************************
+CERRO GORDO IA
+************************************************************
+const	 221055.20
+thirty_year_interest_rate_seven	 -14395.57
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.092
+Model:                              OLS   Adj. R-squared:                  0.079
+Method:                   Least Squares   F-statistic:                     7.458
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):            0.00789
+Time:                          21:20:57   Log-Likelihood:                -881.40
+No. Observations:                    76   AIC:                             1767.
+Df Residuals:                        74   BIC:                             1771.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            2.211e+05   2.01e+04     10.971      0.000    1.81e+05    2.61e+05
+thirty_year_interest_rate_seven  -1.44e+04   5271.325     -2.731      0.008   -2.49e+04   -3892.230
+==============================================================================
+Omnibus:                       29.737   Durbin-Watson:                   0.196
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               50.582
+Skew:                           1.524   Prob(JB):                     1.04e-11
+Kurtosis:                       5.586   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

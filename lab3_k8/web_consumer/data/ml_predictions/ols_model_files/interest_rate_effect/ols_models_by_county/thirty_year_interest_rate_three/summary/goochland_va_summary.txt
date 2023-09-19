@@ -1,0 +1,31 @@
+************************************************************
+GOOCHLAND VA
+************************************************************
+const	 456027.78
+thirty_year_interest_rate_three	 19690.57
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.131
+Model:                              OLS   Adj. R-squared:                  0.121
+Method:                   Least Squares   F-statistic:                     12.54
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           0.000656
+Time:                          14:08:10   Log-Likelihood:                -1046.8
+No. Observations:                    85   AIC:                             2098.
+Df Residuals:                        83   BIC:                             2103.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                             4.56e+05   2.38e+04     19.155      0.000    4.09e+05    5.03e+05
+thirty_year_interest_rate_three  1.969e+04   5560.011      3.541      0.001    8631.930    3.07e+04
+==============================================================================
+Omnibus:                       21.092   Durbin-Watson:                   0.098
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                6.267
+Skew:                           0.353   Prob(JB):                       0.0436
+Kurtosis:                       1.873   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

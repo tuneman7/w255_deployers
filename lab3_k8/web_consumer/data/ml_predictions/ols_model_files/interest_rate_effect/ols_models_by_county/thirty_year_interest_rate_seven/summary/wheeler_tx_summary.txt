@@ -1,0 +1,31 @@
+************************************************************
+WHEELER TX
+************************************************************
+const	 188010.11
+thirty_year_interest_rate_seven	 -21398.02
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.250
+Model:                              OLS   Adj. R-squared:                  0.240
+Method:                   Least Squares   F-statistic:                     24.69
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           4.22e-06
+Time:                          21:21:43   Log-Likelihood:                -866.04
+No. Observations:                    76   AIC:                             1736.
+Df Residuals:                        74   BIC:                             1741.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                             1.88e+05   1.65e+04     11.421      0.000    1.55e+05    2.21e+05
+thirty_year_interest_rate_seven  -2.14e+04   4306.674     -4.969      0.000      -3e+04   -1.28e+04
+==============================================================================
+Omnibus:                        5.588   Durbin-Watson:                   0.312
+Prob(Omnibus):                  0.061   Jarque-Bera (JB):                5.359
+Skew:                           0.650   Prob(JB):                       0.0686
+Kurtosis:                       3.001   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

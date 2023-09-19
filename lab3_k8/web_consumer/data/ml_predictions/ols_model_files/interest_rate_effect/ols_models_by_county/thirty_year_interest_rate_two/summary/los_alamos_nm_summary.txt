@@ -1,0 +1,31 @@
+************************************************************
+LOS ALAMOS NM
+************************************************************
+const	 196057.81
+thirty_year_interest_rate_two	 61423.19
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.365
+Model:                              OLS   Adj. R-squared:                  0.357
+Method:                   Least Squares   F-statistic:                     47.62
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           9.52e-10
+Time:                          14:07:14   Log-Likelihood:                -1089.2
+No. Observations:                    85   AIC:                             2182.
+Df Residuals:                        83   BIC:                             2187.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          1.961e+05   3.85e+04      5.096      0.000     1.2e+05    2.73e+05
+thirty_year_interest_rate_two  6.142e+04   8900.712      6.901      0.000    4.37e+04    7.91e+04
+==============================================================================
+Omnibus:                        1.766   Durbin-Watson:                   0.394
+Prob(Omnibus):                  0.414   Jarque-Bera (JB):                1.534
+Skew:                           0.188   Prob(JB):                        0.464
+Kurtosis:                       2.460   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

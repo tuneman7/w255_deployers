@@ -1,0 +1,31 @@
+************************************************************
+DAVIDSON NC
+************************************************************
+const	 176233.30
+thirty_year_interest_rate_three	 16742.51
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.151
+Model:                              OLS   Adj. R-squared:                  0.141
+Method:                   Least Squares   F-statistic:                     14.81
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           0.000233
+Time:                          14:07:57   Log-Likelihood:                -1026.0
+No. Observations:                    85   AIC:                             2056.
+Df Residuals:                        83   BIC:                             2061.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.762e+05   1.86e+04      9.460      0.000    1.39e+05    2.13e+05
+thirty_year_interest_rate_three  1.674e+04   4350.727      3.848      0.000    8089.087    2.54e+04
+==============================================================================
+Omnibus:                      157.643   Durbin-Watson:                   0.046
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                8.752
+Skew:                          -0.211   Prob(JB):                       0.0126
+Kurtosis:                       1.485   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

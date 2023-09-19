@@ -1,0 +1,31 @@
+************************************************************
+CLARKE MS
+************************************************************
+const	 58064.89
+thirty_year_interest_rate_six	 19642.16
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.132
+Model:                              OLS   Adj. R-squared:                  0.120
+Method:                   Least Squares   F-statistic:                     11.22
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):            0.00128
+Time:                          21:21:42   Log-Likelihood:                -891.94
+No. Observations:                    76   AIC:                             1788.
+Df Residuals:                        74   BIC:                             1793.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          5.806e+04   2.25e+04      2.579      0.012    1.32e+04    1.03e+05
+thirty_year_interest_rate_six  1.964e+04   5863.803      3.350      0.001    7958.276    3.13e+04
+==============================================================================
+Omnibus:                       49.701   Durbin-Watson:                   0.452
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              174.543
+Skew:                           2.091   Prob(JB):                     1.25e-38
+Kurtosis:                       9.134   Cond. No.                         26.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

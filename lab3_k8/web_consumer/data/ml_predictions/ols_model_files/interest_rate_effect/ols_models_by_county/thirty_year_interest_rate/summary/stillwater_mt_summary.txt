@@ -1,0 +1,31 @@
+************************************************************
+STILLWATER MT
+************************************************************
+const	 325118.00
+thirty_year_interest_rate	 29787.33
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.077
+Model:                              OLS   Adj. R-squared:                  0.066
+Method:                   Least Squares   F-statistic:                     6.909
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0102
+Time:                          14:08:18   Log-Likelihood:                -1115.0
+No. Observations:                    85   AIC:                             2234.
+Df Residuals:                        83   BIC:                             2239.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      3.251e+05      5e+04      6.500      0.000    2.26e+05    4.25e+05
+thirty_year_interest_rate  2.979e+04   1.13e+04      2.629      0.010    7247.854    5.23e+04
+==============================================================================
+Omnibus:                       27.106   Durbin-Watson:                   0.282
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               40.102
+Skew:                           1.410   Prob(JB):                     1.96e-09
+Kurtosis:                       4.836   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

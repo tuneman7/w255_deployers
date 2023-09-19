@@ -1,0 +1,31 @@
+************************************************************
+CAMPBELL SD
+************************************************************
+const	 77647.77
+thirty_year_interest_rate	 12852.80
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.041
+Model:                              OLS   Adj. R-squared:                  0.022
+Method:                   Least Squares   F-statistic:                     2.200
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.144
+Time:                          14:07:46   Log-Likelihood:                -672.78
+No. Observations:                    54   AIC:                             1350.
+Df Residuals:                        52   BIC:                             1354.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      7.765e+04   3.59e+04      2.166      0.035    5696.537     1.5e+05
+thirty_year_interest_rate  1.285e+04   8666.151      1.483      0.144   -4537.108    3.02e+04
+==============================================================================
+Omnibus:                        0.288   Durbin-Watson:                   0.693
+Prob(Omnibus):                  0.866   Jarque-Bera (JB):                0.474
+Skew:                           0.022   Prob(JB):                        0.789
+Kurtosis:                       2.543   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

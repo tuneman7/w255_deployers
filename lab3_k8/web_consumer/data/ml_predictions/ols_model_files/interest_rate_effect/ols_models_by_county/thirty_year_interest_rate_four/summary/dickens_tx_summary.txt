@@ -1,0 +1,31 @@
+************************************************************
+DICKENS TX
+************************************************************
+const	 67916.92
+thirty_year_interest_rate_four	 -1020.81
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.002
+Model:                              OLS   Adj. R-squared:                 -0.010
+Method:                   Least Squares   F-statistic:                    0.1853
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.668
+Time:                          14:07:23   Log-Likelihood:                -972.08
+No. Observations:                    85   AIC:                             1948.
+Df Residuals:                        83   BIC:                             1953.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           6.792e+04   1.01e+04      6.748      0.000    4.79e+04    8.79e+04
+thirty_year_interest_rate_four -1020.8093   2371.545     -0.430      0.668   -5737.716    3696.097
+==============================================================================
+Omnibus:                        2.415   Durbin-Watson:                   0.376
+Prob(Omnibus):                  0.299   Jarque-Bera (JB):                1.565
+Skew:                           0.034   Prob(JB):                        0.457
+Kurtosis:                       2.339   Cond. No.                         18.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+LANE KS
+************************************************************
+const	 -758176.88
+thirty_year_interest_rate_five	 297161.62
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.113
+Model:                              OLS   Adj. R-squared:                  0.098
+Method:                   Least Squares   F-statistic:                     7.765
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00709
+Time:                          14:08:25   Log-Likelihood:                -954.60
+No. Observations:                    63   AIC:                             1913.
+Df Residuals:                        61   BIC:                             1917.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                          -7.582e+05   4.53e+05     -1.675      0.099   -1.66e+06    1.47e+05
+thirty_year_interest_rate_five  2.972e+05   1.07e+05      2.787      0.007    8.39e+04     5.1e+05
+==============================================================================
+Omnibus:                       56.605   Durbin-Watson:                   0.412
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              219.347
+Skew:                           2.813   Prob(JB):                     2.34e-48
+Kurtosis:                      10.205   Cond. No.                         17.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

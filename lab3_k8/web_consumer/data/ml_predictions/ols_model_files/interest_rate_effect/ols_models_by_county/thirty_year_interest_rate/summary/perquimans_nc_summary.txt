@@ -1,0 +1,31 @@
+************************************************************
+PERQUIMANS NC
+************************************************************
+const	 304139.91
+thirty_year_interest_rate	 2965.85
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.003
+Model:                              OLS   Adj. R-squared:                 -0.009
+Method:                   Least Squares   F-statistic:                    0.2513
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.617
+Time:                          14:08:12   Log-Likelihood:                -1059.7
+No. Observations:                    85   AIC:                             2123.
+Df Residuals:                        83   BIC:                             2128.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      3.041e+05   2.61e+04     11.647      0.000    2.52e+05    3.56e+05
+thirty_year_interest_rate  2965.8536   5915.984      0.501      0.617   -8800.801    1.47e+04
+==============================================================================
+Omnibus:                       28.975   Durbin-Watson:                   0.569
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              103.099
+Skew:                          -0.973   Prob(JB):                     4.09e-23
+Kurtosis:                       8.032   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

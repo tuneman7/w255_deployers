@@ -1,0 +1,31 @@
+************************************************************
+BEDFORD PA
+************************************************************
+const	 142141.19
+thirty_year_interest_rate	 3201.80
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.048
+Model:                              OLS   Adj. R-squared:                  0.036
+Method:                   Least Squares   F-statistic:                     4.178
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0441
+Time:                          14:08:03   Log-Likelihood:                -946.78
+No. Observations:                    85   AIC:                             1898.
+Df Residuals:                        83   BIC:                             1902.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      1.421e+05   6914.380     20.557      0.000    1.28e+05    1.56e+05
+thirty_year_interest_rate  3201.7957   1566.472      2.044      0.044      86.146    6317.446
+==============================================================================
+Omnibus:                        9.040   Durbin-Watson:                   0.263
+Prob(Omnibus):                  0.011   Jarque-Bera (JB):                9.739
+Skew:                           0.827   Prob(JB):                      0.00768
+Kurtosis:                       2.873   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

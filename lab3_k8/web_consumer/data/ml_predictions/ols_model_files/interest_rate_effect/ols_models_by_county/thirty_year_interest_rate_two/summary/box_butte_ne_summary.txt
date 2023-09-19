@@ -1,0 +1,31 @@
+************************************************************
+BOX BUTTE NE
+************************************************************
+const	 94751.71
+thirty_year_interest_rate_two	 5237.69
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.118
+Model:                              OLS   Adj. R-squared:                  0.107
+Method:                   Least Squares   F-statistic:                     11.07
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00131
+Time:                          14:07:49   Log-Likelihood:                -941.94
+No. Observations:                    85   AIC:                             1888.
+Df Residuals:                        83   BIC:                             1893.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          9.475e+04   6805.393     13.923      0.000    8.12e+04    1.08e+05
+thirty_year_interest_rate_two  5237.6878   1574.394      3.327      0.001    2106.281    8369.095
+==============================================================================
+Omnibus:                       18.979   Durbin-Watson:                   0.564
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                4.497
+Skew:                           0.036   Prob(JB):                        0.106
+Kurtosis:                       1.875   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+SHANNON MO
+************************************************************
+const	 -20480.29
+thirty_year_interest_rate	 46736.93
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.578
+Model:                              OLS   Adj. R-squared:                  0.573
+Method:                   Least Squares   F-statistic:                     113.9
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           3.06e-17
+Time:                          14:08:02   Log-Likelihood:                -1034.2
+No. Observations:                    85   AIC:                             2072.
+Df Residuals:                        83   BIC:                             2077.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                     -2.048e+04   1.93e+04     -1.060      0.292   -5.89e+04     1.8e+04
+thirty_year_interest_rate  4.674e+04   4379.096     10.673      0.000     3.8e+04    5.54e+04
+==============================================================================
+Omnibus:                        5.894   Durbin-Watson:                   0.318
+Prob(Omnibus):                  0.052   Jarque-Bera (JB):                5.681
+Skew:                           0.578   Prob(JB):                       0.0584
+Kurtosis:                       2.483   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

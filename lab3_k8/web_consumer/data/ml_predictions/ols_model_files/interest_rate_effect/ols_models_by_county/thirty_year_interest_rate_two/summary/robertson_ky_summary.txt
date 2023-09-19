@@ -1,0 +1,31 @@
+************************************************************
+ROBERTSON KY
+************************************************************
+const	 -104545.69
+thirty_year_interest_rate_two	 79010.71
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.233
+Model:                              OLS   Adj. R-squared:                  0.224
+Method:                   Least Squares   F-statistic:                     24.63
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           3.77e-06
+Time:                          14:08:06   Log-Likelihood:                -1110.2
+No. Observations:                    83   AIC:                             2224.
+Df Residuals:                        81   BIC:                             2229.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                         -1.045e+05   6.93e+04     -1.509      0.135   -2.42e+05    3.33e+04
+thirty_year_interest_rate_two  7.901e+04   1.59e+04      4.963      0.000    4.73e+04    1.11e+05
+==============================================================================
+Omnibus:                       26.615   Durbin-Watson:                   1.005
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               38.472
+Skew:                           1.439   Prob(JB):                     4.42e-09
+Kurtosis:                       4.685   Cond. No.                         18.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+ANOKA MN
+************************************************************
+const	 261579.14
+thirty_year_interest_rate_five	 22085.23
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.253
+Model:                              OLS   Adj. R-squared:                  0.244
+Method:                   Least Squares   F-statistic:                     28.10
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           9.32e-07
+Time:                          14:08:17   Log-Likelihood:                -1016.7
+No. Observations:                    85   AIC:                             2037.
+Df Residuals:                        83   BIC:                             2042.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           2.616e+05   1.75e+04     14.949      0.000    2.27e+05    2.96e+05
+thirty_year_interest_rate_five  2.209e+04   4165.951      5.301      0.000    1.38e+04    3.04e+04
+==============================================================================
+Omnibus:                        4.423   Durbin-Watson:                   0.103
+Prob(Omnibus):                  0.110   Jarque-Bera (JB):                2.239
+Skew:                           0.070   Prob(JB):                        0.327
+Kurtosis:                       2.217   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

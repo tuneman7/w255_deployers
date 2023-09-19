@@ -1,0 +1,31 @@
+************************************************************
+LYMAN SD
+************************************************************
+const	 510043.07
+thirty_year_interest_rate_six	 -33912.38
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.002
+Model:                              OLS   Adj. R-squared:                 -0.012
+Method:                   Least Squares   F-statistic:                    0.1649
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):              0.686
+Time:                          21:22:16   Log-Likelihood:                -1033.2
+No. Observations:                    72   AIC:                             2070.
+Df Residuals:                        70   BIC:                             2075.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                            5.1e+05   3.24e+05      1.575      0.120   -1.36e+05    1.16e+06
+thirty_year_interest_rate_six -3.391e+04   8.35e+04     -0.406      0.686      -2e+05    1.33e+05
+==============================================================================
+Omnibus:                       32.218   Durbin-Watson:                   0.561
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               53.303
+Skew:                           1.817   Prob(JB):                     2.66e-12
+Kurtosis:                       5.137   Cond. No.                         27.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

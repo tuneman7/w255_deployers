@@ -1,0 +1,31 @@
+************************************************************
+HAAKON SD
+************************************************************
+const	 254272.42
+thirty_year_interest_rate_four	 -22995.59
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.012
+Model:                              OLS   Adj. R-squared:                 -0.004
+Method:                   Least Squares   F-statistic:                    0.7571
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.388
+Time:                          14:07:24   Log-Likelihood:                -857.88
+No. Observations:                    64   AIC:                             1720.
+Df Residuals:                        62   BIC:                             1724.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           2.543e+05   1.09e+05      2.336      0.023    3.67e+04    4.72e+05
+thirty_year_interest_rate_four   -2.3e+04   2.64e+04     -0.870      0.388   -7.58e+04    2.98e+04
+==============================================================================
+Omnibus:                      113.282   Durbin-Watson:                   1.609
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             3902.446
+Skew:                           5.554   Prob(JB):                         0.00
+Kurtosis:                      39.607   Cond. No.                         23.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

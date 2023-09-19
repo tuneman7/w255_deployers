@@ -1,0 +1,31 @@
+************************************************************
+JERAULD SD
+************************************************************
+const	 56677.47
+thirty_year_interest_rate	 10149.30
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.103
+Model:                              OLS   Adj. R-squared:                  0.092
+Method:                   Least Squares   F-statistic:                     9.549
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00272
+Time:                          14:07:44   Log-Likelihood:                -1009.7
+No. Observations:                    85   AIC:                             2023.
+Df Residuals:                        83   BIC:                             2028.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      5.668e+04   1.45e+04      3.910      0.000    2.78e+04    8.55e+04
+thirty_year_interest_rate  1.015e+04   3284.355      3.090      0.003    3616.848    1.67e+04
+==============================================================================
+Omnibus:                       85.874   Durbin-Watson:                   1.000
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              927.446
+Skew:                           3.117   Prob(JB):                    4.05e-202
+Kurtosis:                      17.933   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

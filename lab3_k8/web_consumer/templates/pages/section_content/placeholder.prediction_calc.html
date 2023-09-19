@@ -1,0 +1,35 @@
+
+<div id="prediction_calc"></div>
+
+<script>
+
+
+
+      function refresh_predictions(state,county,county_or_msa){
+  
+  
+            $.ajax({
+                url: '/section_five_pred',
+                type: 'post',
+                data: {state:state,county:county,county_or_msa:county_or_msa},
+                success: function(data){ 
+                    $('#prediction_calc').empty();                 
+                    $('#prediction_calc').html(data); 
+                    $('#prediction_calc').append(data.htmlresponse); 
+                    page_not_loading();
+                }
+            });
+            
+          };
+
+  $(document).ready(function () {
+      
+      page_loading();
+      //refresh_predictions("TX","Austin-Round Rock-Georgetown_TX","MSA");
+      refresh_predictions("TX","Amarillo_TX","MSA");
+  
+  });
+  
+  </script>
+  
+  

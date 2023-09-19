@@ -1,0 +1,31 @@
+************************************************************
+RICH UT
+************************************************************
+const	 451153.98
+thirty_year_interest_rate_three	 7603.15
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.002
+Model:                              OLS   Adj. R-squared:                 -0.010
+Method:                   Least Squares   F-statistic:                    0.1444
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.705
+Time:                          14:07:55   Log-Likelihood:                -1155.7
+No. Observations:                    85   AIC:                             2315.
+Df Residuals:                        83   BIC:                             2320.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            4.512e+05   8.57e+04      5.267      0.000    2.81e+05    6.22e+05
+thirty_year_interest_rate_three  7603.1456      2e+04      0.380      0.705   -3.22e+04    4.74e+04
+==============================================================================
+Omnibus:                       84.775   Durbin-Watson:                   0.057
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                9.908
+Skew:                           0.439   Prob(JB):                      0.00706
+Kurtosis:                       1.577   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

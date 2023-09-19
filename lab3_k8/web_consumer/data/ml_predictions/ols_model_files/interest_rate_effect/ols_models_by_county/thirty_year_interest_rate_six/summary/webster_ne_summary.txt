@@ -1,0 +1,31 @@
+************************************************************
+WEBSTER NE
+************************************************************
+const	 61122.23
+thirty_year_interest_rate_six	 19500.75
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.059
+Model:                              OLS   Adj. R-squared:                  0.046
+Method:                   Least Squares   F-statistic:                     4.644
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):             0.0344
+Time:                          21:22:33   Log-Likelihood:                -924.91
+No. Observations:                    76   AIC:                             1854.
+Df Residuals:                        74   BIC:                             1858.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          6.112e+04   3.47e+04      1.759      0.083   -8106.678     1.3e+05
+thirty_year_interest_rate_six   1.95e+04   9048.840      2.155      0.034    1470.541    3.75e+04
+==============================================================================
+Omnibus:                        2.059   Durbin-Watson:                   0.574
+Prob(Omnibus):                  0.357   Jarque-Bera (JB):                1.804
+Skew:                           0.255   Prob(JB):                        0.406
+Kurtosis:                       2.443   Cond. No.                         26.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+NAPA CA
+************************************************************
+const	 885874.38
+thirty_year_interest_rate_two	 62343.72
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.067
+Model:                              OLS   Adj. R-squared:                  0.056
+Method:                   Least Squares   F-statistic:                     5.948
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0169
+Time:                          14:08:03   Log-Likelihood:                -1178.9
+No. Observations:                    85   AIC:                             2362.
+Df Residuals:                        83   BIC:                             2367.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          8.859e+05    1.1e+05      8.017      0.000    6.66e+05    1.11e+06
+thirty_year_interest_rate_two  6.234e+04   2.56e+04      2.439      0.017    1.15e+04    1.13e+05
+==============================================================================
+Omnibus:                       27.566   Durbin-Watson:                   0.062
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                8.470
+Skew:                           0.501   Prob(JB):                       0.0145
+Kurtosis:                       1.823   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

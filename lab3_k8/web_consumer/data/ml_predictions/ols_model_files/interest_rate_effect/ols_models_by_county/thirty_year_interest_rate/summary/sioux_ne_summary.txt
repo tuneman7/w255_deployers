@@ -1,0 +1,31 @@
+************************************************************
+SIOUX NE
+************************************************************
+const	 -166894.01
+thirty_year_interest_rate	 132120.88
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.143
+Model:                              OLS   Adj. R-squared:                  0.131
+Method:                   Least Squares   F-statistic:                     11.87
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           0.000963
+Time:                          14:07:05   Log-Likelihood:                -1045.7
+No. Observations:                    73   AIC:                             2095.
+Df Residuals:                        71   BIC:                             2100.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                     -1.669e+05   1.71e+05     -0.976      0.332   -5.08e+05    1.74e+05
+thirty_year_interest_rate  1.321e+05   3.84e+04      3.445      0.001    5.56e+04    2.09e+05
+==============================================================================
+Omnibus:                       25.516   Durbin-Watson:                   0.282
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               36.006
+Skew:                           1.561   Prob(JB):                     1.52e-08
+Kurtosis:                       4.447   Cond. No.                         16.7
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

@@ -1,0 +1,31 @@
+************************************************************
+WOLFE KY
+************************************************************
+const	 60950.97
+thirty_year_interest_rate_three	 34900.26
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.157
+Model:                              OLS   Adj. R-squared:                  0.147
+Method:                   Least Squares   F-statistic:                     15.47
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           0.000173
+Time:                          14:07:19   Log-Likelihood:                -1086.6
+No. Observations:                    85   AIC:                             2177.
+Df Residuals:                        83   BIC:                             2182.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            6.095e+04    3.8e+04      1.604      0.113   -1.46e+04    1.37e+05
+thirty_year_interest_rate_three   3.49e+04   8874.232      3.933      0.000    1.72e+04    5.26e+04
+==============================================================================
+Omnibus:                        9.937   Durbin-Watson:                   0.210
+Prob(Omnibus):                  0.007   Jarque-Bera (JB):               11.011
+Skew:                           0.875   Prob(JB):                      0.00406
+Kurtosis:                       2.778   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

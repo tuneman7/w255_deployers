@@ -1,0 +1,31 @@
+************************************************************
+SALINE AR
+************************************************************
+const	 181035.30
+thirty_year_interest_rate_two	 21197.83
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.160
+Model:                              OLS   Adj. R-squared:                  0.150
+Method:                   Least Squares   F-statistic:                     15.85
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           0.000147
+Time:                          14:08:00   Log-Likelihood:                -1045.5
+No. Observations:                    85   AIC:                             2095.
+Df Residuals:                        83   BIC:                             2100.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                           1.81e+05    2.3e+04      7.865      0.000    1.35e+05    2.27e+05
+thirty_year_interest_rate_two   2.12e+04   5325.192      3.981      0.000    1.06e+04    3.18e+04
+==============================================================================
+Omnibus:                      214.917   Durbin-Watson:                   0.044
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                8.855
+Skew:                           0.161   Prob(JB):                       0.0119
+Kurtosis:                       1.452   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

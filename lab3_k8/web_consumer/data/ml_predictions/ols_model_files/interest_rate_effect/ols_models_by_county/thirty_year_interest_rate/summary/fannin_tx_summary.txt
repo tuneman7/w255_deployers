@@ -1,0 +1,31 @@
+************************************************************
+FANNIN TX
+************************************************************
+const	 121230.61
+thirty_year_interest_rate	 24836.56
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.326
+Model:                              OLS   Adj. R-squared:                  0.318
+Method:                   Least Squares   F-statistic:                     40.17
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           1.15e-08
+Time:                          14:08:13   Log-Likelihood:                -1024.7
+No. Observations:                    85   AIC:                             2053.
+Df Residuals:                        83   BIC:                             2058.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      1.212e+05   1.73e+04      7.009      0.000    8.68e+04    1.56e+05
+thirty_year_interest_rate  2.484e+04   3918.645      6.338      0.000     1.7e+04    3.26e+04
+==============================================================================
+Omnibus:                        8.600   Durbin-Watson:                   0.197
+Prob(Omnibus):                  0.014   Jarque-Bera (JB):                8.355
+Skew:                           0.746   Prob(JB):                       0.0153
+Kurtosis:                       3.363   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

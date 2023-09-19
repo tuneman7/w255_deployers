@@ -1,0 +1,31 @@
+************************************************************
+RIO GRANDE CO
+************************************************************
+const	 466057.13
+thirty_year_interest_rate_three	 -23310.35
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.045
+Model:                              OLS   Adj. R-squared:                  0.033
+Method:                   Least Squares   F-statistic:                     3.906
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0514
+Time:                          14:07:39   Log-Likelihood:                -1110.7
+No. Observations:                    85   AIC:                             2225.
+Df Residuals:                        83   BIC:                             2230.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            4.661e+05   5.05e+04      9.228      0.000    3.66e+05    5.67e+05
+thirty_year_interest_rate_three -2.331e+04   1.18e+04     -1.976      0.051   -4.68e+04     149.140
+==============================================================================
+Omnibus:                        9.383   Durbin-Watson:                   0.085
+Prob(Omnibus):                  0.009   Jarque-Bera (JB):                9.688
+Skew:                           0.823   Prob(JB):                      0.00788
+Kurtosis:                       3.152   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

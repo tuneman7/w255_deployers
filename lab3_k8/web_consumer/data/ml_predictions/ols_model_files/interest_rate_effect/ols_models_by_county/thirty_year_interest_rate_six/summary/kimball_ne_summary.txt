@@ -1,0 +1,31 @@
+************************************************************
+KIMBALL NE
+************************************************************
+const	 227223.42
+thirty_year_interest_rate_six	 -31982.68
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.168
+Model:                              OLS   Adj. R-squared:                  0.157
+Method:                   Least Squares   F-statistic:                     14.95
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           0.000236
+Time:                          21:22:40   Log-Likelihood:                -918.10
+No. Observations:                    76   AIC:                             1840.
+Df Residuals:                        74   BIC:                             1845.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          2.272e+05   3.18e+04      7.153      0.000    1.64e+05    2.91e+05
+thirty_year_interest_rate_six -3.198e+04   8272.733     -3.866      0.000   -4.85e+04   -1.55e+04
+==============================================================================
+Omnibus:                       23.848   Durbin-Watson:                   0.086
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               32.377
+Skew:                           1.442   Prob(JB):                     9.32e-08
+Kurtosis:                       4.381   Cond. No.                         26.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

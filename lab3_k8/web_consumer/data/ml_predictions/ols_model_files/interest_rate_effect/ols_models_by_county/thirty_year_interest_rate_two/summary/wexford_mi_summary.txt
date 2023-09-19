@@ -1,0 +1,31 @@
+************************************************************
+WEXFORD MI
+************************************************************
+const	 90284.15
+thirty_year_interest_rate_two	 18409.29
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.333
+Model:                              OLS   Adj. R-squared:                  0.325
+Method:                   Least Squares   F-statistic:                     41.45
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           7.40e-09
+Time:                          14:07:24   Log-Likelihood:                -992.66
+No. Observations:                    85   AIC:                             1989.
+Df Residuals:                        83   BIC:                             1994.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          9.028e+04   1.24e+04      7.305      0.000    6.57e+04    1.15e+05
+thirty_year_interest_rate_two  1.841e+04   2859.300      6.438      0.000    1.27e+04    2.41e+04
+==============================================================================
+Omnibus:                        3.247   Durbin-Watson:                   0.248
+Prob(Omnibus):                  0.197   Jarque-Bera (JB):                3.138
+Skew:                           0.463   Prob(JB):                        0.208
+Kurtosis:                       2.834   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

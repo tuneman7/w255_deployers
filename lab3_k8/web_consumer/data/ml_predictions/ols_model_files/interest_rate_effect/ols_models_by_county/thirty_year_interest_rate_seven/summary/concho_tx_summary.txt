@@ -1,0 +1,31 @@
+************************************************************
+CONCHO TX
+************************************************************
+const	 292530.66
+thirty_year_interest_rate_seven	 -34732.43
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.050
+Model:                              OLS   Adj. R-squared:                  0.037
+Method:                   Least Squares   F-statistic:                     3.895
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):             0.0522
+Time:                          21:22:15   Log-Likelihood:                -973.01
+No. Observations:                    76   AIC:                             1950.
+Df Residuals:                        74   BIC:                             1955.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            2.925e+05   6.73e+04      4.349      0.000    1.59e+05    4.27e+05
+thirty_year_interest_rate_seven -3.473e+04   1.76e+04     -1.974      0.052   -6.98e+04     332.216
+==============================================================================
+Omnibus:                       91.850   Durbin-Watson:                   1.660
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1194.605
+Skew:                           3.747   Prob(JB):                    3.93e-260
+Kurtosis:                      20.919   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

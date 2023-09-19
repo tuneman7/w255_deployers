@@ -1,0 +1,31 @@
+************************************************************
+FOARD TX
+************************************************************
+const	 -815252.42
+thirty_year_interest_rate_three	 255439.41
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.118
+Model:                              OLS   Adj. R-squared:                  0.102
+Method:                   Least Squares   F-statistic:                     7.616
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00777
+Time:                          14:07:22   Log-Likelihood:                -889.63
+No. Observations:                    59   AIC:                             1783.
+Df Residuals:                        57   BIC:                             1787.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                           -8.153e+05   4.11e+05     -1.983      0.052   -1.64e+06    7809.859
+thirty_year_interest_rate_three  2.554e+05   9.26e+04      2.760      0.008    7.01e+04    4.41e+05
+==============================================================================
+Omnibus:                       82.444   Durbin-Watson:                   0.587
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              953.848
+Skew:                           4.074   Prob(JB):                    7.49e-208
+Kurtosis:                      20.934   Cond. No.                         16.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

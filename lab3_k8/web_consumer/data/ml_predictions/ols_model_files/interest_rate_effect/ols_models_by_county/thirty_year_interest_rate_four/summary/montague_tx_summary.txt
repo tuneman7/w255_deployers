@@ -1,0 +1,31 @@
+************************************************************
+MONTAGUE TX
+************************************************************
+const	 83040.21
+thirty_year_interest_rate_four	 26219.97
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.246
+Model:                              OLS   Adj. R-squared:                  0.237
+Method:                   Least Squares   F-statistic:                     27.05
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           1.40e-06
+Time:                          14:07:41   Log-Likelihood:                -1036.2
+No. Observations:                    85   AIC:                             2076.
+Df Residuals:                        83   BIC:                             2081.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           8.304e+04   2.14e+04      3.881      0.000    4.05e+04    1.26e+05
+thirty_year_interest_rate_four  2.622e+04   5041.103      5.201      0.000    1.62e+04    3.62e+04
+==============================================================================
+Omnibus:                       29.710   Durbin-Watson:                   0.097
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                7.708
+Skew:                           0.425   Prob(JB):                       0.0212
+Kurtosis:                       1.795   Cond. No.                         18.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

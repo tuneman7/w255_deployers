@@ -1,0 +1,31 @@
+************************************************************
+FREDERICKSBURG CITY VA
+************************************************************
+const	 343084.63
+thirty_year_interest_rate_three	 25412.03
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.112
+Model:                              OLS   Adj. R-squared:                  0.101
+Method:                   Least Squares   F-statistic:                     10.44
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00177
+Time:                          14:07:49   Log-Likelihood:                -1076.3
+No. Observations:                    85   AIC:                             2157.
+Df Residuals:                        83   BIC:                             2161.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            3.431e+05   3.37e+04     10.188      0.000    2.76e+05     4.1e+05
+thirty_year_interest_rate_three  2.541e+04   7864.467      3.231      0.002    9769.922    4.11e+04
+==============================================================================
+Omnibus:                       10.328   Durbin-Watson:                   0.134
+Prob(Omnibus):                  0.006   Jarque-Bera (JB):               11.289
+Skew:                           0.893   Prob(JB):                      0.00354
+Kurtosis:                       2.974   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

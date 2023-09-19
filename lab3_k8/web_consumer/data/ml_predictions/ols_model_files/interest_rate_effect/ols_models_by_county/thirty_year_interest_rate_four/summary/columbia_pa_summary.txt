@@ -1,0 +1,31 @@
+************************************************************
+COLUMBIA PA
+************************************************************
+const	 119910.08
+thirty_year_interest_rate_four	 13217.59
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.203
+Model:                              OLS   Adj. R-squared:                  0.194
+Method:                   Least Squares   F-statistic:                     21.19
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           1.48e-05
+Time:                          14:07:48   Log-Likelihood:                -988.33
+No. Observations:                    85   AIC:                             1981.
+Df Residuals:                        83   BIC:                             1986.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           1.199e+05   1.22e+04      9.840      0.000    9.57e+04    1.44e+05
+thirty_year_interest_rate_four  1.322e+04   2871.360      4.603      0.000    7506.571    1.89e+04
+==============================================================================
+Omnibus:                        7.948   Durbin-Watson:                   0.172
+Prob(Omnibus):                  0.019   Jarque-Bera (JB):                8.464
+Skew:                           0.762   Prob(JB):                       0.0145
+Kurtosis:                       2.739   Cond. No.                         18.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

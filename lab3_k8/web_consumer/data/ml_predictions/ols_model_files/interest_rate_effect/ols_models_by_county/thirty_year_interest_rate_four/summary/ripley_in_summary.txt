@@ -1,0 +1,31 @@
+************************************************************
+RIPLEY IN
+************************************************************
+const	 70019.94
+thirty_year_interest_rate_four	 26023.59
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.430
+Model:                              OLS   Adj. R-squared:                  0.423
+Method:                   Least Squares   F-statistic:                     62.68
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           9.52e-12
+Time:                          14:07:56   Log-Likelihood:                -999.83
+No. Observations:                    85   AIC:                             2004.
+Df Residuals:                        83   BIC:                             2009.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           7.002e+04    1.4e+04      5.019      0.000    4.23e+04    9.78e+04
+thirty_year_interest_rate_four  2.602e+04   3287.091      7.917      0.000    1.95e+04    3.26e+04
+==============================================================================
+Omnibus:                        7.633   Durbin-Watson:                   0.217
+Prob(Omnibus):                  0.022   Jarque-Bera (JB):                5.198
+Skew:                           0.461   Prob(JB):                       0.0743
+Kurtosis:                       2.214   Cond. No.                         18.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

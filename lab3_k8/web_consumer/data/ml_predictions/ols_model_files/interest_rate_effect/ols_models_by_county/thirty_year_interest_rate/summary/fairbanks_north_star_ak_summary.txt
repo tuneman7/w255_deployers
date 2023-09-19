@@ -1,0 +1,31 @@
+************************************************************
+FAIRBANKS NORTH STAR AK
+************************************************************
+const	 114759.11
+thirty_year_interest_rate	 30272.94
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.558
+Model:                              OLS   Adj. R-squared:                  0.553
+Method:                   Least Squares   F-statistic:                     104.8
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           2.23e-16
+Time:                          14:07:34   Log-Likelihood:                -1000.8
+No. Observations:                    85   AIC:                             2006.
+Df Residuals:                        83   BIC:                             2010.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      1.148e+05   1.31e+04      8.792      0.000    8.88e+04    1.41e+05
+thirty_year_interest_rate  3.027e+04   2957.259     10.237      0.000    2.44e+04    3.62e+04
+==============================================================================
+Omnibus:                       11.702   Durbin-Watson:                   0.141
+Prob(Omnibus):                  0.003   Jarque-Bera (JB):                4.581
+Skew:                           0.286   Prob(JB):                        0.101
+Kurtosis:                       2.017   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

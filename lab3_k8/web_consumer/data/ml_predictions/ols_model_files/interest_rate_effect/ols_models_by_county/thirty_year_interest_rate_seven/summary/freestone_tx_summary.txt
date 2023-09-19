@@ -1,0 +1,31 @@
+************************************************************
+FREESTONE TX
+************************************************************
+const	 282595.79
+thirty_year_interest_rate_seven	 -27212.36
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.188
+Model:                              OLS   Adj. R-squared:                  0.177
+Method:                   Least Squares   F-statistic:                     17.19
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           8.93e-05
+Time:                          21:21:53   Log-Likelihood:                -898.07
+No. Observations:                    76   AIC:                             1800.
+Df Residuals:                        74   BIC:                             1805.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            2.826e+05   2.51e+04     11.263      0.000    2.33e+05    3.33e+05
+thirty_year_interest_rate_seven -2.721e+04   6564.312     -4.146      0.000   -4.03e+04   -1.41e+04
+==============================================================================
+Omnibus:                       50.625   Durbin-Watson:                   0.182
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              162.241
+Skew:                           2.210   Prob(JB):                     5.89e-36
+Kurtosis:                       8.629   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

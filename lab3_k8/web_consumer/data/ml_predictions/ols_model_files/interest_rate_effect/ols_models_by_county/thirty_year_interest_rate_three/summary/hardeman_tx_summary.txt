@@ -1,0 +1,31 @@
+************************************************************
+HARDEMAN TX
+************************************************************
+const	 154843.15
+thirty_year_interest_rate_three	 -20214.60
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.198
+Model:                              OLS   Adj. R-squared:                  0.188
+Method:                   Least Squares   F-statistic:                     20.50
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           1.97e-05
+Time:                          14:07:39   Log-Likelihood:                -1028.2
+No. Observations:                    85   AIC:                             2060.
+Df Residuals:                        83   BIC:                             2065.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.548e+05   1.91e+04      8.100      0.000    1.17e+05    1.93e+05
+thirty_year_interest_rate_three -2.021e+04   4464.555     -4.528      0.000   -2.91e+04   -1.13e+04
+==============================================================================
+Omnibus:                        9.524   Durbin-Watson:                   0.421
+Prob(Omnibus):                  0.009   Jarque-Bera (JB):               10.426
+Skew:                           0.853   Prob(JB):                      0.00545
+Kurtosis:                       2.826   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

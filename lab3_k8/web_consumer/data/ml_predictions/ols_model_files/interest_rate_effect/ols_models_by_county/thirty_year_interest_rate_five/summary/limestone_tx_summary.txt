@@ -1,0 +1,31 @@
+************************************************************
+LIMESTONE TX
+************************************************************
+const	 98300.63
+thirty_year_interest_rate_five	 19412.89
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.183
+Model:                              OLS   Adj. R-squared:                  0.174
+Method:                   Least Squares   F-statistic:                     18.64
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           4.34e-05
+Time:                          14:07:04   Log-Likelihood:                -1023.2
+No. Observations:                    85   AIC:                             2050.
+Df Residuals:                        83   BIC:                             2055.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                            9.83e+04   1.89e+04      5.205      0.000    6.07e+04    1.36e+05
+thirty_year_interest_rate_five  1.941e+04   4496.142      4.318      0.000    1.05e+04    2.84e+04
+==============================================================================
+Omnibus:                       11.925   Durbin-Watson:                   0.100
+Prob(Omnibus):                  0.003   Jarque-Bera (JB):               13.123
+Skew:                           0.927   Prob(JB):                      0.00141
+Kurtosis:                       2.482   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

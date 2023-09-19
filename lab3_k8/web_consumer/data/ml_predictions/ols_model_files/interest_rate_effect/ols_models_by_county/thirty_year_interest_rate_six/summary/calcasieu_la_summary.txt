@@ -1,0 +1,31 @@
+************************************************************
+CALCASIEU LA
+************************************************************
+const	 208872.57
+thirty_year_interest_rate_six	 5913.15
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.176
+Model:                              OLS   Adj. R-squared:                  0.165
+Method:                   Least Squares   F-statistic:                     15.83
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           0.000160
+Time:                          21:21:07   Log-Likelihood:                -787.62
+No. Observations:                    76   AIC:                             1579.
+Df Residuals:                        74   BIC:                             1584.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          2.089e+05   5706.066     36.605      0.000    1.98e+05     2.2e+05
+thirty_year_interest_rate_six  5913.1512   1486.107      3.979      0.000    2952.019    8874.283
+==============================================================================
+Omnibus:                        1.189   Durbin-Watson:                   0.320
+Prob(Omnibus):                  0.552   Jarque-Bera (JB):                1.259
+Skew:                           0.266   Prob(JB):                        0.533
+Kurtosis:                       2.661   Cond. No.                         26.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

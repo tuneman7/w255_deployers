@@ -1,0 +1,31 @@
+************************************************************
+WEBSTER LA
+************************************************************
+const	 163386.39
+thirty_year_interest_rate_seven	 -7630.98
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.080
+Model:                              OLS   Adj. R-squared:                  0.068
+Method:                   Least Squares   F-statistic:                     6.440
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):             0.0133
+Time:                          21:20:56   Log-Likelihood:                -838.74
+No. Observations:                    76   AIC:                             1681.
+Df Residuals:                        74   BIC:                             1686.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.634e+05   1.15e+04     14.215      0.000     1.4e+05    1.86e+05
+thirty_year_interest_rate_seven -7630.9801   3007.050     -2.538      0.013   -1.36e+04   -1639.303
+==============================================================================
+Omnibus:                        1.151   Durbin-Watson:                   0.504
+Prob(Omnibus):                  0.562   Jarque-Bera (JB):                1.208
+Skew:                           0.272   Prob(JB):                        0.547
+Kurtosis:                       2.708   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

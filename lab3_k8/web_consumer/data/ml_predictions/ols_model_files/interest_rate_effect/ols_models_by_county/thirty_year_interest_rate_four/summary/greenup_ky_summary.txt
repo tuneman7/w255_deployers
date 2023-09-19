@@ -1,0 +1,31 @@
+************************************************************
+GREENUP KY
+************************************************************
+const	 128566.75
+thirty_year_interest_rate_four	 5504.01
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.095
+Model:                              OLS   Adj. R-squared:                  0.084
+Method:                   Least Squares   F-statistic:                     8.686
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00416
+Time:                          14:07:09   Log-Likelihood:                -951.77
+No. Observations:                    85   AIC:                             1908.
+Df Residuals:                        83   BIC:                             1912.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           1.286e+05   7925.698     16.222      0.000    1.13e+05    1.44e+05
+thirty_year_interest_rate_four  5504.0099   1867.511      2.947      0.004    1789.606    9218.414
+==============================================================================
+Omnibus:                       41.977   Durbin-Watson:                   0.468
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              122.731
+Skew:                           1.652   Prob(JB):                     2.24e-27
+Kurtosis:                       7.872   Cond. No.                         18.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

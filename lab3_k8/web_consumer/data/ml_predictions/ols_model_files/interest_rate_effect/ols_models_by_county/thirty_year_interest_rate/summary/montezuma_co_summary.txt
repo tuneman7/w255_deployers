@@ -1,0 +1,31 @@
+************************************************************
+MONTEZUMA CO
+************************************************************
+const	 303848.15
+thirty_year_interest_rate	 19586.27
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.088
+Model:                              OLS   Adj. R-squared:                  0.077
+Method:                   Least Squares   F-statistic:                     8.006
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00584
+Time:                          14:07:35   Log-Likelihood:                -1073.1
+No. Observations:                    85   AIC:                             2150.
+Df Residuals:                        83   BIC:                             2155.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      3.038e+05   3.06e+04      9.945      0.000    2.43e+05    3.65e+05
+thirty_year_interest_rate  1.959e+04   6922.064      2.830      0.006    5818.559    3.34e+04
+==============================================================================
+Omnibus:                       29.847   Durbin-Watson:                   0.054
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                6.202
+Skew:                           0.256   Prob(JB):                       0.0450
+Kurtosis:                       1.780   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

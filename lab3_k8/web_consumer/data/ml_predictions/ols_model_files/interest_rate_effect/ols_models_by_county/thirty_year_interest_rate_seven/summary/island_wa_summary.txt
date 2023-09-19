@@ -1,0 +1,31 @@
+************************************************************
+ISLAND WA
+************************************************************
+const	 909732.85
+thirty_year_interest_rate_seven	 -104955.68
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.360
+Model:                              OLS   Adj. R-squared:                  0.351
+Method:                   Least Squares   F-statistic:                     41.60
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):           1.02e-08
+Time:                          21:22:59   Log-Likelihood:                -967.06
+No. Observations:                    76   AIC:                             1938.
+Df Residuals:                        74   BIC:                             1943.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            9.097e+05   6.22e+04     14.626      0.000    7.86e+05    1.03e+06
+thirty_year_interest_rate_seven  -1.05e+05   1.63e+04     -6.450      0.000   -1.37e+05   -7.25e+04
+==============================================================================
+Omnibus:                       15.679   Durbin-Watson:                   0.117
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               20.895
+Skew:                           0.888   Prob(JB):                     2.90e-05
+Kurtosis:                       4.856   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

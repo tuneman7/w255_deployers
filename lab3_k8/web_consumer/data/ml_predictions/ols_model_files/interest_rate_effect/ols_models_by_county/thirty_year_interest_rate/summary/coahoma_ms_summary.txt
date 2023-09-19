@@ -1,0 +1,31 @@
+************************************************************
+COAHOMA MS
+************************************************************
+const	 142872.51
+thirty_year_interest_rate	 -8741.90
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.100
+Model:                              OLS   Adj. R-squared:                  0.089
+Method:                   Least Squares   F-statistic:                     9.220
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00320
+Time:                          14:07:50   Log-Likelihood:                -998.51
+No. Observations:                    85   AIC:                             2001.
+Df Residuals:                        83   BIC:                             2006.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      1.429e+05   1.27e+04     11.243      0.000    1.18e+05    1.68e+05
+thirty_year_interest_rate -8741.9003   2878.947     -3.036      0.003   -1.45e+04   -3015.790
+==============================================================================
+Omnibus:                       16.952   Durbin-Watson:                   0.581
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               19.676
+Skew:                           1.108   Prob(JB):                     5.34e-05
+Kurtosis:                       3.803   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

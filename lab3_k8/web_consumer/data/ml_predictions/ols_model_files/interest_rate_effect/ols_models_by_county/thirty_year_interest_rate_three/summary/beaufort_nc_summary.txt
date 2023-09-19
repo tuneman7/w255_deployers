@@ -1,0 +1,31 @@
+************************************************************
+BEAUFORT NC
+************************************************************
+const	 215280.05
+thirty_year_interest_rate_three	 12570.43
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.102
+Model:                              OLS   Adj. R-squared:                  0.091
+Method:                   Least Squares   F-statistic:                     9.396
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):            0.00293
+Time:                          14:07:31   Log-Likelihood:                -1020.9
+No. Observations:                    85   AIC:                             2046.
+Df Residuals:                        83   BIC:                             2051.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            2.153e+05   1.76e+04     12.260      0.000     1.8e+05     2.5e+05
+thirty_year_interest_rate_three  1.257e+04   4100.920      3.065      0.003    4413.865    2.07e+04
+==============================================================================
+Omnibus:                       24.569   Durbin-Watson:                   0.174
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               43.817
+Skew:                          -1.115   Prob(JB):                     3.06e-10
+Kurtosis:                       5.721   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

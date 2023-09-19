@@ -1,0 +1,31 @@
+************************************************************
+FERRY WA
+************************************************************
+const	 220894.70
+thirty_year_interest_rate_four	 12809.06
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.028
+Model:                              OLS   Adj. R-squared:                  0.017
+Method:                   Least Squares   F-statistic:                     2.434
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.123
+Time:                          14:07:10   Log-Likelihood:                -1077.6
+No. Observations:                    85   AIC:                             2159.
+Df Residuals:                        83   BIC:                             2164.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           2.209e+05   3.48e+04      6.340      0.000    1.52e+05     2.9e+05
+thirty_year_interest_rate_four  1.281e+04   8210.101      1.560      0.123   -3520.499    2.91e+04
+==============================================================================
+Omnibus:                       38.099   Durbin-Watson:                   0.217
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                5.809
+Skew:                          -0.016   Prob(JB):                       0.0548
+Kurtosis:                       1.720   Cond. No.                         18.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

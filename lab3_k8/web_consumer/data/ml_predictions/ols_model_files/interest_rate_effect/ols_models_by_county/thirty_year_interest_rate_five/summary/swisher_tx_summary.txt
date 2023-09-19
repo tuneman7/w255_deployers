@@ -1,0 +1,31 @@
+************************************************************
+SWISHER TX
+************************************************************
+const	 38769.12
+thirty_year_interest_rate_five	 13249.08
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.271
+Model:                              OLS   Adj. R-squared:                  0.262
+Method:                   Least Squares   F-statistic:                     30.90
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           3.22e-07
+Time:                          14:07:59   Log-Likelihood:                -969.23
+No. Observations:                    85   AIC:                             1942.
+Df Residuals:                        83   BIC:                             1947.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           3.877e+04      1e+04      3.873      0.000    1.89e+04    5.87e+04
+thirty_year_interest_rate_five  1.325e+04   2383.565      5.559      0.000    8508.265     1.8e+04
+==============================================================================
+Omnibus:                        6.095   Durbin-Watson:                   0.545
+Prob(Omnibus):                  0.047   Jarque-Bera (JB):                6.050
+Skew:                           0.653   Prob(JB):                       0.0486
+Kurtosis:                       2.947   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

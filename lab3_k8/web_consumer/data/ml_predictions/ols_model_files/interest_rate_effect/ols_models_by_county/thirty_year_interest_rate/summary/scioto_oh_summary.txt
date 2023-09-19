@@ -1,0 +1,31 @@
+************************************************************
+SCIOTO OH
+************************************************************
+const	 113989.95
+thirty_year_interest_rate	 3380.35
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.045
+Model:                              OLS   Adj. R-squared:                  0.033
+Method:                   Least Squares   F-statistic:                     3.909
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0513
+Time:                          14:07:49   Log-Likelihood:                -954.22
+No. Observations:                    85   AIC:                             1912.
+Df Residuals:                        83   BIC:                             1917.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                       1.14e+05   7546.675     15.105      0.000     9.9e+04    1.29e+05
+thirty_year_interest_rate  3380.3547   1709.720      1.977      0.051     -20.211    6780.920
+==============================================================================
+Omnibus:                        6.693   Durbin-Watson:                   0.175
+Prob(Omnibus):                  0.035   Jarque-Bera (JB):                4.282
+Skew:                           0.385   Prob(JB):                        0.118
+Kurtosis:                       2.214   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

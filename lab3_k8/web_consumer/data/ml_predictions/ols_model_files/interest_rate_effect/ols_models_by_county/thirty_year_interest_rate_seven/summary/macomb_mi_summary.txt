@@ -1,0 +1,31 @@
+************************************************************
+MACOMB MI
+************************************************************
+const	 281158.38
+thirty_year_interest_rate_seven	 -15042.23
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.083
+Model:                              OLS   Adj. R-squared:                  0.071
+Method:                   Least Squares   F-statistic:                     6.728
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):             0.0114
+Time:                          21:22:30   Log-Likelihood:                -888.65
+No. Observations:                    76   AIC:                             1781.
+Df Residuals:                        74   BIC:                             1786.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            2.812e+05   2.22e+04     12.684      0.000    2.37e+05    3.25e+05
+thirty_year_interest_rate_seven -1.504e+04   5799.030     -2.594      0.011   -2.66e+04   -3487.407
+==============================================================================
+Omnibus:                        1.343   Durbin-Watson:                   0.104
+Prob(Omnibus):                  0.511   Jarque-Bera (JB):                1.227
+Skew:                          -0.305   Prob(JB):                        0.542
+Kurtosis:                       2.876   Cond. No.                         26.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

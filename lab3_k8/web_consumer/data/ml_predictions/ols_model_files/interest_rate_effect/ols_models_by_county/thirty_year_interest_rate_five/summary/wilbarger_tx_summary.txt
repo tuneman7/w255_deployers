@@ -1,0 +1,31 @@
+************************************************************
+WILBARGER TX
+************************************************************
+const	 104255.92
+thirty_year_interest_rate_five	 3199.07
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.006
+Model:                              OLS   Adj. R-squared:                 -0.006
+Method:                   Least Squares   F-statistic:                    0.5034
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.480
+Time:                          14:07:21   Log-Likelihood:                -1023.4
+No. Observations:                    85   AIC:                             2051.
+Df Residuals:                        83   BIC:                             2056.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           1.043e+05   1.89e+04      5.505      0.000    6.66e+04    1.42e+05
+thirty_year_interest_rate_five  3199.0711   4508.838      0.710      0.480   -5768.827    1.22e+04
+==============================================================================
+Omnibus:                       50.279   Durbin-Watson:                   1.064
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              172.254
+Skew:                           1.959   Prob(JB):                     3.94e-38
+Kurtosis:                       8.769   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

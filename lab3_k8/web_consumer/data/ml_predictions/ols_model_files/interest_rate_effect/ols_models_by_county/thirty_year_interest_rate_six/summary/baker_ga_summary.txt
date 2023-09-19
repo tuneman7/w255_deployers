@@ -1,0 +1,31 @@
+************************************************************
+BAKER GA
+************************************************************
+const	 40825.31
+thirty_year_interest_rate_six	 37011.46
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.018
+Model:                              OLS   Adj. R-squared:                  0.004
+Method:                   Least Squares   F-statistic:                     1.297
+Date:                  Thu, 10 Nov 2022   Prob (F-statistic):              0.259
+Time:                          21:22:11   Log-Likelihood:                -967.49
+No. Observations:                    72   AIC:                             1939.
+Df Residuals:                        70   BIC:                             1944.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          4.083e+04   1.25e+05      0.326      0.746   -2.09e+05    2.91e+05
+thirty_year_interest_rate_six  3.701e+04   3.25e+04      1.139      0.259   -2.78e+04    1.02e+05
+==============================================================================
+Omnibus:                      101.055   Durbin-Watson:                   0.776
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1712.430
+Skew:                           4.443   Prob(JB):                         0.00
+Kurtosis:                      25.178   Cond. No.                         26.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

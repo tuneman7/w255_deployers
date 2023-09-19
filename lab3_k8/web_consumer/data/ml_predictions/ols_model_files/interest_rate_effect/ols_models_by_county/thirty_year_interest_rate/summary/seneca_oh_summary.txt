@@ -1,0 +1,31 @@
+************************************************************
+SENECA OH
+************************************************************
+const	 62388.20
+thirty_year_interest_rate	 10628.36
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.242
+Model:                              OLS   Adj. R-squared:                  0.233
+Method:                   Least Squares   F-statistic:                     26.48
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           1.76e-06
+Time:                          14:07:50   Log-Likelihood:                -970.29
+No. Observations:                    85   AIC:                             1945.
+Df Residuals:                        83   BIC:                             1949.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                      6.239e+04   9117.431      6.843      0.000    4.43e+04    8.05e+04
+thirty_year_interest_rate  1.063e+04   2065.580      5.145      0.000    6520.007    1.47e+04
+==============================================================================
+Omnibus:                       26.991   Durbin-Watson:                   0.135
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                6.790
+Skew:                           0.355   Prob(JB):                       0.0335
+Kurtosis:                       1.811   Cond. No.                         17.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

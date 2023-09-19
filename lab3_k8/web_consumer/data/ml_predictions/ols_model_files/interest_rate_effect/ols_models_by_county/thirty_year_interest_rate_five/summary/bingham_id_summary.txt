@@ -1,0 +1,31 @@
+************************************************************
+BINGHAM ID
+************************************************************
+const	 206136.13
+thirty_year_interest_rate_five	 21219.71
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.035
+Model:                              OLS   Adj. R-squared:                  0.024
+Method:                   Least Squares   F-statistic:                     3.029
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0855
+Time:                          14:07:49   Log-Likelihood:                -1108.0
+No. Observations:                    85   AIC:                             2220.
+Df Residuals:                        83   BIC:                             2225.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                           2.061e+05   5.12e+04      4.026      0.000    1.04e+05    3.08e+05
+thirty_year_interest_rate_five  2.122e+04   1.22e+04      1.741      0.085   -3028.553    4.55e+04
+==============================================================================
+Omnibus:                       47.343   Durbin-Watson:                   0.050
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                7.281
+Skew:                           0.281   Prob(JB):                       0.0262
+Kurtosis:                       1.681   Cond. No.                         18.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

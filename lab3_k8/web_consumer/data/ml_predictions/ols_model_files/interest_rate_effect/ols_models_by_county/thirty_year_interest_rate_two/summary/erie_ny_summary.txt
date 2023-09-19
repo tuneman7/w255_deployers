@@ -1,0 +1,31 @@
+************************************************************
+ERIE NY
+************************************************************
+const	 194687.05
+thirty_year_interest_rate_two	 6567.27
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.052
+Model:                              OLS   Adj. R-squared:                  0.041
+Method:                   Least Squares   F-statistic:                     4.583
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):             0.0352
+Time:                          14:07:42   Log-Likelihood:                -998.64
+No. Observations:                    85   AIC:                             2001.
+Df Residuals:                        83   BIC:                             2006.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                          1.947e+05   1.33e+04     14.682      0.000    1.68e+05    2.21e+05
+thirty_year_interest_rate_two  6567.2700   3067.716      2.141      0.035     465.707    1.27e+04
+==============================================================================
+Omnibus:                       19.963   Durbin-Watson:                   0.071
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                5.919
+Skew:                          -0.326   Prob(JB):                       0.0518
+Kurtosis:                       1.884   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

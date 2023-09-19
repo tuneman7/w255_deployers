@@ -1,0 +1,31 @@
+************************************************************
+RENSSELAER NY
+************************************************************
+const	 245274.79
+thirty_year_interest_rate_three	 1460.39
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.002
+Model:                              OLS   Adj. R-squared:                 -0.010
+Method:                   Least Squares   F-statistic:                    0.1467
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):              0.703
+Time:                          14:08:02   Log-Likelihood:                -1014.8
+No. Observations:                    85   AIC:                             2034.
+Df Residuals:                        83   BIC:                             2038.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            2.453e+05   1.63e+04     15.022      0.000    2.13e+05    2.78e+05
+thirty_year_interest_rate_three  1460.3853   3813.273      0.383      0.703   -6124.061    9044.832
+==============================================================================
+Omnibus:                        3.898   Durbin-Watson:                   0.078
+Prob(Omnibus):                  0.142   Jarque-Bera (JB):                3.890
+Skew:                           0.503   Prob(JB):                        0.143
+Kurtosis:                       2.704   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

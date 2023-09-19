@@ -1,0 +1,31 @@
+************************************************************
+CAMPBELL TN
+************************************************************
+const	 130642.71
+thirty_year_interest_rate_three	 25588.21
+************************************************************
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     median_listing_price   R-squared:                       0.290
+Model:                              OLS   Adj. R-squared:                  0.281
+Method:                   Least Squares   F-statistic:                     33.85
+Date:                  Tue, 15 Aug 2023   Prob (F-statistic):           1.08e-07
+Time:                          14:07:16   Log-Likelihood:                -1026.9
+No. Observations:                    85   AIC:                             2058.
+Df Residuals:                        83   BIC:                             2063.
+Df Model:                             1                                         
+Covariance Type:              nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                            1.306e+05   1.88e+04      6.937      0.000    9.32e+04    1.68e+05
+thirty_year_interest_rate_three  2.559e+04   4398.172      5.818      0.000    1.68e+04    3.43e+04
+==============================================================================
+Omnibus:                        8.344   Durbin-Watson:                   0.183
+Prob(Omnibus):                  0.015   Jarque-Bera (JB):                8.909
+Skew:                           0.772   Prob(JB):                       0.0116
+Kurtosis:                       2.638   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.************************************************************

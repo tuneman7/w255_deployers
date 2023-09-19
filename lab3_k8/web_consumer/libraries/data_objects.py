@@ -26,6 +26,8 @@ class data_objects(Utility):
     STATE_FILE_DF = None
     COUNTY_FILE_DF = None
     MSA_FILE_DF = None
+    CAL_CITY_TO_LONG_LAT_DF = None
+    CAL_CITY_TO_POPULATION_DF = None
  
 
     def __init__(self,load_data_from_url=False):
@@ -37,9 +39,44 @@ class data_objects(Utility):
         global STATE_FILE_DF
         global COUNTY_FILE_DF
         global MSA_FILE_DF
+        global CAL_CITY_TO_LONG_LAT_DF
+        global CAL_CITY_TO_POPULATION_DF
+
         if load_data_from_url == False:
             MONTHLY_ALLOCATION_DF, INTEREST_RATE_DF, DOWN_PAYMENT_PCT_DF, LOAN_TERM_DF = self.load_monthly_allocation_data()
             STATE_FILE_DF, COUNTY_FILE_DF, MSA_FILE_DF  = self.load_state_drop_down_data()
+            CAL_CITY_TO_LONG_LAT_DF, CAL_CITY_TO_POPULATION_DF = self.load_cal_city_data()
+
+    def ca_city_lat_long_tuple(self):
+        global CAL_CITY_TO_LONG_LAT_DF
+
+        my_sql = '''
+        SELECT
+            name as city,
+            Latitude + \',\' + Longitude as lat_long
+        FROM 
+            CAL_CITY_TO_LONG_LAT_DF
+        ORDER BY city
+        '''
+        ma = psql.sqldf(my_sql)
+        return tuple(zip(ma.iloc[:,1],ma.iloc[:,0]))
+
+
+
+    def load_cal_city_data(self):
+
+        data_directory          = "data"
+        sub_dir                 = "cal_city_data"
+        cal_cities_lat_long     = "cal_cities_lat_long.csv"
+        cal_populations_city    = "cal_populations_city.csv"
+
+        dir = os.path.join(self.get_this_dir(),data_directory,sub_dir)
+
+        CAL_CITY_TO_LONG_LAT_DF = pd.read_csv(os.path.join(dir,cal_cities_lat_long))
+
+        CAL_CITY_TO_POPULATION_DF = pd.read_csv(os.path.join(dir,cal_populations_city))
+
+        return CAL_CITY_TO_LONG_LAT_DF, CAL_CITY_TO_POPULATION_DF
 
 
     def print_internal_directory(self):
@@ -161,18 +198,5 @@ class data_objects(Utility):
         unique_counties_msa = pd.read_csv(os.path.join(dir,unique_counties_msa))
 
         return state_file, unique_counties, unique_counties_msa
-
-
-    def get_world_event_data(self) :
-
-        data_directory = "data"
-        trade_balance_sub_dir = "econ_concepts"
-        file_name = "econ_concepts.txt"
-
-        return_file_name = os.path.join(self.get_this_dir(),data_directory,trade_balance_sub_dir,file_name)
-
-        return pd.read_csv(return_file_name,sep='\t').replace(np.nan,'',regex=True)
-
-
 
 

@@ -204,22 +204,24 @@ def send_email():
 #----------------------------------------------------------------------------#
 
 
-from section_1 import section_1
-app.register_blueprint(section_1)
-from section_2 import section_2
-app.register_blueprint(section_2)
-from section_3 import section_3
-app.register_blueprint(section_3)
-from section_4 import section_4
-app.register_blueprint(section_4)
+# from section_1 import section_1
+# app.register_blueprint(section_1)
+# from section_2 import section_2
+# app.register_blueprint(section_2)
+# from section_3 import section_3
+# app.register_blueprint(section_3)
+# from section_4 import section_4
+# app.register_blueprint(section_4)
 
-from section_5 import section_5
-app.register_blueprint(section_5)
-from section_6 import section_6
-app.register_blueprint(section_6)
-from section_7 import section_7
-app.register_blueprint(section_7)
+# from section_5 import section_5
+# app.register_blueprint(section_5)
+# from section_6 import section_6
+# app.register_blueprint(section_6)
+# from section_7 import section_7
+# app.register_blueprint(section_7)
 
+from fastapi_consumer import fastapi_consumer
+app.register_blueprint(fastapi_consumer)
 
 
 

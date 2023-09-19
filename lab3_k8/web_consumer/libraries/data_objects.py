@@ -41,11 +41,57 @@ class data_objects(Utility):
         global MSA_FILE_DF
         global CAL_CITY_TO_LONG_LAT_DF
         global CAL_CITY_TO_POPULATION_DF
+        global BG_POP
 
         if load_data_from_url == False:
             MONTHLY_ALLOCATION_DF, INTEREST_RATE_DF, DOWN_PAYMENT_PCT_DF, LOAN_TERM_DF = self.load_monthly_allocation_data()
             STATE_FILE_DF, COUNTY_FILE_DF, MSA_FILE_DF  = self.load_state_drop_down_data()
-            CAL_CITY_TO_LONG_LAT_DF, CAL_CITY_TO_POPULATION_DF = self.load_cal_city_data()
+            CAL_CITY_TO_LONG_LAT_DF, CAL_CITY_TO_POPULATION_DF,BG_POP = self.load_cal_city_data()
+
+    def bg_population(self):
+        global BG_POP
+
+        my_sql = '''
+        SELECT
+            block_group_population as bg_pop
+        FROM 
+            BG_POP
+        bg_pop
+        '''
+        ma = psql.sqldf(my_sql)
+        return tuple(zip(ma.iloc[:,0],ma.iloc[:,0]))
+
+
+    def ca_pop_df(self):
+        global CAL_CITY_TO_POPULATION_DF
+        return CAL_CITY_TO_POPULATION_DF
+        
+
+    def ca_pop_by_city(self,city):
+        global CAL_CITY_TO_POPULATION_DF
+        my_sql='''
+        select
+        pop_april_2010 as population
+        from CAL_CITY_TO_POPULATION_DF
+        where ltrim(rtrim(lower(City))) = \'''' + city.strip().lower() + '''\'
+        '''
+        return psql.sqldf(my_sql)
+
+    def ca_city_lat_long_df(self):
+        global CAL_CITY_TO_LONG_LAT_DF
+
+        my_sql = '''
+        SELECT
+            name as city,
+            Latitude, 
+            Longitude 
+        FROM 
+            CAL_CITY_TO_LONG_LAT_DF
+        ORDER BY city
+        '''
+        return psql.sqldf(my_sql)
+        #return tuple(zip(ma.iloc[:,1],ma.iloc[:,0]))
+
 
     def ca_city_lat_long_tuple(self):
         global CAL_CITY_TO_LONG_LAT_DF
@@ -53,13 +99,15 @@ class data_objects(Utility):
         my_sql = '''
         SELECT
             name as city,
-            Latitude + \',\' + Longitude as lat_long
+            Latitude ||','|| Longitude as lat_long
         FROM 
             CAL_CITY_TO_LONG_LAT_DF
         ORDER BY city
         '''
         ma = psql.sqldf(my_sql)
-        return tuple(zip(ma.iloc[:,1],ma.iloc[:,0]))
+        return tuple(zip(ma.iloc[:,0],ma.iloc[:,1]))
+    
+
 
 
 
@@ -69,6 +117,7 @@ class data_objects(Utility):
         sub_dir                 = "cal_city_data"
         cal_cities_lat_long     = "cal_cities_lat_long.csv"
         cal_populations_city    = "cal_populations_city.csv"
+        bg_population           = "bg_populations.csv"
 
         dir = os.path.join(self.get_this_dir(),data_directory,sub_dir)
 
@@ -76,7 +125,9 @@ class data_objects(Utility):
 
         CAL_CITY_TO_POPULATION_DF = pd.read_csv(os.path.join(dir,cal_populations_city))
 
-        return CAL_CITY_TO_LONG_LAT_DF, CAL_CITY_TO_POPULATION_DF
+        BG_POP  = pd.read_csv(os.path.join(dir,bg_population))
+
+        return CAL_CITY_TO_LONG_LAT_DF, CAL_CITY_TO_POPULATION_DF, BG_POP
 
 
     def print_internal_directory(self):

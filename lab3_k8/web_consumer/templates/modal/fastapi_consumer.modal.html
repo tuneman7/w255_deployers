@@ -1,5 +1,3 @@
-
-  
 <style>
 
   .on_top_always {
@@ -15,13 +13,12 @@
 
 <!--Don Irwin use this on the tool tip so that it will be on top always-->
 
-
 <div class="container">
   <table class="table">
       <tr >
           <td id="world_event_table" >
               <span class="align-middle">
-                  <form method="post" class="form" action="/section_four" id="affordability_calc" name="affordability_calc">
+                  <form method="post" class="form" action="" id="predict_api_values" name="predict_api_values">
                   <table class="table table-responsive-md table-striped table-hover ">
                       <tbody>
                         <tr>
@@ -105,13 +102,55 @@
                             </td>
                             <td>
                                 lat_text<br/>
-                                {{ form.lat_text  (style="width:50%;")  }}
+                                {{ form.lat_text  (style="width:70%;")  }}
                             </td>
                             <td>
                                 long_text<br/>
-                                {{ form.long_text  (style="width:50%;")  }}                                
+                                {{ form.long_text  (style="width:70%;")  }}                                
                             </td>                                                
                         </tr>
+                        <tr>
+                            <td colspan="6">
+                                    <button class="btn btn-primary" type="button" id="btnPreparePayload" onclick="send_form();" >Prepare, and transmit JSON to FastAPI endpoint</button>
+                            </td>
+                            <td colspan="8">
+                                <div id="id_validation_error" style="display: none;">
+                                    All values must be integers or float values.  Please correct.
+                                  </div>
+                            </td>
+                        </tr>
+                        {% if api_json is not none %}
+                        <tr>
+                            <td colspan="14">
+                                The json string below will be transmitted to the API serving a predict model.  -- Change values to see it change. --
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="14">
+                                <pre id="api_json">
+{{ api_json }}
+                                </pre>                                
+
+                            </td>
+                        </tr>
+                        {% endif %}
+                        {% if return_json is not none %}
+                        <tr>
+                            <td colspan="14">
+                                The FastAPI server returned the following json payload:
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="14">
+                                <pre id="return_json">
+{{ return_json }}
+                                </pre>                                
+
+                            </td>
+                        </tr>
+                        {% endif %}
 
                       </tbody>
                   </table>
@@ -122,14 +161,67 @@
       </tr>
   </table>
 
-
-
 </div>
 
 
   <script>
 
-  
+     function send_form()
+    {
+        // <!--
+        //     Make sure all _text fields contain float values.
+        // -->
+        const forms = document.querySelectorAll('form');
+        const form = forms[0];
+        var valid_floats = true;
+
+        Array.from(form.elements).forEach((input) => {
+            if(input.id.endsWith("_text"))
+            {
+                console.log(input.value);
+                try {
+                    var value = input.value;
+                    if( (input.value!="") && ((!isNaN(value) && value.toString().indexOf('.') != -1) || (!isNaN(value)))  )
+                    {
+
+                    }
+                    else
+                    {
+                        valid_floats = false;
+                    }
+                    } catch (error) {
+                        valid_floats = false;
+                    }
+            }
+            
+        });        
+ 
+        if(valid_floats!=true)
+        {
+            document.getElementById("id_validation_error").style.cssText = "display: block;color: red;";
+            return;
+        }
+        else
+        {
+            document.getElementById("id_validation_error").style.cssText = "display: none;";
+        }
+
+        page_loading();
+    
+          $.ajax({
+              url: '/consume_fastapi',
+              type: 'post',
+              data: $('form').serialize(),
+              success: function(data){                 
+                  $('#fastapi_caller').empty();                 
+                  $('#fastapi_caller').html(data); 
+                  $('#fastapi_caller').append(data.htmlresponse); 
+                  page_not_loading();
+              }
+          });
+          
+    };
+
 
     function set_drop_down_value(drop_down_id,value)
     {
@@ -161,35 +253,50 @@
             document.getElementById("lat_text").value=lat;
             document.getElementById("long_text").value=long;
         }
-
         
     }
 
-    function refresh_predictions(state,county,county_or_msa){
+    function populate_initial_values()
+    {
 
-          page_loading();
-          
+        const forms = document.querySelectorAll('form');
+        const form = forms[0];
 
-          $.ajax({
-              url: '/section_five_pred',
-              type: 'post',
-              data: {state:state,county:county,county_or_msa:county_or_msa},
-              success: function(data){ 
-                
-                  $('#prediction_calc').empty();                 
-                  $('#prediction_calc').html(data); 
-                  $('#prediction_calc').append(data.htmlresponse); 
-                  page_not_loading();
-              }
-          });
-          
-        };
+        Array.from(form.elements).forEach((input) => {
+            if(input.id.endsWith("_list"))
+            {
+                let dd_id = input.id;
+                value=document.getElementById(dd_id).value;
+
+                if(dd_id!="cities_list")
+                {
+                    let base_id = dd_id.split('_')[0];
+                    let text_id = base_id + "_text";
+                    document.getElementById(text_id).value=value;
+                }
+                if(dd_id=="cities_list")
+                {
+                    let lat = value.split(',')[0];
+                    let long = value.split(',')[1];
+                    document.getElementById("lat_text").value=lat;
+                    document.getElementById("long_text").value=long;
+                }                
+
+            }
+            
+        });        
+
+
+
+        
+    }
 
  
   
       $(document).ready(function () {
 
           page_not_loading();
+          populate_initial_values();
 
         //   set_drop_down_value("state_list","{{state}}");
         //   set_drop_down_value("county_list","{{county}}");
@@ -336,8 +443,6 @@
     url = './section_five_popout?state=' + '{{state}}' + '&county=' + '{{county}}' +  '&popup=' + '{{popup}}' +  '&county_or_msa=' + '{{county_or_msa}}' 
     window.open(url,'','toolbar=no');
   }
-
-
 
   function how_it_started()
   {

@@ -110,6 +110,17 @@
                             </td>                                                
                         </tr>
                         <tr>
+                            <td colspan="14">
+                                <pre id="sample_values">
+                                    Interesting sample values:
+                                        ******************************
+                                        [   8.3252       41.            6.98412698    1.02380952  322.
+                                            2.55555556   37.88       -122.23      ]
+                                        ****************************** 
+                                </pre>
+                            </td>
+                        </tr>
+                        <tr>
                             <td colspan="6">
                                     <button class="btn btn-primary" type="button" id="btnPreparePayload" onclick="send_form();" >Prepare, and transmit JSON to FastAPI endpoint</button>
                             </td>
@@ -272,7 +283,10 @@
                 {
                     let base_id = dd_id.split('_')[0];
                     let text_id = base_id + "_text";
+                    if(document.getElementById(text_id).value=='')
+                    {
                     document.getElementById(text_id).value=value;
+                    }
                 }
                 if(dd_id=="cities_list")
                 {
@@ -285,6 +299,30 @@
             }
             
         });        
+
+
+        // if(dd_id!="cities_list")
+        //         {
+        //             let base_id = dd_id.split('_')[0];
+        //             let text_id = base_id + "_text";
+        //             if(document.getElementById(text_id).value=='')
+        //             {
+        //             document.getElementById(text_id).value=value;
+        //             }
+        //         }
+        //         if(dd_id=="cities_list")
+        //         {
+        //             let lat = value.split(',')[0];
+        //             let long = value.split(',')[1];
+        //             if(document.getElementById("lat_text").value=="")
+        //             {
+        //                 document.getElementById("lat_text").value=lat;
+        //             }
+        //             if(document.getElementById("long_text").value=="")
+        //             {
+        //             document.getElementById("long_text").value=long;
+        //             }
+        //         }                
 
 
 

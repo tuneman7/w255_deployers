@@ -27,7 +27,7 @@ def create_home_request(form):
 import requests
 
 def execute_fastapi_call(json_post):
-    url = "http://192.168.49.2:31355/predictitem"
+    url = "http://192.168.49.2:31303/predictitem"
     r = requests.post(url, json=json_post)
     return url,r.status_code,json.dumps(r.json(),indent=1)
 
@@ -36,18 +36,7 @@ def execute_fastapi_call(json_post):
 @consume_fastapi.route('/consume_fastapi', methods=['POST', 'GET'])
 def consume_fastapi_json(popout = False):
 
-        mdo = do()
-        t_medinc = mdo.hh_income_tuple()
-        t_houseage = mdo.h_age_tuple()
-        t_averooms  = mdo.avg_beds_tuple()
-        t_avebedrms = mdo.avg_beds_tuple()
-        t_population = mdo.bg_pop_tuple()
-        t_aveoccup = mdo.avg_occupacy()
-        t_cities = mdo.ca_city_lat_long_tuple()
-
         got_values = True
-
-        float_values = ["medinc_text","houseage_text","averooms_text","avebedrms_text","population_text","aveoccup_text","lat_text","long_text"]
 
         #make sure we got all of these and that they are float values.
         try:

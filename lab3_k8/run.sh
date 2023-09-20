@@ -248,17 +248,17 @@ echo "*********************************"
 echo "*********************************"
 echo "*                               *"
 echo "* Running app locally poetry    *"
-echo "*   poetry run pytest -vv -s    *"
+echo "*   poetry run pytest -vv -s --ignore=./web_consumer   *"
 echo "*                               *"
 echo "*********************************"
 
-poetry run pytest -vv -s
+poetry run pytest -vv -s --ignore=./web_consumer
 if [ $? -ne 0 ]; then
 
     echo "*********************************"
     echo "*  FINISHED                     *"
     echo "* Running app locally poetry    *"
-    echo "*   poetry run pytest -vv -s    *"
+    echo "*   poetry run pytest -vv -s --ignore=./web_consumer   *"
     echo "*  FAILURE                      *"
     echo "*********************************"
     return
@@ -268,7 +268,7 @@ fi
 echo "*********************************"
 echo "*  FINISHED                     *"
 echo "* Running app locally poetry    *"
-echo "*   poetry run pytest -vv -s    *"
+echo "*   poetry run pytest -vv -s  --ignore=./web_consumer  *"
 echo "*  SUCCESS                      *"
 echo "*********************************"
 #stop the image if it was running

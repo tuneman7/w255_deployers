@@ -1,3 +1,4 @@
+#!/bin/bash
 rm -rf ./w210_web
 python3 -m venv w210_web
 source ./w210_web/bin/activate

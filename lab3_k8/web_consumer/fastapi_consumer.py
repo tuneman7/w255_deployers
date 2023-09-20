@@ -1,9 +1,14 @@
 from includes import *
 from flask import Blueprint
+from datetime import datetime
+import operator
+from libraries.analysis_object import analysis_object as ao
+from libraries.data_objects import data_objects as do
+
 
 fastapi_consumer = Blueprint('fastapi_consumer', __name__)
 
-from libraries.data_objects import data_objects as do
+
 
 
 #The goal of this is to 
@@ -53,12 +58,6 @@ def get_ana_image():
         image_path = "./static/images/predict_icons/analytics.png"
         return image_path
 
-        
-
-
-from datetime import datetime
-import operator
-from libraries.analysis_object import analysis_object as ao
 
 @fastapi_consumer.route('/section_five_popout', methods=['POST', 'GET'])
 def section_five_popout():

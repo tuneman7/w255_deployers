@@ -41,22 +41,102 @@ class data_objects(Utility):
         global MSA_FILE_DF
         global CAL_CITY_TO_LONG_LAT_DF
         global CAL_CITY_TO_POPULATION_DF
-        global BG_POP
+        global BG_POP_DF
+        global AVG_HOME_AGE_DF
+        global HH_INCOME_DF
+        global AVG_BEDS_DF 
+        global AVG_BATHS_DF
+        global AVG_OCCUPANCY_DF
 
         if load_data_from_url == False:
             MONTHLY_ALLOCATION_DF, INTEREST_RATE_DF, DOWN_PAYMENT_PCT_DF, LOAN_TERM_DF = self.load_monthly_allocation_data()
             STATE_FILE_DF, COUNTY_FILE_DF, MSA_FILE_DF  = self.load_state_drop_down_data()
-            CAL_CITY_TO_LONG_LAT_DF, CAL_CITY_TO_POPULATION_DF,BG_POP = self.load_cal_city_data()
+            CAL_CITY_TO_LONG_LAT_DF, CAL_CITY_TO_POPULATION_DF, BG_POP_DF, AVG_HOME_AGE_DF, \
+                HH_INCOME_DF, AVG_BEDS_DF, AVG_BATHS_DF, AVG_OCCUPANCY_DF = self.load_cal_city_data()
 
-    def bg_population(self):
-        global BG_POP
+    def avg_occupacy(self):
+        global AVG_OCCUPANCY_DF
+        my_sql = '''
+        SELECT
+            avg_occupancy
+        FROM 
+            AVG_OCCUPANCY_DF
+        '''
+        ma = psql.sqldf(my_sql)
+        return tuple(zip(ma.iloc[:,0],ma.iloc[:,0]))
+
+    def avg_baths_tuple(self):
+        global AVG_BATHS_DF
+
+        my_sql = '''
+        SELECT
+            avg_baths
+        FROM 
+            AVG_BATHS_DF
+        '''
+        ma = psql.sqldf(my_sql)
+        return tuple(zip(ma.iloc[:,0],ma.iloc[:,0]))
+
+
+    def avg_baths_tuple(self):
+        global AVG_BATHS_DF
+
+        my_sql = '''
+        SELECT
+            avg_beds
+        FROM 
+            AVG_BEDS_DF
+        '''
+        ma = psql.sqldf(my_sql)
+        return tuple(zip(ma.iloc[:,0],ma.iloc[:,0]))
+
+
+    def avg_beds_tuple(self):
+        global AVG_BEDS_DF
+
+        my_sql = '''
+        SELECT
+            avg_beds
+        FROM 
+            AVG_BEDS_DF
+        '''
+        ma = psql.sqldf(my_sql)
+        return tuple(zip(ma.iloc[:,0],ma.iloc[:,0]))
+
+
+    def h_age_tuple(self):
+        global AVG_HOME_AGE_DF
+
+        my_sql = '''
+        SELECT
+            avg_home_age
+        FROM 
+            AVG_HOME_AGE_DF
+        '''
+        ma = psql.sqldf(my_sql)
+        return tuple(zip(ma.iloc[:,0],ma.iloc[:,0]))
+
+    def hh_income_tuple(self):
+        global HH_INCOME_DF
+
+        my_sql = '''
+        SELECT
+            annual_income
+        FROM 
+            HH_INCOME_DF
+        '''
+        ma = psql.sqldf(my_sql)
+        return tuple(zip(ma.iloc[:,0],ma.iloc[:,0]))
+
+
+    def bg_pop_tuple(self):
+        global BG_POP_DF
 
         my_sql = '''
         SELECT
             block_group_population as bg_pop
         FROM 
-            BG_POP
-        bg_pop
+            BG_POP_DF
         '''
         ma = psql.sqldf(my_sql)
         return tuple(zip(ma.iloc[:,0],ma.iloc[:,0]))
@@ -105,7 +185,7 @@ class data_objects(Utility):
         ORDER BY city
         '''
         ma = psql.sqldf(my_sql)
-        return tuple(zip(ma.iloc[:,0],ma.iloc[:,1]))
+        return tuple(zip(ma.iloc[:,1],ma.iloc[:,0]))
     
 
 
@@ -118,6 +198,11 @@ class data_objects(Utility):
         cal_cities_lat_long     = "cal_cities_lat_long.csv"
         cal_populations_city    = "cal_populations_city.csv"
         bg_population           = "bg_populations.csv"
+        avg_home_age            = "avg_home_age.csv"
+        hh_income               = "hh_income.csv"
+        AVG_BEDS                = "avg_beds.csv"
+        AVG_BATHS               = "avg_baths.csv"
+        AVG_OCCUPANCY           = "avg_occupancy.csv"
 
         dir = os.path.join(self.get_this_dir(),data_directory,sub_dir)
 
@@ -125,9 +210,20 @@ class data_objects(Utility):
 
         CAL_CITY_TO_POPULATION_DF = pd.read_csv(os.path.join(dir,cal_populations_city))
 
-        BG_POP  = pd.read_csv(os.path.join(dir,bg_population))
+        BG_POP_DF  = pd.read_csv(os.path.join(dir,bg_population))
 
-        return CAL_CITY_TO_LONG_LAT_DF, CAL_CITY_TO_POPULATION_DF, BG_POP
+        AVG_HOME_AGE_DF = pd.read_csv(os.path.join(dir,avg_home_age))
+                
+        HH_INCOME_DF =  pd.read_csv(os.path.join(dir,hh_income))
+
+        AVG_BEDS_DF = pd.read_csv(os.path.join(dir,AVG_BEDS))
+
+        AVG_BATHS_DF = pd.read_csv(os.path.join(dir,AVG_BATHS))
+
+        AVG_OCCUPANCY_DF = pd.read_csv(os.path.join(dir,AVG_OCCUPANCY))
+
+        return CAL_CITY_TO_LONG_LAT_DF, CAL_CITY_TO_POPULATION_DF, BG_POP_DF, \
+            AVG_HOME_AGE_DF, HH_INCOME_DF, AVG_BEDS_DF, AVG_BATHS_DF, AVG_OCCUPANCY_DF
 
 
     def print_internal_directory(self):

@@ -427,8 +427,8 @@ kubectl port-forward -n istio-system Service/grafana 3000:3000 --address='0.0.0.
 echo "port-forward -n w255 Service/frontend-ext 8000:8000 --address='0.0.0.0' > output_$my_ticks.txt & "
 kubectl port-forward -n w255 Service/frontend-ext 8000:8000 --address='0.0.0.0' > output_$my_ticks.txt & 
 
-echo "port-forward -n w255 Service/webapp 8000:8000 --address='0.0.0.0' > output_web_$my_ticks.txt & "
-kubectl port-forward -n w255 Service/webapp 8000:8000 --address='0.0.0.0' > output_web_$my_ticks.txt & 
+echo "port-forward -n w255 Service/webapp 5000:5000 --address='0.0.0.0' > output_web_$my_ticks.txt & "
+kubectl port-forward -n w255 Service/webapp 5000:5000 --address='0.0.0.0' > output_web_$my_ticks.txt & 
 
 
 echo "*********************************"

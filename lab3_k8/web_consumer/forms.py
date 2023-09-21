@@ -27,31 +27,6 @@ class home_predict_model_inputs(Form):
     long_text       = DecimalField('long_text',places=6,validators=[DataRequired("*")])
 
 
-class state_county_selection_form(Form):
-    mdo = do()
-    state_list      = SelectField('state_list',choices=mdo.state_names_tuple())
-    county_list     = SelectField('county_list')
-    state           = HiddenField("state")
-    county          = HiddenField("county")
-    county_or_msa   = HiddenField("county_or_msa")
- 
-
-class monthly_allocation_form(Form):
-    mdo = do()
-    #monthly allocation, interest rate, downpayment
-    #print(mdo.monthly_allocation_tuple())
-    monthly_allocation = SelectField('monthly_allocation',choices=mdo.monthly_allocation_tuple())
-    interest_rates = SelectField('interest_rates',choices=mdo.interest_rate_tuple())
-    downpayment_amt = SelectField('downpayment_amt',choices=mdo.down_payment_tuple())
-    loan_term  = SelectField('downpayment_amt',choices=mdo.loan_term_tuple())
-    current_monthly_allocation = HiddenField("current_monthly_allocation")
-    current_interest_rate = HiddenField("current_interest_rate")
-    current_downpayent_amt = HiddenField("current_downpayent_amt")
-    current_loan_term = HiddenField("current_loan_term")
-    
-
-
-
 class email_form(Form):
 
     first_name = TextField(
@@ -66,38 +41,6 @@ class email_form(Form):
         'message_text', validators=[DataRequired(message="Please enter a text message."), Length(min=4, max=600)]
     )
 
-
-# class CountryDetailVisualizationForm(Form):
-#     my_data = Import_Export_Data()
-
-#     source_country = SelectField('source_country',choices=my_data.get_distinct_country_tuples())
-#     target_country = SelectField('target_country',choices=my_data.get_distinct_country_tuples())
-#     current_source_country = HiddenField("current_source_country")
-#     current_target_country = HiddenField("current_target_country")
-
-
-# class CountryToWorldVisualizationForm(Form):
-#     my_data = Import_Export_Data()
-
-#     source_country = SelectField('source_country',choices=my_data.get_distinct_country_tuples())
-#     current_source_country = HiddenField("current_source_country")
-
-# class CountryToWorldVisualizationFormWithWorld(Form):
-#     my_data = Import_Export_Data()
-
-#     target_country = SelectField('target_country',choices=my_data.get_distinct_country_tuples(add_world=True))
-#     source_country = HiddenField("source_country")
-#     current_target_country = HiddenField("current_target_country")
-
-# class CountryVisualizationFormWithDirection(Form):
-#     my_data = Import_Export_Data()
-
-#     target_country = SelectField('target_country',choices=my_data.get_distinct_country_tuples(add_world=True))
-#     source_country = SelectField('source_country',choices=my_data.get_distinct_country_tuples(add_world=True))
-#     direction = SelectField('direction')
-#     current_source_country = HiddenField("current_source_country")
-#     current_target_country = HiddenField("current_target_country")
-#     current_direction = SelectField('current_direction')
 
 
 class RegisterForm(Form):

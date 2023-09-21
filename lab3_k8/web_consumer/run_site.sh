@@ -1,5 +1,10 @@
-conda deactivate
-deactivate
+#!/bin/bash
+
+# conda deactivate
+# deactivate
+
+#clear out any pycache folders 
+find . -type d -name __pycache__ -exec rm -r {} \+
 
 . setup_venv.sh
 
@@ -14,19 +19,40 @@ echo "*  Using Port 5023              *"
 echo "*                               *"
 echo "*********************************"
 
+pid_to_kill=$(lsof -t -i :5023 -s TCP:LISTEN)
+
+echo "pid_to_kill=$pid_to_kill"
+
+#Check if the variable is defined and if it has values
+#and if it has values in it.
+if [[ $pid_to_kill && ${pid_to_kill-_} ]]; then
+  for ptk in "${pid_to_kill[@]}" ; do
+      sudo kill -9 ${ptk}
+  done
+fi
 
 pid_to_kill=$(lsof -t -i :5023 -s TCP:LISTEN)
 
-  if [ "$pid_to_kill" -ne 0 ]; then
-    sudo kill ${pid_to_kill}
-  fi
+echo "pid_to_kill=$pid_to_kill"
 
 #python app.py > /dev/null &
 
 #python app.py > /dev/null &
-python app.py
+
+python_api_url=$(minikube -n w255 service frontend --url)
+echo "python_api_url=$python_api_url"
+
+if [[ $python_api_url && ${python_api_url-_} ]]; then
+  export ca_linear_model_api_url=$python_api_url
+fi
+
+
+#python app.py
+
+nohup python app.py &
 
 flask_app_pid=$!
+
 
 echo "*********************************"
 echo "*                               *"

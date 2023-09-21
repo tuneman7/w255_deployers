@@ -1,5 +1,6 @@
 from includes import *
 from flask import Blueprint
+import os
 
 consume_fastapi = Blueprint('consume_fastapi', __name__)
 
@@ -27,9 +28,16 @@ def create_home_request(form):
 import requests
 
 def execute_fastapi_call(json_post):
-    url = "http://192.168.49.2:31303/predictitem"
-    r = requests.post(url, json=json_post)
-    return url,r.status_code,json.dumps(r.json(),indent=1)
+    try:
+        url = os.environ.get("ca_linear_model_api_url","http://frontend:8000") + "/predictitem"
+        r = requests.post(url, json=json_post)
+        return url,r.status_code,json.dumps(r.json(),indent=1)
+    except Exception as ex:
+        return_dict=dict()
+        return_dict["url"]=url
+        return_dict["status_code"]=r.status_code if "r" in locals() else "error"
+        return_dict["message"]=str(ex)
+        return url,"Hard Error",json.dumps(return_dict,indent=1)
 
         
 

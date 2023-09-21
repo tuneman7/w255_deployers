@@ -41,7 +41,7 @@ echo "*                                 *"
 echo "***********************************"
 finished=false
 while ! $finished; do
-    health_status=$(curl -o /dev/null -s -w "%{http_code}\n" -X GET "http://127.0.0.1:8888/tree?")
+    health_status=$(curl -o /dev/null -s -w "%{http_code}\n" -X GET "http://127.0.0.1:8888/tree")
     if [ $health_status == "200" ]; then
         finished=true
         echo "*********************************"

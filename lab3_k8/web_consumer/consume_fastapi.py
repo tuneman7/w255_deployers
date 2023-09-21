@@ -27,6 +27,9 @@ def create_home_request(form):
 
 import requests
 
+def insert_newlines(string, every=64):
+    return '\\n'.join(string[i:i+every] for i in range(0, len(string), every))
+
 def execute_fastapi_call(json_post):
     try:
         url = os.environ.get("ca_linear_model_api_url","http://frontend:8000") + "/predictitem"
@@ -35,7 +38,7 @@ def execute_fastapi_call(json_post):
     except Exception as ex:
         return_dict=dict()
         return_dict["url"]=url
-        return_dict["status_code"]=r.status_code if "r" in locals() else "error"
+        return_dict["status_code"]=r.status_code if "r" in locals() else "Hard Error"
         return_dict["message"]=str(ex)
         return url,"Hard Error",json.dumps(return_dict,indent=1)
 

@@ -3,3 +3,4 @@
 IMAGE_NAME=w255_l3_api_web_consumer
 APP_NAME=w255_l3_api_web_consumer
 DOCKER_FILE=Dockerfile.api_consumer
+VENV_NAME=l3_api_web_consumer

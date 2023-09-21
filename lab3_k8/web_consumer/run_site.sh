@@ -39,7 +39,13 @@ echo "pid_to_kill=$pid_to_kill"
 
 #python app.py > /dev/null &
 
+minikube -n w255 service frontend --url
+
+if [ $? -ne 0 ]; then
 python_api_url=$(minikube -n w255 service frontend --url)
+fi
+
+
 echo "python_api_url=$python_api_url"
 
 if [[ $python_api_url && ${python_api_url-_} ]]; then

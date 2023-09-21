@@ -5,16 +5,16 @@ source ./env.sh
 
 #docker rmi $(docker images --filter "dangling=true" -q --no-trunc)
 
-echo "docker stop ${APP_NAME}"
-docker stop ${APP_NAME}
-echo "docker rm ${APP_NAME}"
-docker rm ${APP_NAME}
+echo "docker stop ${APP_NAME_WC}"
+docker stop ${APP_NAME_WC}
+echo "docker rm ${APP_NAME_WC}"
+docker rm ${APP_NAME_WC}
 
 #build docker from the docker file
-echo "docker build -t ${IMAGE_NAME} -f ${DOCKER_FILE}" 
-docker build -t ${IMAGE_NAME} -f ${DOCKER_FILE} .
-echo "docker run --name ${APP_NAME} -p  8888:8888 -p 5001:5000  ${IMAGE_NAME} "
-docker run --name ${APP_NAME} -p  8888:8888 -p 5001:5000  ${IMAGE_NAME} >/dev/null & 
+echo "docker build -t ${IMAGE_NAME_WC} -f ${DOCKER_FILE_WC}" 
+docker build -t ${IMAGE_NAME_WC} -f ${DOCKER_FILE_WC} .
+echo "docker run --name ${APP_NAME_WC} -p  8888:8888 -p 5001:5000  ${IMAGE_NAME_WC} "
+docker run --name ${APP_NAME_WC} -p  8888:8888 -p 5001:5000  ${IMAGE_NAME_WC} >/dev/null & 
 
 
 finished=false

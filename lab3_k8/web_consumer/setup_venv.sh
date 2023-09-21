@@ -1,7 +1,8 @@
 #!/bin/bash
-rm -rf ./w210_web
-python3 -m venv w210_web
-source ./w210_web/bin/activate
+source ./env.sh
+rm -rf ./${VENV_NAME}
+python3 -m venv ${VENV_NAME}
+source ./${VENV_NAME}/bin/activate
 . ir.sh
 
 

@@ -330,10 +330,11 @@ eval $(minikube -p minikube docker-env)
 echo "docker build -t ${IMAGE_NAME} -f ${DOCKER_FILE}"
 time docker build -t ${IMAGE_NAME} -f ${DOCKER_FILE} .
 
-#echo "docker run -d --net ${NET_NAME} --name ${APP_NAME} -p 8000:8000 ${IMAGE_NAME} "
-#docker run -d --net ${NET_NAME} --name ${APP_NAME} -p 8000:8000 ${IMAGE_NAME} 
-
-
+#Now build up the web consumer into minikube
+this_dir=$(pwd)
+cd ./web_consumer
+time . build_docker.sh
+cd $this_dir
 
 cd ./infra
 . delete_deployments.sh
@@ -399,21 +400,6 @@ done
 echo my_all_pods=$my_all_pods
 echo running_pods=$running_pods
 
-#20230914 don irwin -- disabling below in favor of istio
-#echo "set up the dashboard"
-#echo "note this can be done in yaml"
-#kubectl create serviceaccount k8sadmin -n kube-system
-#kubectl create clusterrolebinding k8sadmin --clusterrole=cluster-admin --serviceaccount=kube-system:k8sadmin
-#my_token=kubectl -n kube-system describe secret $(sudo kubectl -n kube-system get secret | (grep k8sadmin || echo "$_") | awk '{print $1}') | grep token: | awk '{print $2}'
-#echo $my_token>token.txt
-
-#kubectl proxy --address='0.0.0.0' --disable-filter=true>/dev/null &
-#proxy_pid=$!
-#minikube dashboard --url >/dev/null&
-#echo "Open this creature:"
-#echo "http://localhost:8001:/api/v1/namespaces/kubernetes-dashboard/services/http:kubernetes-dashboard:/proxy/"
-
-
 my_ticks=$(( $(date '+%s%N') / 1000000))
 
 sleep 2
@@ -434,83 +420,16 @@ echo "*********************************"
 
 rm output_*.txt
 
-#consult:
-#https://istio.io/latest/docs/setup/platform-setup/minikube/
-#
-#https://minikube.sigs.k8s.io/docs/handbook/accessing/
-
-#return
-
-# echo "port-forward -n w255 Service/frontend 8000:8000 --address='0.0.0.0' > output_$my_ticks.txt & "
-# kubectl port-forward -n w255 Service/frontend 8000:8000 --address='0.0.0.0' > output_$my_ticks.txt & 
-
-
-# while ${prompt_for_minikube}; do
-#         echo "*********************************"
-#         echo "                               "
-#         echo " We are about to run the command "
-#         echo "                               "  
-#         echo "Starting the port forwarding -- this will end the process"
-#         echo "nohup minikube tunnel &        "      
-#         echo "                               "
-#         echo "Special settings need to be in place"
-#         echo "                               "
-#         echo "If they are not in place       "
-#         echo "This needs to be run in a new  "
-#         echo "Window under sudo             "
-#         echo "See the following URLs:        "
-#         echo "https://minikube.sigs.k8s.io/docs/handbook/accessing/"
-#         echo "https://superuser.com/questions/1328452/sudoers-nopasswd-for-single-executable-but-allowing-others"
-#         echo "                               "
-#         echo "                               "
-#         echo " DO YOU HAVE NOPASSWD SET UP   "
-#         echo " FOR commands \"ip\" and \"route\"          "
-#         echo "                               "
-#         echo " If run this in a separate terminal:"
-#         echo "\"minikube tunnel "        "      
-#         echo "  Then Answer \"n"         "
-
-#         echo "                               "
-
-#         echo "*********************************"
-#         while true; do
-#             read -p "Do you have permissions set up? [y/n]:" yn
-#             case $yn in
-#                 [Yy]* ) do_minikube_tunnel=1;break;;
-#                 [Nn]* ) do_minikube_tunnel=0;break;;
-#                 * ) echo "Please answer \"y\" or \"n\".";;
-#             esac
-#         done        
-# break
- 
-# done
-
-
-# if [[ "$do_minikube_tunnel" -eq 1 ]]
-# then
-# echo "*********************************"
-# echo "* running:                      *"
-# echo "*nohup minikube tunnel &        *"
-# echo "*                               *"
-# echo "*********************************"
-# echo "Starting the port forwarding"
-# rm nohup.out
-# nohup minikube tunnel &
-
-# port_forwarding_pid=$!
-
-# fi
-
-
-
-# echo "* port_forwarding_pid=$port_forwarding_pid*"
-
 
 echo "port-forward -n istio-system Service/grafana 3000:3000 --address='0.0.0.0' > output_grafana_$my_ticks.txt & "
 kubectl port-forward -n istio-system Service/grafana 3000:3000 --address='0.0.0.0' > output_grafana_$my_ticks.txt & 
 
 echo "port-forward -n w255 Service/frontend-ext 8000:8000 --address='0.0.0.0' > output_$my_ticks.txt & "
 kubectl port-forward -n w255 Service/frontend-ext 8000:8000 --address='0.0.0.0' > output_$my_ticks.txt & 
+
+echo "port-forward -n w255 Service/webapp 8000:8000 --address='0.0.0.0' > output_web_$my_ticks.txt & "
+kubectl port-forward -n w255 Service/webapp 8000:8000 --address='0.0.0.0' > output_web_$my_ticks.txt & 
+
 
 echo "*********************************"
 echo "*  ENDING                       *"
@@ -573,7 +492,19 @@ echo "http://localhost:3000"
 echo "*                               *"
 echo "*********************************"
 
-this_ip=$(wget -q -O - ipinfo.io/ip)
+webapp_url=$(minikube -n w255 service webapp --url)
+
+this_ip="localhost"
+
+echo "*********************************"
+echo "*                               *"
+echo "*  Look at web app              *"
+echo "*  Look at. ...                 *"
+echo "*  $webapp_url"
+echo "*                               *"
+echo "*********************************"
+
+
 this_grafana="http://${this_ip}:3000"
 
 echo "*********************************"

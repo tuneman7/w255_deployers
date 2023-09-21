@@ -9,6 +9,8 @@ source ./env.sh
 
 
 find . -type d -name __pycache__ -exec rm -r {} \+
+deactivate
+rm -rf ./${VENV_NAME}
 
 #docker rmi $(docker images --filter "dangling=true" -q --no-trunc)
 

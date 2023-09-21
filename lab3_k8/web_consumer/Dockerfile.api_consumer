@@ -15,24 +15,25 @@ RUN apt-get update\
 
 RUN pip3 install --upgrade pip
 RUN pip3 install 'ipython<6'
+RUN rm -rf /var/lib/apt/lists/*
 
 
 RUN mkdir /app
 
-RUN mkdir /app/w209_spring_2022_thu_4_pm_team_4_web
+RUN mkdir /app/api_consumer
 
 RUN chmod -R 777 /app/
 
 COPY setup_on_ubuntu_docker.sh /app/setup_on_ubuntu_docker.sh
 
-COPY ./ /app/w209_spring_2022_thu_4_pm_team_4_web
+COPY ./ /app/api_consumer
 
 
 VOLUME /app
 WORKDIR /app
 
 
-RUN pip3 install -r /app/w209_spring_2022_thu_4_pm_team_4_web/requirements.txt
+RUN pip3 install -r /app/api_consumer/requirements.txt
 
 RUN pip3 install jupyter
 RUN rm -rf /var/lib/apt/lists/*
@@ -47,8 +48,4 @@ EXPOSE 8888
 EXPOSE 5000
 
 
-#  CMD jupyter notebook --no-browser --ip=0.0.0.0 --NotebookApp.token= --allow-root
-#CMD jupyter notebook --no-browser --ip=0.0.0.0 --allow-root
-#ENTRYPOINT ["/w209_spring_2022_thu_4_pm_team_4_web/setup_on_ubuntu_docker.sh"]
-#ENTRYPOINT ["ls"]
 CMD /app/setup_on_ubuntu_docker.sh

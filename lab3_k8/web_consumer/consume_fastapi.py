@@ -39,7 +39,12 @@ def execute_fastapi_call(json_post):
         return_dict["message"]=str(ex)
         return url,"Hard Error",json.dumps(return_dict,indent=1)
 
-        
+
+@consume_fastapi.route('/healthcheck', methods=['POST', 'GET'])
+def check_health(popout = False):
+        res = "healthy"
+
+        return res
 
 @consume_fastapi.route('/consume_fastapi', methods=['POST', 'GET'])
 def consume_fastapi_json(popout = False):

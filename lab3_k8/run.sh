@@ -296,9 +296,11 @@ docker stop ${APP_NAME}
 echo "docker rm ${APP_NAME}"
 docker rm ${APP_NAME}
 
-#8 gb
-#time minikube start --kubernetes-version=v1.25.13 --memory 8192 --cpus 4  --force
-#10 gb
+#kill the web_consumer docker image
+cd ./web_consumer
+source ./rm_docker_images.sh
+cd ./../
+
 
 time minikube start --kubernetes-version=v1.25.13 --memory 10240 --cpus 4  --force
 #16 gb

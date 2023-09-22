@@ -45,7 +45,7 @@ const generator = (cacheRate) => {
 
 }
 
-const NAMESPACE = 'http://192.168.49.2:32344'
+const NAMESPACE = 'http://192.168.49.2:30491'
 const BASE_URL = `${NAMESPACE}`;
 const CACHE_RATE = .43
 
